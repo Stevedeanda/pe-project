@@ -1,0 +1,181 @@
+
+/*stylesheet*/ 
+
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: times new roman;
+	color: white;
+	/*background-color: black;*/
+	background-image: linear-gradient(0deg, red 16%, orange 16% 33%, yellow 33% 50%, green 50% 67%, blue 67% 84%, purple 84%);
+}
+
+.headings {
+	/*border: solid 1px red;*/
+	display: block;
+	background-color: black;
+	padding:  10px;
+}
+
+.menu {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: solid 1px green;*/
+	padding: 5px;
+	/*display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;*/
+}
+
+.menu a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	list-style: none;
+	display: block;
+	display:  inline-block;
+	border: 3px solid gray;
+	transition: boxshadow 3s ease-out;
+}
+
+.menu a:hover{
+	box-shadow: inset -100em 9em white;
+	color: gray;
+}
+
+.welcome {
+	/*border: solid 1px red;*/
+	display: block;
+	/*background-color: pink;*/
+	/*background: linear-gradient(0deg, red 16%, orange 16% 33%, yellow 33% 50%, green 50% 67%, blue 67% 84%, purple 84%);*/
+	padding:  10px;
+}
+
+.intro {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	/*border: solid 1px green;*/
+}
+
+.intro h1 {
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+}
+
+.intro h2 {
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+}
+
+.intro p {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+.works {
+	/*border: solid 1px red;*/
+	display: block;
+	/*background-color: white;*/
+	/*background-image: linear-gradient(0deg, red 16%, orange 16% 33%, yellow 33% 50%, green 50% 67%, blue 67% 84%, purple 84%);*/
+	padding: 5px;
+}
+
+.websites {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 5px gray;
+	/*background: linear-gradient(to bottom right, gray 50%, black 50%);*/
+	background-color: gray;
+	/*padding: 10px;*/
+	/*display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;*/
+}
+
+.websites a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	list-style: none;
+	display: block;
+	/*display:  inline-block;*/
+	/*border: 1px solid gray;*/
+	background-color: black;
+	text-align: center;
+	margin: 5px;
+	transition: box-shadow 3s ease out;
+}
+
+.websites a:hover {
+	box-shadow: inset -100em 9em white;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

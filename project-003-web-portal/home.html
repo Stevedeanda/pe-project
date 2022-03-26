@@ -1,0 +1,148 @@
+
+<!doctype html>
+
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Putting to practice and combining all I've learned so far. Welcome to my web portal!">
+		<meta property="og:image" content="https://peprojects.dev/alpha-4/steve/challenge-1/images/colors.jpg">
+		<meta property="og:title" content="90s web portal, fun project, check it out.">
+
+		<title>Web Portal</title>
+
+		<style> 
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+
+				margin: auto;
+				/*max-width: 850px;*/
+				width: 98%;
+				background-image: linear-gradient(90deg, saddlebrown, lightpink);
+				text-align:center;
+			}
+
+			.header {
+				background-image: linear-gradient(90deg, lightpink, saddlebrown);
+				padding:  20px;
+			}
+
+			.header a {
+				transition: background 0.2s;
+				text-decoration: none;
+				color: white;
+			}
+
+			.header a:hover {
+				color: black;
+			}
+
+			header h1 {
+				color: white;
+				font-family: times new roman;
+				font-size: 60px;
+			}
+
+			header p {
+				color: white;
+				font-family: times new roman;
+				font-size: 30px;
+			}
+
+			.menu{
+				display:  flex;
+				flex-direction: column;
+				font-family: times new roman;
+				font-size: 25px;
+
+			}
+
+
+			.menu a {
+				color: white;
+				text-decoration: none;
+				border-bottom: 1px solid lightpink;
+				box-shadow: inset 0 -3px 0 lightpink;
+				transition: background 0.5s ease out;
+				padding: 30px;
+
+			}
+
+			.menu a:hover {
+				background: lightpink;
+				color: black;
+			}
+
+			.footer {
+				background-image: linear-gradient(90deg, lightpink, saddlebrown);
+				padding:  40px;
+				font-family: times new roman;
+				font-size: 40px;
+
+			}
+
+			.footer a {
+				color: white;
+				text-decoration: none;
+				transition: background 0.2s;
+				padding: 20px;
+			}
+
+			.footer a:hover {
+				color:  black;
+			}
+
+
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<header class="header">
+
+			<h1><a href="#">Explore Everything</a></h1>
+
+				<p><a href="#">Connecting you to the world</a></p>
+
+		</header>
+
+		<article>
+
+			<section>
+
+				<nav  class="menu">
+
+					<a href="music.html">Music</a>
+					<a href="shopping.html">Shopping</a>
+					<a href="creative.html">Creativity</a>
+					<a href="restaurants.html">Restaurants</a>
+					<a href="musicfestivals.html">Music Festivals</a>
+					<a href="breweries.html">Breweries in HTX</a>
+					<a href="bars.html">Fun bars to hang out</a>
+					<a href="streaming.html">Streaming Movies and Shows</a>
+
+				</nav>
+
+			</section>
+
+		</article>
+
+		<footer class="footer">
+
+			<a href="../index.html">Steve's Index</a>
+
+		</footer>
+
+	</body>
+
+</html>
