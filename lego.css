@@ -1,0 +1,218 @@
+/*lego stylesheet*/
+
+@import 'meyer-reset.css';
+
+
+/*SET_UP*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: black;
+	font-family:  helvetica;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+picture {
+	display: block;
+}
+
+figure {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	/*border: red solid 2px;*/
+	background: #ffcf00;
+}
+
+header {
+	/*border: black solid 2px;*/
+}
+
+.menu {
+	display: flex;
+}
+
+.menu-left {
+	display: inline-block;
+	width: 75%;
+}
+
+.menu-left a {
+	vertical-align: middle;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.menu-left a img{
+	max-width: 50px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.menu-left .menu-button {
+	font-size: 14;
+	color: black;
+	transition: text 0.9s ease out;
+}
+
+.menu-left .menu-button:hover {
+	text-decoration: solid underline black 3px;
+}
+
+.menu-left .easter-button {
+	padding: 7px 15px;
+	background: white;
+	color: #d7283d;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 14px;
+	transition: background 0.5s ease out;
+}
+
+.menu-left .easter-button:hover {
+	background: black;
+	color: white;
+}
+
+.menu-right {
+	display:  inline-block;
+	width: 25%;
+}
+
+.menu-right a {
+	margin-left: 40px;
+}
+
+.menu-right a img{
+	max-width: 35px;
+	display: inline-block;
+}
+
+main {
+	/*border: solid green 1px;*/
+}
+
+.easter ul {
+	list-style: none;
+	display: flex;
+
+}
+
+.easter li {
+	/*border: 1px solid black;*/
+	/*display: inline-block;*/
+	background-color: #ffe682;
+	width: 50%;
+}
+
+.content {
+	padding: 100px;
+}
+
+.content h2 {
+	font-size: 35px;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.content p {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 1.5;
+}
+
+.content .button {
+	margin-top: 10px;
+	padding: 15px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 14px;
+	transition: background 0.9s ease out;
+}
+
+.content .button:hover {
+	background: white;
+	color: black;
+}
+
+.easter .rabbit {
+	display: inline-block;
+	width: fill;
+}
+
+.bottom-menu .sub-menu {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+	gap: 20px 10px;
+}
+
+.sub-menu {
+	/*border: black solid 1px;*/
+}
+
+.icons {
+	display: inline-block;
+	/*border: green solid;*/
+}
+
+.icons a img {
+	width: 60px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
