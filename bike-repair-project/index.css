@@ -1,0 +1,219 @@
+
+/* bike stylesheet */
+
+@import 'meyer-reset.css';
+
+
+
+/*boxes to help me organize everything  */
+
+html {
+	border: 3px black solid;
+}
+
+body {
+	border: 3px red solid;
+	/*padding: 10px;*/
+	font-family: helvetica;
+}
+
+/*header {*/
+	border: 3px orange solid;
+	padding: 10px;
+}
+
+/*nav {*/
+	border: 3px purple solid;
+	padding: 10px;
+}
+
+/*a {*/
+	border: 3px gray solid;
+	padding: 5px;
+}
+
+
+
+
+
+
+/* setup */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+picture {
+	display: block;
+}
+
+figure {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+/* style */
+
+
+.inner-column {
+	max-width: 1000px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-bottom: 100px;
+   /*border: 3px solid blue; /* border */*/
+   /*padding: 50px 0px;*/
+}
+
+.inner-column + .inner-column {
+	margin-top: 30px;
+}
+
+.logo {
+	max-width: 60px;
+}
+
+.menu a{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+	text-decoration: none;
+	color: white;
+	background-color: hsla(75,80%,8%,0.7);
+	padding: 10px;
+}
+
+a + a {
+	margin-left: 70px;
+}
+
+.menu {
+	text-align: center;
+}
+
+.welcome-content {
+	/*border: 3px solid green;*/
+	background: url(https://peprojects.dev/alpha-4/steve/bike-repair-project/images/road-biking.jpg);
+	background-size: cover;
+	/*padding: 80px 0px;*/
+   font-size: clamp(50px, 10vw, 140px);
+   text-align: center;
+
+}
+
+.welcome {
+	color: white;
+	background-color: hsla(75,80%,8%,0.7);
+	display: inline;
+
+}
+
+.about-content {
+	background-color: #bebebe;
+}
+
+.about-image {
+	max-width: 400px;
+	border-radius: 12px;
+}
+
+.inner {
+	border: teal 3px solid;
+	max-width: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.inner-columns {
+	max-width: 800px;
+   margin-right: auto;
+   margin-left: auto;
+   /*border: 3px solid blue; /* border */*/
+   padding: 10px;
+   display: flex;
+}
+
+.about-content h2{
+	font-size: 40px;
+}
+
+.about-content p {
+	margin-top: 10px;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	line-height: 1.2;
+}
+
+.repair-content {
+	background-color: #8b5616;
+}
+
+.repair-image {
+	max-width: 500px;
+	border-radius:  12px;
+}
+
+.loaner-content {
+	background-color: #7d93b2;
+}
+
+.loaner-image {
+	max-width: 600px;
+	border-radius: 12px;
+}
+
+.slogan-section {
+	background: #bebebe;
+}
+.slogan-section h2{
+	font-size: 40px;	
+	letter-spacing: 0.2em;
+	padding: 10px;
+}
+
+.slogans {
+	max-width: 800px;
+	margin-right: auto;
+   margin-left: auto;
+   border: black solid;
+   }
+
+.inner-slogans {
+	border: teal 3px solid;
+	padding: 10px;
+	text-align: center;
+	margin: 50px 0;
+}
+
+.slogan + .{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
