@@ -1,0 +1,195 @@
+
+@import "meyer-reset.css";
+
+@import "setup.css";
+
+html {
+	background: linear-gradient(#000000, #4f4f4f)
+}
+
+/*body * {
+	border: 5px solid;
+	padding:  5px;
+}*/
+
+body > * {
+	border-color: dodgerblue;
+}
+
+.inner-colum {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	/*border: 5px solid red;*/
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.page-content {
+	flex-grow: 1;
+	min-height: 100vh;
+	display: flex;
+	/*border: green solid;*/
+	position: relative;
+}
+
+.left-side {
+	/*border: solid yellow;
+*/	width: 70%;
+	position: fixed;
+}
+
+.left-side-header {
+	/*border: solid orange;*/
+}
+
+.left-side-header .inner-column {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+}
+
+.left-side-header .logo img {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.left-side-header p {
+	font-size:26px;
+	color: white;
+}
+
+.landing-page {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	gap: 10px;
+	/*border: white solid;*/
+}
+
+.landing-page .inner-column {
+	display: flex;
+	position: relative;
+}
+
+.landing-page .menu-bar {
+	border: solid white 1px;
+	border-radius: 20px;
+	padding: 10px 1px;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	left: 10px;
+	top: 65px;
+}
+
+.menu-bar .list {
+	display: flex;
+	writing-mode: vertical-lr;
+   text-orientation: ;
+   gap: 30px;
+}
+
+.menu-bar .list a {
+	transform: rotate(180deg);
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+.music-information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*border: white solid;*/
+	max-width: 900px;
+}
+
+.music-information .album-cover img {
+	width: 500px;
+	opacity: 100%;
+	background: linear-gradient(#000000, #4f4f4f);
+}
+
+.new-album {
+	display: flex;
+	justify-content: center;
+	border: white solid 1px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.new-album .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	gap: 5px;
+}
+
+.new-album .inner-column a {
+	border: white solid;
+	background: white;
+	color: black;
+	font-size: 12px;
+	padding: 1px 20px;
+	border-radius: 10px;
+}
+
+
+.right-side {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	/*border: solid pink;*/
+	width: 30%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.right-side .inner-column {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: white solid 1px;
+	margin: 10px;
+	height: 275px;
+	overflow-x: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
