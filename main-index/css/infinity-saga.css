@@ -1,0 +1,122 @@
+
+* {
+	box-sizing: border-box;
+}
+
+infinity-saga, heroes, villain, iron-man, name, armor, captain-america, thanos {
+	display: block;
+}
+
+
+infinity-saga {
+ 	padding: 10px; 
+ 	border: 3px darkgray solid; 
+	background-color: lightgray;
+	display: flex;
+}
+
+heroes {
+/* 	padding: 10px; */
+/* 	border: 3px midnightblue solid; */
+}
+
+iron-man {
+	padding: 10px;
+ 	border: 3px #a50506 solid; 
+	background-color: #a50506;
+	color: #f3c401;
+}
+
+name{
+	padding: 10px;
+/* 	border: 3px black solid */
+}
+
+armor {
+	padding: 10px;
+	background-color: #77f2f3;
+	color: black;
+/* 	border: 3px black solid */
+}
+
+captain-america {
+	padding: 10px;
+/* 	border: 3px #172d9f solid; */
+	background-color: #172d9f;
+	color: #e52008;
+}
+
+villain {
+/* 	padding: 10px; */
+/* 	border: 3px black solid; */
+}
+
+thanos {
+	padding: 10px;
+/* 	border: 3px #a284a3 solid; */
+	background-color: #a284a3;
+	color: #d2c03a;
+}
+
+/* BREAKPOINT 1 */
+
+@media (min-width: 350px) {
+	infinity-saga {
+		display: flex;
+		flex-direction: row
+	}	
+	heroes {
+		width:60%;
+	}	
+	iron-man {
+		display:flex;
+		flex-direction: column;
+	}
+	
+	villain {
+		display: flex;
+		width:40%
+	}
+ 	thanos {
+		display: flex;
+		width:100%;
+		flex-direction: row;
+	}
+	name {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	armor {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+
+/* BREAKPOINT 2 */ 
+
+@media (min-width: 800px) {
+	heroes {
+		display:flex
+	}
+	iron-man {
+		width: 50%;
+		flex-direction: row;
+	}
+	armor{
+		flex-direction: column
+	}
+	captain-america {
+		width: 50%
+	}
+	villain {
+		max-width: 500px;
+	}
+	heroes {
+		width: 100%;
+	}
+}
+
