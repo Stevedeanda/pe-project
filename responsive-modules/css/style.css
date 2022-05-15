@@ -1,0 +1,626 @@
+
+@import "meyer-reset.css";
+
+@import "setup.css";
+
+
+/* BORDERS FOR DEV */
+
+/*body * {
+	border: 1px solid;
+}
+
+section {
+	border: 3px solid lime;
+}
+
+.inner-column {
+	border: 3px solid gray;
+}
+
+body {
+	border: 5px solid red;
+}*/
+
+
+/* STRUCTURE */
+
+.inner-column {
+	width: 100%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+
+
+/* STYLES */
+
+
+.site-header {
+	background-color: rgba(0,300,300,.5);
+}
+
+.site-header .inner-column {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.logo {
+	display: block;
+}
+
+.site-header .logo {
+	max-width: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.site-header .company-name {
+	font-size: 1rem;
+}
+
+
+
+
+.welcome {
+	background-color: rgba(200,300,100,.5);
+}
+
+.welcome .inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.welcome .cloud {
+	display: none;
+}
+
+.welcome h1 {
+	font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+	.welcome .inner-column {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.welcome picture, .welcome h1 {
+		width: 50%;
+	}
+
+	.welcome h1 {
+	font-size: 2rem;
+	}
+}
+
+@media (min-width: 900px) {
+	.welcome .inner-column {
+		align-items: flex-start;
+	}
+
+	.welcome .cloud {
+	display: block;
+	width: 300px;
+	position: absolute;
+	left: 65%;
+	top: 50%;
+	opacity: .4;
+}
+}
+
+
+
+
+.about {
+	background-color: rgba(0,300,300,.5);
+	position: relative;
+	overflow: hidden;
+}
+
+.about .inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+
+.about .cloud {
+	display: none;
+}
+
+.about picture {
+	max-width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.about .bio {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.about .text h2 + p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media (min-width: 400px) {
+	.about .bio {
+		flex-direction: row;
+		align-items: center;
+		flex-basis: 100%;
+	}
+
+	.about .cloud {
+	display: block;
+	width: 150px;
+	position: absolute;
+	left: 77%;
+	top: 80%;
+	opacity: .4;
+	}
+}
+
+@media (min-width: 600px) {
+	.about .inner-column {
+		flex-direction: row;
+	}
+
+	.about .bio {
+		flex-direction: column;
+	}
+
+	.about .text {
+		text-align: center;
+	}
+
+	.about .bio .text a {
+		padding: 8px;
+		background-color: black;
+		border-radius: 10px;
+		display: inline-block;
+		color: white;
+	}
+}
+
+
+/* LEGO SECTION BEGINS */
+
+
+/* Header section */
+
+
+.lego-header {
+	border-bottom: 4px solid #ffcf03;
+}
+
+.lego-header .inner-column {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+
+/* LEFT SIDE OF MENU */
+
+.lego-header .menu-left {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding-left: 10px;
+}
+
+.menu-left .menu {
+	max-width: 30px;
+}
+
+.lego-header .logo {
+	max-width: 50px;
+}
+
+.lego-header .menu-text, .menu-text-2 {
+	display: none;
+}
+
+
+
+
+/* RIGHT SIDE OF MENU */
+
+
+.lego-header .menu-right {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-right: 10px;
+}
+
+.lego-header .menu-right .logo {
+	max-width: 20px;
+}
+
+.lego-header .logo-2 {
+	max-width: 35px;
+	display: none;
+}
+
+.lego-header .logo-3 {
+	max-width: 20px;
+	display: none;
+}
+
+
+/* BREAK POINT */
+
+
+@media (min-width: 900px) {
+	.lego-header {
+		background-color: #ffcf03;
+		border-bottom: none;
+	}
+
+	.lego-header .menu-left {
+		gap: 50px;
+	}
+
+	.lego-header .menu-left .menu {
+		display: none;
+	}
+
+	.lego-header .menu-left .logo {
+		max-width: 60px;
+	}
+
+	.lego-header .menu-right .logo {
+		display: none;
+	}
+
+	.lego-header .logo-2, .lego-header .logo-3 {
+		display: block;
+	}
+
+	.lego-header .menu-text, .menu-text-2 {
+	display: block;
+	font-size: 14px;
+	font-family: gill sans;
+	font-weight: normal;
+	line-height: 1.1875rem;
+	text-transform: uppercase;
+	transform: ease-out 2s;
+	}
+
+	.menu-text-2 {
+		background-color: #ffffff;
+		color: #d31827;
+		padding: 5px 20px;
+		border-radius: 4px;
+		transform: ease-out 2s;
+	}
+
+	.menu-text:hover {
+		text-decoration-line: underline;
+		text-decoration-style: solid;
+		text-decoration-thickness: 2px;
+	}
+
+	.menu-text-2:hover {
+		background-color: black;
+		color: white;
+	}
+}
+
+
+
+
+/* New Lego Set Section */
+
+.new-lego-sets .inner-column{
+	font-family: gill sans;
+	display: flex;
+	flex-direction: column;
+/*	border: 2px solid blue;
+*/}
+
+.new-sets {
+	font-size: 32px;
+	font-weight: 100px;
+/*	border: solid red 2px;
+*/	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 7px;
+	padding-left: 7px;
+
+}
+
+.two-lego-sets {
+/*	border: 2px solid green;
+*/	display: flex;
+	flex-direction: column;
+	padding: 0 7px;
+	gap: 20px;
+
+	/* need to figure out of to make it scroll when
+	in a smaller size instead of putting them column */
+}
+
+
+.lego-card {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+/*	border: 2px solid orange;
+*/	color: black;
+}
+
+.lego-card a {
+	color: black;
+}
+
+
+.two-lego-sets .description {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+}
+
+.description h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.description p {
+	font-size: 12px;
+}
+
+.description .lego-link {
+	font-size: 14px;
+	font-weight: bold;
+	transform: ease-out 2s;
+}
+
+.description .lego-link:hover {
+	text-decoration: underline;
+	/* need to make it so when I hover over anypart
+	part, it underlines the "shop link >" only */
+}
+
+
+@media (min-width: 600px) {
+	.two-lego-sets {
+		flex-direction: row;
+	}
+}
+
+
+
+/* Toy to tool section */
+
+.toy-to-tool .inner-column {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.blueprint {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+.blueprint-description {
+	background-color: #05125c;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px;
+	gap: 10px;
+	font-family: gill sans;
+}
+
+.blueprint-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.blueprint-text h3 {
+	font-size: 1.125rem;
+   line-height: 1.75rem;
+   font-weight: 300;
+}
+
+.blueprint-text p {
+	font-size: 0.875rem;
+   line-height: 1.1875rem;
+   font-weight: 300;
+}
+
+.blueprint-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.blueprint-links a {
+	background-color: #ffffff;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 6px;
+	transform: ease-out 2s;
+}
+
+.blueprint-links a:hover {
+	background-color: black;
+	color: white;
+}
+
+@media (min-width: 375px) {
+	.blueprint-links {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 600px) {
+	.blueprint {
+		display: flex;
+		flex-direction: row-reverse;
+		width: 100%;
+		height: 20.375rem;
+	}
+
+	.blueprint-description {
+		width: 50%;
+		justify-content: center;
+	}
+
+	.blue-robot img {
+		display: none;
+	}
+
+	.blue-robot {
+		position: relative;
+		background-position: center center;
+		background-image: url(https://www.lego.com/cdn/cs/set/assets/blt1c62fb79a6ee60f6/04-1742-STEM-Home-202204-Sidekick-Standard-KV.jpg?fit=crop&format=jpg&quality=80&width=800&height=426&dpr=1);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: block;
+		width: 50%;
+	}
+
+	.blueprint-text {
+		margin-right: 40px;
+	}
+
+	.blueprint-links {
+		flex-direction: column;
+	}
+}
+
+
+
+@media (min-width: 735px) {
+	.blueprint-links {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 900px) {
+	.blueprint {
+		height: 26.5625rem;
+	}
+
+	.blueprint-links {
+		flex-direction: column;
+	}
+
+	.blueprint-description {
+		padding: 0 110px;
+		justify-content:  center;
+	}
+
+	.blueprint-text {
+		margin-right: 0;
+
+	}
+
+	.blueprint-text h3 {
+		font-size: 32px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.site-footer {
+	background-color: rgba(0,0,0,1);
+	margin-top: 30px;
+}
+
+.site-footer .inner-column a{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
