@@ -3,6 +3,8 @@
 
 @import 'meyer-reset.css';
 
+@import 'setup.css';
+
 * {
 	box-sizing: border-box;
 }
