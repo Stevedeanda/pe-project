@@ -1,0 +1,157 @@
+
+@import "meyer-reset.css";
+
+@import "setup.css";
+
+@import "infinity-saga.css";
+
+html {
+	background-color: bisque;
+}
+
+/* STRUCTURE */
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.inner-column {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 20px;
+}
+
+/* TYPOGRAPHY */
+
+.loudest-voice {
+	font-size: 40px;
+	font-family: times new roman;
+}
+
+.loud-voice {
+	font-size: 30px;
+	font-family: times new roman;
+}
+
+.regular-voice {
+	font-size: 16px;
+	font-family: times new roman;
+	line-height: 1.5;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+p + p {
+	margin-top: 14px;
+}
+
+/* SITE SECTIONS */
+
+.site-header {
+	background-color: white;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 5px 10px hsla(240, 100%, 0%, .6);
+}
+
+.site-header .inner-column {
+	padding: 14px;
+}
+
+.page-content {
+	background: url(https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25vdyUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+	background-size: cover;
+	background-positon: center center;
+	flex-grow: 1; /* true */
+}
+
+.page-header {
+	background-color: hsla(35, 100%, 60%, 0.5);
+}
+
+.green {
+	background-color: white;
+	/*background-color: transparent;*/
+}
+
+.red {
+	background-color: hsla(0, 80%, 65%, 0.5);
+	color: white;
+}
+
+.site-footer {
+	background-color: gray;
+	color: white;
+	}
+
+@media (min-width: 900px) {
+	.page-header, .red {
+		background-color: transparent;
+	}
+
+	.red {
+		text-shadow: -2px 2px 0 black;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
