@@ -48,7 +48,7 @@
 
 	$reads = [
 		"id" => 764,
-		"name" => "Miss reads-a lot",
+		"name" => "Miss reads a lot",
 		"favorite_food" => "Madeline cookies and tea",
 		"age" => 9,
 		"health" => "Good",
@@ -67,10 +67,10 @@
 
 	echo "<ul class='menu-list'>";
 
-	echo "<li><a href='#''>Donate</a></li>";
-	echo "<li><a href='#''>Volunteer</a></li>";
-	echo "<li><a href='#''>Foster</a></li>";
-	echo "<li><a href='#''>Adopt</a></li>";
+	echo "<li><a href='#'>Donate</a></li>";
+	echo "<li><a href='#'>Volunteer</a></li>";
+	echo "<li><a href='#'>Foster</a></li>";
+	echo "<li><a href='#'>Adopt</a></li>";
 		    
 	echo "</ul>";
 
@@ -96,7 +96,7 @@
 		$message = $monster["message"];
 		$food = $monster["favorite_food"];
 		$portrait = $monster["portrait"];
-		$id = $monster[id];
+		$id = $monster["id"];
 		$name = $monster["name"];
 		$story = "My favorite food is " . $monster["favorite_food"] . " and I am " . $monster["age"] . " years old.";
 		$status = $monster["adopted"];
@@ -137,5 +137,5 @@
 
 	echo "</body>";
 
-	?>
+?>
 
