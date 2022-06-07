@@ -48,4 +48,6 @@ placeholder
 	- First is you can write an if statement where you put the variable to be greater or equal to zero. Doing this, a negative number can be put in the input but when you go to submit it will not work. 
 	- Second way is you can add a attribute of min=0 so that, no number below 0 can be used. When you try it will give you an error message. 
 
-	
+
+- In conclusion
+	- I did four practice runs and I feel like I need more practice. I get the the form part for the most part. I also get the styling. When it comes to the php part, I tend to go back to my notes for reference. I definitely need to spend more time just getting the hang of the php part. We are suppose to be able to anything yet I feel like I am unable to come up with any new ways to do these forms. 
