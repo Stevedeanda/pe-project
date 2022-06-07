@@ -25,7 +25,7 @@ lesson-notes.md
 	$guests = $_POST["guests"];
 	$berries = $_POST["berries"];
 	$total = $guests * $berries;
-	echo "<p>$total</p>";
+	echo "<"p>$total<"/p>";
 - Here, once you hit submit, the form will take the data and it will multiply the inputs that were submitted. Then it will echo and display the total.
 - We learned that input has many types 
 	- type = text
