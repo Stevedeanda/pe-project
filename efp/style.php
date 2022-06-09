@@ -85,4 +85,24 @@
 		color: #033041;
 		background-color: #fef4dd;	
 	}
+
+	.hide {
+    display: none;
+	}
+
+	.tryagain {
+		color: red;
+	}
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
