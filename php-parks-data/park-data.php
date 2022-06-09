@@ -1,5 +1,9 @@
 
-
+if ($id == $userData["id"]) {
+      echo "yes";
+    } else {
+      echo "no";
+    }
 
 
 <?php 
