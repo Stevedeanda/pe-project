@@ -3,6 +3,24 @@ lesson-notes.md
 
 # lesson notes
 
+## E-commerce-with-PHP (June 10)
+
+### Exercise Notes
+
+- This was a daunting task to begin with, we only had just decided on our data format the night before and added some data. 
+- Today we all struggled with being able to pull the data from JSON.
+- The wonderful thing was that most of us that could got on a huddle and figured it out together. 
+- We all had questions and we all helped each other figure out roadblocks we had. 
+- It was like 6 of us in the huddle
+- We pulled and push a lot today, I think the more we keep doing that, the easier it will get to get the hang of it. 
+- This project was a good eye opener on array and associated arrays and how to pull data from a bigger and more complex data set than I was used to. 
+- I am definitely getting more comforable with PHP.
+- I still reference other projects to see how I did something because I have a hard time remembering certain things. 
+- I still have trouble remembering what each function should do so that is another reason I still reference other projects. 
+- Overall I think the huddle we had helped tremendously to do this project. 
+- Brian was very helpful with our questions.
+- I still need to go back to style a few things and format them, but I will get to that tomorrow because it's late and I need to get some rest. 
+
 ## Another Exercise for Programmers Practice Day (June 8)
 
 _Questions_
