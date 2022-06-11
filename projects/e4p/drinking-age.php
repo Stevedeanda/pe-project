@@ -19,19 +19,21 @@
 
 	// Do any calculations 
 	if ($age >= 21) {
-		$message = "You $age years old, you can drink buddy!"; 
+		$message = "You <span>$age</span> years old, you can drink buddy!"; 
 	} else {
-		$message = "You are {$age} years old, not 21, no alcohol for you kiddo.";
+		$message = "You are <span>$age</span> years old, not 21, no alcohol for you kiddo.";
 	}
 ?>
 	
-
+<header>
+	<a href="index.php">Home</a>
+</header>
 
 <form method="POST">
 
-	<h1>Form practice - Drinking calculator</h1>
+	<h1 class="medium-voice">Drinking calculator</h1>
 	
-	<p>Are you of drinking ages?</p>
+	<p>Are you of drinking age?</p>
 
 	<div class="field">
 	 	<label>What year were you born?</label>

@@ -19,12 +19,15 @@
 	$message = strlen($string);
 ?>
 
+<header>
+	<a href="index.php">Home</a>
+</header>
 
 <form method="POST">
 
-	<h1>Form practice - Counting the Characters in a String</h1>
+	<h1 class="medium-voice">Character Counting</h1>
 	
-	<p>Let's count characters</p>
+	<p>Let's count the characters in string</p>
 
 	<div class="field">
 		<label>Write your string here</label>
@@ -33,7 +36,7 @@
 
 	<button type="submit" name="submitted">Push me</button>
 
-	<p>"<?=$string?>" has <?=$message?> characters.</p>
+	<p>"<?=$string?>" has <span><?=$message?></span> characters.</p>
 
 </form>
 

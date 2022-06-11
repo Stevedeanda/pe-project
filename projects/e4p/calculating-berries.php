@@ -7,6 +7,7 @@
 
 	$guests = 0;
 	$berries = 0;
+	$total = 0;
 
 	if ( isset($_POST["submitted"])) {
  	
@@ -24,25 +25,30 @@
 
 ?>
 
+<header>
+	<a href="index.php">Home</a>
+</header>
+
+
 <form method="POST">
 
-	<h1>Form practice - Multiplying</h1>
+	<h1 class="medium-voice">Calculating Berries</h1>
 
-	<p>Calculating the berries!</p>
+	<p>Let's figure out how many berries we need</p>
 
 	<div class="field">
 		<label>Number of guests</label>
-		<input type="text" name="guests" min="0" value="<?=$guests?>">
+		<input type="number" name="guests" min="0" value="<?=$guests?>">
 	</div>
 
 	<div class="field">
 		<label>Berries per guest</label>
-		<input type="number" name="berries" value="<?=$berries?>">
+		<input type="number" name="berries" min="0" value="<?=$berries?>">
 	</div>
 
 	<button type="submit" name="submitted">Push me</button>
 
-	<p><?=$total?></p>
+	<p>We will need <span><?=$berries?></span> berries per guest. Since there is <span><?=$guests?></span> guests, we will need a total of <span><?=$total?></span> berries.</p>
 
 </form>
 

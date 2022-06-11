@@ -23,11 +23,15 @@
 
 ?>
 
+<header>
+	<a href="index.php">Home</a>
+</header>
+
 <form method="POST">
 
-	<h1>Form practice - Calculate Paycheck</h1>
+	<h1 class="medium-voice">Paycheck Calculator</h1>
 
-	<p>Let's figure out my paycheck for the week</p>
+	<p>Let's figure out your paycheck for the week</p>
 
 	<div class="field">
 		<label>Hours worked</label>

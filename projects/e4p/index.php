@@ -22,7 +22,9 @@
 
 		<section>
 
-			<h1>PHP practice forms: </h1>
+			<h1>PHP&nbsppractice forms:</h1>
+
+			<p>Click below and fill them out</p>
 
 			<?php
 

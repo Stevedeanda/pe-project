@@ -22,9 +22,13 @@
 	}
 ?>
 
+<header>
+	<a href="index.php">Home</a>
+</header>
+
 <form method="POST">
 
-	<h1>Form practice - Multiple text inputs</h1>
+	<h1 class="medium-voice">Multiple text inputs</h1>
 
 	<p>Ask a question</p>
 
@@ -40,7 +44,7 @@
 
 	<div class="field">
 		<label>Talking points</label>
-		<textarea name="text" cols="10" rows="8" maxlenght="45" placeholder="What is your question?" required="required"></textarea>
+		<textarea name="text" cols="10" rows="5" maxlenght="45" placeholder="What is your question?" required="required"></textarea>
 	</div>
 
 	<button name="submitted" type="submit">Submit</button>
