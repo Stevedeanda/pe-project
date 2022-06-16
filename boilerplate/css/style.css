@@ -1,0 +1,53 @@
+
+@import "meyer-reset.css";
+
+@import "setup.css";
+
+body * {
+	border: 5px solid;
+	padding:  5px;
+}
+
+body > * {
+	border-color: dodgerblue;
+}
+
+.inner-colum {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	border: 5px solid red;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
