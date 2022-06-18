@@ -20,7 +20,7 @@
 	padding: 0 15px;
 }
 
-.article-card a {
+.article-card :is(a, p, h1) {
 	margin-top: 20px;
 }
 
@@ -32,5 +32,9 @@
 
 	.article :is(picture, text-content) {
 		flex-basis: 50%;
+	}
+
+	.article-list .article:nth-of-type(odd) .article-card {
+   	flex-direction: row-reverse;
 	}
 }

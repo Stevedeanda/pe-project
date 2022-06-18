@@ -1,7 +1,9 @@
 
 mast-head {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
 	/*border: 4px solid blue;*/
 }
 
@@ -36,11 +38,9 @@ mast-head nav a:hover {
 	color: var(--link-hover);
 }
 
-@media (min-width: 500px) {
-	mast-head {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-end;
-	}
+
+@media only screen and (max-width: 500px) {
+    mast-head nav a:not(.home, .button) {
+        display: none;
+    }
 }

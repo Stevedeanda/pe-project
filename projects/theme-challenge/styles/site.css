@@ -33,9 +33,16 @@ body {
 	color: var(--ink);
 }
 
-section:is(.sign-up, .get-involved) inner-column {
+/*section:is(.sign-up, .get-involved) inner-column {
 	max-width: var(--tight);
-}
+}*/
+
+/*@media only screen and (min-width: 554px) {
+   .sign-up {
+		padding-top: 83.3px;
+	}
+}*/
+
 
 /*section.get-involved {
 	background-color: var(--highlight);
@@ -47,7 +54,7 @@ section:is(.sign-up, .get-involved) inner-column {
 }*/
 
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 	section.sign-up {
 		background-color: var(--color);
 		color: var(--black);
@@ -62,4 +69,4 @@ section:is(.sign-up, .get-involved) inner-column {
 		background-color: var(--highlight);
 		color: var(--black);
 	}
-}
+}*/
