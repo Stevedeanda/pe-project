@@ -1,11 +1,11 @@
 
 
 <style>
+
 	
 body {
 	background-color: #ddeffe;
 	color: #033041;
-	border: blue solid 10px;
 }
 
 .inner-column {
@@ -14,6 +14,9 @@ body {
 	margin-right: auto;
 	text-align: center;
 	/*border: green solid 1px;*/
+
+	/* horizontal scroll */
+	overflow: hidden;
 }
 
 .title {
@@ -24,18 +27,32 @@ body {
 
 .product-list {
 	display: flex;
-	flex-direction: column;
+	/*flex-direction: column;
 	gap: 10px;
-	flex-wrap: wrap;
-	padding: 10px;
+	flex-wrap: wrap;*/
+	padding: 20px;
+
+	/* horizontal scroll */
+	flex-direction: row;
+	gap:  1rem;
+	overflow-x: auto;
+
+	/* NEW: SCROLL SNAP MAGIC */
+	scroll-snap-type: x mandatory;
+	
 }
 
 .product {
 	display: block;
 	/*border: red solid 1px;*/
-	width: 100%;
-	height: 100%;
-	
+	/*width: 100%;*/
+	height: auto;
+
+	/* horizontal scroll */
+	max-width: 100%;
+	flex-shrink: 0; /* secret magic */
+
+	scroll-snap-align: center; /* start / center / end - and more */
 }
 
 
@@ -65,7 +82,16 @@ product-card .brand {
 }
 
 .visual {
+	/*border: green solid;*/
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.visual img{
+	width: 100%;
+	/*border: red solid;*/
 }
 
 .price {
@@ -73,12 +99,21 @@ product-card .brand {
 	font-size: 30px;
 }
 
-.product .features h3 {
+.product summary h3 {
 	display: block;
 	text-align: left;
 	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 700;
+}
+
+summary::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
 }
 
 .product .features li {

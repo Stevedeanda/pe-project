@@ -63,19 +63,21 @@
 								</div>
 
 								<picture class="visual">
-									<img src="<?=$image?>" width="100">
+									<img src="<?=$image?>" width="200">
 								</picture>
 
 								<p class="price">$<?=$price?></p>
 
-								<ul class="features">
-									<h3>Features</h3>
-									<?php 
-									foreach($features as $feature) { ?>
-									<li class="feature"><?=$feature?></li>
-									<?php } ?>
-								</ul>
-
+								<details>
+									<summary><h3>Features</h3></summary>
+										<ul class="features">
+											
+											<?php 
+											foreach($features as $feature) { ?>
+											<li class="feature"><?=$feature?></li>
+											<?php } ?>
+										</ul>
+								</details>
 								<p class="description"><?=$description?></p>
 							</product-card>
 						</li>
