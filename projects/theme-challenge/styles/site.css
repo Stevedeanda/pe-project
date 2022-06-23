@@ -33,6 +33,13 @@ body {
 	color: var(--ink);
 }
 
+.top-header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background-color: white;
+}
+
 section:is(.sign-up, .get-involved, .welcome) inner-column {
 	width: 100%;
 	max-width: 100%;

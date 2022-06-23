@@ -15,7 +15,7 @@
 
 
 	<body>
-		<header>
+		<header class="top-header">
 		<inner-column>
 			
 			<?php include('modules/mast-head/template.php'); ?>

@@ -6,7 +6,11 @@ mast-head {
 	justify-content: space-between;
 	padding: 1em 0;
 	/*border: 4px solid blue;*/
-}
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}	
+
 
 mast-head .logo-test {
 	max-width: 7rem;
