@@ -34,10 +34,19 @@
 			</section>
 
 
-			<section class='sign-up' id='sign-up'>
+			<section class='get-involved' id='get-involved'>
 			<inner-column>
 
 				<?php include('modules/call-to-action/template.php'); ?>
+
+			</inner-column>
+			</section>
+
+
+			<section class='sign-up' id='sign-up'>
+			<inner-column>
+
+				<?php include('modules/category-card/template.php'); ?>
 
 			</inner-column>
 			</section>
@@ -55,7 +64,7 @@
 			<section class='get-involved' id='get-involved'>
 			<inner-column>
 
-				<?php include('modules/call-to-action/template.php'); ?>
+				<?php include('modules/call-to-action/template-two.php'); ?>
 
 			</inner-column>
 			</section>

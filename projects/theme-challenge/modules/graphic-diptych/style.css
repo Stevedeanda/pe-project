@@ -9,6 +9,7 @@ graphic-diptych {
 	background-size: cover;
 	/*border: blue 4px solid;*/
 	color: var(--paper);
+	margin-bottom: 60px;
 }
 
 graphic-diptych p {

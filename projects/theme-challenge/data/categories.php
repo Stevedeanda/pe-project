@@ -1,0 +1,28 @@
+<?php
+
+$categories = [
+	[
+		"title" => "Men's",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?men,hiking"
+	],
+	[
+		"title" => "Women's",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?women,climbing"
+	],
+	[
+		"title" => "Kids'",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?hiking,kids"
+	],
+	[
+		"title" => "Gear",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?camping,gear",
+	],
+	[
+		"title" => "Collections",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?beach",
+	],
+	[
+		"title" => "Sales",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?nature",
+	],
+];

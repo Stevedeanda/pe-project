@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Check out these stories</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>We want to push people to be more active in helping reduce waste. We show case stories of people doing that and our efforts as a company as well.</p>
 	</header>
 
 	<article-grid>

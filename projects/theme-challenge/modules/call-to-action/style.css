@@ -26,3 +26,24 @@ call-to-action .button:hover {
 	background-color: var(--paper);
 	color: var(--ink);
 }
+
+feed-back {
+	display: block;
+	text-align: center;
+	padding: 10vh 0;
+	background-color: hsla(120, 42%, 22%, .75);
+	color: var(--paper);
+}
+
+feed-back h2 a {
+	display: inline-block;
+	color: var(--ink);
+}
+
+feed-back h2 a:hover{
+	text-decoration: underline;
+}
+
+feed-back svg {
+	display: inline-block;
+}

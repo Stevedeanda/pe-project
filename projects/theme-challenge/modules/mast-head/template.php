@@ -3,12 +3,6 @@
 
 	<nav class='site-menu'>
 		<ul>
-			 <!-- <li>
-				<a class='home' href='#'>
-					<?php //include('modules/logo.php'); ?>
-				</a>
-			</li> -->
-
 			<li>
 				<a class="home" href='#'>
 				<?php include('modules/logo-test.php'); ?>
