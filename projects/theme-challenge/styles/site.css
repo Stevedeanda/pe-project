@@ -35,6 +35,7 @@ body {
 
 section:is(.sign-up, .get-involved, .welcome) inner-column {
 	width: 100%;
+	max-width: 100%;
 }
 
 /*@media only screen and (min-width: 554px) {
