@@ -6,7 +6,7 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>Five Nine</title>
+		<title>Five Nine Apparel</title>
 		<meta name='description' content='Outdoor apparel with the environment in mind'>
 		<meta property='og:image' content='images/fivenine-meta.jpg'>
 

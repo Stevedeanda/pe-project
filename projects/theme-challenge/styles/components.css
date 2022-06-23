@@ -26,6 +26,7 @@
 .search:hover {
 	color: var(--ink);
 }
+
 search-button {
 	display: flex;
 	flex-direction: row;
@@ -53,9 +54,6 @@ social-media .x-menu .button {
 	display: block;
 }
 
-
-
-@import 'forms.css';
 
 /* ICONS */
 
