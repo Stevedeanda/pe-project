@@ -5,7 +5,7 @@
 		<ul>
 			<li>
 				<a class="home" href='#'>
-				<?php include('modules/logo-test.php'); ?>
+				<?php include('modules/icons/logo-test.php'); ?>
 				</a>
 			</li>
 
@@ -36,25 +36,25 @@
 
 			<li>
 				<a class="icon" href='#'>
-				<?php include('modules/icon-search.php'); ?>
+				<?php include('modules/icons/icon-search.php'); ?>
 				</a>
 			</li>
 
 			<li>
 				<a class="icon" href='#'>
-				<?php include('modules/icon-user.php'); ?>
+				<?php include('modules/icons/icon-user.php'); ?>
 				</a>
 			</li>
 
 			<li>
 				<a class="icon" href='#'>
-				<?php include('modules/icon-cart.php'); ?>
+				<?php include('modules/icons/icon-cart.php'); ?>
 				</a>
 			</li>
 
 			<li>
 				<a class="icon" href='#'>
-				<?php include('modules/icon-bars.php'); ?>
+				<?php include('modules/icons/icon-bars.php'); ?>
 				</a>
 			</li>
 
@@ -63,7 +63,7 @@
 					<input type="text" size="15" placeholder="Search">
 					<button>
 						<a class="search" href="#">
-						<?php include('modules/icon-search.php'); ?>
+						<?php include('modules/icons/icon-search.php'); ?>
 						</a>
 					</button>
 				</search-button>

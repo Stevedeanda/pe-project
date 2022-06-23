@@ -122,27 +122,27 @@
 				<ul>
 					<li>
 						<a class='icon' href='#'>
-						<?php include('modules/icon-facebook.php'); ?>
+						<?php include('modules/icons/icon-facebook.php'); ?>
 						</a>
 					</li>
 					<li>
 						<a class='icon' href='#'>
-						<?php include('modules/icon-instagram.php'); ?>
+						<?php include('modules/icons/icon-instagram.php'); ?>
 						</a>
 					</li>
 					<li>
 						<a class='icon' href='#'>
-						<?php include('modules/icon-pinterest.php'); ?>
+						<?php include('modules/icons/icon-pinterest.php'); ?>
 						</a>
 					</li>
 					<li>
 						<a class='icon' href='#'>
-						<?php include('modules/icon-twitter.php'); ?>
+						<?php include('modules/icons/icon-twitter.php'); ?>
 						</a>
 					</li>
 					<li>
 						<a class='icon' href='#'>
-						<?php include('modules/icon-youtube.php'); ?>
+						<?php include('modules/icons/icon-youtube.php'); ?>
 						</a>
 					</li>
 				</ul>
@@ -156,7 +156,7 @@
 							<input type="text" size="15" placeholder="Email Address">
 							<button>
 								<a class="search" href="#">
-								<?php include('modules/icon-submit.php'); ?>
+								<?php include('modules/icons/icon-submit.php'); ?>
 								</a>
 							</button>
 						</search-button>
@@ -170,14 +170,14 @@
 		<ul class="bottom-logo">
 			<li>
 				<a class="home" href='#'>
-				<?php include('modules/logo-test.php'); ?>
+				<?php include('modules/icons/logo-test.php'); ?>
 				</a>
 			</li>
 		
 			<li>
 				<ul class="legal">
 					<li class="whisper-voice">
-						<?php include('modules/icon-copyright.php');?> FIVE NINE, A SD COMPANY
+						<?php include('modules/icons/icon-copyright.php');?> FIVE NINE, A SD COMPANY
 					</li>
 					<li class="whisper-voice">
 						<a href="#">TX SUPPLY CHAINS ACT</a> <a href="#">UK SLAVERY ACT</a>
