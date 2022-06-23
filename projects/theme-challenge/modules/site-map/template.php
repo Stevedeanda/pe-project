@@ -148,7 +148,7 @@
 				</ul>
 			</nav>
 
-			<nav>
+			<nav class='follow'>
 				<h3 class='strong-voice'>Enter your email</h3>
 				<ul>
 					<li>
@@ -162,7 +162,6 @@
 						</search-button>
 					</li>
 				</ul>
-
 			</nav>
 		</menu-list>
 	</social-media>

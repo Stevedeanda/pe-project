@@ -61,8 +61,7 @@ social-media .x-menu .button {
 
 [class^="icon-"], [class*=" icon-"] {
     height: 1rem;
-    width: 1rem;
-    display: inline-block; 
+    width: 1rem; 
     fill: currentColor; 
 }
 
@@ -90,6 +89,10 @@ site-map .whisper-voice .icon-copyright {
 site-map .icon-facebook, .icon-instagram, .icon-twitter, .icon-pinterest, .icon-youtube  {
 	height: 2rem;
 	width: 2rem;
+}
+
+site-map .icon-submit {
+	align-items: center;
 }
 
 
