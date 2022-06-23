@@ -2,34 +2,36 @@
 mast-head {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
+	padding: 1em 0;
 	/*border: 4px solid blue;*/
 }
 
-mast-head .logo {
-	max-width: 200px;
+mast-head .logo-test {
+	max-width: 7rem;
 }
 
-mast-head .logo * {
+mast-head .logo-test * {
 	fill: var(--ink);
 }
 
 mast-head nav ul {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: center;
 }
 
 mast-head .user-menu ul {
-	padding: .5em 1em;
+	gap: 1em;
+	justify-content: flex-end;
 }
 
 mast-head nav .home {
-	padding: 10px 0;
+	
 }
 
-mast-head nav a:not(.home, .button) {
+mast-head nav a:not(.home, .button, .icon, .search) {
 	padding: .5em 1em;
 	text-transform: uppercase;
 }
@@ -39,8 +41,23 @@ mast-head nav a:hover {
 }
 
 
-@media only screen and (max-width: 500px) {
-    mast-head nav a:not(.home, .button) {
+@media only screen and (max-width: 685px) {
+    mast-head nav a:not(.home, .button, .icon) {
         display: none;
     }
+    mast-head .logo-test {
+    	max-width: 4rem;
+    }
+    mast-head search-button{
+    	display: none;
+    }
 }
+
+@media (min-width: 686px) {
+	mast-head nav .icon {
+		display: none;
+	}
+}
+
+
+

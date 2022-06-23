@@ -3,7 +3,7 @@ graphic-diptych {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	/*gap: 30px;*/
 	padding: 10vh 0;
 	background-image: url(https://cdn.pixabay.com/photo/2015/05/19/18/48/ecuador-774032_1280.jpg);
 	background-size: cover;

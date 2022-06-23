@@ -7,7 +7,7 @@ call-to-action {
 	align-items: center;
 	text-align: center;
 	padding: 10vh 0;
-	background-color: var(--highlight-green);
+	background-color: hsla(120, 42%, 22%, .75);
 }
 
 call-to-action :is(h2, p) {
@@ -17,4 +17,12 @@ call-to-action :is(h2, p) {
 
 call-to-action .button {
 	margin-top: 20px;
+	background-color: var(--ink);
+	color: var(--paper);
+	border: 1px solid white;
+}
+
+call-to-action .button:hover {
+	background-color: var(--paper);
+	color: var(--ink);
 }

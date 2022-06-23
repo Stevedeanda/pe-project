@@ -17,10 +17,17 @@ article-grid {
 }
 
 article-grid ul {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: stretch;
 	/*grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));*/
-	grid-gap: 60px 20px;
+	/*grid-gap: 60px 20px;*/
 	/*border: orange solid 4px;*/
 }
 
-
+/*@media (min-width: 640px) {
+	article-grip ul {
+		grid-gap: 0;
+	}
+}*/

@@ -10,7 +10,7 @@
 }
 
 .article-card picture {
-	
+	/*border: blue solid 2px;*/
 }
 
 .article-card text-content {
@@ -25,13 +25,17 @@
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 685px) {
 	.article-card {
 		flex-direction: row;
 	}
 
-	.article :is(picture, text-content) {
-		flex-basis: 50%;
+	.article :is(picture) {
+		flex-basis: 70%;
+	}
+
+	.article :is(text-content) {
+		flex-basis: 30%;
 	}
 
 	.article-list .article:nth-of-type(odd) .article-card {

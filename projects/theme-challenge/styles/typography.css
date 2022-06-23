@@ -38,6 +38,18 @@
 	font-weight: 700;
 }
 
+.whisper-voice {
+	font-family: open sans, sans-serif;
+	font-size: .5rem;
+	font-weight: 300;
+}
+
+site-map .x-menu a {
+	font-family: open sans, sans-serif;
+	font-size: .8rem;
+	font-weight: 500;
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 p + p {
