@@ -8,7 +8,7 @@
 
 		<title>Five Nine Apparel</title>
 		<meta name='description' content='Outdoor apparel with the environment in mind'>
-		<meta property='og:image' content='images/fivenine-meta.jpg'>
+		<meta property='og:image' content='https://peprojects.dev/alpha-4/steve/projects/theme-challenge/images/fivenine-meta.jpg'>
 
 		<link rel='stylesheet' href='styles/site.css'>
 	</head>
