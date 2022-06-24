@@ -2,12 +2,12 @@
 
 $categories = [
 	[
-		"title" => "Men's",
-		"thumbnail" => "https://source.unsplash.com/random/600x400/?men,hiking"
-	],
-	[
 		"title" => "Women's",
 		"thumbnail" => "https://source.unsplash.com/random/600x400/?women,climbing"
+	],
+	[
+		"title" => "Men's",
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?men,hiking"
 	],
 	[
 		"title" => "Kids'",

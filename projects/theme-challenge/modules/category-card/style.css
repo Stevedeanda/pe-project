@@ -22,8 +22,6 @@ category-grid {
 
 .category {
 	display: block;
-	/*border: red solid 1px;*/
-	/*width: 100%;*/
 	height: auto;
 
 	/* horizontal scroll */
@@ -42,7 +40,6 @@ category-grid {
 	display: block;
 }
 
-
 shop {
 	display: block;
 	/*border: 1px solid red;*/
@@ -60,14 +57,6 @@ shop {
 	text-align:center;
 }
 
-
-/* @media (min-width: 600px) {
-	article {
-		display: flex;
-		flex-direction: row;
-	}
-} */
-
 @media (hover: hover) {
 	.category-card a {
 		display: block;
@@ -82,10 +71,8 @@ shop {
 		right: 0;
 		width: 100%;
 		transform: translate(0, 100%);
-		transition: .5s;
-		
+		transition: .5s;	
 		opacity: 0;
-/* 		background-color: white; */
 	}
 	
 	.category-card picture {

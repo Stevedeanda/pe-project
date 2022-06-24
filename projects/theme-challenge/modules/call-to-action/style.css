@@ -13,6 +13,7 @@ call-to-action {
 call-to-action :is(h2, p) {
 	padding: 0 30px;
 	color: var(--paper);
+	max-width: 815px;
 }
 
 call-to-action .button {

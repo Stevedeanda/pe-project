@@ -18,7 +18,7 @@ html {
 	--ink: var(--black);
 
 	--standard: 1140px;
-	--tight: 800px;
+	--tight: 815px;
 }
 
 /*@media (prefers-color-scheme: dark) {
