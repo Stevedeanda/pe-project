@@ -1,11 +1,8 @@
-main.php
-
-<main class="page-content">
 
 	<section class="welcome">
 		<div class="inner-column">
 
-			Welcome
+			<h1>Welcome</h1>
 
 		</div>
 	</section>
@@ -13,9 +10,8 @@ main.php
 	<section class="about">	
 		<div class="inner-column">
 
-			About
+			<h1>About</h1>
 
 		</div>
 	</section>
 
-</main>

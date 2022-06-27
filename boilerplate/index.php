@@ -1,6 +1,18 @@
 
 <!DOCTYPE html>
 
+<?php
+
+$page = null;
+
+if (isset($_GET["page"])) {
+	$page = $_GET["page"];
+} else {
+	$page = "home";
+}
+
+?>
+
 <html>
 
 	<?php include("head.php"); ?>
@@ -11,21 +23,16 @@
 
 		<main class="page-content">
 
-			<section class="welcome">
-				<div class="inner-column">
+			<?php
+				if ($page == "home") {
+					include("home.php");
+				}
+				if ($page == "list") {
+					include("list.php");
+				}
+			?>
 
-					Welcome
-
-				</div>
-			</section>
-
-			<section class="about">	
-				<div class="inner-column">
-
-					About
-
-				</div>
-			</section>
+			
 
 		</main>
 
