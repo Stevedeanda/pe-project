@@ -23,16 +23,18 @@ if (isset($_GET["page"])) {
 
 		<main class="page-content">
 
+
 			<?php
 				if ($page == "home") {
 					include("home.php");
 				}
-				if ($page == "list") {
-					include("list.php");
+				if ($page == "search") {
+					include("search.php");
+				}
+				if ($page == "my-library") {
+					include("my-library.php");
 				}
 			?>
-
-			
 
 		</main>
 
