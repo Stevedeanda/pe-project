@@ -3,22 +3,20 @@
 
 @import "setup.css";
 
-/*body * {
+body * {
 	border: 5px solid;
 	padding:  5px;
 }
 
 body > * {
 	border-color: dodgerblue;
-}*/
+}
 
-.inner-column {
+.inner-colum {
 	width: 100%;
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 20px;
-	
 }
 
 body {
@@ -26,38 +24,16 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	background-color: wheat;
-	padding: 20px;
-	/*gap: 30px;*/
 }
 
 .page-content {
 	flex-grow: 1;
-	gap: 20px;
-	background-color: lavenderblush;
 }
 
-.site-menu {
-	display: flex;
-	gap: 30px;
-}
 
-.hello {
-	font-size: 40px;
-}
 
-picture img {
-	width: 100px;
-}
 
-.loud-voice {
-	font-size: 30px;
-}
 
-.list {
-	display: grid;
-	gap: 20px;
-}
 
 
 
