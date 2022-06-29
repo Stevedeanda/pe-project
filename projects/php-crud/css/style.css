@@ -25,12 +25,15 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: wheat;
+	padding: 20px;
 	/*gap: 30px;*/
 }
 
 .page-content {
 	flex-grow: 1;
 	gap: 20px;
+	background-color: lavenderblush;
 }
 
 .site-menu {

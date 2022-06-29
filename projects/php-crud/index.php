@@ -40,17 +40,20 @@ if (isset($_GET["page"])) {
 				if ($page == "search") {
 					include("search.php");
 				}
-				if ($page == "my-library") {
-					include("my-library.php");
+				if ($page == "library") {
+					include("library.php");
 				}
-				if ($page == "detail") {
-					include("detail.php");
+				if ($page == "playlists") {
+					include("playlists.php");
 				}
 				if ($page == "genres") {
 					include("genres.php");
 				}
 				if ($page == "decades") {
 					include("decades.php");
+				}
+				if ($page == "your-playlists") {
+					include("your-playlists.php");
 				}
 			?>
 

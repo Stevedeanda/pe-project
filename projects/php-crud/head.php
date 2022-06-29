@@ -12,6 +12,6 @@
 
 		<link rel="stylesheet" href="css/style.css">
 
-		<title>[[insert title]]</title>
+		<title>PHP CRUD</title>
 
 	</head>

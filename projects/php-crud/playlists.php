@@ -14,14 +14,14 @@ print_r($_GET);
 foreach ($playlistData as $playlist) {
 	//if its the right playlist get it
 	if ($playlist["id"] == $_GET["id"]){
-
+		//This new variable is getting the data from the id it matched
 		$currentPlaylist = $playlist;
 		
 	}
 }
 
 ?>
-<section class="listen-now">
+<section class="playlists">
 	<div class="inner-column">
 
 
