@@ -350,9 +350,9 @@
 
 	$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
 	// you create a variable to be able to echo the results
-	$random = array_rand($input, 2); 
+	$random = array_rand($input, 3); 
 	echo $input[$random[0]] . "\n";// it will show a random name from the list everytime you refresh the page.
-	echo $input[$random[1]] . "\n";// it will show a random name from the list everytime you refresh the page.
+	// echo $input[$random[1]] . "\n";// it will show a random name from the list everytime you refresh the page.
 	?>
 
 </section>

@@ -1,0 +1,73 @@
+
+@import "meyer-reset.css";
+
+@import "setup.css";
+
+/*body * {
+	border: 5px solid;
+	padding:  5px;
+}
+
+body > * {
+	border-color: dodgerblue;
+}*/
+
+.inner-column {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+body {
+	border: 5px solid red;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/*gap: 30px;*/
+}
+
+.page-content {
+	flex-grow: 1;
+	gap: 20px;
+}
+
+.site-menu {
+	display: flex;
+	gap: 30px;
+}
+
+.hello {
+	font-size: 40px;
+}
+
+picture img {
+	width: 100px;
+}
+
+.loud-voice {
+	font-size: 30px;
+}
+
+.list {
+	display: grid;
+	gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

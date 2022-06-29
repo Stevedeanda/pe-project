@@ -3,6 +3,15 @@
 
 <?php
 
+// show errors
+
+function showErrors() {
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
+}
+
+showErrors();
+
 $page = null;
 
 if (isset($_GET["page"])) {
@@ -33,6 +42,15 @@ if (isset($_GET["page"])) {
 				}
 				if ($page == "my-library") {
 					include("my-library.php");
+				}
+				if ($page == "detail") {
+					include("detail.php");
+				}
+				if ($page == "genres") {
+					include("genres.php");
+				}
+				if ($page == "decades") {
+					include("decades.php");
 				}
 			?>
 

@@ -42,6 +42,18 @@ body {
 	font-size: 40px;
 }
 
+picture img {
+	width: 100px;
+}
+
+.loud-voice {
+	font-size: 30px;
+}
+
+.list {
+	display: grid;
+	gap: 20px;
+}
 
 
 

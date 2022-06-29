@@ -15,11 +15,10 @@
 
 		<nav class="site-menu">
 			<a href="?page=home">Home</a>
-			<a href="?page=top-charts">Top Charts</a>
-			<a href="?page=decades">Decades</a>
-			<a href="?page=genres">Genres</a>
-			<a href="?page=my-playlists">My Playlists</a>
+			<a href="?page=search">Search</a>
+			<a href="?page=my-library">My Library</a>
 		</nav>
 
 	</div>
 </header>
+
