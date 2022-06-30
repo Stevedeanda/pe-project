@@ -35,19 +35,19 @@ if (isset($_GET["page"])) {
 
 			<?php
 				if ($page == "home") {
-					include("home.php");
+					include("modules/home/home.php");
 				}
 				if ($page == "search") {
-					include("search.php");
+					include("modules/search/search.php");
 				}
 				if ($page == "library") {
-					include("library.php");
+					include("modules/library/library.php");
 				}
 				if ($page == "playlists") {
-					include("playlists.php");
+					include("modules/playlists/playlists.php");
 				}
 				if ($page == "genres") {
-					include("genres.php");
+					include("modules/genres/genres.php");
 				}
 				if ($page == "decades") {
 					include("decades.php");

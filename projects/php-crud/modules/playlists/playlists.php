@@ -1,5 +1,5 @@
-<?php include("playlist-data.php"); ?>
-<?php include("song-data.php"); ?>
+<?php include("data/playlist-data.php"); ?>
+<?php include("data/music-data.php"); ?>
 
 <?php
 
