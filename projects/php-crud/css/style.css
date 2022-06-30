@@ -16,7 +16,7 @@ html {
 	--black: #111111;
 	--white: #efefef;
 	--light-yellow: #F1FFC2;
-	--light-pink: lavenderblush;
+	--light-pink: lavender/*blush*/;
 
 	--paper: var(--white);
 	--ink: var(--black);
