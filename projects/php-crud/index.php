@@ -43,20 +43,20 @@ if (isset($_GET["page"])) {
 				if ($page == "library") {
 					include("modules/library/library.php");
 				}
+				if ($page == "create") {
+					include("modules/form/create.php");
+				}
 				if ($page == "playlists") {
-					include("modules/playlists/playlists.php");
+					include("modules/search/detail/playlists/playlists.php");
 				}
 				if ($page == "genres") {
-					include("modules/genres/genres.php");
+					include("modules/search/detail/genres/genres.php");
 				}
 				if ($page == "decades") {
-					include("decades.php");
+					include("modules/search/detail/decades/decades.php");
 				}
-				if ($page == "your-playlists") {
-					include("your-playlists.php");
-				}
-				if ($page == "create") {
-					include("create.php");
+				if ($page == "your-library") {
+					include("modules/library/detail/your-library/your-library.php");
 				}
 			?>
 

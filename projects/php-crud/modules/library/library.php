@@ -9,7 +9,7 @@
 			<?php foreach ($libraryData as $library) { ?>
 				
 				<li>
-					<a href="?page=your-playlists&id=<?=$library['id']?>">
+					<a href="?page=your-library&id=<?=$library['id']?>">
 					<h2><?=$library["title"]?></h2>
 					</a>
 				</li>
