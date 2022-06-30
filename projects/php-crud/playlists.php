@@ -1,4 +1,5 @@
 <?php include("playlist-data.php"); ?>
+<?php include("song-data.php"); ?>
 
 <?php
 
@@ -20,6 +21,8 @@ foreach ($playlistData as $playlist) {
 	}
 }
 
+
+
 ?>
 <section class="playlists">
 	<div class="inner-column">
@@ -28,7 +31,7 @@ foreach ($playlistData as $playlist) {
 
 		<h1 class="loud-voice"><?=$currentPlaylist["title"]?></h1>
 
-		<p>Playlist items go here</p>
+		<p><?=$currentPlaylist["picture"]?></p>
 
 		
 

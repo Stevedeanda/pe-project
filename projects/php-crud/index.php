@@ -55,6 +55,9 @@ if (isset($_GET["page"])) {
 				if ($page == "your-playlists") {
 					include("your-playlists.php");
 				}
+				if ($page == "create") {
+					include("create.php");
+				}
 			?>
 
 		</main>

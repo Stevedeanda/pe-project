@@ -129,8 +129,6 @@ if (isset($_GET["page"])) {
 						//Initialize any variable we know we will need to use
 						$currentPlaylist = null;
 
-
-
 						print_r($_GET);
 						//See if their is any user input
 
@@ -139,24 +137,21 @@ if (isset($_GET["page"])) {
 							//if its the right playlist get it
 							if ($playlist["id"] == $_GET["id"]){
 								//This new variable is getting the data from the id it matched
-								$currentPlaylist = $playlist;
-								
+								$currentPlaylist = $playlist;								
 							}
 						}
 
-						?>
-						<section class="playlists">
-							<div class="inner-column">
+					?>
+					<section class="playlists">
+						<div class="inner-column">
 
-								<h1 class="loud-voice"><?=$currentPlaylist["title"]?></h1>
+							<h1 class="loud-voice"><?=$currentPlaylist["title"]?></h1>
 
-								<p>Playlist items go here</p>
+							<p>Playlist items go here</p>
 
-							</div>
-						</section>
-					<?php } ?>
-				
-
+						</div>
+					</section>
+				<?php } ?>
 		</main>
 
 	</body>

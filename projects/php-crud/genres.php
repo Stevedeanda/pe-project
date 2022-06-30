@@ -1,4 +1,5 @@
 <?php include("playlist-data.php"); ?>
+<?php include("song-data.php"); ?>
 
 <?php
 	//Initialize any variable I know I will need to use
@@ -15,6 +16,7 @@
 			$currentGenre = $genres;
 		}
 	}
+
 
 ?>
 

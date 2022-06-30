@@ -7,19 +7,19 @@ $playlistData = [
 		"id" => 1,
 		"title" => "Workout",
 		"songs" => [9,2,16],
-		"picture" => "", 
+		"picture" => "coming soon", 
 	],
 	[
 		"id" => 2,
 		"title" => "Summer Vibes",
 		"songs" => [3, 12, 10],
-		"picture" => "",
+		"picture" => "coming soon",
 	],
 	[
 		"id" => 3,
 		"title" => "Classics",
 		"songs" => [3, 12, 10],
-		"picture" => "",
+		"picture" => "coming soon",
 	],
 ];
 
@@ -30,7 +30,7 @@ $playlistData = [
 $genresData = [
 	[
 		"id" => 1,
-		"title" => "Rock N Roll",
+		"title" => "Rock",
 		"songs" => [1,6,11,16,21],
 		"picture" => "", 
 	],
