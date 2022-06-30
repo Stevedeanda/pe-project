@@ -17,6 +17,7 @@ html {
 	--white: #efefef;
 	--light-yellow: #F1FFC2;
 	--light-pink: lavenderblush;
+	--green: green;
 
 	--paper: var(--white);
 	--ink: var(--black);
