@@ -4,7 +4,7 @@
 
 			<h1 class="loud-voice">Welcome</h1>
 
-			<p>What are you mood to listen to? Feel free to add any songs you like and watch you library grow. </p>
+			<p>What are you mood to listen to? Feel free to add any songs you like and watch your library grow. </p>
 
 		</div>
 	</section>

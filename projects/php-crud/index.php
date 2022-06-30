@@ -62,13 +62,13 @@ if (isset($_GET["page"])) {
 
 		</main>
 
-		<footer class="site-footer">			
+		<!-- <footer class="site-footer">			
 			<div class="inner-column">
 
 				Footer
 
 			</div>
-		</footer>
+		</footer> -->
 
 	</body>
 

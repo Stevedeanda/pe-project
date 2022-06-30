@@ -14,17 +14,17 @@
 		<form method="POST">
 			<field>
 				<label>Song</label>
-				<input type="text" name="Song">
+				<input type="text" name="Song" required="required">
 			</field>
 
 			<field>
 				<label>Album</label>
-				<input type="text" name="Album">
+				<input type="text" name="Album" required="required">
 			</field>
 
 			<field>
 				<label>Artist</label>
-				<input type="text" name="Artist">
+				<input type="text" name="Artist" required="required">
 			</field>
 
 			<field>
@@ -57,12 +57,12 @@
 
 			<field>
 				<label>Year of Song/Album</label>
-				<input type="number" min="1970" max="2022" name="Year">
+				<input type="number" min="1970" max="2022" name="Year" required="required">
 			</field>
 
 			<field>
 				<label>Album Cover</label>
-				<input type="" name="">
+				<input type="text" name="picture">
 			</field>
 
 			<button type="submit" name="add">Add Song</button>

@@ -12,6 +12,18 @@ body > * {
 	border-color: dodgerblue;
 }*/
 
+html {
+	--black: #111111;
+	--white: #efefef;
+	--light-yellow: #F1FFC2;
+	--light-pink: lavenderblush;
+
+	--paper: var(--white);
+	--ink: var(--black);
+	--top-menu
+
+}
+
 .inner-column {
 	width: 100%;
 	max-width: 700px;
@@ -22,19 +34,19 @@ body > * {
 }
 
 body {
-	border: 5px solid red;
+	/*border: 5px solid red;*/
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	background-color: wheat;
-	padding: 20px;
+	background-color: var(--light-yellow);
+	padding: 20px 0 0 0;
 	/*gap: 30px;*/
 }
 
 .page-content {
 	flex-grow: 1;
 	gap: 20px;
-	background-color: lavenderblush;
+	background-color: var(--light-pink);
 }
 
 .site-menu {
@@ -79,9 +91,17 @@ field + field, field + button {
 	margin-top: 20px;
 }
 
+a {
+	color: var(--ink);
+}
 
+a:hover{
+	text-decoration: underline;
+}
 
-
+.loud-voice {
+	margin-bottom: 20px;
+}
 
 
 
