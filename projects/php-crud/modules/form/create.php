@@ -6,10 +6,10 @@
 
 ?> 
 
-<section class="playlists">
+<section class="form">
 	<div class="inner-column">
 
-		<h1 class="loud-voice">Create</h1>
+		<h1 class="loud-voice">Add a Song</h1>
 
 		<form method="POST">
 			<field>
@@ -28,29 +28,29 @@
 			</field>
 
 			<field>
-				<label>Genre</label>
-				<div class="checkbox">
-					<input type="checkbox" id="Rock" name="Genre" value="Rock">
+				<p>Please select the Genre for this song</p>
+				<div class="radio">
+					<input type="radio" id="Rock" name="Genre" value="Rock">
 					<label for="Rock">Rock</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox" id="Hip-Hop" name="Genre" value="Hip-Hop">
+				<div class="radio">
+					<input type="radio" id="Hip-Hop" name="Genre" value="Hip-Hop">
 					<label for="Hip-Hop">Hip-Hop</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox" id="EDM" name="Genre" value="EDM">
+				<div class="radio">
+					<input type="radio" id="EDM" name="Genre" value="EDM">
 					<label for="EDM">EDM</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox" id="Latin" name="Genre" value="Latin">
+				<div class="radio">
+					<input type="radio" id="Latin" name="Genre" value="Latin">
 					<label for="Latin">Latin</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox" id="Pop" name="Genre" value="Pop">
+				<div class="radio">
+					<input type="radio" id="Pop" name="Genre" value="Pop">
 					<label for="Pop">Pop</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox" id="Other" name="Genre" value="Other">
+				<div class="radio">
+					<input type="radio" id="Other" name="Genre" value="Other">
 					<label for="Other">Other</label>
 				</div>
 			</field>
@@ -62,7 +62,7 @@
 
 			<field>
 				<label>Album Cover</label>
-				<input type="text" name="picture">
+				<input type="file" accept="image/*" name="picture">
 			</field>
 
 			<button type="submit" name="add">Add Song</button>

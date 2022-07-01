@@ -1,0 +1,14 @@
+
+.site-header {
+	padding: 0 20px;
+	/*border: blue solid 2px;*/
+}
+
+.site-header h1 {
+	color: var(--white);
+}
+
+.site-menu {
+	display: flex;
+	gap: 30px;
+}

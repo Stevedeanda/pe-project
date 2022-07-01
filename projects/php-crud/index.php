@@ -28,7 +28,7 @@ if (isset($_GET["page"])) {
 
 	<body>
 
-		<?php include("header.php"); ?>
+		<?php include("modules/header/header.php"); ?>
 
 		<main class="page-content">
 

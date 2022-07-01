@@ -1,0 +1,20 @@
+
+home {
+	display: block;
+	text-align: center;
+}
+
+.welcome {
+	/*border: green solid 2px;*/
+}
+
+.welcome h1 {
+	color: var(--white);
+}
+
+.home-list li {
+	margin-bottom: 30px;
+}
+.home-list h1 {
+	color: var(--white);
+}

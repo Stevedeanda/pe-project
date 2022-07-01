@@ -10,7 +10,7 @@
 	<meta property="og:image" content="images/default-meta.png">
 	<meta property="og:title" content="[[add meta title description">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/site.css">
 
 	<title>PHP CRUD</title>
 

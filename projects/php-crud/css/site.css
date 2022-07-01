@@ -3,6 +3,9 @@
 
 @import "setup.css";
 
+@import 'modules.css';
+
+
 /*body * {
 	border: 5px solid;
 	padding:  5px;
@@ -15,13 +18,12 @@ body > * {
 html {
 	--black: #111111;
 	--white: #efefef;
-	--light-yellow: #F1FFC2;
-	--light-pink: lavenderblush;
-	--green: green;
+	--gray: #A2A2A1;
+	--darkgray: #3B3B3A;
 
-	--paper: var(--white);
-	--ink: var(--black);
-	--top-menu
+	--paper: var(--black);
+	--ink: var(--gray);
+	--hover: var(--white);
 
 }
 
@@ -30,7 +32,7 @@ html {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 20px;
+	padding: 20px 0;
 	
 }
 
@@ -39,58 +41,36 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	background-color: var(--light-yellow);
-	padding: 20px 0 0 0;
+	background-color: var(--paper);
+	color: var(--ink);
+	padding-bottom: 60px;
 	/*gap: 30px;*/
 }
 
 .page-content {
 	flex-grow: 1;
 	gap: 20px;
-	background-color: var(--light-pink);
+	background-color: var(--darkgray);
+	padding: 0 20px;
+	/*border: red solid 2px;*/
 }
 
-.site-menu {
-	display: flex;
-	gap: 30px;
-}
 
-.hello {
-	font-size: 40px;
-}
+/*typography*/
 
-picture img {
-	width: 100px;
+.louder-voice {
+	font-size: 50px;
 }
 
 .loud-voice {
 	font-size: 30px;
 }
 
-.list {
-	display: grid;
-	gap: 20px;
+.attention-voice {
+	font-size: 22px;
 }
 
-form {
-	padding: 30px 0;
-}
 
-field {
-	display: block;
-}
-
-.checkbox {
-	display: flex;
-}
-
-field :is(label, input) {
-	display: block;
-}
-
-field + field, field + button {
-	margin-top: 20px;
-}
 
 a {
 	color: var(--ink);
@@ -98,14 +78,12 @@ a {
 
 a:hover{
 	text-decoration: underline;
+	color: var(--hover);
 }
 
 .loud-voice {
 	margin-bottom: 20px;
 }
-
-
-
 
 
 

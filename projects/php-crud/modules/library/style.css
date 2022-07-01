@@ -1,0 +1,30 @@
+
+.library {
+	text-align: center;
+}
+
+.library h1 {
+	color: var(--white);
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.list li a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: var(--ink) 2px solid;
+	width: 200px;
+	height: 200px;
+}
+
+.list li a:hover{
+	border: var(--hover) 2px solid;
+	background-color: var(--black);
+}

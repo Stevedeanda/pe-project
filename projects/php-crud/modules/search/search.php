@@ -2,7 +2,7 @@
 
 
 
-<section class="playlists">
+<section class="search">
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Playlists for You</h1>
@@ -22,7 +22,7 @@
 	</div>
 </section>
 
-<section class="genres">	
+<section class="search">	
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Genres</h1>
@@ -42,7 +42,7 @@
 	</div>
 </section>
 
-<section class="decades">	
+<section class="search">	
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Decades</h1>
