@@ -13,8 +13,20 @@
 	margin-bottom: 20px;
 }
 
-.playlists {
+.playlist {
 	background-image: url(../../images/long-stage.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+.genre {
+	background-image: url(../../images/mixer.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.decade {
+	background-image: url(../../images/discoball.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -53,21 +65,22 @@
 	scroll-snap-align: center; /* start / center / end - and more */
 }
 
-.list li a{
+.inner-column .list li a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: var(--black) 2px solid;
+	border: var(--white) 2px solid;
 	color: var(--white);
 	width: 200px;
 	height: 200px;
 }
 
-/*.list li a:hover{
+.inner-column .list li a:hover{
 	border: var(--hover) 2px solid;
-	background-color: hsla(0, 0%, 0%, .5);
-}*/
+	background-color: hsla(0, 0%, 0%, .6);
+	text-decoration: none;
+}
 
 /* Detail pages */
 

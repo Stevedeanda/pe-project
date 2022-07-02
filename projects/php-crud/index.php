@@ -47,13 +47,13 @@ if (isset($_GET["page"])) {
 					include("modules/form/create.php");
 				}
 				if ($page == "playlists") {
-					include("modules/search/detail/playlists/playlists.php");
+					include("modules/search/playlists/playlists.php");
 				}
 				if ($page == "genres") {
-					include("modules/search/detail/genres/genres.php");
+					include("modules/search/genres/genres.php");
 				}
 				if ($page == "decades") {
-					include("modules/search/detail/decades/decades.php");
+					include("modules/search/decades/decades.php");
 				}
 				if ($page == "your-library") {
 					include("modules/library/detail/your-library/your-library.php");

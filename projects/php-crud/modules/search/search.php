@@ -2,7 +2,7 @@
 
 
 
-<section class="playlists">
+<section class="playlist">
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Playlists for You</h1>
@@ -22,7 +22,7 @@
 	</div>
 </section>
 
-<section class="genres">	
+<section class="genre">	
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Genres</h1>
@@ -32,7 +32,7 @@
 
 				<li class="card">
 					<a href="?page=genres&id=<?=$genres['id']?>">
-						<h2><?=$genres["title"]?></h2>
+						<h2 class="loud-voice"><?=$genres["title"]?></h2>
 					</a>
 				</li>
 
@@ -42,7 +42,7 @@
 	</div>
 </section>
 
-<section class="decades">	
+<section class="decade">	
 	<div class="inner-column">
 
 		<h1 class="loud-voice">Decades</h1>
@@ -52,7 +52,7 @@
 
 				<li class="card">
 					<a href="?page=decades&id=<?=$decades['id']?>">
-						<h2><?=$decades["title"]?></h2>
+						<h2 class="loud-voice"><?=$decades["title"]?></h2>
 					</a>
 				</li>
 
