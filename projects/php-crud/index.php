@@ -26,7 +26,7 @@ if (isset($_GET["page"])) {
 
 	<?php include("head.php"); ?>
 
-	<body>
+	<body class="<?=$page?>">
 
 		<?php include("modules/header/header.php"); ?>
 

@@ -1,17 +1,56 @@
 
 .search {
+	display: block;
+	/*overflow-x: hidden;*/
+}
+
+.search .page-content {
 	text-align: center;
 }
 
 .search h1 {
 	color: var(--white);
+	margin-bottom: 20px;
 }
 
-.list {
+.playlists {
+	background-image: url(../../images/long-stage.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+.inner-column .list {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+	/*align-items: center;*/
 	gap: 10px;
+	padding: 0 20px;
+
+	/* horizontal scroll */
+	gap: 1rem;
+	overflow-x: auto;
+
+	/* NEW: SCROLL SNAP MAGIC */
+	scroll-snap-type: x mandatory;
+
+	margin-block-start: 1em;
+   margin-block-end: 1em;
+
+}
+
+.inner-column .list::-webkit-scrollbar {
+  display: none;
+}
+
+.inner-column .card {
+	display: block;
+	background-color: hsla(0, 0%, 0%, .5);
+
+	/* horizontal scroll */
+	max-width: 100%;
+	flex-shrink: 0; /* secret magic */
+
+	scroll-snap-align: center; /* start / center / end - and more */
 }
 
 .list li a{
@@ -19,15 +58,16 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: var(--ink) 2px solid;
+	border: var(--black) 2px solid;
+	color: var(--white);
 	width: 200px;
 	height: 200px;
 }
 
-.list li a:hover{
+/*.list li a:hover{
 	border: var(--hover) 2px solid;
-	background-color: var(--black);
-}
+	background-color: hsla(0, 0%, 0%, .5);
+}*/
 
 /* Detail pages */
 

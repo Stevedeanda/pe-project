@@ -1,14 +1,32 @@
 
-home {
+.home {
 	display: block;
+}
+
+.home .page-content {
+	background-image: url(../../images/concert.jpg);
+	background-position: center;
+	background-size: cover;
 	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .welcome {
+	background-color: hsla(0, 0%, 0%, .5);
+	padding: 0 20px;
+}
+
+.welcome .inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	/*border: green solid 2px;*/
 }
 
-.welcome h1 {
+.welcome :is(h1,p,a) {
 	color: var(--white);
 }
 

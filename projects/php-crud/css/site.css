@@ -2,7 +2,7 @@
 @import "meyer-reset.css";
 
 @import "setup.css";
-
+@import "typography.css";
 @import 'modules.css';
 
 
@@ -38,12 +38,11 @@ html {
 
 body {
 	/*border: 5px solid red;*/
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	display: flex;
 	flex-direction: column;
 	background-color: var(--paper);
 	color: var(--ink);
-	padding-bottom: 60px;
 	/*gap: 30px;*/
 }
 
@@ -51,26 +50,9 @@ body {
 	flex-grow: 1;
 	gap: 20px;
 	background-color: var(--darkgray);
-	padding: 0 20px;
+
 	/*border: red solid 2px;*/
 }
-
-
-/*typography*/
-
-.louder-voice {
-	font-size: 50px;
-}
-
-.loud-voice {
-	font-size: 30px;
-}
-
-.attention-voice {
-	font-size: 22px;
-}
-
-
 
 a {
 	color: var(--ink);
@@ -81,9 +63,7 @@ a:hover{
 	color: var(--hover);
 }
 
-.loud-voice {
-	margin-bottom: 20px;
-}
+
 
 
 

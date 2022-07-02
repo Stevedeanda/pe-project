@@ -1,4 +1,4 @@
-<home>
+
 	<section class="welcome">
 		<div class="inner-column">
 
@@ -6,10 +6,12 @@
 
 			<p>What are you in the mood for? Feel free to add any songs you like and watch your library grow.</p>
 
+			<a href="?page=search">Discover</a>
+
 		</div>
 	</section>
 
-	<section class="about">	
+	<!-- <section class="about">	
 		<div class="inner-column">
 
 			<ul class="home-list">
@@ -45,5 +47,4 @@
 			</ul>
 
 		</div>
-	</section>
-</home>
+	</section> -->
