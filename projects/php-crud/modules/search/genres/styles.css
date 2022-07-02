@@ -1,0 +1,10 @@
+
+.genres {
+
+}
+
+.genres .page-content{
+	background-image: url(../../../images/mixer.jpg);
+	background-position: center;
+	background-size: cover;
+}

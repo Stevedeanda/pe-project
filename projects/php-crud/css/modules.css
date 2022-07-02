@@ -4,3 +4,6 @@
 @import '../modules/search/style.css';
 @import '../modules/library/style.css';
 @import '../modules/form/style.css';
+
+@import '../modules/search/playlists/style.css';
+@import '../modules/search/genres/style.css';

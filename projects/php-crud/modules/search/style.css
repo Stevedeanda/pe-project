@@ -85,19 +85,20 @@
 /* Detail pages */
 
 .detail {
-	background-color: black;
 	padding: 0 20px;
 }
 
 .detail h1 {
 	color: var(--white);
+	margin-bottom: 20px;
 }
 
 .detail ul li {
 	display: block;
-	border: var(--ink) 2px solid;
+	border: var(--white) 2px solid;
 	margin-bottom: 20px;
 	padding: 10px;
+	background-color: hsla(0, 0%, 0%, .6);
 }
 
 .detail ul li a{
@@ -106,7 +107,7 @@
 	gap: 5px;
 }
 
-.detail ul li a: hover{
+.inner-column .detail ul li a:hover{
 	color: var(--hover);
 	text-decoration: none;
 }

@@ -1,0 +1,10 @@
+.playlists {
+
+}
+
+.playlists .page-content{
+	background-image: url(../../../images/long-stage.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
