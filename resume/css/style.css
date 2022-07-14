@@ -1,0 +1,87 @@
+
+
+
+body {
+	background-color: var(--creamy);
+	color: var(--darkblue);
+	margin-top: 40px;
+}
+
+
+introduction {
+	display: block;
+	background-color: var(--darkblue);
+	color: var(--creamy);
+	/*border: red solid 1px;*/
+}
+
+
+.page-content inner-column {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--darkblue);
+}
+
+h2 + p, h2 + ul, h1 +h2 {
+	margin-top: 15px;
+}
+
+@media (min-width: 545px) {
+	.page-content inner-column {
+		flex-direction: row-reverse;
+	}
+}
+
+
+
+work-experience {
+	display: block;
+	/*border: red solid 1px;*/
+}
+
+work-experience .list .task {
+	list-style: inside;
+	list-style-type: square;
+}
+
+work-experience .job-info .list{
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+
+
+personal-info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	/*border: red solid 1px;*/
+}
+
+contact-info {
+	display: block;
+}
+
+contact-info ul {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* ICONS */
+
+[class^="icon-"], [class*=" icon-"] {
+    height: 2rem;
+    width: 2rem; 
+    fill: currentColor; 
+}
+
+technical-skills {
+	display: block;
+}
+
+interest-info {
+	display: block;
+}
