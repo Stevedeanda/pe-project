@@ -56,11 +56,11 @@
 			            	$tasks = $job["tasks"];
 			            	?>
 
-			                <li class="list">
+			                <li class="job-list">
 			                	<h3 class="title talk-voice"><?=$title?></h3>
 			                	<h4 class="company meeting-voice"><?=$company?></h4>
 			                	<p class="dates whisper-voice"><?=$dates?> | <?=$location?></p>
-			                	<ul>
+			                	<ul class="experience">
 			                		<?php 
 									foreach($tasks as $task) { ?>
 									<li class="task calm-voice"><?=$task?></li>
