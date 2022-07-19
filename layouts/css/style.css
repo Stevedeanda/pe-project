@@ -13,7 +13,7 @@ body {
 
 text {
 	display: block;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 }
 
 section page-title {
@@ -43,7 +43,7 @@ section page-text ul li {
 
 pictures {
 	display: block;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 }
 
 pictures page-images {
