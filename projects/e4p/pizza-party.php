@@ -34,6 +34,10 @@ if ( isset($_POST["submitted"])) {
 
 ?>
 
+<header>
+	<a href="index.php">Home</a>
+</header>
+
 <form method="POST">
 
 	<h1 class="medium-voice">Pizza Party</h1>
