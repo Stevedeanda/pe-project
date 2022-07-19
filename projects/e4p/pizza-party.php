@@ -63,6 +63,8 @@ if ( isset($_POST["submitted"])) {
 	<p>Each person gets <?=$total?> slices of pizza.</p>
 	<p>There are <?=$leftOver?> leftover pizza slices</p>
 
+</form>
+
 
 
 
