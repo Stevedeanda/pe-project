@@ -1,0 +1,50 @@
+/* Should we pull in @fonts here? */
+
+.loud-voice	{
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: clamp(36px, 5vw, 60px);*/
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+
+.attention-voice	{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.strong-voice	{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size:  2rem;
+}
+
+.meeting-voice {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:  1rem;
+}
+
+.talk-voice {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size:  .8rem;
+}
+
+.calm-voice, p, li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+	line-height: 1.4;
+	font-weight: 500;
+}
+
+.whisper-voice {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+
