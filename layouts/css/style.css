@@ -41,8 +41,8 @@ section ul li {
 }
 
 image-grid {
-	/*display: flex;
-	flex-direction: column;*/
+	display: flex;
+	flex-direction: column;
 	gap: 10px;
 	display: block;
 	display: grid;
