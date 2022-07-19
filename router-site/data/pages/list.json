@@ -1,0 +1,16 @@
+
+{
+	"id": "list",
+
+	"title": "Some Stuff",
+	"intro": "Check it out!",
+
+	"sections": [
+		{
+			"heading": "Grid of thing",
+		},
+		{
+			"heading": "More things"
+		}
+	]
+}
