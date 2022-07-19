@@ -59,7 +59,7 @@ image-grid {
 }
 
 @media(min-width: 1000px) {
-	.page-content inner-column{
+	module-one {
 		display: flex;
 		flex-direction: row;
 		gap: 10px;

@@ -1,7 +1,4 @@
 
-<!DOCTYPE html>
-
-<html lang="en">
 
 	<head>
 
@@ -28,50 +25,52 @@
 			<section>
 				<inner-column>
 
-					<text>
-						<header>
-							<h2 class="meeting-voice">Heading level 2 small</h2>
-							<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
-						</header>
-						
-						<ul>
-							<?php
-							// Pull in JSON data into our PHP build to create articles.
+					<module-one>
+						<text>
+							<header>
+								<h2 class="meeting-voice">Heading level 2 small</h2>
+								<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
+							</header>
+							
+							<ul>
+								<?php
+								// Pull in JSON data into our PHP build to create articles.
 
-							$json = file_get_contents("text-data.json");
-							$textData = json_decode($json, true);
-							$texts = $textData["text"];
+								$json = file_get_contents("text-data.json");
+								$textData = json_decode($json, true);
+								$texts = $textData["text"];
 
-				            foreach($texts as $text) { 
+					            foreach($texts as $text) { 
 
-				            	$heading = $text["heading"]; 
-				            	$paragraph = $text["paragraph"]; ?>
-				            	
-				                <li class="job-list">
-				                	<h3 class="talk-voice"><?=$heading?></h3>
-				                	<p><?=$paragraph?></p>
-				                </li>
+					            	$heading = $text["heading"]; 
+					            	$paragraph = $text["paragraph"]; ?>
+					            	
+					                <li class="job-list">
+					                	<h3 class="talk-voice"><?=$heading?></h3>
+					                	<p><?=$paragraph?></p>
+					                </li>
 
-				            <?php } ?>
-						</ul>						
-					</text>
+					            <?php } ?>
+							</ul>						
+						</text>
 
-					<image-grid>
+						<image-grid>
 
-						<picture>
-							<img src="images/black-screen.png">
-						</picture>
-						<picture>
-							<img src="images/black-screen.png">
-						</picture>
-						<picture>
-							<img src="images/black-screen.png">
-						</picture>
-						<picture>
-							<img src="images/black-screen.png">
-						</picture>
+							<picture>
+								<img src="images/black-screen.png">
+							</picture>
+							<picture>
+								<img src="images/black-screen.png">
+							</picture>
+							<picture>
+								<img src="images/black-screen.png">
+							</picture>
+							<picture>
+								<img src="images/black-screen.png">
+							</picture>
 
-					</image-grid>
+						</image-grid>
+					</module-one>
 
 				</inner-column>
 			</section>
