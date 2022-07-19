@@ -9,5 +9,6 @@ $formName = [
 					"Counting Characters",
 					"Login Form",
 					"Pizza Party",
+					"Paint Calculator",
 					
 				];
