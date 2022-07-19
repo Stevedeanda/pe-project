@@ -33,46 +33,43 @@
 
 		<main class="page-content">
 
-			<section class="text">
+			<section>
 				<inner-column>
 
-					<page-title>
-						<h2 class="meeting-voice">Heading level 2 small</h2>
-						<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
-					</page-title>
+					<text>
+						<page-title>
+							<h2 class="meeting-voice">Heading level 2 small</h2>
+							<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
+						</page-title>
 
-					<page-text>
-						<ul>
+						<page-text>
+							<ul>
 
-							<?php
-							// Pull in JSON data into our PHP build to create articles.
+								<?php
+								// Pull in JSON data into our PHP build to create articles.
 
-							$json = file_get_contents("text-data.json");
-							$textData = json_decode($json, true);
-							$texts = $textData["text"];
+								$json = file_get_contents("text-data.json");
+								$textData = json_decode($json, true);
+								$texts = $textData["text"];
 
-				            foreach($texts as $text) { 
+					            foreach($texts as $text) { 
 
-				            	$heading = $text["heading"]; 
-				            	$paragraph = $text["paragraph"]; ?>
-				            	
-				                <li class="job-list">
-				                	<h3 class="talk-voice"><?=$heading?></h3>
-				                	<p><?=$paragraph?></p>
-				                </li>
+					            	$heading = $text["heading"]; 
+					            	$paragraph = $text["paragraph"]; ?>
+					            	
+					                <li class="job-list">
+					                	<h3 class="talk-voice"><?=$heading?></h3>
+					                	<p><?=$paragraph?></p>
+					                </li>
 
-				            <?php } ?>
+					            <?php } ?>
 
-						</ul>
-					</page-text>
+							</ul>
+						</page-text>
+					</text>
 
-				</inner-column>
-			</section>
-
-			<section class="pictures">	
-				<inner-column>
-
-					<page-images>
+					<pictures>
+						<page-images>
 
 						<picture>
 							<img src="images/black-screen.png">
@@ -88,6 +85,7 @@
 						</picture>
 
 					</page-images>
+					</pictures>
 
 				</inner-column>
 			</section>
