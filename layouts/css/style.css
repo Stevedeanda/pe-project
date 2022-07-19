@@ -13,7 +13,7 @@ body {
 
 text {
 	display: block;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 }
 
 section header {
@@ -27,12 +27,12 @@ section header p {
   	max-width: 45ch;
 }
 
-section page-text ul {
+section ul {
 	display: block;
 	padding-bottom: 30px;
 }
 
-section page-text ul li {
+section ul li {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -41,17 +41,17 @@ section page-text ul li {
 }
 
 image-grid {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 10px;
 	display: block;
 	display: grid;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 }
 
 
 @media(min-width: 600px) {
-	section page-text ul, image-grid {
+	section ul, image-grid {
 		display: grid;
 	  	grid-template-columns: auto auto;
 	  	gap: 10px;
@@ -69,4 +69,18 @@ image-grid {
 	image-grid img {
 		height: 100%;
 	}
+
+	image-grid {
+		padding: 10px;
+	}
 }
+
+
+
+
+
+
+
+
+
+

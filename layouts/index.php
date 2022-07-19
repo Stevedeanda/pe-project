@@ -33,31 +33,27 @@
 							<h2 class="meeting-voice">Heading level 2 small</h2>
 							<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
 						</header>
+						
+						<ul>
+							<?php
+							// Pull in JSON data into our PHP build to create articles.
 
-						<page-text>
-							<ul>
+							$json = file_get_contents("text-data.json");
+							$textData = json_decode($json, true);
+							$texts = $textData["text"];
 
-								<?php
-								// Pull in JSON data into our PHP build to create articles.
+				            foreach($texts as $text) { 
 
-								$json = file_get_contents("text-data.json");
-								$textData = json_decode($json, true);
-								$texts = $textData["text"];
+				            	$heading = $text["heading"]; 
+				            	$paragraph = $text["paragraph"]; ?>
+				            	
+				                <li class="job-list">
+				                	<h3 class="talk-voice"><?=$heading?></h3>
+				                	<p><?=$paragraph?></p>
+				                </li>
 
-					            foreach($texts as $text) { 
-
-					            	$heading = $text["heading"]; 
-					            	$paragraph = $text["paragraph"]; ?>
-					            	
-					                <li class="job-list">
-					                	<h3 class="talk-voice"><?=$heading?></h3>
-					                	<p><?=$paragraph?></p>
-					                </li>
-
-					            <?php } ?>
-
-							</ul>
-						</page-text>
+				            <?php } ?>
+						</ul>						
 					</text>
 
 					<image-grid>
