@@ -23,24 +23,16 @@
 
 		<!-- Practice Layout starts -->
 
-		<!-- <header class="site-header">			
-			<inner-column>
-
-				<p>Layouts</p>
-
-			</inner-column>
-		</header> -->
-
 		<main class="page-content">
 
 			<section>
 				<inner-column>
 
 					<text>
-						<page-title>
+						<header>
 							<h2 class="meeting-voice">Heading level 2 small</h2>
 							<p>This is some body text. This is some body text.This is some body text. This is some body text.</p>
-						</page-title>
+						</header>
 
 						<page-text>
 							<ul>
@@ -68,8 +60,7 @@
 						</page-text>
 					</text>
 
-					<pictures>
-						<page-images>
+					<image-grid>
 
 						<picture>
 							<img src="images/black-screen.png">
@@ -84,8 +75,7 @@
 							<img src="images/black-screen.png">
 						</picture>
 
-					</page-images>
-					</pictures>
+					</image-grid>
 
 				</inner-column>
 			</section>

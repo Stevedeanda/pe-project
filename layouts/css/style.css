@@ -13,18 +13,17 @@ body {
 
 text {
 	display: block;
-	/*border: 1px red solid;*/
+	border: 1px red solid;
 }
 
-section page-title {
+section header {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	padding-bottom: 30px;
 }
 
-section page-title p {
-	overflow: hidden;
+section header p {
   	max-width: 45ch;
 }
 
@@ -41,20 +40,18 @@ section page-text ul li {
 	padding: 10px 0;
 }
 
-pictures {
-	display: block;
-	/*border: 1px red solid;*/
-}
-
-pictures page-images {
+image-grid {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	display: block;
+	display: grid;
+	border: 1px red solid;
 }
 
 
 @media(min-width: 600px) {
-	section page-text ul, pictures page-images {
+	section page-text ul, image-grid {
 		display: grid;
 	  	grid-template-columns: auto auto;
 	  	gap: 10px;
@@ -69,12 +66,7 @@ pictures page-images {
 		flex-basis: 50%;
 	}
 
-	pictures {
-		padding-top: 1rem;
-	}
-
-	page-images img {
-		width: 400px;
-		height: 200px;
+	image-grid img {
+		height: 100%;
 	}
 }
