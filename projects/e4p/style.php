@@ -71,6 +71,14 @@
 		margin-top: 30px;
 	}
 
+	.items {
+		padding: 0;
+	}
+
+	.list {
+		margin-top: 10px;
+	}
+
 	.field {
 		display: flex;
 		flex-direction: column;
@@ -97,8 +105,8 @@
     	outline-width: 1px;
 	}
 
-	p {
-		font-size: 20px;
+	p, .list {
+		font-size: 1rem;
 		color: #fef4dd;
 	}
 

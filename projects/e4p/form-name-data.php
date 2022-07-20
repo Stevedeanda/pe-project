@@ -10,5 +10,6 @@ $formName = [
 					"Login Form",
 					"Pizza Party",
 					"Paint Calculator",
+					"Self-Checkout",
 					
 				];
