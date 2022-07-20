@@ -13,5 +13,6 @@ $formName = [
 					"Self-Checkout",
 					"Computing Simple Interest",
 					"Determining Compound Interest",
+					"Tax Calculator",
 					
 				];

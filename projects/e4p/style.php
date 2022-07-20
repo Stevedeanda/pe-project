@@ -54,7 +54,7 @@
 		/*border: 2px white solid;*/
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
+		gap: 8px;
 	}
 
 	.forms {
@@ -69,7 +69,7 @@
 
 	a:hover{
 		background-color: #fba942;
-		padding: 4px 10px;
+		padding: 1px 8px;
 		color: #033041;
 		text-decoration: none;
 		border: none;
@@ -113,7 +113,8 @@
 		padding: 10px;
 	}
 
-	.field textarea:focus-visible, input:focus-visible {
+	/* Whenever you select this box the highlight will be orange instead of the default blue */
+	.field textarea:focus-visible, input:focus-visible, select:focus-visible {
 		outline-color: #fba942;
     	outline-style: auto;
     	outline-width: 1px;
@@ -145,7 +146,7 @@
 		color: #fef4dd;
 	}
 
-	button, input{
+	button, input, select {
 		font-family: sans-serif;
 		font-weight: 400;
 		font-size: 18px;
