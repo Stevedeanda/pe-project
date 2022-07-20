@@ -7,11 +7,9 @@ body {
 	margin: 40px 0;
 }
 
-.page-content {
+section {
 	padding: 10px;
 }
-
-
 
 
 
@@ -20,23 +18,23 @@ text {
 	/*border: 1px red solid;*/
 }
 
-section header {
+module-one header {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	padding-bottom: 30px;
 }
 
-section header p {
+module-one header p {
   	max-width: 45ch;
 }
 
-section ul {
+module-one ul {
 	display: block;
 	padding-bottom: 30px;
 }
 
-section ul li {
+module-one ul li {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -55,7 +53,7 @@ image-grid {
 
 
 @media(min-width: 600px) {
-	section ul, image-grid {
+	module-one ul, image-grid {
 		display: grid;
 	  	grid-template-columns: auto auto;
 	  	gap: 10px;
@@ -79,6 +77,108 @@ image-grid {
 	}
 }
 
+space-break {
+	display: flex;
+	justify-content: center;
+	height: 8vh;
+	background-color: black;
+	margin: 50px 0;
+	text-align: center;
+	align-items: center;
+	color: var(--white);
+}
+
+
+
+
+/* LAYOUT TWO */
+
+/* SVG */
+
+.square {
+	fill:#447afa;
+	stroke:black;
+	stroke-width:0.7px;
+}
+
+.circle {
+	fill:##fa009a;
+	stroke:black;
+	stroke-width:0.58px;
+}
+
+.svg {
+	width: 30px;
+}
+
+module-two {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+module-two header {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	max-width: 32ch;
+}
+
+module-two header .teaser {
+	color: var(--circlepink);
+}
+
+module-two ul {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+module-two ul li {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+text-box {
+	display: block;
+	border-top: 3px solid var(--squareblue);
+	padding-top: 8px;
+}
+
+@media(min-width: 600px) {
+	module-two header {
+		max-width: 60ch;
+	}
+	module-two ul {
+		display: grid;
+	  	grid-template-columns: auto auto;
+	  	gap: 15px;
+	}
+	module-two ul li {
+		border: 2px solid black;
+		padding: 12px;
+	}
+	text-box {
+		max-width: 50ch;
+		border-top: none;
+		border: solid var(--squareblue);
+		background-color: var(--squareblue);
+		padding: 12px;
+		color: #fff;
+		opacity: .9;
+	}
+	text-box p {
+		max-width: 30ch;
+
+	}
+}
+
+@media(min-width: 1000px) {
+	module-two ul li {
+		padding: 20px;
+	}
+}
 
 
 

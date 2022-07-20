@@ -18,8 +18,8 @@ html {
 	--paper: var(--white);
 	--ink: var(--black);
 
-	--standard: 800px;
-	--tight: 600px;
+	--circlepink: #fa009a;
+	--squareblue: #447afa;
 }
 
 /*@media (prefers-color-scheme: dark) {

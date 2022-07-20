@@ -48,3 +48,77 @@
 }
 
 
+/* LAYOUT 2 */
+
+.strong-voice2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size:  1.2rem;
+}
+@media(min-width: 600px) {
+	.strong-voice2 {
+		font-weight: 600;
+		font-size: 1.4rem;
+	}
+}
+
+
+.meeting-voice2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size:  1rem;
+}
+@media(min-width: 600px) {
+	.meeting-voice2 {
+		font-weight: 300;
+		font-size: 1.2rem;
+	}
+}
+
+
+.talk-voice2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size:  .8rem;
+}
+@media(min-width: 600px) {
+	.talk-voice2 {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+}
+
+
+.calm-voice2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+	line-height: 1.4;
+	font-weight: 500;
+}
+@media(min-width: 600px) {
+	.calm-voice2 {
+		font-weight: 500;
+		font-size: .9rem;
+	}
+}
+
+
+.whisper-voice2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+	font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

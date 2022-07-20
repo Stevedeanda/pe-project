@@ -1,4 +1,6 @@
+<!doctype html>
 
+<html lang="en">
 
 	<head>
 
@@ -21,6 +23,12 @@
 		<!-- Practice Layout starts -->
 
 		<main class="page-content">
+
+			<space-break>
+				<h1 class="loud-voice">Layout 1</h1>				
+			</space-break>
+
+			<!-- LAYOUT ONE -->
 
 			<section>
 				<inner-column>
@@ -71,6 +79,63 @@
 
 						</image-grid>
 					</module-one>
+
+				</inner-column>
+			</section>
+
+			<space-break>
+				<h1 class="loud-voice">Layout 2</h1>				
+			</space-break>
+
+			<!-- LAYOUT TWO -->
+
+			<section>
+				<inner-column>
+					
+					<module-two>
+
+						<header>
+							<p class="teaser whisper-voice2">Little teaser</p>
+							<h2 class="strong-voice2">Heading level 2 small</h2>
+							<p class="meeting-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+						</header>
+
+						<ul>
+							<li>
+								<picture>
+									<img class="svg" src="images/second-icon.svg" alt="">
+								</picture>
+								<h3 class="talk-voice2">Heading level 3 small</h3>
+								<p class="calm-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+							</li>
+							<li>
+								<picture>
+									<img class="svg" src="images/second-icon.svg" alt="">
+								</picture>
+								<h3 class="talk-voice2">Heading level 3 small</h3>
+								<p class="calm-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+							</li>
+							<li>
+								<picture>
+									<img class="svg" src="images/second-icon.svg" alt="">
+								</picture>
+								<h3 class="talk-voice2">Heading level 3 small</h3>
+								<p class="calm-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+							</li>
+							<li>
+								<picture>
+									<img class="svg" src="images/second-icon.svg" alt="">
+								</picture>
+								<h3 class="talk-voice2">Heading level 3 small</h3>
+								<p class="calm-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+							</li>
+						</ul>
+
+						<text-box>
+							<p class="calm-voice2">This is some body text. This is some body text.This is some body text. This is some body text.</p>
+						</text-box>
+
+					</module-two>
 
 				</inner-column>
 			</section>
