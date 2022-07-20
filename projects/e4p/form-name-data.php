@@ -12,5 +12,6 @@ $formName = [
 					"Paint Calculator",
 					"Self-Checkout",
 					"Computing Simple Interest",
+					"Determining Compound Interest",
 					
 				];

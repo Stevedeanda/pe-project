@@ -47,6 +47,20 @@
 		/*border: #fef4dd 5px solid;*/
 	}
 
+	.form-list {
+		list-style: none;
+		margin: none;
+		padding-inline-start: 0;
+		/*border: 2px white solid;*/
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.forms {
+		/*border: gray 2px solid;*/
+	}
+
 	a {
 		font-size: 20px;
 		color: #fef4dd;
@@ -61,15 +75,15 @@
 		border: none;
 	}
 
-	ul {
+	/*ul {
 		list-style: none;
 		margin: none;
 		padding-inline-start: 0;
-	}
+	}*/
 
-	li {
+	/*li {
 		margin-top: 30px;
-	}
+	}*/
 
 	.items {
 		padding: 0;

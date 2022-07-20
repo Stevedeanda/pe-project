@@ -26,6 +26,8 @@
 
 			<p>Click below and fill them out</p>
 
+			<ul class="form-list">
+
 			<?php
 
 				include("form-name-data.php");
@@ -39,13 +41,12 @@
 				foreach ($formName as $form) {
 					$fileName = addDashes($form) . ".php"; ?>
 
-					<ul>
-						<li><a href="<?=$fileName?>"><?=$form?></</a></li>
-					</ul>
+					
+					<li class="forms"><a href="<?=$fileName?>"><?=$form?></</a></li>
 
 			<?php	} ?>
 
-
+			</ul>
 		</section>	
 	</body>
 </html>			
