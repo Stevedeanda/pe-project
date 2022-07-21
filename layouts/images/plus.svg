@@ -1,0 +1,16 @@
+
+<svg width="100%" height="100%" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-57.7456,0)">
+        <g id="Artboard2" transform="matrix(0.0625454,0,0,0.0834018,57.7456,0)">
+            <rect x="0" y="0" width="800" height="600" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="800" height="600"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(15.9884,0,0,11.9902,-923.258,0)">
+                    <path d="M84.742,23.11L84.742,0.07L80.786,0.07L80.786,23.11L57.746,23.11L57.746,27.066L80.786,27.066L80.786,50.106L84.742,50.106L84.742,27.066L107.782,27.066L107.782,23.11L84.742,23.11Z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

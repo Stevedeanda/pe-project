@@ -10,39 +10,39 @@
 
 .attention-voice	{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.25rem;
+	font-size: 2rem;
 	font-weight: 500;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .strong-voice	{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
-	font-size:  2rem;
+	font-weight: 600;
+	font-size:  1.25rem;
 }
 
 .meeting-voice {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size:  1rem;
+	font-weight: 300;
+	font-size:  1.2rem;
 }
 
 .talk-voice {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	font-size:  .8rem;
+	font-size:  1rem;
 }
 
 .calm-voice, p, li {
 	font-family: 'Montserrat', sans-serif;
-	font-size: .8rem;
+	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 500;
 }
 
 .whisper-voice {
 	font-family: 'Montserrat', sans-serif;
-	font-size: .8rem;
+	font-size: 1rem;
 	font-weight: 300;
 	font-style: italic;
 }
