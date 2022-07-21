@@ -7,10 +7,12 @@
 
 	"sections": [
 		{
-			"heading": "Grid of thing"
+			"heading": "Grid of thing",
+			"par": "First grid"
 		},
 		{
-			"heading": "More things"
+			"heading": "More things",
+			"par": "Second grid"
 		}
 	]
 }

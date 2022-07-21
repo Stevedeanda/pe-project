@@ -14,11 +14,13 @@
 		$sections = $pageData['sections'];
 		foreach ($sections as $section) { 
 
-		$heading = $section['heading'];?>
+		$heading = $section['heading'];
+		$par = $section['par'];?>
 
 			<h2><?=$heading?></h2>
+			<p><?=$par?></p>
 
+			
 	<?php } ?>
 	
-
 </section>
