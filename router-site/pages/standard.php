@@ -9,18 +9,19 @@
 
 <section>
 
-	<?php
+<?php
 
-		$sections = $pageData['sections'];
-		foreach ($sections as $section) { 
+	$sections = $pageData['sections'];
+	foreach ($sections as $section) { 
 
-		$heading = $section['heading'];
-		$par = $section['par'];?>
-
-			<h2><?=$heading?></h2>
-			<p><?=$par?></p>
+		if ($section["module"] == "grid_list") {
+			include('partials/grid-list.php');
+		}
+		if ($section["module"] == "generic_text") {
+			include('partials/generic-text.php');
+		}
 
 			
-	<?php } ?>
+	} 
+?>
 	
-</section>

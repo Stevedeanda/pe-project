@@ -6,10 +6,8 @@
 
 	"sections": [
 		{
+			"module": "generic_text",
 			"heading": "New Work"
-		},
-		{
-			"heading": "Things I like"
 		}
 	]
 }
