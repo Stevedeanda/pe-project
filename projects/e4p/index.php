@@ -4,11 +4,11 @@
 <?php include('functions.php'); ?>
 
 <header class="site-header">
-	
+
 
 </header>
 
-<?php renderPageTemplate( currentPage() ); ?>
+<?php renderPageTemplate( ); ?>
 
 
 <?php include('footer.php'); ?>		

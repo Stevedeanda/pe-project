@@ -59,7 +59,7 @@ $message1 = null;
 ?>
 
 <header>
-	<a href="index.php">Home</a>
+	<a href="?page=home">Home</a>
 </header>
 
 <form method="POST">

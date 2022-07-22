@@ -47,7 +47,7 @@ if (isset($_POST["submitted"])) {
 ?>
 
 <header>
-	<a href="index.php">Home</a>
+	<a href="?page=home">Home</a>
 </header>
 
 <form method="POST" class="<?=$class?>">
@@ -55,7 +55,7 @@ if (isset($_POST["submitted"])) {
 	<h1 class="medium-voice">Log in</h1>
 
 	<p>Try to log in</p>
-	<p class="whisper-voice">If you are new, try "steve" for uername and "houston" for the password.</p>
+	<p class="whisper-voice">If you are new, try "steve" for username and "houston" for the password.</p>
 
 	<div class="<?=$class?>">
 		<label>Username</label>
