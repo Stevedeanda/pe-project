@@ -35,9 +35,9 @@ function renderPageTemplate() {
 	//$pageData = pageData();
 	if ( file_get_contents($filePath)) {
 		include($filePath);
-	} //else {
-		//include("pages/404.php");
-	//}
+	} else {
+		include("pages/404.php");
+	}
 	
 }
 
