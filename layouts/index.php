@@ -423,7 +423,7 @@
 
 
 			<space-break>
-			<h1 class="loud-voice">Layout 4</h1>				
+			<h1 class="loud-voice">Layout 5</h1>				
 			</space-break>
 
 
