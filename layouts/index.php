@@ -419,6 +419,62 @@
 				</inner-column>
 			</section>
 
+
+
+
+			<space-break>
+			<h1 class="loud-voice">Layout 4</h1>				
+			</space-break>
+
+
+
+
+			<!-- LAYOUT FIVE (my pick) -->
+
+
+			<section>
+				<inner-column>
+
+					<tomorrow-land>
+
+						<header>
+							<picture>
+								<img src="images/black-screen.png">
+							</picture>
+							<p>The Sound of Tomorrowland</p>
+						</header>
+
+						<show-cards>
+							<mast-head>	
+								<picture>
+									<img src="images/black-screen.png">
+								</picture>
+								<text>
+									<h2 class="attention-voice">Radio Show</h2>
+									<h3 class="talk-voice2">Discover this week's hottest new releases</h3>
+								</text>
+							</mast-head>
+
+							<?php foreach ( [1, 2, 3, 4, 5] as $article) { ?>
+
+							<radio-show>
+								<picture>
+									<img src="images/black-screen.png">
+								</picture>
+								<text>
+									<h2 class="attention-voice">Radio Show</h2>
+									<h3 class="talk-voice2">Discover this week's hottest new releases</h3>
+								</text>
+							</radio-show>
+
+							<?php } ?>
+						</show-cards>
+
+					</tomorrow-land>
+
+				</inner-column>
+			</section>
+
 		</main>
 
 	</body>

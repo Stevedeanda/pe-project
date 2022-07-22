@@ -338,5 +338,120 @@ module-four ul summary > * {
 
 
 
+/* LAYOUT FIVE (tomorrowland) */
+
+tomorrow-land {
+	display: block;
+	padding: 50px 20px 100px 20px;
+	display: grid;
+	gap: 20px;
+	color: var(--darkblue);
+}
+
+tomorrow-land header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	/*padding-bottom: 10px;*/
+}
+
+tomorrow-land show-cards{
+	display: grid;
+	gap: 20px;
+}
+
+@media(min-width: 750px) {
+	tomorrow-land show-cards{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+tomorrow-land header img {
+	width: 200px;
+}
+
+tomorrow-land mast-head {
+	display: grid;
+	/*grid-template-row: 1fr 1fr 1fr 1fr;
+*/
+}
+
+@media(min-width: 750px) {
+	tomorrow-land mast-head {
+		display: flex;
+		flex-direction: row;
+		grid-column: 1 / 4;
+		grid-row: 1 / 2;
+	}
+}
+
+tomorrow-land mast-head img {
+	height: 120px;
+}
+
+@media(min-width: 750px) {
+	tomorrow-land mast-head img {
+	height: 100%;
+	}
+}
+
+tomorrow-land mast-head text {
+	display: grid;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	padding: 20px;
+	background-color: var(--redorange);
+}
+
+
+tomorrow-land radio-show {
+	display: flex;
+	flex-direction: row;
+	height: 110px;
+}
+
+@media(min-width: 750px) {
+	tomorrow-land radio-show {
+		flex-direction: column;
+		height: 300px;
+	}
+}
+
+tomorrow-land radio-show picture {
+	width: 130px;
+}
+
+@media(min-width: 750px) {
+	tomorrow-land radio-show picture{
+		width: 100%;
+		height: 190px;
+	}
+}
+
+tomorrow-land radio-show img {
+	height: 100%;
+}
+
+tomorrow-land radio-show text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+	gap: 10px;	
+	padding: 30px 20px;
+	background-color: var(--redorange);
+}
+
+@media(min-width: 750px) {
+	tomorrow-land radio-show text{
+		padding-top: 15px;
+	}
+}
+
+
 
 
