@@ -20,11 +20,18 @@ html {
 
 	--circlepink: #fa009a;
 	--squareblue: #447afa;
+
+	/* DARK MODE COLORS*/
+
+	--lightgray: #bac3c6;
+	--bluegray: #6c8490;
+	--blackpearl: #1d272e;
+	--darkgreen: #1b2a1e;
+	--forestgreen: #384f38;
+	--pastelgreen: #85977b;
+
 }
 
-/*@media (prefers-color-scheme: dark) {
-	html {
-		--paper: #231a1a;
-		--ink: #ffffe2;
-	}
-}*/
+@media (prefers-color-scheme: dark) {
+
+}
