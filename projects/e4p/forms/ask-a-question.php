@@ -18,7 +18,7 @@
 			$text = $_POST["text"];
 		}
 
-		$message1 = "An email was sent to $email. We will get to your inquiry of '$text' as soons as possible. Thank you for reaching out to us $person and have a great day!";
+		$message1 = "An email was sent from $email. We will get to your inquiry of '$text' as soons as possible. Thank you for reaching out to us $person and have a great day!";
 	}
 ?>
 
