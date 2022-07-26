@@ -1,6 +1,6 @@
 
 
-<?php include('utilities.php') ?>
+<?php include('functions/utilities.php') ?>
 
-<?php include('routing.php') ?>
+<?php include('functions/routing.php') ?>
 

@@ -28,7 +28,7 @@ function renderPageTemplate() {
 	//$filePath = "pages/" . currentPage() . ".php";
 	$filePath = "pages/" . "standard" . ".php";
 	//adding the data in here so it can get it with the template
-	$pageData = pageData();
+	$pageData = pageData(); // data used in template
 	if ( file_get_contents($filePath)) {
 		include($filePath);
 	} else {
