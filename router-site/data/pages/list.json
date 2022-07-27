@@ -7,7 +7,7 @@
 
 	"sections": [
 		{
-			"module": "grid_list",
+			"module": "grid-list",
 			"heading": "Grid of thing",
 			"items": [
 				{

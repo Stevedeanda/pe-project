@@ -1,0 +1,12 @@
+{
+	"id": "style-guide",
+	"title": "style-guide",
+	"intro": "Where the styles will live",
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"heading": "New Work"
+		}
+	]
+}

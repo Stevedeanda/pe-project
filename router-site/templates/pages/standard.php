@@ -1,27 +1,22 @@
 
 
-<header class="page-header">
-	
-	<h1><?=$pageData["title"]?></h1>
-	<p><?=$pageData["intro"]?></p>
+<?php include("templates/modules/page-header.php");?>
 
-</header>
 
-<section>
+<?php foreach ($pageData['sections'] as $section) { 
 
-<?php
+	// if ($section["module"] == "grid_list") {
+	// 	include('templates/modules/grid-list.php');
+	// }
+	// if ($section["module"] == "generic_text") {
+	// 	include('templates/modules/generic-text.php');
+	// } ?>
 
-	$sections = $pageData['sections'];
-	foreach ($sections as $section) { 
-
-		if ($section["module"] == "grid_list") {
-			include('partials/grid-list.php');
-		}
-		if ($section["module"] == "generic_text") {
-			include('partials/generic-text.php');
-		}
-
-			
-	} 
-?>
+	<section>
+		<inner-column>
+			<?php // or we can just include the template like this ?>
+			<?php include("templates/modules/$section[module].php"); ?>
+		</inner-column>
+	</section>
+<?php } ?>
 	

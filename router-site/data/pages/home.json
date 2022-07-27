@@ -6,7 +6,7 @@
 
 	"sections": [
 		{
-			"module": "generic_text",
+			"module": "generic-text",
 			"heading": "New Work"
 		}
 	]

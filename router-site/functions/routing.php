@@ -26,7 +26,7 @@ function pageData () {
 // use the top functions that gets the current page and use it in this function to get the template that goes with that page
 function renderPageTemplate() {
 	//$filePath = "pages/" . currentPage() . ".php";
-	$filePath = "pages/" . "standard" . ".php";
+	$filePath = "templates/pages/" . "standard" . ".php";
 	//adding the data in here so it can get it with the template
 	$pageData = pageData(); // data used in template
 	if ( file_get_contents($filePath)) {
