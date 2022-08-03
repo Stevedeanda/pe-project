@@ -1,0 +1,31 @@
+
+
+{ 
+	"article":[
+		{  
+			"title": "This is the title of an article",
+			"paragraph": "Hero's a little into to help you understand it this is an article you want to read.",
+			"link": "Read more",
+		},
+		{  
+			"title": "This is the title of an article",
+			"paragraph": "Hero's a little into to help you understand it this is an article you want to read.",
+			"link": "Read more",
+		},
+		{  
+			"title": "This is the title of an article",
+			"paragraph": "Hero's a little into to help you understand it this is an article you want to read.",
+			"link": "Read more",
+		},
+		{  
+			"title": "This is the title of an article",
+			"paragraph": "Hero's a little into to help you understand it this is an article you want to read.",
+			"link": "Read more",
+		},
+		{  
+			"title": "This is the title of an article",
+			"paragraph": "Hero's a little into to help you understand it this is an article you want to read.",
+			"link": "Read more"
+		}
+	]
+}

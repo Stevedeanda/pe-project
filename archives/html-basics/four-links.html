@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Practicing some links, iframe and smooth scrolling">
+		<meta property="og:image" content="https://peprojects.dev/alpha-4/steve/challenge-1/images/colors.jpg">
+		<meta property="og:title" content="Collection of all that I've learned so far in school, explore the website.">
+
+		<title>iframes and scrolling</title>
+
+		<style>
+
+			html {
+				scroll-behavior:  smooth;
+			}
+
+			body {
+				margin: auto;
+				padding-top: 70px;
+				padding-bottom: 70px;
+				max-width: 850px;
+			}
+
+			section {
+  				min-height: 120vh
+			}
+
+			h2 a {
+  				float:right
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<h1 id="top">Using an ID</h1>
+
+			<nav> 
+				<a href="#tokyo">Tokyo</a>
+				<a href="#rio">Rio</a>
+				<a href="#berlin">Berlin</a>
+				<a href="#denver">Denver</a>
+        		<a href="#bottom">Bottom</a>
+			</nav>
+
+		</header>
+		
+		<main>
+
+			<section id="tokyo">
+        <h2>Tokyo<a href="#top">back up</a></h2>
+			</section>
+
+			<section id="rio">
+				<h2>Rio<a href="#top">back up</a></h2>
+			</section>
+
+			<section id="berlin">
+				<h2>Berlin<a href="#top">back up</a></h2>
+			</section>
+
+			<section id="denver">
+				<h2>Denver<a href="#top">back up</a></h2>
+			</section>
+      
+      	<iframe src="https://stevedeanda.substack.com/embed" width="850" height="320" style="border:5px solid black; background:lavender;"           frameborder="0" scrolling="no"></iframe>
+   	</main>
+      
+      <footer id="bottom">
+        
+      	<nav>
+				<a href="#tokyo">Tokyo</a>
+				<a href="#rio">Rio</a>
+				<a href="#berlin">Berlin</a>
+				<a href="#denver">Denver</a>
+        		<a href="#top">Top</a>
+        		<a href="index.html">Home</a> 
+			</nav>
+        
+      </footer>
+      
+
+	</body>
+
+</html
