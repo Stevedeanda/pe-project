@@ -1,0 +1,54 @@
+
+{
+	"id": "projects",
+
+	"title": "Projects",
+	"intro": "Check out my work",
+
+	"sections": [
+		{
+			"module": "grid-list",
+			"heading": "My Work",
+			"items": [
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				}
+			]
+		},
+		{
+			"module": "grid-list",
+			"heading": "My Work",
+			"items": [
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				},
+				{
+					"title":"Heading level 3",
+					"text": "This is some text."
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"id": "home",
+
+	"title": "Welcome",
+	"intro": "Site is under construction",
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"heading": "Construction mode"
+		}
+	]
+}
