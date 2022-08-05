@@ -1,0 +1,44 @@
+{
+
+	"works": {
+		"1": {
+			"job-title" : "Field Installer",
+			"company-name" : "SentryForce",
+			"dates-worked" : "04/2014-05/2019",
+			"location" : "Houston, TX",
+			"tasks" : [
+				"Install Cameras.", 
+				"Design a layout of where to install cameras.", 
+				"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+				"Submit expense reports when traveling out of city."
+			]
+		},
+		"2": {
+			"job-title" : "Field Installer",
+			"company-name" : "SentryForce",
+			"dates-worked" : "04/2014-05/2019",
+			"location" : "Houston, TX",
+			"tasks" : [
+				"Install Cameras.", 
+				"Design a layout of where to install cameras.", 
+				"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+				"Submit expense reports when traveling out of city."
+			]
+		},
+		"3": {
+			"job-title" : "Field Installer",
+			"company-name" : "SentryForce",
+			"dates-worked" : "04/2014-05/2019",
+			"location" : "Houston, TX",
+			"tasks" : [
+				"Install Cameras.", 
+				"Design a layout of where to install cameras.", 
+				"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+				"Submit expense reports when traveling out of city."
+			]
+		}
+	
+	}
+
+}			
+

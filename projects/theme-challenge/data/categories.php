@@ -3,7 +3,7 @@
 $categories = [
 	[
 		"title" => "Women's",
-		"thumbnail" => "https://source.unsplash.com/random/600x400/?women,climbing"
+		"thumbnail" => "https://source.unsplash.com/random/600x400/?women,hiking"
 	],
 	[
 		"title" => "Men's",
