@@ -4,7 +4,7 @@
 
 		<h1 class="loud-voice"><?=$about["heading"]?></h1>
 
-		<p><?=$about["paragraph"]?></p>
+		
 
 		<ul class="job-info">
           

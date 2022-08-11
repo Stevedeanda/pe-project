@@ -1,0 +1,20 @@
+
+[
+	{
+		"id":1,
+		"name": "Form Practice",
+		"page": "form",
+		"description": "I created these forms to practice. I used a book called exercises for programmers to make these forms.",
+		"created": "July 2022",
+		"link": "?page=forms",
+		"link-visual": "List of forms"
+	},
+	{
+		"id":2,
+		"name": "project two"
+	},
+	{
+		"id":3,
+		"name": "project three"
+	}
+]
