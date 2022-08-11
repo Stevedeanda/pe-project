@@ -36,6 +36,11 @@ if ($page == "about") {
 	$about = $aboutData["long"]; // If I put "short" it gives the smaller version of About.
 }
 
+if ($page == "projects") {
+	$json = file_get_contents("pages/projects/projects.json");
+	$projectsData = json_decode($json, true);
+}
+
 ?>
 
 <html lang='en'>
@@ -48,12 +53,12 @@ if ($page == "about") {
 		<meta name='description' content='Steve DeAnda website'>
 		<meta property='og:image' content='Welcome to my website!'>
 
-		<link rel='stylesheet' href='styles/site.css'>
+		<link rel='stylesheet' href='style/site.css'>
 	</head>
 
 
 	<body>
-		<header class='site-menu'>
+		<header>
 			<inner-column>
 
 				<nav class="site-menu">
@@ -69,7 +74,7 @@ if ($page == "about") {
 
 		<main>
 
-			<p>?<?=queryString();?></p>
+			<p class="query">?<?=queryString();?></p>
 
 			<?php
 
@@ -111,19 +116,6 @@ if ($page == "about") {
 
 		</main>
 
-		<footer class='site-footer'>
-			<inner-column>
-				
-				<nav class="site-menu">
-					<a href="?page=home">Home</a>
-					<a href="?page=projects">Projects</a>
-					<a href="?page=about">About</a>
-					<a href="?page=resume">Resume</a>
-					<a href="?page=contact">Contact</a>
-				</nav>
-
-			</inner-column>
-		</footer>
 	</body>
 
 </html>
