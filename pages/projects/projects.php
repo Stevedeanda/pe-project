@@ -21,12 +21,12 @@
 				<p>June 2022</p>
 				<a href="https://peprojects.dev/alpha-4/steve/projects/theme-challenge/">Check it out</a>
 			</li>
-			<li>
+			<!-- <li>
 				<h2>Responsive Layouts</h2>
 				<p>A collection of different modules being responsive</p>
 				<p>April 2022</p>
 				<a href="#">Check it out</a>
-			</li>
+			</li> -->
 
 		</ul>
 
