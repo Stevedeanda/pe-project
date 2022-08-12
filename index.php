@@ -1,78 +1,5 @@
 
-<!doctype html>
-
-<?php
-
-// show errors
-
-function showErrors() {
-  error_reporting(E_ALL);
-  ini_set('display_errors', '1');
-}
-
-showErrors();
-
-$page = null;
-
-if (isset($_GET["page"])) {
-	$page = $_GET["page"];
-} else {
-	$page = "home";
-}
-
-function queryString() {
-	return $_SERVER['QUERY_STRING'];
-}
-
-function addDashes($string) {
-	$splitString = explode(" ", $string);
-	$dashString = implode("-", $splitString);
-	return strtolower($dashString);
-}
-
-if ($page == "about") {
-	$json = file_get_contents("pages/about/about.json");
-	$aboutData = json_decode($json, true);
-	$about = $aboutData["long"]; // If I put "short" it gives the smaller version of About.
-}
-
-if ($page == "projects") {
-	$json = file_get_contents("pages/projects/projects.json");
-	$projectsData = json_decode($json, true);
-}
-
-?>
-
-<html lang='en'>
-
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-
-		<title>Steve DeAnda</title>
-		<meta name='description' content='Steve DeAnda website'>
-		<meta property='og:image' content='Welcome to my website!'>
-
-		<link rel='stylesheet' href='style/site.css'>
-	</head>
-
-
-	<body>
-		<header>
-			<inner-column>
-
-				<nav class="site-menu">
-					<a href="?page=home">Home</a>
-					<a href="?page=about">About</a>
-					<a href="?page=projects">Projects</a>
-					<a href="?page=resume">Resume</a>
-					<a href="?page=contact">Contact</a>
-				</nav>
-
-			</inner-column>	
-		</header>
-
-		<main>
+<?php include('header.php'); ?>
 
 			<p class="query">?<?=queryString();?></p>
 
@@ -114,11 +41,7 @@ if ($page == "projects") {
 
 			?>
 
-		</main>
-
-	</body>
-
-</html>
+<?php include ('footer.php'); ?>
 
 
 
