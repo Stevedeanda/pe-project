@@ -6,7 +6,12 @@
 @import 'typography.css';
 @import 'style.css';
 
-header .site-menu {
+inner-column {
+	display: block;
+	border: solid red 2px;
+}
+
+mast-head .site-menu {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;

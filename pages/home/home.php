@@ -1,10 +1,8 @@
 
-			<section class='welcome' id='welcome'>
-				<inner-column>
+<section class='welcome' id='welcome'>
+	<inner-column>
 
-					<h1 class="loud-voice">Steve DeAnda</h1>
+	<?php include ('pages/welcome-content'); ?>
 
-					<p>Web Developer</p>
-
-				</inner-column>
-			</section>
+	</inner-column>
+</section>
