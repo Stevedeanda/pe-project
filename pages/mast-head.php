@@ -1,4 +1,4 @@
-
+<!-- module -->
 <mast-head>
 	<nav class="site-menu">					
 		<a href="?page=home">Home</a>
