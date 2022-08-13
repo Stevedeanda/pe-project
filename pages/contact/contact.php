@@ -1,14 +1,11 @@
 
-<header class='page-header'>
-	<inner-column>
 
-		<h1 class="loud-voice">Contact</h1>
-
-		<p>Feel free to send me a message</p>
-
-	</inner-column>
-</header>			
-
+<?php 
+	$pageTitle = "Contact";
+	$pageDescription = "Feel free to reach out.";
+	include ('pages/page-header.php'); 
+?>
+		
 <section class='contact' id='contact'>
 	<inner-column>
 

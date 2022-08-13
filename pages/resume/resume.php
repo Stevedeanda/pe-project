@@ -1,14 +1,10 @@
 
 
-<header class='page-header'>
-	<inner-column>
-
-		<h1 class="loud-voice">Resume</h1>
-
-		<p>Take a look</p>
-
-	</inner-column>
-</header>
+<?php 
+	$pageTitle = "Resume";
+	$pageDescription = "Take a look.";
+	include ('pages/page-header.php'); 
+?>
 
 <section class="page-content">
 	<inner-column>

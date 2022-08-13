@@ -1,13 +1,9 @@
 
-<header class='page-header'>
-	<inner-column>
-
-		<h1 class="loud-voice">My Work</h1>
-		
-		<p>Here is a culmination of everything I know so far, as I keep learning, the more projects I will have here. Check them out.</p>
-
-	</inner-column>
-</header>	
+<?php 
+	$pageTitle = "My Work";
+	$pageDescription = "Here are some projects I've worked on.";
+	include ('pages/page-header.php'); 
+?>
 
 <section class='projects' id='projects'>
 	<inner-column>

@@ -1,13 +1,10 @@
 
-<header class='page-header'>
-	<inner-column>
 
-		<h1 class="loud-voice"><?=$about["title"]?></h1>
-		
-		<p><?=$about["paragraph"]?></p>
-
-	</inner-column>
-</header>
+<?php 
+	$pageTitle = "About me";
+	$pageDescription = "A little about me";
+	include ('pages/page-header.php'); // module goes here
+?>
 
 <section class='about' id='about'>
 	<inner-column>
