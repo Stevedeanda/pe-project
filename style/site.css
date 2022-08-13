@@ -5,19 +5,23 @@
 @import 'structure.css';
 @import 'typography.css';
 @import 'style.css';
+@import 'components.css';
+@import 'modules.css';
 
+
+
+/* THEME */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+
+
+/*DEVELOPER TOOLS*/
 inner-column {
-	display: block;
 	border: solid red 2px;
 }
-
-mast-head .site-menu {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	gap: 10px;
-}
-
 .query {
 	display: block;
 	max-width: 800px;
@@ -25,3 +29,14 @@ mast-head .site-menu {
 	margin-left: auto;
 	padding: 20px 0;
 }
+
+
+
+/*MODULES*/
+mast-head .site-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 10px;
+}
+
