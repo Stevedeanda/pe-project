@@ -1,4 +1,4 @@
-
+<!-- module -->
 <welcome-content>
 	<h1 class="loud-voice">Steve DeAnda</h1>
 	
