@@ -1,7 +1,7 @@
 
 <!doctype html>
 
-<?php include ('pages/functions.php'); ?>
+<?php include ('functions.php'); ?>
 
 <html lang='en'>
 
@@ -19,6 +19,6 @@
 
 	<body>
 		
-		<?php include ('pages/site-menu.php'); ?>
+		<?php include ('templates/modules/site-menu/site-menu.php'); ?>
 
 		<main>
