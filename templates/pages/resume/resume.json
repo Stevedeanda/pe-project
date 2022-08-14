@@ -1,0 +1,122 @@
+{
+
+	"sections": [
+		{
+			"module": "page-header",
+			"title": "Resume",
+			"description": "Take a look."
+		},
+		{
+			"module": "summary-text",
+			"title": "Steve DeAnda",
+			"job": "Web Developer",
+			"summary": "This is where I write what I am good at and my experience. I can talk about my learning and how I am ready for an opportunity to work. I can talk about the projects I have worked on. I can talk about my past jobs and how they give me good on the job experince for this new position."
+		},
+		{
+			"module": "work-experience",
+			"title": "Work Experience",
+			"works": [
+				{
+					"job-title" : "Field Installer",
+					"company-name" : "SentryForce",
+					"dates-worked" : "04/2014-05/2019",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Install Cameras.", 
+						"Design a layout of where to install cameras.", 
+						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+						"Submit expense reports when traveling out of city."
+					]
+				},
+				{
+					"job-title" : "Field Installer",
+					"company-name" : "SentryForce",
+					"dates-worked" : "04/2014-05/2019",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Install Cameras.", 
+						"Design a layout of where to install cameras.", 
+						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+						"Submit expense reports when traveling out of city."
+					]
+				},
+				{
+					"job-title" : "Field Installer",
+					"company-name" : "SentryForce",
+					"dates-worked" : "04/2014-05/2019",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Install Cameras.", 
+						"Design a layout of where to install cameras.", 
+						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+						"Submit expense reports when traveling out of city."
+					]
+				}
+			]
+		},
+		{
+			"module": "contact-info",
+			"contact": [
+				{
+					"icon": "mail",
+					"info": "stevedeanda5@gmail.com",
+					"href": "#"
+				},
+				{
+					"icon": "phone",
+					"info": "832.382.3729",
+					"href": "#"
+				},
+				{
+					"icon": "location",
+					"info": "Houston, TX",
+					"href": "#"
+				},
+				{
+					"icon": "world",
+					"info": "stevedeanda.dev",
+					"href": "https://stevedeanda.dev/"
+				}
+			]
+
+		},
+		{
+			"module": "list-items",
+			"items": [
+				{
+					"item": "Puzzles"
+				},
+				{
+					"item": "Legos"
+				},
+				{
+					"item": "Hiking"
+				},
+				{
+					"item": "Mountain Biking"
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"items": [
+				{
+					"item": "HTML"
+				},
+				{
+					"item": "CSS"
+				},
+				{
+					"item": "PHP"
+				},
+				{
+					"item": "WordPress"
+				},
+				{
+					"item": "JavaScript"
+				}
+			]
+		}
+	]
+}			
+

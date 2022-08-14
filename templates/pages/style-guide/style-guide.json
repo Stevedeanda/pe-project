@@ -1,0 +1,15 @@
+{
+	"title": "Style Guide",
+	"description": "Showing the styles for the site here",
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"heading": "Heading number 1"
+		},
+		{
+			"module": "generic-text",
+			"heading": "Heading number 2"
+		}
+	]
+}
