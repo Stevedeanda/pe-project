@@ -82,6 +82,7 @@
 		},
 		{
 			"module": "list-items",
+			"list": "interest",
 			"items": [
 				{
 					"item": "Puzzles"
@@ -99,6 +100,7 @@
 		},
 		{
 			"module": "list-items",
+			"list": "languages",
 			"items": [
 				{
 					"item": "HTML"
