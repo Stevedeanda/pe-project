@@ -1,8 +1,10 @@
 <!-- module -->
-<welcome-content>
+<section>
 	<inner-column>
-		<h1 class="loud-voice"><?=$section['title']?></h1>
-		
-		<p><?=$section['description']?></p>
+		<welcome-content>
+			<h1 class="loud-voice"><?=$section['title']?></h1>
+			
+			<p><?=$section['description']?></p>
+		</welcome-content>
 	</inner-column>
-</welcome-content>
+</section>

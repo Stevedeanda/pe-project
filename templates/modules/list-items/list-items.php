@@ -1,7 +1,7 @@
 <section class="<?=$page?>">
 	<inner-column>
 		<list-items>
-			<ul>
+			<ul  class="<?=$section['list']?>">
 				<?php
 					// Need to pull data from inside the data
 		

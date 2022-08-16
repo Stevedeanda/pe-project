@@ -8,11 +8,13 @@
 
 ?>
 
-<header class='page-header'>
+<header class="<?=$page?>">
 	<inner-column>
-		<h1 class="loud-voice"><?=$section['title']?></h1>
-		
-		<p><?=$section['description']?></p>
+		<page-header>
+			<h2 class="loud-voice"><?=$section['title']?></h2>
+			
+			<p><?=$section['description']?></p>
+		</page-header>
 	</inner-column>
 </header>
 	
