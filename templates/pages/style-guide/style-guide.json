@@ -5,11 +5,13 @@
 	"sections": [
 		{
 			"module": "generic-text",
-			"heading": "Heading number 1"
+			"heading": "Heading number 1",
+			"content": "blah blah blah blah"
 		},
 		{
 			"module": "generic-text",
-			"heading": "Heading number 2"
+			"heading": "Heading number 2",
+			"content": "blah blah blah blah"
 		}
 	]
 }
