@@ -43,22 +43,32 @@
 			?>
 
 <?php 	
+//Use a if statement to get detail pages.
+if ($_GET["page"] == "details") {
+	//Get the detail data
+	if ($json = file_get_contents("data/projects.json") ) {
+		$detailData = json_decode($json, true);
+		foreach ($detailData as $project) {
+			if ($project['id'] == $_GET['id']) {
+				$detail = $project;
+				$m = $detail['module'];
+			}
+		}
+		//Render the detail data
+		//echo $detail['name'];
+		include ( "templates/modules/$m/$m.php");
+	}  
+} else {
+	// get the page data
+	$json = file_get_contents("templates/pages/$page/$page.json");
+	$pageData = json_decode($json, true);
 
-// get the page data
-$json = file_get_contents("templates/pages/$page/$page.json");
-$pageData = json_decode($json, true);
-
-// render the title
-//echo $pageData['title'];
-
-// render the description
-//echo $pageData['description'];
-// render the sections 
-foreach ($pageData['sections'] as $section) {
-	// include the right module file for this section
-	$module = $section['module'];	// Get correct module template based on name
-	include ( "templates/modules/$module/$module.php");
-} 
+	foreach ($pageData['sections'] as $section) {
+		// include the right module file for this section
+		$module = $section['module'];	// Get correct module template based on name
+		include ( "templates/modules/$module/$module.php");
+	} 
+}
 
 ?>
 
