@@ -4,14 +4,22 @@
 
 	"sections": [
 		{
-			"module": "generic-text",
-			"heading": "Heading number 1",
-			"content": "blah blah blah blah"
+			"module": "generic-text"
 		},
 		{
-			"module": "generic-text",
-			"heading": "Heading number 2",
-			"content": "blah blah blah blah"
+			"module": "form-list"
+		},
+		{
+			"module": "page-header"
+		},
+		{
+			"module": "projects-grid"
+		},
+		{
+			"module": "summary-text"
+		},
+		{
+			"module": "welcome-content"
 		}
 	]
 }
