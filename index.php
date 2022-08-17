@@ -32,9 +32,15 @@ if ($_GET["page"] == "forms") {
 			}
 		}
 		//Render the detail data
-		//echo $detail['name'];
-		include ( "templates/modules/$module/$module.php");
-	}  
+		//echo $detail['name']; ?>
+
+		<section class="<?=$detail['module']?>">
+			<inner-column>
+				<?php include ( "templates/modules/$module/$module.php"); ?>
+			</inner-column>
+		</section>
+
+	<?php } 
 } else {
 	// get the page data
 	$json = file_get_contents("templates/pages/$page/$page.json");
@@ -42,10 +48,17 @@ if ($_GET["page"] == "forms") {
 
 	foreach ($pageData['sections'] as $section) {
 		// include the right module file for this section
-		$module = $section['module'];	// Get correct module template based on name
-		include ( "templates/modules/$module/$module.php");
-	} 
-}	?>
+		$module = $section['module'];	// Get correct module template based on name ?>
+
+		<section class="<?=$page?>">
+			<inner-column>
+				<?php include ( "templates/modules/$module/$module.php");?>
+			</inner-column>
+		</section>
+
+	<?php } 
+}	
+?>
 
 <?php include ('footer.php'); ?>
 
