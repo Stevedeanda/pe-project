@@ -1,12 +1,37 @@
 [
 	{
 		"id": "1",
-		"name": "Forms",
+		"name": "Exercises for Programmers",
 		"module": "form-list"
 	},
 	{
 		"id": "2",
-		"name": "project two",
-		"module": "project-info"
+		"name": "project twoo",
+		"module": "project-info",
+		"sections" : [
+			{
+				"module": "generic-text",
+				"heading": "Project twoo0o",
+				"content": "This is a project about theme"
+			},
+			{
+				"module": "list-items",
+				"list": "interest",
+				"items": [
+					{
+						"item": "Puzzles"
+					},
+					{
+						"item": "Legos"
+					},
+					{
+						"item": "Hiking"
+					},
+					{
+						"item": "Mountain Biking"
+					}
+				]
+			}
+		]
 	}
 ]
