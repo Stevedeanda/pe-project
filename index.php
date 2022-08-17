@@ -4,7 +4,7 @@
 <p class="query">?<?=queryString();?></p>
 
 <?php 
-
+$_GET["page"] = $page;
 if ($_GET["page"] == "forms") {
 	if ($json = file_get_contents("templates/pages/forms/forms.json") ) {
 		$formsData = json_decode($json, true);
