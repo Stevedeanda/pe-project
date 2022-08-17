@@ -123,7 +123,7 @@ h2 + p {
 
 .prices {
 	/*border: blue solid;*/
-	background: url(https://peprojects.dev/alpha-4/steve/bike-repair-project/images/bike-repair-two.jpg);
+	background: url(https://peprojects.dev/alpha-4/steve/archives/bike-repair-mark-II/images/bike-repair-two.jpg);
 	background-size: cover;
 	background-color: hsla(75,80%,8%,0.7);
 }
@@ -174,7 +174,7 @@ h2 + p {
 
 @media (min-width: 550px) {
 	.prices {
-		background: url(https://peprojects.dev/alpha-4/steve/bike-repair-project/images/bike-repair-three.jpg);
+		background: url(https://peprojects.dev/alpha-4/steve/archives/bike-repair-mark-II/images/bike-repair-three.jpg);
 	background-size: cover;
 	}
 }
