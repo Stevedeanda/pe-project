@@ -5,7 +5,7 @@
 
 <?php 
 
-if (isset($_GET["page"]) == "forms") {
+if ($_GET["page"] == "forms") {
 	if ($json = file_get_contents("templates/pages/forms/forms.json") ) {
 		$formsData = json_decode($json, true);
 		foreach ($formsData as $form) {
@@ -22,7 +22,7 @@ if (isset($_GET["page"]) == "forms") {
 		</section>
 
 	<?php } 
-} else if (isset($_GET["page"]) == "project") {
+} else if ($_GET["page"] == "project") {
 	//Get the detail data
 	if ($json = file_get_contents("data/projects.json") ) {
 		$detailData = json_decode($json, true);
