@@ -8,10 +8,10 @@
 			"description": "A little about me."
 		},
 		{
-			"module": "projects-grid",
-			"heading": "where",
-			"content": "I worked most of my life in the security industry. I would design camera layouts for customers and install everything. It felt good doing something to help protect people or the ability to catch criminals with our camera systems. After a few years, I decided it was time to see what else I could do. I worked for a company that use electric fences to keep criminals out, they also used security cameras but their main product was the electric fence. I learned a lot at this job and I traveled all over Texas and sometimes Louisiana. It was going well but I wanted to do something where I could grow. Field Technicians don’t have a lot of growth opportunities so it was time to get serious about changing my career. At this point, I had taken a few courses on Udemy and Codecademy. It was a slow process and I didn’t have a lot of guidance, but I knew I wanted to do this. An opportunity opened to attend Perpetual Education and I took it. Here I am with so much knowledge learned but more to learn."
+			"module": "projects-grid"
 		}
 		
 	]
 }	
+
+
