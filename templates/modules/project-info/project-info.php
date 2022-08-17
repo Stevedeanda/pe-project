@@ -1,9 +1,10 @@
-<section class="<?=$detail['module']?>">
-	<inner-column>
 
-		<project-info>
-			<h2><?=$detail['name']?></h2>
-		</project-info>
 
-	</inner-column>
-</section>
+<?php 
+
+foreach ($detail['sections'] as $section) {
+	$module = $section['module'];
+	include ( "templates/modules/$module/$module.php");
+}
+
+?>

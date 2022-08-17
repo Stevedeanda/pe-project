@@ -6,10 +6,9 @@ $json = file_get_contents("data/projects.json");
 $projectData = json_decode($json, true);
 ?>
 
-<section class="<?=$page?>">
-	<inner-column>
-		<?php foreach ($projectData as $project) { ?>
-			
+
+		<?php foreach ($projectData as $project) { 
+			$project['name'] = $project['name'] ?? "The project title goes here" ?>
 			<article>
 				<h2><?=$project['name']?></h2>
 				<a href="?page=project&id=<?=$project['id']?>">Check out <?=$project['name']?></a>
@@ -17,8 +16,7 @@ $projectData = json_decode($json, true);
 			</article>
 			
 		<?php } ?>
-	</inner-column>
-</section>
+
 
 
 

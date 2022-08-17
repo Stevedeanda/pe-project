@@ -14,25 +14,20 @@ include ('templates/modules/page-header/page-header.php');
 
 ?>
 
-<section>
-	<inner-column>
-
-
-		<ul>
-
-			<?php
-
-      	foreach ($formsData as $form) {
-      		//echo $form['id'];
-			$id = $form['id']; ?>
-			
-			<li class="forms">
-				<a href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
-			</li>
-
-			<?php	} ?>
-                    
-		</ul>
-
-	</inner-column>
-</section>
+<form-list>
+	<ul>
+	
+		<?php
+	
+		foreach ($formsData as $form) {
+		$form['name'] = $form['name'] ?? "The name of the form goes here";
+		$id = $form['id']; ?>
+		
+		<li class="forms">
+			<a href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
+		</li>
+	
+		<?php	} ?>
+	              
+	</ul>
+</form-list>
