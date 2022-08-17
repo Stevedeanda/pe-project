@@ -1,4 +1,4 @@
-<section>
+<section class="<?=$detail['module']?>">
 	<inner-column>
 
 		<project-info>
