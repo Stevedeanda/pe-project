@@ -12,7 +12,7 @@ $projectData = json_decode($json, true);
 			
 			<article>
 				<h2><?=$project['name']?></h2>
-				<a href="?page=details&id=<?=$project['id']?>">Check out <?=$project['name']?></a>
+				<a href="?page=project&id=<?=$project['id']?>">Check out <?=$project['name']?></a>
 		
 			</article>
 			
