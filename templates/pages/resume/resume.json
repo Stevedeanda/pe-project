@@ -2,9 +2,10 @@
 
 	"sections": [
 		{
-			"module": "page-header",
-			"title": "Resume",
-			"description": "Take a look."
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "Resume",
+			"content": "Take a look."
 		},
 		{
 			"module": "summary-text",

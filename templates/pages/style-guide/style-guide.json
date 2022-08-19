@@ -10,9 +10,6 @@
 			"module": "form-list"
 		},
 		{
-			"module": "page-header"
-		},
-		{
 			"module": "projects-grid"
 		},
 		{
@@ -20,6 +17,13 @@
 		},
 		{
 			"module": "welcome-content"
+		},
+		{
+			"module": "graphic-diptych",
+			"url": "images/theme-cs-finish.png"
+		},
+		{
+			"module": "site-map"
 		}
 	]
 }

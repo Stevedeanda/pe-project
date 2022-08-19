@@ -2,9 +2,10 @@
 
 	"sections": [
 		{
-			"module": "welcome-content",
-			"title": "Steve DeAnda",
-			"description": "Web Developer"
+			"module": "generic-text",
+			"class": "welcome-header",
+			"heading": "Steve DeAnda",
+			"content": "Web Developer"
 		}
 	]
 }

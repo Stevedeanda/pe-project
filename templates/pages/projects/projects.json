@@ -3,9 +3,10 @@
 
 	"sections": [
 		{
-			"module": "page-header",
-			"title": "Projects",
-			"description": "A little about me."
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "My Projects",
+			"content": "All the projects I have created so far. "
 		},
 		{
 			"module": "projects-grid"
