@@ -5,7 +5,9 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "Resume",
-			"content": "Take a look."
+			"voice-one": "loud-voice",
+			"content": "Take a look.",
+			"voice-two": "attention-voice"
 		},
 		{
 			"module": "summary-text",
@@ -15,23 +17,11 @@
 		},
 		{
 			"module": "work-experience",
-			"title": "Work Experience",
+			"title": "WORK EXPERIENCE",
 			"works": [
 				{
 					"job-title" : "Field Installer",
 					"company-name" : "SentryForce",
-					
-					"location" : "Houston, TX",
-					"tasks" : [
-						"Install Cameras.", 
-						"Design a layout of where to install cameras.", 
-						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
-						"Submit expense reports when traveling out of city."
-					]
-				},
-				{
-					"job-title" : "Field Installer",
-					"company-name" : "SentryForce",
 					"dates-worked" : "04/2014-05/2019",
 					"location" : "Houston, TX",
 					"tasks" : [
@@ -52,6 +42,59 @@
 						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
 						"Submit expense reports when traveling out of city."
 					]
+				},
+				{
+					"job-title" : "Field Installer",
+					"company-name" : "SentryForce",
+					"dates-worked" : "04/2014-05/2019",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Install Cameras.", 
+						"Design a layout of where to install cameras.", 
+						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
+						"Submit expense reports when traveling out of city."
+					]
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"list": "languages",
+			"list-name": "TECHNICAL SKILLS",
+			"items": [
+				{
+					"item": "HTML"
+				},
+				{
+					"item": "CSS"
+				},
+				{
+					"item": "PHP"
+				},
+				{
+					"item": "WordPress"
+				},
+				{
+					"item": "JavaScript"
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"list": "interest",
+			"list-name": "INTERESTS",
+			"items": [
+				{
+					"item": "Puzzles"
+				},
+				{
+					"item": "Legos"
+				},
+				{
+					"item": "Hiking"
+				},
+				{
+					"item": "Mountain Biking"
 				}
 			]
 		},
@@ -80,45 +123,6 @@
 				}
 			]
 
-		},
-		{
-			"module": "list-items",
-			"list": "interest",
-			"items": [
-				{
-					"item": "Puzzles"
-				},
-				{
-					"item": "Legos"
-				},
-				{
-					"item": "Hiking"
-				},
-				{
-					"item": "Mountain Biking"
-				}
-			]
-		},
-		{
-			"module": "list-items",
-			"list": "languages",
-			"items": [
-				{
-					"item": "HTML"
-				},
-				{
-					"item": "CSS"
-				},
-				{
-					"item": "PHP"
-				},
-				{
-					"item": "WordPress"
-				},
-				{
-					"item": "JavaScript"
-				}
-			]
 		}
 	]
 }			

@@ -6,7 +6,9 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "My Projects",
-			"content": "All the projects I have created so far. "
+			"voice-one": "loud-voice",
+			"content": "All the projects I have created so far.",
+			"voice-two": "attention-voice"
 		},
 		{
 			"module": "projects-grid"

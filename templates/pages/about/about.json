@@ -6,25 +6,33 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "About me",
-			"content": "A little about me."
+			"voice-one": "loud-voice",
+			"content": "Where I've been, why this profession and an overview of me.",
+			"voice-two": "attention-voice"
 		},
 		{
 			"module": "generic-text",
-			"class": "",
-			"heading": "where",
-			"content": "I worked most of my life in the security industry. I would design camera layouts for customers and install everything. It felt good doing something to help protect people or the ability to catch criminals with our camera systems. After a few years, I decided it was time to see what else I could do. I worked for a company that use electric fences to keep criminals out, they also used security cameras but their main product was the electric fence. I learned a lot at this job and I traveled all over Texas and sometimes Louisiana. It was going well but I wanted to do something where I could grow. Field Technicians don’t have a lot of growth opportunities so it was time to get serious about changing my career. At this point, I had taken a few courses on Udemy and Codecademy. It was a slow process and I didn’t have a lot of guidance, but I knew I wanted to do this. An opportunity opened to attend Perpetual Education and I took it. Here I am with so much knowledge learned but more to learn."
+			"class": "where",
+			"heading": "Where I've been",
+			"voice-one": "bold-voice",
+			"content": "I worked most of my life in the security industry. I worked for a camera security company and a company that specialized in electric fences to keep thieves away. I learned a lot at these jobs and I traveled all over Texas and sometimes Louisiana. Great jobs but I didn't want to travel long distances and do manual labor any more. I always had an interest in web development and apps, so I decided to start my career change. It was a slow process and I didn’t have a lot of guidance, but I knew I wanted to do this. An opportunity opened to attend Perpetual Education and I took it. Here I am with so much knowledge learned but more to learn.",
+			"voice-two": "regular-voice"
 		},
 		{
 			"module": "generic-text",
-			"class": "",
-			"heading": "why",
-			"content": "I’ve wanted to be a web developer for quite some time but spent a lot of years self-teaching myself with not a lot of success. I only knew about this field because I had friends that did it and they showed me what they do. It’s been a goal of mine to be able to have a career in the tech industry, especially as a web developer. Build websites that are clean and easy to navigate for the user. The ability to do something meaningful and also grow my career into any path I choose, is what I am building towards right now."
+			"class": "why",
+			"heading": "Why this profession?",
+			"voice-one": "bold-voice",
+			"content": "I’ve wanted to be a web developer for quite some time but spent a lot of years self-teaching myself with not a lot of success. I only knew about this field because I had friends that did it and they showed me what they do. It’s been a goal of mine to be able to have a career in the tech industry, especially as a web developer. Build websites that are clean and easy to navigate for the user. The ability to do something meaningful and also grow my career into any path I choose, is what I am building towards right now.",
+			"voice-two": "regular-voice"
 		},
 		{
 			"module": "generic-text",
-			"class": "",
-			"heading": "onward",
-			"content": "I will keep practicing and learning, I got the opportunity to do this and it's something that brings me joy to do."
+			"class": "what",
+			"heading": "What I enjoy doing",
+			"voice-one": "bold-voice",
+			"content": "I love mountain biking and going on hikes. Before my baby was born, my friends and I would go camping two to three times a year. My wife and I got blessed with a baby girl late 2022. When I got time I turn on the switch and play some mario kart.",
+			"voice-two": "regular-voice"
 		}
 	]
 }		

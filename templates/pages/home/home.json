@@ -2,7 +2,7 @@
 
 	"sections": [
 		{
-			"module": "generic-text",
+			"module": "welcome-landing",
 			"class": "welcome-header",
 			"heading": "Steve DeAnda",
 			"content": "Web Developer"
