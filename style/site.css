@@ -32,11 +32,3 @@ inner-column {
 
 
 
-/*MODULES*/
-mast-head .site-menu {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	gap: 10px;
-}
-

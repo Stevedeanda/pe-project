@@ -1,0 +1,59 @@
+.resume .page-header {
+	padding: 0 20px
+}
+
+.resume summary-text {
+	display: grid;
+	gap: 10px;
+	padding: 50px 20px 10px 20px;
+}
+
+.resume work-experience {
+	padding: 10px 20px;
+}
+
+.resume work-experience .job-info {
+	display: grid;
+	gap: 20px;
+}
+
+.resume work-experience ul .job-list {
+	display: grid;
+	gap: 8px;
+}
+
+.resume work-experience ul li .task {
+	display: grid;
+	gap: 5px;
+	list-style: outside;
+	list-style-type: square;
+	margin-left: 1rem;	
+}
+
+.resume list-items {
+	padding: 10px 20px;
+}
+
+.resume contact-info {
+	padding: 10px 20px 100px 20px;
+}
+
+.resume contact-info ul {
+	display: grid;
+	gap: 10px;
+}
+
+/* ICONS */
+
+/*[class^="icon-"], [class*=" icon-"] {
+    height: 2rem;
+    width: 2rem; 
+    fill: currentColor; 
+}*/
+
+
+
+
+
+
+

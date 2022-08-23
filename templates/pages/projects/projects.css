@@ -1,0 +1,20 @@
+.projects .page-header {
+	padding: 0 20px
+}
+
+projects-grid {
+	display: block;
+	display: grid;
+	gap: 20px;
+	padding: 50px 20px
+}
+
+projects-grid article {
+	display: block;
+	display: grid;
+	gap: 10px;
+}
+
+projects-grid article a:hover {
+	color: var(--aqua);
+}

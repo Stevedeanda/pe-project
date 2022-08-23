@@ -34,3 +34,7 @@ svg {
   display: block;
   width: 100%;
 }
+
+inner-column {
+	display: block;
+}

@@ -1,2 +1,14 @@
 
+
+@import '../templates/pages/home/home.css';
+@import '../templates/pages/about/about.css';
 @import '../templates/pages/projects/projects.css';
+@import '../templates/pages/resume/resume.css';
+
+@import '../templates/modules/mast-head/mast-head.css';
+@import '../templates/modules/generic-text/generic-text.css';
+@import '../templates/modules/welcome-landing/welcome-landing.css';
+@import '../templates/modules/summary-text/summary-text.css';
+@import '../templates/modules/work-experience/work-experience.css';
+@import '../templates/modules/list-items/list-items.css';
+@import '../templates/modules/contact-info/contact-info.css';

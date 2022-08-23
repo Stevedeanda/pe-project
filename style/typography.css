@@ -1,9 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-	font-family: work sans light, sans serif;
+	font-family: work sans, serif;
+}
+
+.yell-voice {
+	font-size: 70px;
+	font-weight: 400;
 }
 
 .loud-voice {
-	font-size: 30px;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.exciting-voice {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.attention-voice {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.bold-voice {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.talking-voice {
+	font-size: 20px;
+	font-weight: 400px;
+}
+
+.regular-voice {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.calm-voice {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.quiet-voice {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.whisper-voice {
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.micro-voice {
+	font-size: 5px;
 }

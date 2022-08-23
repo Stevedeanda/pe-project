@@ -2,6 +2,9 @@
 html {
 	--black: #000000;
 	--white: #FFFFFF;
+	--babyblue: #d0f4ff;
+	--wheat: #FFEFD5;
+	--aqua: #00FFFF;
 
 	--ink: var(--black);
 	--paper: var(--white);

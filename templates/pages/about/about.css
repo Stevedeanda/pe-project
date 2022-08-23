@@ -1,0 +1,21 @@
+.about generic-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.about .page-header {
+	padding: 0 20px
+}
+
+.about .where {
+	padding: 50px 20px 0 20px;
+}
+
+.about .why {
+	padding: 20px 20px 0 20px;
+}
+
+.about .what {
+	padding: 20px 20px 50px 20px;
+}
