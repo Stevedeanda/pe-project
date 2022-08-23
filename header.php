@@ -21,4 +21,4 @@
 		
 		<?php include ('templates/modules/site-menu/site-menu.php'); ?>
 
-		<main>
+		<main class="<?=$page?>">

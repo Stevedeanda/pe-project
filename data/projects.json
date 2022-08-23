@@ -14,7 +14,9 @@
 			{
 				"module": "generic-text",
 				"class": "page-header",
+				"voice-one": "loud-voice",
 				"heading": "FiveNine Outdoor Apparel",
+				"voice-two": "attention-voice",
 				"content": "The goal here is to mimic big company websites. We just had to choose the industry and I chose outdoor apparel. I had few loose constraints and rules to follow. I used a finished HTML template, was not able to change the HTML code, and use CSS to style the HTML code."
 			},
 			{
@@ -25,7 +27,9 @@
 			{
 				"module": "generic-text",
 				"class": "research",
+				"voice-one": "bold-voice",
 				"heading": "Research",
+				"voice-two": "regular-voice",
 				"content": "Researched all the outdoor companies I knew and found some I didn't know about. I took full screen shots of a few of the sites and used Affinity Designer to make a board of my research. They all shared many similarities on how their layouts looked, presented differently but pretty much the same. The pricier companies had a more minimalistic approach to their websites, while the more budget friendly companies had more content, deals and ads on their site. I decided to go the minimalistic approach for my website."
 			},
 			{
@@ -36,7 +40,9 @@
 			{
 				"module": "generic-text",
 				"class": "style-tile",
+				"voice-one": "bold-voice",
 				"heading": "Style Tile and Wire Frame",
+				"voice-two": "regular-voice",
 				"content": "Once research was done, I created a style tile. Here we put together a style that we want the website to have. I grabbed different elements from each site such as font, colors, links, cards, and images. The style tile helps to identify specific parts of the layout before making one. I also made some wire frames to see how the website can be assembled. Easy to make in Affinity once you have them done, copy them and move them around to get different feel and see what you want to go with."
 			},
 			{
@@ -47,7 +53,9 @@
 			{
 				"module": "generic-text",
 				"class": "style-code",
+				"voice-one": "bold-voice",
 				"heading": "Style Code",
+				"voice-two": "regular-voice",
 				"content": "Research done, style tile done, time to start making this website look pro. I decided to go with the green and black as my main colors for the site. I started to work on the site from the top to the bottom. Working on each section first before moving on to the next. This was a lot of fun, figuring out the color placement, font, layout, how you want it to look on different screen sizes, fun, fun, fun. You can see what my first try came out looking like. I sent it to my peers, friends, and family to get feedback. The feedback from everyone was helpful and I knew what to focus on next."
 			},
 			{
@@ -58,7 +66,9 @@
 			{
 				"module": "generic-text",
 				"class": "details",
+				"voice-one": "bold-voice",
 				"heading": "Details, details, details",
+				"voice-two": "regular-voice",
 				"content": "After the feedback, I took what people pointed out and started to see what I had to do next. I had the site done but it didn't look pro. Here is where I dive into the small details. At this point, we got the greenlight to be able to change the HTML code. This was great because it allowed me to add a logo, icons, and add two more modules. Making the logo in Affinity Designer was one of my favorite parts. I had way more designs but showcased these only. I also put a lot of work in the footer, since I got a lot of feedback on that."
 			},
 			{
@@ -69,7 +79,9 @@
 			{
 				"module": "generic-text",
 				"class": "finish",
+				"voice-one": "bold-voice",
 				"heading": "Finish?",
+				"voice-two": "regular-voice",
 				"content": "I posted my updated website and I felt this was a good stopping point for now. I could spend more time hashing out details but at this point, I think this site accomplished it's goal. You may disagree and that's okay. Feel free to reach out, feedback is always welcomed or if you want to share any ideas on what could make it look more pro, I am all for it. Thank you!"
 			},
 			{
