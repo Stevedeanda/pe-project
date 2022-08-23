@@ -1,10 +1,13 @@
 mast-head .site-menu {
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-content: flex-end;
 	align-items: flex-start;
-	gap: 10px;
+	gap: 10px;*/
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+	grid-gap: 10px;
 	padding: 20px;
 }
 
