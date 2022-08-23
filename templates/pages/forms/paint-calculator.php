@@ -32,27 +32,27 @@ $gallons = ceil($paint);
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Paint Calculator</h1>
+	<h1 class="exciting-voice">Paint Calculator</h1>
 
-	<p>How many gallons of paint do I need?</p>
+	<p class="regular-voice">How many gallons of paint do I need?</p>
 
 	<div class="field">
-		<label>Length</label>
+		<label class="talking-voice">Length</label>
 		<input type="number" name="length" min="0" value="<?=$length?>">
 	</div>
 
 	<div class="field">
-		<label>Width</label>
+		<label class="talking-voice">Width</label>
 		<input type="number" name="width" min="0" value="<?=$width?>">
 	</div>
 
 	<button type="submit" name="submitted">Calculate</button>
 
-	<p>You will need to purchase <?=$gallons?> gallons of paint to cover <?=$sf?> square feet.</p>
+	<p class="regular-voice">You will need to purchase <?=$gallons?> gallons of paint to cover <?=$sf?> square feet.</p>
 
 </form>

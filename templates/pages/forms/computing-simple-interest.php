@@ -50,35 +50,35 @@ $message4 = null;
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Computing Simple Interest</h1>
+	<h1 class="exciting-voice">Computing Simple Interest</h1>
 
-	<p>Let's calculate your investment.</p>
+	<p class="regular-voice">Let's calculate your investment.</p>
 
 	<div class="field">
-		<label>What will be your principal amount?</label>
+		<label class="talking-voice">What will be your principal amount?</label>
 		<input type="number" name="principal" min="0" step="0.01" value="<?=$principal?>">
 	</div>
 
 	<div class="field">
-		<label>Rate of Percentage?</label>
+		<label class="talking-voice">Rate of Percentage?</label>
 		<input type="number" name="percent" min="0" step="0.1" value="<?=$percent?>">
 	</div>
 
 	<div class="field">
-		<label>The amount of years it will be invested.</label>
+		<label class="talking-voice">The amount of years it will be invested.</label>
 		<input type="number" name="years" min="0" value="<?=$years?>">
 	</div>
 
 	<button type="submit" name="submitted">Push me</button>
 
-	<p><?=$message1?></p>
-	<p><?=$message2?></p>
-	<p><?=$message3?></p>
-	<p><?=$message4?></p>
+	<p class="regular-voice"><?=$message1?></p>
+	<p class="regular-voice"><?=$message2?></p>
+	<p class="regular-voice"><?=$message3?></p>
+	<p class="regular-voice"><?=$message4?></p>
 
 </form>

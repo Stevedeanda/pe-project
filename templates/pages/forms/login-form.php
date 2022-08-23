@@ -44,18 +44,18 @@ if (isset($_POST["submitted"])) {
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST" class="<?=$class?>">
 
-	<h1 class="medium-voice">Log in</h1>
+	<h1 class="exciting-voice">Log in</h1>
 
-	<p>Try to log in</p>
+	<p class="regular-voice">Try to log in</p>
 	<p class="whisper-voice">If you are new, try "steve" for username and "houston" for the password.</p>
 
 	<div class="<?=$class?>">
-		<label>Username</label>
+		<label>Username (first name)</label>
 		<input type="text" name="id" placeholder="lower-case only" required="required">
 	</div>
 
@@ -68,12 +68,10 @@ if (isset($_POST["submitted"])) {
 	Log in
 	</button>
 
-	<p class="<?=$class2?>"><?=$message?></p>
+		<p class="regular-voice <?=$class2?>"><?=$message?></p>
+	
+		
+		<h1 class="exciting-voice <?=$class1?>">You are in!!!</h1>
+
 	
 </form>
-
-<section class="<?=$class1?>">
-	
-	<h1>You are in!!!</h1>
-
-</section>

@@ -23,17 +23,17 @@
 ?>
 	
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Drinking calculator</h1>
+	<h1 class="exciting-voice">Drinking calculator</h1>
 	
-	<p>Are you of drinking age?</p>
+	<p class="regular-voice">Are you of drinking age?</p>
 
 	<div class="field">
-	 	<label>What year were you born?</label>
+	 	<label class="talking-voice">What year were you born?</label>
 	 	<input type="number" name="born" max="2022" min="1900" required="required" value="<?=$yearBorn?>">
 	</div>
 
@@ -41,6 +41,6 @@
 
 	<!-- Output -->
 
-	<p><?=$message?></p>
+	<p class="regular-voice"><?=$message?></p>
 
 </form>

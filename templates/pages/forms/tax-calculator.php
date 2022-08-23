@@ -45,22 +45,22 @@
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Tax Calculator</h1>
+	<h1 class="exciting-voice">Tax Calculator</h1>
 
-	<p>Does your total include tax? Let's find out.</p>
+	<p class="regular-voice">Does your total include tax? Let's find out.</p>
 
 	<div class="field">
-		<label>Order Amount</label>
+		<label class="talking-voice">Order Amount</label>
 		<input type="number" name="order" min=0 step=0.01 value="<?=$order?>">
 	</div>
 
 	<div class="field">
-		<label for="states">Choose your State:</label>
+		<label class="talking-voice" for="states">Choose your State:</label>
 
 		<select name="state" id="states" required="required">
 		    <option value="">--Scroll to choose your State--</option>
@@ -120,10 +120,10 @@
 
 	<button name="submitted" type="submit">Calculate</button>
 
-	<p><?=$message?></p>
-	<p><?=$message1?></p>
-	<p><?=$message2?></p>
-	<p><?=$message3?></p>
-	<p><?=$message4?></p>
+	<p class="regular-voice"><?=$message?></p>
+	<p class="regular-voice"><?=$message1?></p>
+	<p class="regular-voice"><?=$message2?></p>
+	<p class="regular-voice"><?=$message3?></p>
+	<p class="regular-voice"><?=$message4?></p>
 
 </form>

@@ -21,26 +21,26 @@
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Paycheck Calculator</h1>
+	<h1 class="exciting-voice">Paycheck Calculator</h1>
 
-	<p>Let's figure out your paycheck for the week</p>
+	<p class="regular-voice">Let's figure out your paycheck for the week</p>
 
 	<div class="field">
-		<label>Hours worked</label>
+		<label class="talking-voice">Hours worked</label>
 		<input type="number" name="work" min=0 max=168 step=0.01 value="<?=$work?>">
 	</div>
 	<div class="field">
-		<label>Pay rate</label>
+		<label class="talking-voice">Pay rate</label>
 		<input type="number" name="rate" min="0" max="999" step=0.01 value="<?=$rate?>">
 	</div>
 
 	<button name="submitted" type="submit">Calculate</button>
 
-	<p><?=$message?></p>
+	<p class="regular-voice"><?=$message?></p>
 
 </form>

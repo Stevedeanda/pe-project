@@ -26,8 +26,8 @@ include ('templates/modules/generic-text/generic-text.php');
 		$form['name'] = $form['name'] ?? "The name of the form goes here";
 		$id = $form['id']; ?>
 		
-		<li class="forms">
-			<a href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
+		<li>
+			<a class="talking-voice" href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
 		</li>
 	
 		<?php	} ?>

@@ -21,28 +21,28 @@
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 
 <form method="POST">
 
-	<h1 class="medium-voice">Calculating Berries</h1>
+	<h1 class="exciting-voice">Calculating Berries</h1>
 
-	<p>Let's figure out how many berries we need</p>
+	<p class="regular-voice">Let's figure out how many berries we need</p>
 
 	<div class="field">
-		<label>Number of guests</label>
+		<label class="talking-voice">Number of guests</label>
 		<input type="number" name="guests" min="0" value="<?=$guests?>">
 	</div>
 
 	<div class="field">
-		<label>Berries per guest</label>
+		<label class="talking-voice">Berries per guest</label>
 		<input type="number" name="berries" min="0" value="<?=$berries?>">
 	</div>
 
 	<button type="submit" name="submitted">Push me</button>
 
-	<p>We will need <span><?=$berries?></span> berries per guest. Since there is <span><?=$guests?></span> guests, we will need a total of <span><?=$total?></span> berries.</p>
+	<p class="regular-voice">We will need <span><?=$berries?></span> berries per guest. Since there is <span><?=$guests?></span> guests, we will need a total of <span><?=$total?></span> berries.</p>
 
 </form>

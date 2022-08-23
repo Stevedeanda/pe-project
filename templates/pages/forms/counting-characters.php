@@ -17,22 +17,22 @@
 ?>
 
 <header>
-	<a href="?page=forms">Back to form list</a>
+	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
 <form method="POST">
 
-	<h1 class="medium-voice">Character Counting</h1>
+	<h1 class="exciting-voice">Character Counting</h1>
 	
-	<p>Let's count the characters in string</p>
+	<p class="regular-voice">Let's count the characters in string</p>
 
 	<div class="field">
-		<label>Write your string here</label>
+		<label class="talking-voice">Write your string here</label>
 		<input type="text" name="string" value="<?=$string?>">
 	</div>
 
 	<button type="submit" name="submitted">Push me</button>
 
-	<p>"<?=$string?>" has <span><?=$message?></span> characters.</p>
+	<p class="regular-voice">"<?=$string?>" has <span><?=$message?></span> characters.</p>
 
 </form>

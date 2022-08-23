@@ -31,7 +31,7 @@ html {
 
 .talking-voice {
 	font-size: 20px;
-	font-weight: 400px;
+	font-weight: 400;
 }
 
 .regular-voice {
@@ -51,7 +51,7 @@ html {
 
 .whisper-voice {
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .micro-voice {
