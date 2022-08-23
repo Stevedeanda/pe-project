@@ -1,7 +1,7 @@
 
 <?php include('header.php'); ?>
 
-<p class="query">?<?=queryString();?></p>
+<!-- <p class="query">?<?=queryString();?></p> -->
 
 <?php 
 $_GET["page"] = $page;
