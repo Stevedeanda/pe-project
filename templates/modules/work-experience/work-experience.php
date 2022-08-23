@@ -6,7 +6,7 @@ $section['title'] = $section['title'] ?? "This is where the work experience titl
 ?>
 
 <work-experience class="section-content">
-	<h2><?=$section['title']?></h2>
+	<h2 class="bold-voice"><?=$section['title']?></h2>
 	<hr>
 	<ul class="job-info">
 
@@ -28,14 +28,14 @@ $section['title'] = $section['title'] ?? "This is where the work experience titl
       	?>
 
           <li class="job-list">
-          	<h3 class="title talk-voice"><?=$jobTitle?></h3>
-          	<h4 class="company meeting-voice"><?=$company?></h4>
-          	<p class="dates whisper-voice"><?=$dates?> | <?=$location?></p>
-             	<ul>
+          	<h3 class="talking-voice"><?=$jobTitle?></h3>
+          	<h4 class="bold-voice"><?=$company?></h4>
+          	<p class="whisper-voice"><?=$dates?> | <?=$location?></p>
+             	<ul class="task">
              		<?php 
 					foreach($tasks as $task) { 
 						$task = $task ?? "Job description or responsabilities go here";?>
-					<li class="task calm-voice"><?=$task?></li>
+					<li class="calm-voice"><?=$task?></li>
 					<?php } ?>
              	</ul>
           </li>

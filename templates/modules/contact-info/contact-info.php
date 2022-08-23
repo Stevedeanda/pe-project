@@ -14,7 +14,7 @@
       	$href = $contact["href"];
       	?>
 
-          <li>
+          <li class="calm-voice">
           	<a href="<?=$href?>" target="steve"><?php include("templates/pages/resume/icons/icon-$icon.php"); ?><?=$info?></a>  
           </li>
 

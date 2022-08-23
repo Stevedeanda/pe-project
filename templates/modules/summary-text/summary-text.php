@@ -6,8 +6,8 @@ $section['summary'] = $section['summary'] ?? "This is a small summary of what th
 
 ?>
 <summary-text>
-	<h1 class="loud-voice"><?=$section['title']?></h1>
-	<h2><?=$section['job']?></h2>
-	<p><?=$section['summary']?></p>
+	<h1 class="exciting-voice"><?=$section['title']?></h1>
+	<h2 class="attention-voice"><?=$section['job']?></h2>
+	<p class="calm-voice"><?=$section['summary']?></p>
 </summary-text>
 
