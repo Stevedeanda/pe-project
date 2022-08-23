@@ -15,7 +15,7 @@ if ($_GET["page"] == "forms") {
 			}
 		} ?>
 
-		<section>
+		<section class="form">
 			<inner-column>
 				<?php include ("templates/pages/forms/$module.php"); ?>
 			</inner-column>
