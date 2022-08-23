@@ -1,11 +1,11 @@
 <?php 
 
 $section['url'] = $section['url'] ?? "#";
-
+$section['class'] = $section['class'] ?? "";
 ?>
 
 
-<graphic-diptych>
+<graphic-diptych class="<?=$section['class']?>">
 	<picture>
 		<img src="<?=$section['url']?>" alt="">
 	</picture>

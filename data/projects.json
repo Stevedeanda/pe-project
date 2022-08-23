@@ -19,6 +19,7 @@
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "research",
 				"url": "images/theme-cs-one.png"
 			},
 			{
@@ -29,6 +30,7 @@
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "style-tile",
 				"url": "images/theme-cs-style-tile.png"
 			},
 			{
@@ -39,16 +41,18 @@
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "style-tile",
 				"url": "images/theme-cs-two.png"
 			},
 			{
 				"module": "generic-text",
-				"class": "syle-code",
+				"class": "style-code",
 				"heading": "Style Code",
 				"content": "Research done, style tile done, time to start making this website look pro. I decided to go with the green and black as my main colors for the site. I started to work on the site from the top to the bottom. Working on each section first before moving on to the next. This was a lot of fun, figuring out the color placement, font, layout, how you want it to look on different screen sizes, fun, fun, fun. You can see what my first try came out looking like. I sent it to my peers, friends, and family to get feedback. The feedback from everyone was helpful and I knew what to focus on next."
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "style-code",
 				"url": "images/theme-cs-style-code.png"
 			},
 			{
@@ -59,6 +63,7 @@
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "details",
 				"url": "images/theme-cs-logo.png"
 			},
 			{
@@ -69,6 +74,7 @@
 			},
 			{
 				"module": "graphic-diptych",
+				"class": "finish",
 				"url": "images/theme-cs-finish.png"
 			}
 		]

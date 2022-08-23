@@ -1,4 +1,6 @@
 .projects .page-header {
+	display: grid;
+	gap: 10px;
 	padding: 0 20px
 }
 
