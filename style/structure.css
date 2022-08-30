@@ -7,7 +7,6 @@ body {
 
 main {
 	flex-grow: 1; /* fill up available space + push the footer down */
-	background-color: var(--babyblue);
 }
 
 inner-column {
