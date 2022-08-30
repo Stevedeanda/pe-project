@@ -6,6 +6,8 @@ html {
 	--wheat: #FFEFD5;
 	--aqua: #00FFFF;
 	--red: #B22222;
+	--lightorange: #FFD1C3;
+	--lightpurple: #EFC3FF;
 
 	--ink: var(--black);
 	--paper: var(--white);

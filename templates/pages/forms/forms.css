@@ -1,9 +1,9 @@
 /* Form-list */
 
-.form-list .form {
+.form-list .form-content {
 	display: grid;
 	gap: 10px;
-	padding: 0 20px;
+	padding: 20px;
 }
 
 form-list {
@@ -20,7 +20,21 @@ form-list ul li a:hover{
 	color: var(--aqua);
 }
 
+@media (min-width: 585px) {
+	form-list ul {
+		grid-template-columns: 1fr 1fr;
+	}
+}
 
+@media (min-width: 700px) {
+	form-list ul {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	form-list ul li:nth-child(12) {
+		grid-column: 1/2;
+		grid-row: 4/5;
+	}
+}
 
 
 
@@ -33,8 +47,20 @@ form-list ul li a:hover{
 	border: 2px solid black;
 }
 
+.form header {
+	margin-top: 10px;
+}
+
+.form header a {
+	display: inline-block;
+	text-decoration: none;
+	border: solid 1px var(--ink);
+	padding: 4px 10px;
+}
+
 .form header a:hover {
 	color: var(--aqua);
+	border: solid 1px var(--aqua);
 }
 
 .form form {
@@ -104,6 +130,8 @@ form-list ul li a:hover{
 .form form p + ul {
 	padding-top: 20px;
 }
+
+
 
 
 

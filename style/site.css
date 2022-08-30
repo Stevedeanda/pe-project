@@ -22,13 +22,16 @@ body {
 inner-column {
 	border: solid red 2px;
 }
-.query {
+section {
+	/*border: solid blue 2px;*/
+}
+/*.query {
 	display: block;
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px 0;
-}
+}*/
 
 .project-site{
 	padding: 0 20px;

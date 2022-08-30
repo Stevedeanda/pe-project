@@ -51,7 +51,7 @@ if ($_GET["page"] == "forms") {
 		// include the right module file for this section
 		$module = $section['module'];	// Get correct module template based on name ?>
 
-		<section class="<?=$page?>">
+		<section class="<?=$section['class']?>">
 			<inner-column>
 				<?php include ( "templates/modules/$module/$module.php");?>
 			</inner-column>

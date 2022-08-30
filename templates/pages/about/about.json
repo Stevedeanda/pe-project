@@ -11,6 +11,11 @@
 			"voice-two": "attention-voice"
 		},
 		{
+			"module": "graphic-diptych",
+			"class": "my-picture",
+			"url": "images/selfie-two.jpeg"
+		},
+		{
 			"module": "generic-text",
 			"class": "where",
 			"heading": "Where I've been",

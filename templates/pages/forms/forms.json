@@ -45,16 +45,6 @@
 		"module": "self-checkout"
 	},
 	{
-		"id": "10",
-		"name": "Computing Simple Interest",
-		"module": "computing-simple-interest"
-	},
-	{
-		"id": "11",
-		"name": "Determining Compound Interest",
-		"module": "determining-compound-interest"
-	},	
-	{
 		"id": "12",
 		"name": "Pizza Party",
 		"module": "pizza-party"
@@ -63,5 +53,15 @@
 		"id": "13",
 		"name": "Tax Calculator",
 		"module": "tax-calculator"
+	},
+	{
+		"id": "10",
+		"name": "Computing Simple Interest",
+		"module": "computing-simple-interest"
+	},
+	{
+		"id": "11",
+		"name": "Determining Compound Interest",
+		"module": "determining-compound-interest"
 	}
 ]

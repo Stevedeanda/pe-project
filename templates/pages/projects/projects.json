@@ -11,7 +11,8 @@
 			"voice-two": "attention-voice"
 		},
 		{
-			"module": "projects-grid"
+			"module": "projects-grid",
+			"class": "projects"
 		}
 		
 	]

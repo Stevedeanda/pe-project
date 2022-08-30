@@ -9,7 +9,7 @@ $section['voice-two'] = $section['voice-two'] ?? "";
 ?>
 
 
-<generic-text class="<?=$section['class']?>">
+<generic-text class="<?=$section['class']?>-content">
 	<h2 class="<?=$section['voice-one']?>"><?=$section['heading']?></h2>
 	<p class="<?=$section['voice-two']?>"><?=$section['content']?></p>
 </generic-text>
