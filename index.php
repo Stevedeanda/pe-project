@@ -49,7 +49,8 @@ if ($_GET["page"] == "forms") {
 
 	foreach ($pageData['sections'] as $section) {
 		// include the right module file for this section
-		$module = $section['module'];	// Get correct module template based on name ?>
+		$module = $section['module'];	// Get correct module template based on name 
+		$section['class'] = $section['class'] ?? "";?>
 
 		<section class="<?=$section['class']?>">
 			<inner-column>
