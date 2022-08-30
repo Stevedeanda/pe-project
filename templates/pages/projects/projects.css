@@ -1,6 +1,9 @@
 
 .projects-main {
-	background-color: var(--lightpurple);
+	display: block;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
