@@ -22,3 +22,6 @@
 		<?php include ('templates/modules/site-menu/site-menu.php'); ?>
 
 		<main class="<?=$page?>-main">
+
+			<section class="<?=$page?>-section">
+				<inner-column>

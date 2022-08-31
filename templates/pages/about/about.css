@@ -1,11 +1,11 @@
 
 
-.about-main {
+/*.about-main {
 	display: block;
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
-}
+}*/
 
 .about-main generic-text {
 	display: flex;
@@ -39,47 +39,47 @@
 }
 
 @media (min-width: 550px) {
-	.about-main {
+	.about-section inner-column {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-	.about-main .page-header {
+	.about-section inner-column .page-header-content {
 		grid-column: 1/3;
 		grid-row: 1/2;
 	}
-	.about-main .where {
+	.about-section inner-column .where-content {
 		grid-column: 1/3;
 		grid-row: 2/3;
 	}
-	.about-main .what {
+	.about-section inner-column .what-content {
 		grid-column: 1/3;
 		grid-row: 4/5;
 	}
 }
 
 @media (min-width: 775px) {
-	.about-main {
+	.about-section inner-column {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 		grid-auto-rows: auto;
 	}
-	.about-main .page-header {
+	.about-section inner-column .page-header-content {
 		grid-column: 1/6;
 		grid-row: 1/2;
 	}
-	.about-main .where {
+	.about-section inner-column .where-content {
 		grid-column: 4/6;
 		grid-row: 2/3;
 	}
-	.about-main .my-picture {
+	.about-section inner-column .my-picture-pic {
 		grid-column: 1/4;
 		grid-row: 2/4;
 	}
-	.about-main .why {
+	.about-section inner-column .why-content {
 		grid-column: 4/6;
 		grid-row: 3/5;
 	}
-	.about-main .what {
+	.about-section inner-column .what-content {
 		grid-column: 1/4;
 		grid-row: 4/5;
 	}

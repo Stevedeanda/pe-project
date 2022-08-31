@@ -1,4 +1,5 @@
-
+					</inner-column>
+				</section>
 	
 			</main>
 

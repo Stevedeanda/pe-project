@@ -35,11 +35,9 @@ if ($_GET["page"] == "forms") {
 		//Render the detail data
 		//echo $detail['name']; ?>
 
-		<section class="<?=$detail['module']?>">
-			<inner-column>
+
 				<?php include ( "templates/modules/$module/$module.php"); ?>
-			</inner-column>
-		</section>
+
 
 	<?php } 
 } else {
@@ -52,11 +50,9 @@ if ($_GET["page"] == "forms") {
 		$module = $section['module'];	// Get correct module template based on name 
 		$section['class'] = $section['class'] ?? "";?>
 
-		<section class="<?=$section['class']?>">
-			<inner-column>
-				<?php include ( "templates/modules/$module/$module.php");?>
-			</inner-column>
-		</section>
+		
+			<?php include ( "templates/modules/$module/$module.php");?>
+
 
 	<?php } 
 }	
