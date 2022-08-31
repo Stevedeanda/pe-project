@@ -1,12 +1,5 @@
 
 
-/*.about-main {
-	display: block;
-	max-width: 800px;
-	margin-right: auto;
-	margin-left: auto;
-}*/
-
 .about-main generic-text {
 	display: flex;
 	flex-direction: column;

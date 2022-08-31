@@ -15,11 +15,9 @@ if ($_GET["page"] == "forms") {
 			}
 		} ?>
 
-		<section class="form">
-			<inner-column>
-				<?php include ("templates/pages/forms/$module.php"); ?>
-			</inner-column>
-		</section>
+
+			<?php include ("templates/pages/forms/$module.php"); ?>
+
 
 	<?php } 
 } else if ($_GET["page"] == "project") {
@@ -35,9 +33,7 @@ if ($_GET["page"] == "forms") {
 		//Render the detail data
 		//echo $detail['name']; ?>
 
-
-				<?php include ( "templates/modules/$module/$module.php"); ?>
-
+			<?php include ( "templates/modules/$module/$module.php"); ?>
 
 	<?php } 
 } else {
@@ -49,10 +45,8 @@ if ($_GET["page"] == "forms") {
 		// include the right module file for this section
 		$module = $section['module'];	// Get correct module template based on name 
 		$section['class'] = $section['class'] ?? "";?>
-
 		
 			<?php include ( "templates/modules/$module/$module.php");?>
-
 
 	<?php } 
 }	

@@ -1,38 +1,33 @@
-.resume-main {
-	display: block;
-	max-width: 800px;
-	margin-right: auto;
-	margin-left: auto;
-}
 
-.resume-main generic-text {
+
+.resume-section generic-text {
 	display: grid;
 	gap: 10px;
 	padding: 20px;
 	/*background: var(--paper);*/
 }
 
-.resume-main summary-text {
+.resume-section summary-text {
 	display: grid;
 	gap: 10px;
 	padding: 10px 20px 10px 20px;
 }
 
-.resume-main work-experience {
+.resume-section work-experience {
 	padding: 10px 20px;
 }
 
-.resume-main work-experience .job-info {
+.resume-section work-experience .job-info {
 	display: grid;
 	gap: 20px;
 }
 
-.resume-main work-experience ul .job-list {
+.resume-section work-experience ul .job-list {
 	display: grid;
 	gap: 8px;
 }
 
-.resume-main work-experience ul li .task {
+.resume-section work-experience ul li .task {
 	display: grid;
 	gap: 5px;
 	list-style: outside;
@@ -40,49 +35,50 @@
 	margin-left: 1rem;	
 }
 
-.resume-main list-items {
+.resume-section list-items {
 	padding: 10px 20px;
 }
 
-.resume-main contact-info {
+.resume-section contact-info {
 	padding: 10px 20px 100px 20px;
 }
 
-.resume-main contact-info ul {
+.resume-section contact-info ul {
 	display: grid;
 	gap: 15px;
 }
 
 @media (min-width: 600px) {
-	.resume-main {
+	.resume-section inner-column {
 		display: grid;
 		grid-template-columns: 4fr 8fr;
 		grid-auto-rows: auto;
 	}
-	.resume-main .page-header {
+	.resume-section inner-column .page-header-content {
 		grid-column: 1/3;
 		grid-row: 1/2;
 	}
-	.resume-main .summary-text {
+	.resume-section inner-column summary-text {
 		grid-column: 1/3;
 		grid-row: 2/3;
 	}
-	.resume-main .work-experience {
+	.resume-section inner-column work-experience {
 		grid-column: 2/3;
 		grid-row: 3/7;
+		padding-bottom: 50px;
 	}
-	.resume-main .contact-info {
+	.resume-section inner-column contact-info {
 		grid-column: 1/2;
 		grid-row: 3/4;
 	}
-	.resume-main contact-info {
+	.resume-section inner-column contact-info {
 		padding: 10px 20px 10px 20px;
 	}
-	.resume-main .technical-skills {
+	.resume-section inner-column .languages {
 		grid-column: 1/2;
 		grid-row: 4/5;
 	}
-	.resume-main .interests {
+	.resume-section inner-column .interests {
 		grid-column: 1/2;
 		grid-row: 5/6;
 	}
