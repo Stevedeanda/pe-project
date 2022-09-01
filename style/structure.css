@@ -7,12 +7,11 @@ body {
 
 main {
 	flex-grow: 1; /* fill up available space + push the footer down */
-	background-color: var(--babyblue);
 }
 
 inner-column {
 	display: block;
-	max-width: 800px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 }

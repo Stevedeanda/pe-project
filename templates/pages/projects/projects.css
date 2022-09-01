@@ -1,26 +1,43 @@
 
-
+.projects-main {
+	background-color: var(--babyblue);
+}
 
 .projects-main generic-text {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-	padding: 20px
+	padding: 20px 20px 40px 20px;
+	/*border:solid 1px var(--orange);*/
 }
 
 projects-grid {
 	display: block;
 	display: grid;
-	gap: 20px;
-	padding: 30px 20px
+	gap: 40px;
+	padding: 40px 20px;
+	border: solid 20px var(--ink);
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 projects-grid article {
 	display: block;
 	display: grid;
 	gap: 10px;
+	padding: 10px 20px;
+	border: solid 1px var(--ink);
+}
+
+projects-grid article p {
+	max-width: 50ch;
+}
+
+projects-grid article a {
+	display: inline-block;
+	text-decoration: underline;
+	padding: 10px 0;	
 }
 
 projects-grid article a:hover {
-	color: var(--aqua);
+	color: var(--orange);
 }

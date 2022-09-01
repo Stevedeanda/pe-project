@@ -1,16 +1,36 @@
 mast-head .site-menu {
-	/*display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: flex-end;
-	align-items: flex-start;
-	gap: 10px;*/
-	display: grid;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+/*	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-	grid-gap: 10px;
-	padding: 20px;
+	grid-gap: 10px;*/
+	padding: 0 10px;
 }
 
-mast-head .site-menu a:hover {
-	color: var(--aqua);
+mast-head .site-menu a {
+	padding: 10px 10px;
 }
+
+mast-head .site-menu .home:hover {
+	color: var(--lightyellow);
+	background-color: var(--black);
+}
+
+mast-head .site-menu .about:hover {
+	color: var(--lightred);
+	background-color: var(--black);
+}
+
+mast-head .site-menu .projects:hover {
+	color: var(--babyblue);
+	background-color: var(--black);
+}
+
+mast-head .site-menu .resume:hover {
+	color: var(--lightgreen);
+	background-color: var(--black);
+}
+
+
+

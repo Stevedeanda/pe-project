@@ -1,9 +1,11 @@
 
+.about-main {
+	background-color: var(--lightred);
+}
 
 .about-main generic-text {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 }
 
 .about-main .page-header-content {
@@ -15,8 +17,8 @@
 }
 
 .about-main .my-picture-pic img {
-	padding: 10px;
-	border: solid 20px var(--ink);
+	/*padding: 10px;*/
+	/*border: solid 20px var(--ink);*/
 }
 
 .about-main .where-content{
@@ -31,7 +33,34 @@
 	padding: 10px 20px 70px 20px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 585px) {
+	.about-section inner-column {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.about-section inner-column .page-header-content {
+		grid-column: 1/3;
+		grid-row: 1/2;
+	}
+	.about-section inner-column .where-content {
+		grid-column: 1/3;
+		grid-row: 2/3;
+	}
+	.about-section inner-column .what-content {
+		grid-column: 1/2;
+		grid-row: 4/5;
+	}
+	.about-section inner-column .why-content {
+		grid-column: 2/3;
+		grid-row: 3/5;
+	}
+	.about-section inner-column .my-picture-pic {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+}
+
+@media (min-width: 885px) {
 	.about-section inner-column {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -48,13 +77,20 @@
 		grid-column: 1/3;
 		grid-row: 4/5;
 	}
+	.about-section inner-column .why-content {
+		grid-column: 2/3;
+		grid-row: 3/4;
+	}
+	.about-section inner-column .my-picture-pic {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
 }
 
-@media (min-width: 775px) {
+@media (min-width: 1025px) {
 	.about-section inner-column {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-		grid-auto-rows: auto;
 	}
 	.about-section inner-column .page-header-content {
 		grid-column: 1/6;
@@ -77,3 +113,28 @@
 		grid-row: 4/5;
 	}
 }
+
+/*@media (min-width: 1025px) {
+	.about-section inner-column {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	}
+	.about-section inner-column .what-content {
+		grid-column: 4/6;
+		grid-row: 4/5;
+	}
+	.about-section inner-column .my-picture-pic {
+		grid-column: 1/4;
+		grid-row: 2/5;
+	}
+	.about-section inner-column .why-content {
+		grid-column: 4/6;
+		grid-row: 3/4;
+	}
+	.about-main .what-content{
+		padding: 10px 20px 10px 20px;
+	}
+	.about-main .my-picture-pic {
+		padding: 10px 20px 70px 20px;
+	}
+}*/

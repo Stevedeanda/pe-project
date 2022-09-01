@@ -2,13 +2,22 @@
 html {
 	--black: #000000;
 	--white: #FFFFFF;
+
 	--babyblue: #d0f4ff;
+	--orange: #ff5500;
+
+	--lightred: #FFD1C3;
+
+	--lightgreen: #dbffce;
+
+	--lightyellow: #fbffa1;
+
 	--wheat: #FFEFD5;
 	--aqua: #00FFFF;
-	--red: #B22222;
-	--lightorange: #FFD1C3;
-	--lightpurple: #EFC3FF;
 
 	--ink: var(--black);
 	--paper: var(--white);
+	--projecthover: var(--orange);
+	--borders: var(--black);
 }
+#FFDA85

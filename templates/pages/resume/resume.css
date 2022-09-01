@@ -1,16 +1,28 @@
 
+.resume-main {
+	background-color: var(--lightgreen);
+}
+
+.resume-main inner-column {
+	border: solid 1px var(--borders);
+	border-top: none;
+}
 
 .resume-section generic-text {
 	display: grid;
-	gap: 10px;
+	/*gap: 2px;*/
 	padding: 20px;
-	/*background: var(--paper);*/
+	border-bottom: solid 1px var(--borders);
 }
 
 .resume-section summary-text {
 	display: grid;
-	gap: 10px;
-	padding: 10px 20px 10px 20px;
+	/*gap: 10px;*/
+	padding: 20px 20px 10px 20px;
+}
+
+.resume-section summary-text h2 + p {
+	padding-top: 16px;
 }
 
 .resume-section work-experience {
@@ -48,6 +60,13 @@
 	gap: 15px;
 }
 
+.resume-section contact-info ul a{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: start;
+}
+
 @media (min-width: 600px) {
 	.resume-section inner-column {
 		display: grid;
@@ -69,18 +88,18 @@
 	}
 	.resume-section inner-column contact-info {
 		grid-column: 1/2;
-		grid-row: 3/4;
+		grid-row: 5/6;
 	}
 	.resume-section inner-column contact-info {
 		padding: 10px 20px 10px 20px;
 	}
 	.resume-section inner-column .languages {
 		grid-column: 1/2;
-		grid-row: 4/5;
+		grid-row: 3/4;
 	}
 	.resume-section inner-column .interests {
 		grid-column: 1/2;
-		grid-row: 5/6;
+		grid-row: 4/5;
 	}
 }
 

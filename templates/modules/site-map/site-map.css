@@ -4,9 +4,8 @@ site-map {
 }
 
 site-map nav {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-	grid-gap: 10px;
+	display: flex;
+	gap: 10px;
 }
 
 site-map nav a:hover {

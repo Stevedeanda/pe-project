@@ -1,5 +1,9 @@
 /* Form-list */
 
+.project-main {
+	background-color: var(--babyblue);
+}
+
 .project-section .form-content {
 	display: grid;
 	gap: 10px;
@@ -17,7 +21,7 @@ form-list ul {
 }
 
 form-list ul li a:hover{
-	color: var(--aqua);
+	color: var(--orange);
 }
 
 @media (min-width: 585px) {
@@ -59,8 +63,8 @@ form-list ul li a:hover{
 }
 
 .forms-section header a:hover {
-	color: var(--aqua);
-	border: solid 1px var(--aqua);
+	color: var(--orange);
+	border: solid 1px var(--orange);
 }
 
 .forms-section form {
@@ -79,13 +83,13 @@ form-list ul li a:hover{
 	border: solid 1px var(--ink);
 	border-radius: 6px;
 	color: var(--ink);
-	background-color: var(--paper);
+	background-color: var(--babyblue);
 	padding: 10px;
 }
 
 /* Whenever you select this box the highlight will be orange instead of the default blue */
 .forms-section form .field textarea:focus-visible, input:focus-visible, select:focus-visible {
-	outline-color: var(--aqua);
+	outline-color: var(--orange);
  	outline-style: auto;
  	outline-width: 1px;
 }
@@ -97,16 +101,16 @@ form-list ul li a:hover{
 	font-weight: 300;
 	font-size: 16px;
 	color: var(--ink);
-	background-color: var(--paper);
+	background-color: var(--babyblue);
 	border: solid 1px var(--ink);
 	border-radius: 6px;
 	padding: 3px 12px;
 }
 
 .forms-section form button:hover {
-	color: var(--aqua);
-	background-color: var(--paper);
-	border: solid 1px var(--aqua);	
+	color: var(--orange);
+	background-color: var(--babyblue);
+	border: solid 1px var(--orange);	
 }
 
 .forms-section form .visible {

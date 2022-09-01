@@ -1,4 +1,8 @@
 
+.home-main {
+	background-color: var(--lightyellow);
+}
+
 welcome-landing {
 	display: block;
 	display: grid;
