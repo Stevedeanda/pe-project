@@ -13,7 +13,7 @@ mast-head .site-menu a {
 }
 
 mast-head .site-menu .home:hover {
-	color: var(--lightyellow);
+	color: var(--orange);
 	background-color: var(--black);
 }
 
