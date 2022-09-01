@@ -5,7 +5,7 @@ html {
 }
 
 .yell-voice {
-	font-size: clamp(2.5rem, 8vw, 7rem);
+	font-size: clamp(4rem, 8vw, 9rem);
 	font-weight: 400;
 }
 

@@ -1,6 +1,7 @@
 
 .about-main {
-	background-color: var(--lightred);
+	background-image: url(../../../images/wood-pattern.png);
+	background-color: var(--mustard);
 }
 
 .about-main generic-text {

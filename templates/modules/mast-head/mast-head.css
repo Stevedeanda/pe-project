@@ -18,7 +18,7 @@ mast-head .site-menu .home:hover {
 }
 
 mast-head .site-menu .about:hover {
-	color: var(--lightred);
+	color: var(--mustard);
 	background-color: var(--black);
 }
 
