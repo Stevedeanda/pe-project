@@ -1,0 +1,37 @@
+
+.home-main {
+	background-image: url("../../../images/home-page6.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: var(--orange);
+}
+
+@media (min-width: 475px) {
+	.home-main {
+		background-image: url("../../../images/home-page3.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 800px) {
+	.home-main {
+		background-image: url("../../../images/home-page4.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 1000px) {
+	.home-main {
+		background-image: url("../../../images/home-page.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+welcome-landing {
+	display: block;
+	display: grid;
+	padding: 20px;
+}

@@ -1,0 +1,11 @@
+{
+
+	"sections": [
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"heading": "Steve DeAnda",
+			"content": "Web Developer"
+		}
+	]
+}
