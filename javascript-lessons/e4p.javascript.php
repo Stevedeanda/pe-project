@@ -31,6 +31,7 @@
 
 		<script>
 
+			// Hello
 			function human() {
 			    var person = prompt('what is your name?');
 			    if (person) {
@@ -44,6 +45,7 @@
 			firstbutton.addEventListener('click', human);
 			document.body.appendChild(firstbutton);
 			
+			//Counting Characters
 			function characters() {
 			    var words = prompt('Write a word in here');
 			    var counter = words.length;
@@ -56,6 +58,7 @@
 			secondbutton.addEventListener('click', characters);
 			document.body.appendChild(secondbutton);
 
+			// Printing Quotes
 			function quotes() {
 				alert('The next prompts will ask you for a quote and the author of the quote. Think of one and answer the prompts accordingly');
 				var quote = prompt('Write a quote you know or heard');
@@ -68,6 +71,8 @@
 			thirdbutton.textContent = "Printing Quotes";
 			thirdbutton.addEventListener('click', quotes);
 			document.body.appendChild(thirdbutton);
+
+			
 
 
 		</script>
