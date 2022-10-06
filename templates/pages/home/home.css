@@ -1,16 +1,19 @@
 
 .home-main {
 	background-image: url("../../../images/home-page6.JPG");
-	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	color: var(--orange);
+	background-size: cover;
+	color: var(--white);
+}
+
+.home-section {
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 @media (min-width: 475px) {
 	.home-main {
 		background-image: url("../../../images/home-page3.JPG");
-		background-size: cover;
-		background-repeat: no-repeat;
 	}
 }
 
@@ -34,4 +37,5 @@ welcome-landing {
 	display: block;
 	display: grid;
 	padding: 20px;
+	/*background-color: hsla(0, 0%, 0%, .5);*/
 }
