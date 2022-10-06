@@ -1,0 +1,23 @@
+
+html {
+	--black: #000000;
+	--white: #FFFFFF;
+
+	--babyblue: #d0f4ff;
+	--orange: #ff5500;
+
+	--mustard: #c9aa10;
+
+	--lightgreen: #dbffce;
+
+	--lightyellow: #e94646;
+
+	--wheat: #FFEFD5;
+	--aqua: #00FFFF;
+
+	--ink: var(--black);
+	--paper: var(--white);
+	--projecthover: var(--orange);
+	--borders: var(--black);
+}
+#FFDA85
