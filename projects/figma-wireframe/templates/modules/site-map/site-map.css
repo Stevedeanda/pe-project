@@ -1,0 +1,50 @@
+site-map {
+	display: block;
+	background-color: #3563e9;
+}
+
+site-map site-links{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 20px;
+}
+
+site-map site-links nav {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+site-map site-links nav a:hover {
+	color: var(--aqua);
+}
+
+site-map site-legal{
+	display: flex;
+	justify-content: space-between;
+   align-items: center;
+	padding: 20px;
+}
+
+site-map site-legal nav {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+site-map site-legal nav a:hover {
+	color: var(--aqua);
+}
+
+site-map site-legal legal-links {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+
+site-map site-legal social-icons {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+

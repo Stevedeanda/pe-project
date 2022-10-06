@@ -1,0 +1,26 @@
+{
+	"title": "Style Guide",
+	"description": "Showing the styles for the site here",
+
+	"sections": [
+		{
+			"module": "generic-text"
+		},
+		{
+			"module": "form-list"
+		},
+		{
+			"module": "projects-grid"
+		},
+		{
+			"module": "summary-text"
+		},
+		{
+			"module": "graphic-diptych",
+			"url": "images/theme-cs-finish.png"
+		},
+		{
+			"module": "site-map"
+		}
+	]
+}
