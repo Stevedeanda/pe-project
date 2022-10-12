@@ -6,7 +6,7 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "My Projects",
-			"voice-one": "loud-voice",
+			"voice-one": "yell-voice",
 			"content": "All the projects I have created so far.",
 			"voice-two": "attention-voice"
 		},

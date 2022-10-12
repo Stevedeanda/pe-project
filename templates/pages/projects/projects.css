@@ -3,10 +3,17 @@
 	background-color: var(--babyblue);
 }
 
+.projects-main inner-column {
+	border: solid 1px var(--borders);
+	border-top: none;
+}
+
 .projects-main generic-text {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 20px 40px 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+	color: var(--white);
 	/*border:solid 1px var(--orange);*/
 }
 
@@ -15,7 +22,7 @@ projects-grid {
 	display: grid;
 	gap: 40px;
 	padding: 40px 20px;
-	border: solid 20px var(--ink);
+	/*border: solid 20px var(--ink);*/
 	margin-left: 20px;
 	margin-right: 20px;
 }

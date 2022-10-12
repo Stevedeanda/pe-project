@@ -5,7 +5,7 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "Resume",
-			"voice-one": "loud-voice",
+			"voice-one": "yell-voice",
 			"content": "Take a look.",
 			"voice-two": "attention-voice"
 		},

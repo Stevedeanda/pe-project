@@ -49,8 +49,7 @@ if ($_GET["page"] == "forms") {
 			<?php include ( "templates/modules/$module/$module.php");?>
 
 	<?php } 
-}	
-?>
+} ?>
 
 <?php include ('footer.php'); ?>
 

@@ -6,7 +6,7 @@
 			"module": "generic-text",
 			"class": "page-header",
 			"heading": "About me",
-			"voice-one": "loud-voice",
+			"voice-one": "yell-voice",
 			"content": "Where I've been, why this profession and an overview of me.",
 			"voice-two": "attention-voice"
 		},

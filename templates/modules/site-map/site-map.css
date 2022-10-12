@@ -1,13 +1,33 @@
 site-map {
 	display: block;
-	padding: 20px;
+	/*padding: 20px;*/
 }
 
-site-map nav {
+site-map .site-menu {
 	display: flex;
-	gap: 10px;
+	/*gap: 10px;*/
 }
 
-site-map nav a:hover {
-	color: var(--aqua);
+site-map .site-menu a {
+	padding: 10px 10px;
+}
+
+site-map .site-menu .home:hover {
+	color: var(--white);
+	background-color: var(--black);
+}
+
+site-map .site-menu .about:hover {
+	color: var(--mustard);
+	background-color: var(--black);
+}
+
+site-map .site-menu .projects:hover {
+	color: var(--babyblue);
+	background-color: var(--black);
+}
+
+site-map .site-menu .resume:hover {
+	color: var(--lightgreen);
+	background-color: var(--black);
 }
