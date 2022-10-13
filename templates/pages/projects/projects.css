@@ -1,6 +1,6 @@
 
 .projects-main {
-	background-color: var(--babyblue);
+	background-color: var(--sand);
 }
 
 .projects-main inner-column {
@@ -25,6 +25,7 @@ projects-grid {
 	/*border: solid 20px var(--ink);*/
 	margin-left: 20px;
 	margin-right: 20px;
+
 }
 
 projects-grid article {

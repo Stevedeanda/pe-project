@@ -11,7 +11,7 @@ $formsData = json_decode($json, true);
 $section['heading'] = "Forms";
 $section['content'] = "Using the book 'Exercises for Programmers', it gives problems to solve with constraints. Here are a few of the forms I have attempted.";
 $section['class'] = "form";
-$section['voice-one'] = "loud-voice";
+$section['voice-one'] = "yell-voice";
 $section['voice-two'] = "attention-voice";
 include ('templates/modules/generic-text/generic-text.php');
 

@@ -18,16 +18,16 @@ site-map .site-menu .home:hover {
 }
 
 site-map .site-menu .about:hover {
-	color: var(--mustard);
+	color: var(--olive);
 	background-color: var(--black);
 }
 
 site-map .site-menu .projects:hover {
-	color: var(--babyblue);
+	color: var(--sand);
 	background-color: var(--black);
 }
 
 site-map .site-menu .resume:hover {
-	color: var(--lightgreen);
+	color: var(--cream);
 	background-color: var(--black);
 }

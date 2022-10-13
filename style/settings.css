@@ -7,11 +7,16 @@ html {
 	--orange: #ff5500;
 
 	--mustard: #c9aa10;
+	--mustard2: #dbab61;
 
 	--lightgreen: #dbffce;
 	--darkgreen: #495645;
+	--gray: #6c8685;
+	--lightpink: #f8ecec;
 
 	--lightyellow: #e94646;
+	--brown: #382a1f;
+	--turquois: #294f51;
 
 	--wheat: #FFEFD5;
 	--aqua: #00FFFF;
@@ -20,5 +25,9 @@ html {
 	--paper: var(--white);
 	--projecthover: var(--orange);
 	--borders: var(--black);
+
+	--olive: #a9993c;
+	--sand: #d5c88b;
+	--cream: #efead2;
 }
 #FFDA85
