@@ -108,24 +108,20 @@
 		"module": "project-info",
 		"sections": [
 			{
-				"module": "generic-text",
-				"class": "description",
+				"module": "text-link",
+				"class": "link",
 				"voice-one": "bold-voice",
 				"heading": "Audiophile Store",
 				"voice-two": "regular-voice",
-				"content": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products."
+				"content": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
+				"voice-three": "whisper-voice",
+				"url": "https://peprojects.dev/alpha-4/steve/projects/audiophile/",
+				"link-content": "Check out live site"
 			},
 			{
 				"module": "graphic-diptych",
 				"class": "description",
 				"url": "images/audiophile-shot.png"
-			},
-			{
-				"module": "text-link",
-				"class": "link",
-				"voice-three": "whisper-voice",
-				"url": "https://peprojects.dev/alpha-4/steve/projects/audiophile/",
-				"link-content": "Check out live site"
 			}
 		]
 	}
