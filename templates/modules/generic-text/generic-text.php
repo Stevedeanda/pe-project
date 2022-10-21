@@ -1,7 +1,7 @@
 <?php 
 
-$section['heading'] = $section['heading'] ?? "This is where the heading goes";
-$section['content'] = $section['content'] ?? "This is where the content goes in a paragraph element";
+$section['heading'] = $section['heading'] ?? "";
+$section['content'] = $section['content'] ?? "";
 $section['class'] = $section['class'] ?? "";
 $section['voice-one'] = $section['voice-one'] ?? "";
 $section['voice-two'] = $section['voice-two'] ?? "";
