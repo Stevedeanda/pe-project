@@ -10,6 +10,25 @@ project-info generic-text h2 + p {
 	padding-top: 10px;
 }
 
+project-info text-link h2 + p {
+	padding-top: 10px;
+}
+
+project-info text-link p + a {
+	margin-top: 20px;
+}
+
+project-info text-link a {
+	border: solid black 1px;
+	padding: 20px;
+	display: inline-block;
+}
+
+project-info text-link a:hover {
+	color: var(--orange);
+	border: solid var(--orange) 1px;
+}
+
 @media (min-width: 700px) {
 	project-info {
 		grid-template-columns: 1fr 1fr;
@@ -41,6 +60,10 @@ project-info generic-text h2 + p {
 	project-info .finish-pic {
 		grid-column: 1/3;
 		grid-row: 9/10;
+	}
+	project-info .site {
+		grid-column: 1/3;
+		grid-row: 10/11;
 	}
 }
 
