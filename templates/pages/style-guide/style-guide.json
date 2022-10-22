@@ -4,23 +4,143 @@
 
 	"sections": [
 		{
-			"module": "generic-text"
+			"module": "generic-text",
+			"class": "example",
+			"voice-one": "yell-voice",
+			"heading": "Style Guide",
+			"voice-two": "attention-voice",
+			"content": "A way to look at my typography and design"
 		},
 		{
-			"module": "form-list"
+			"module": "list-items",
+			"list": "font",
+			"list-name": "Typography",
+			"items": [
+				{
+					"item": ""
+				}
+			]
 		},
 		{
-			"module": "projects-grid"
+			"module": "generic-text",
+			"class": "font",
+			"content": "Font-Family: Work Sans, serif",
+			"voice-two": "attention-voice"
 		},
 		{
-			"module": "summary-text"
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "yell-voice",
+			"heading": ".yell-voice",
+			"voice-two": "yell-voice"
 		},
 		{
-			"module": "graphic-diptych",
-			"url": "images/theme-cs-finish.png"
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "loud-voice",
+			"heading": ".loud-voice",
+			"voice-two": "loud-voice"
 		},
 		{
-			"module": "site-map"
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "exciting-voice",
+			"heading": ".exciting-voice",
+			"voice-two": "exciting-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "attention-voice",
+			"heading": ".attention-voice",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "bold-voice",
+			"heading": ".bold-voice",
+			"voice-two": "bold-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "talking-voice",
+			"heading": ".talking-voice",
+			"voice-two": "talking-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "regular-voice",
+			"heading": ".regular-voice",
+			"voice-two": "regular-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "calm-voice",
+			"heading": ".calm-voice",
+			"voice-two": "calm-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "quiet-voice",
+			"heading": ".quiet-voice",
+			"voice-two": "quiet-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"voice-one": "whisper-voice",
+			"heading": ".whisper-voice",
+			"voice-two": "whisper-voice"
+		},
+		{
+			"module": "list-items",
+			"list": "colors",
+			"list-name": "Colors",
+			"items": [
+				{
+					"item": "--orange: #ff5500"
+				},
+				{
+					"item": "--olive: #a9993c"
+				},
+				{
+					"item": "--sand: #d5c88b"
+				},
+				{
+					"item": "--cream: #efead2"
+				},
+				{
+					"item": "--black: #000000"
+				},
+				{
+					"item": "--white: #FFFFFF"
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"list": "modules",
+			"list-name": "Modules",
+			"items": [
+				{
+					"item": ""
+				}
+			]
 		}
 	]
 }
