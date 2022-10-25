@@ -6,5 +6,6 @@
 		<a class="projects" href="?page=projects">Projects</a>
 		<a class="resume" href="?page=resume">Resume</a>
 		<a href="?page=style-guide">Style&nbspGuide</a>
+		<a href="?page=goals">Goals</a>
 	</nav>
 </site-map>
