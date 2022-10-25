@@ -5,6 +5,7 @@ site-map {
 
 site-map .site-menu {
 	display: flex;
+	flex-wrap: wrap;
 	/*gap: 10px;*/
 }
 
@@ -29,5 +30,15 @@ site-map .site-menu .projects:hover {
 
 site-map .site-menu .resume:hover {
 	color: var(--cream);
+	background-color: var(--black);
+}
+
+site-map .site-menu .guide:hover {
+	color: var(--lightgray);
+	background-color: var(--black);
+}
+
+site-map .site-menu .goal:hover {
+	color: var(--fog);
 	background-color: var(--black);
 }
