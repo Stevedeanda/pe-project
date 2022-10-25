@@ -28,13 +28,13 @@ $section['title'] = $section['title'] ?? "This is where the work experience titl
       	?>
 
           <li class="job-list">
-          	<h3 class="talking-voice"><?=$jobTitle?></h3>
-          	<h4 class="bold-voice"><?=$company?></h4>
+          	<h3 class="bold-voice"><?=$company?></h3>
+          	<h4 class="talking-voice"><?=$jobTitle?></h4>
           	<p class="whisper-voice"><?=$dates?> | <?=$location?></p>
              	<ul class="task">
              		<?php 
 					foreach($tasks as $task) { 
-						$task = $task ?? "Job description or responsabilities go here";?>
+						$task = $task ?? "";?>
 					<li class="calm-voice"><?=$task?></li>
 					<?php } ?>
              	</ul>

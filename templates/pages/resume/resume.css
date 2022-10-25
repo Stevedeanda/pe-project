@@ -6,6 +6,8 @@
 .resume-main inner-column {
 	border: solid 1px var(--borders);
 	border-top: none;
+	display: grid;
+	gap: 30px;
 }
 
 .resume-section generic-text {
@@ -20,7 +22,7 @@
 .resume-section summary-text {
 	display: grid;
 	/*gap: 10px;*/
-	padding: 20px 20px 10px 20px;
+	padding: 20px;
 }
 
 .resume-section summary-text h2 + p {
@@ -28,7 +30,7 @@
 }
 
 .resume-section work-experience {
-	padding: 10px 20px;
+	padding: 20px;
 }
 
 .resume-section work-experience .job-info {
@@ -38,7 +40,7 @@
 
 .resume-section work-experience ul .job-list {
 	display: grid;
-	gap: 8px;
+	gap: 8px;	
 }
 
 .resume-section work-experience ul li .task {
@@ -50,11 +52,15 @@
 }
 
 .resume-section list-items {
-	padding: 10px 20px;
+	padding: 20px;
+}
+
+.resume-section .interest {
+	padding: 20px 20px 100px 20px;
 }
 
 .resume-section contact-info {
-	padding: 10px 20px 100px 20px;
+	padding: 10px 20px;
 }
 
 .resume-section contact-info ul {
@@ -69,7 +75,7 @@
 	justify-content: start;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 675px) {
 	.resume-section inner-column {
 		display: grid;
 		grid-template-columns: 4fr 8fr;
@@ -90,9 +96,9 @@
 	}
 	.resume-section inner-column contact-info {
 		grid-column: 1/2;
-		grid-row: 5/6;
+		grid-row: 4/5;
 	}
-	.resume-section inner-column contact-info {
+	.resume-section inner-column .interests {
 		padding: 10px 20px 10px 20px;
 	}
 	.resume-section inner-column .languages {
@@ -101,7 +107,7 @@
 	}
 	.resume-section inner-column .interests {
 		grid-column: 1/2;
-		grid-row: 4/5;
+		grid-row: 5/6;
 	}
 }
 

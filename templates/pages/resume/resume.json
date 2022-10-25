@@ -14,7 +14,7 @@
 			"class": "summary-text",
 			"title": "Steve DeAnda",
 			"job": "Web Developer",
-			"summary": "This is where I write what I am good at and my experience. I can talk about my learning and how I am ready for an opportunity to work. I can talk about the projects I have worked on. I can talk about my past jobs and how they give me good on the job experince for this new position."
+			"summary": "As an analytical and highly motivated professional with 8+ years of leadership development, customer service, quality assurance, and operational training, I am well positioned to align my skill set to meet the demands needed to exceed this role. With the ability to quickly grasp new information and my drive to achieve, I enjoy taking ownership of new challenges to constantly pursue personal growth while cultivating a motivating environment. As a loyal and engaged team player, I value partnership and support structure to provide consistency throughout the company so we can provide optimal success. For these reasons, I will add incredible value to your company."
 		},
 		{
 			"module": "work-experience",
@@ -22,15 +22,15 @@
 			"title": "WORK EXPERIENCE",
 			"works": [
 				{
-					"job-title" : "Field Installer",
-					"company-name" : "SentryForce",
-					"dates-worked" : "04/2014-05/2019",
+					"job-title" : "Field Service Technician",
+					"company-name" : "Amarok",
+					"dates-worked" : "02/2019-05/2021",
 					"location" : "Houston, TX",
 					"tasks" : [
-						"Install Cameras.", 
-						"Design a layout of where to install cameras.", 
-						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
-						"Submit expense reports when traveling out of city."
+						"Managed site intallations, repair, maintenance and test equipment for over 150 clients.", 
+						"Discussed and recommended service options with clients.", 
+						"Installed new equipment and explained operation and routine maintenance protocols to clients.", 
+						"Tested systems, noting issues and completing preventative maintenance."
 					]
 				},
 				{
@@ -39,29 +39,17 @@
 					"dates-worked" : "04/2014-05/2019",
 					"location" : "Houston, TX",
 					"tasks" : [
-						"Install Cameras.", 
-						"Design a layout of where to install cameras.", 
-						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
-						"Submit expense reports when traveling out of city."
-					]
-				},
-				{
-					"job-title" : "Field Installer",
-					"company-name" : "SentryForce",
-					"dates-worked" : "04/2014-05/2019",
-					"location" : "Houston, TX",
-					"tasks" : [
-						"Install Cameras.", 
-						"Design a layout of where to install cameras.", 
-						"Teach Client how to use system and answer any questions they may have regarding, camera views, camera recording and retrieving footage.", 
-						"Submit expense reports when traveling out of city."
+						"Programmed and installed new systems to meet demands of consumer needs.", 
+						"Itemized documentation and necessary functions to compile records of custumer accounts.", 
+						"Discussed and recommended service options with customers and explained costs involved."
 					]
 				}
 			]
 		},
 		{
 			"module": "list-items",
-			"class": "technical-skills",
+			"class-one": "bold-voice",
+			"class-two": "calm-voice",
 			"list": "languages",
 			"list-name": "TECHNICAL SKILLS",
 			"items": [
@@ -83,28 +71,10 @@
 			]
 		},
 		{
-			"module": "list-items",
-			"class": "interests",
-			"list": "interest",
-			"list-name": "INTERESTS",
-			"items": [
-				{
-					"item": "Puzzles"
-				},
-				{
-					"item": "Legos"
-				},
-				{
-					"item": "Hiking"
-				},
-				{
-					"item": "Mountain Biking"
-				}
-			]
-		},
-		{
 			"module": "contact-info",
 			"class": "contact-info",
+			"heading": "CONTACT",
+			"class-two": "bold-voice",
 			"contact": [
 				{
 					"icon": "mail",
@@ -128,6 +98,27 @@
 				}
 			]
 
+		},
+		{
+			"module": "list-items",
+			"class-one": "regular-voice",
+			"class-two": "calm-voice",
+			"list": "interest",
+			"list-name": "INTERESTS",
+			"items": [
+				{
+					"item": "Puzzles"
+				},
+				{
+					"item": "Legos"
+				},
+				{
+					"item": "Hiking"
+				},
+				{
+					"item": "Mountain Biking"
+				}
+			]
 		}
 	]
 }			
