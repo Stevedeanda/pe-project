@@ -16,4 +16,9 @@ inner-column {
 	margin-left: auto;
 }
 
+hr {
+	height: 2px;
+   background-color: #000000;
+   border: none;
+}
 
