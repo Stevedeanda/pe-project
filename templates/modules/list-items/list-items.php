@@ -1,12 +1,16 @@
 <?php 
 
+$section['list-name'] = $section['list-name'] ?? "";
 $item = $item ?? "";
 $section['items'] = $section['items'] ?? "";
+$section['class-one'] = $section['class-one'] ?? "";
+$section['class-two'] = $section['class-two'] ?? "";
+
 
 ?>
 
 <list-items class="<?=$section['list']?>">
-	<h2 class="bold-voice"><?=$section['list-name']?></h2>
+	<h2 class="<?=$section['class-one']?>"><?=$section['list-name']?></h2>
 	<hr>
 	<ul>
 		<?php
@@ -16,7 +20,7 @@ $section['items'] = $section['items'] ?? "";
       	$item["item"] = $item["item"] ?? "";
       	$item = $item["item"]; ?>
 
-          <li class="calm-voice"><?=$item?></li>
+          <li class="<?=$section['class-two']?>"><?=$item?></li>
 
       <?php } ?>
 	</ul>
