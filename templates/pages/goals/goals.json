@@ -12,7 +12,7 @@
 			"module": "list-items",
 			"class-one": "bold-voice",
 			"class-two": "calm-voice",
-			"list": "languages",
+			"list": "five",
 			"list-name": "5 year vision",
 			"items": [
 				{
@@ -33,7 +33,7 @@
 			"module": "list-items",
 			"class-one": "bold-voice",
 			"class-two": "calm-voice",
-			"list": "languages",
+			"list": "end",
 			"list-name": "End of the year vision",
 			"items": [
 				{
@@ -54,7 +54,7 @@
 			"module": "list-items",
 			"class-one": "bold-voice",
 			"class-two": "calm-voice",
-			"list": "languages",
+			"list": "month",
 			"list-name": "Monthly vision",
 			"items": [
 				{
