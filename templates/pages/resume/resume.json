@@ -12,6 +12,9 @@
 		{
 			"module": "summary-text",
 			"class": "summary-text",
+			"voice-one": "exciting-voice",
+			"voice-two": "attention-voice",
+			"voice-three": "calm-voice",
 			"title": "Steve DeAnda",
 			"job": "Web Developer",
 			"summary": "As an analytical and highly motivated professional with 8+ years of leadership development, customer service, quality assurance, and operational training, I am well positioned to align my skill set to meet the demands needed to exceed this role. With the ability to quickly grasp new information and my drive to achieve, I enjoy taking ownership of new challenges to constantly pursue personal growth while cultivating a motivating environment. As a loyal and engaged team player, I value partnership and support structure to provide consistency throughout the company so we can provide optimal success. For these reasons, I will add incredible value to your company."

@@ -18,6 +18,7 @@ $section['title'] = $section['title'] ?? "This is where the work experience titl
       	$work["company-name"] = $work["company-name"] ?? "Company name goes here";
       	$work["dates-worked"] = $work["dates-worked"] ?? "The dates of when you worked at this company";
       	$work["location"] = $work["location"] ?? "What city and state was this job located in";
+      	$work["tasks"] = $work["tasks"] ?? "Description of tasks and responsibilities.";
 
 
       	$jobTitle = $work["job-title"]; 
