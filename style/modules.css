@@ -8,6 +8,7 @@
 @import '../templates/modules/contact-info/contact-info.css';
 @import '../templates/modules/site-map/site-map.css';
 @import '../templates/modules/site-menu/site-menu.css';
+@import '../templates/modules/text-link/text-link.css';
 
 @import '../templates/pages/home/home.css';
 @import '../templates/pages/about/about.css';
