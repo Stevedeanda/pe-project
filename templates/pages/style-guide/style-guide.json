@@ -14,6 +14,8 @@
 		{
 			"module": "list-items",
 			"list": "font",
+			"class-one": "loud-voice",
+			"class-two": "talking-voice",
 			"list-name": "Typography",
 			"items": [
 				{
@@ -25,12 +27,12 @@
 			"module": "generic-text",
 			"class": "font",
 			"content": "Font-Family: Work Sans, serif",
-			"voice-two": "attention-voice"
+			"voice-two": "bold-voice"
 		},
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "yell-voice",
 			"heading": ".yell-voice",
 			"voice-two": "yell-voice"
@@ -38,7 +40,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "loud-voice",
 			"heading": ".loud-voice",
 			"voice-two": "loud-voice"
@@ -46,7 +48,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "exciting-voice",
 			"heading": ".exciting-voice",
 			"voice-two": "exciting-voice"
@@ -54,7 +56,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "attention-voice",
 			"heading": ".attention-voice",
 			"voice-two": "attention-voice"
@@ -62,7 +64,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "bold-voice",
 			"heading": ".bold-voice",
 			"voice-two": "bold-voice"
@@ -70,7 +72,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "talking-voice",
 			"heading": ".talking-voice",
 			"voice-two": "talking-voice"
@@ -78,7 +80,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "regular-voice",
 			"heading": ".regular-voice",
 			"voice-two": "regular-voice"
@@ -86,7 +88,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "calm-voice",
 			"heading": ".calm-voice",
 			"voice-two": "calm-voice"
@@ -94,7 +96,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "quiet-voice",
 			"heading": ".quiet-voice",
 			"voice-two": "quiet-voice"
@@ -102,7 +104,7 @@
 		{
 			"module": "generic-text",
 			"class": "font",
-			"content": "ABCDEFHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyz",
+			"content": "This is an example of the font. UPPER-CASE LOOKS LIKE THIS. Use this as a guide to see what font to use.",
 			"voice-one": "whisper-voice",
 			"heading": ".whisper-voice",
 			"voice-two": "whisper-voice"
@@ -110,6 +112,8 @@
 		{
 			"module": "list-items",
 			"list": "colors",
+			"class-one": "loud-voice",
+			"class-two": "attention-voice",
 			"list-name": "Colors",
 			"items": [
 				{
@@ -125,22 +129,124 @@
 					"item": "--cream: #efead2"
 				},
 				{
-					"item": "--black: #000000"
+					"item": "--fog: #9fa081"
+				},
+				{
+					"item": "--lightgray: #dee0df"
 				},
 				{
 					"item": "--white: #FFFFFF"
+				},
+				{
+					"item": "--black: #000000"
 				}
 			]
 		},
 		{
 			"module": "list-items",
 			"list": "modules",
+			"class-one": "loud-voice",
+			"class-two": "talking-voice",
 			"list-name": "Modules",
 			"items": [
 				{
 					"item": ""
 				}
 			]
+		},
+		{
+			"module": "generic-text",
+			"class": "modules",
+			"content": "This is a genreric text module with a heading and content. This is where the content goes. ",
+			"voice-one": "exciting-voice",
+			"heading": "Heading goes here",
+			"voice-two": "talking-voice"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "modules",
+			"url": "images/home-page.JPG"
+		},
+		{
+			"module": "list-items",
+			"list": "modules",
+			"class-one": "exciting-voice",
+			"class-two": "talking-voice",
+			"list-name": "Example of list",
+			"items": [
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"list": "style-type",
+			"class-one": "exciting-voice",
+			"class-two": "talking-voice",
+			"list-name": "Example of list with style-type",
+			"items": [
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				},
+				{
+					"item": "item goes here"
+				}
+			]
+		},
+		{
+			"module": "summary-text",
+			"class": "modules",
+			"voice-one": "exciting-voice",
+			"voice-two": "attention-voice",
+			"voice-three": "quiet-voice",
+			"title": "Heading title goes here",
+			"job": "Sub-heading goes here.",
+			"summary": "Description of what is to come goes here. This is example content to show what it will look like with content in here."
+		},
+		{
+			"module": "text-link",
+			"class": "module",
+			"voice-one": "exciting-voice",
+			"heading": "Heading goes here",
+			"voice-two": "regular-voice",
+			"content": "Description paragraph goes here",
+			"voice-three": "whisper-voice",
+			"url": "#",
+			"link-content": "Link description goes here"
+		},
+		{
+			"module": "work-experience",
+			"class": "work-experience",
+			"title": "EXAMPLE OF EXPERIENCE",
+			"works": [
+				{
+					"dates-worked" : "Dates Worked",
+					"location" : "City you worked goes here",
+					"tasks" : [
+						"Description of tasks and responsibilities.", 
+						"Description of tasks and responsibilities.", 
+						"Description of tasks and responsibilities.", 
+						"Description of tasks and responsibilities."
+					]
+				}
+			]
 		}
+
 	]
 }
