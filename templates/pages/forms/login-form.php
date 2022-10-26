@@ -55,12 +55,12 @@ if (isset($_POST["submitted"])) {
 	<p class="whisper-voice">If you are new, try "steve" for username and "houston" for the password.</p>
 
 	<div class="<?=$class?>">
-		<label>Username (first name)</label>
+		<label class="talking-voice">Username (first name)</label>
 		<input type="text" name="id" placeholder="lower-case only" required="required">
 	</div>
 
 	<div class="<?=$class?>">
-		<label>Password</label>
+		<label class="talking-voice">Password</label>
 		<input type="password" name="pw" placeholder="hint:your city or name" required="required">
 	</div>
 

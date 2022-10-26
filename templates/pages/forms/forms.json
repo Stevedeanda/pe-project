@@ -50,14 +50,14 @@
 		"module": "pizza-party"
 	},
 	{
-		"id": "13",
-		"name": "Tax Calculator",
-		"module": "tax-calculator"
-	},
-	{
 		"id": "10",
 		"name": "Computing Simple Interest",
 		"module": "computing-simple-interest"
+	},
+	{
+		"id": "13",
+		"name": "Tax Calculator",
+		"module": "tax-calculator"
 	},
 	{
 		"id": "11",

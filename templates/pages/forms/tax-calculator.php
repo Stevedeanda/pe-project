@@ -121,9 +121,9 @@
 	<button name="submitted" type="submit">Calculate</button>
 
 	<p class="regular-voice"><?=$message?></p>
+	<p class="regular-voice"><?=$message4?></p>
 	<p class="regular-voice"><?=$message1?></p>
 	<p class="regular-voice"><?=$message2?></p>
 	<p class="regular-voice"><?=$message3?></p>
-	<p class="regular-voice"><?=$message4?></p>
 
 </form>
