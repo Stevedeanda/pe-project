@@ -1,12 +1,12 @@
 site-map {
 	display: block;
-	/*padding: 20px;*/
+	padding: 20px;
 }
 
 site-map .site-menu {
 	display: flex;
 	flex-wrap: wrap;
-	/*gap: 10px;*/
+	justify-content: center;
 }
 
 site-map .site-menu a {
@@ -40,5 +40,15 @@ site-map .site-menu .guide:hover {
 
 site-map .site-menu .goal:hover {
 	color: var(--fog);
+	background-color: var(--black);
+}
+
+site-map .site-menu .linkedin:hover {
+	color: var(--blue);
+	background-color: var(--black);
+}
+
+site-map .site-menu .github:hover {
+	color: var(--github);
 	background-color: var(--black);
 }
