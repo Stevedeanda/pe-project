@@ -54,5 +54,5 @@ update(4, "Dinner date with wife");
 
 remove(1);
 
-
+var_dump(todos);
 
