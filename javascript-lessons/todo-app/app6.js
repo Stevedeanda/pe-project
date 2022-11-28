@@ -30,7 +30,7 @@ function remove(id) {
 }
 
 function complete(id) {
-	for (let i = 0; i < todos.lenth; i++) {
+	for (let i = 0; i < todos.length; i++) {
 		if (todos[i].id == id) {
 			todos[i].complete = true;
 		}
@@ -80,6 +80,7 @@ $output.addEventListener('click', function(event) {
 		const id = event.target.closest('li').dataset.id;
 		remove(id);
 	}
+	
 	if (event.target.textContent == 'complete') {
 		const id = event.target.closest('li').dataset.id;
 		complete(id);

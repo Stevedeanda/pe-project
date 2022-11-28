@@ -9,6 +9,7 @@
 		<a class="guide" href="?page=style-guide">Style&nbspGuide</a>
 		<a class="github" target="github" href="https://github.com/Stevedeanda">Github</a>
 		<a class="linkedin" target="linkedin" href="https://www.linkedin.com/in/stevedeanda">Linkedin</a>
+		<!-- <a class="goal" href="?page=contact">Contact</a> -->
 
 	</nav>
 </site-map>

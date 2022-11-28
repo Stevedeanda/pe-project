@@ -1,29 +1,15 @@
 {
 	"sections": [
 		{
-			"module": "contact-info",
-			"contact": [
-				{
-					"icon": "mail",
-					"info": "stevedeanda5@gmail.com",
-					"href": "#"
-				},
-				{
-					"icon": "phone",
-					"info": "832.382.3729",
-					"href": "#"
-				},
-				{
-					"icon": "location",
-					"info": "Houston, TX",
-					"href": "#"
-				},
-				{
-					"icon": "world",
-					"info": "stevedeanda.dev",
-					"href": "https://stevedeanda.dev/"
-				}
-			]
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "Contact",
+			"voice-one": "yell-voice",
+			"content": "Feel free to reach out.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "contact-form"
 		}
 	]
 }
