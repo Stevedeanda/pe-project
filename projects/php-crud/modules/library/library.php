@@ -1,21 +1,32 @@
-<?php include("data/playlist-data.php"); ?>
 
-<section class="library">
-	<div class="inner-column">
 
-		<h1 class="loud-voice">Your Library</h1>
+<?php
 
-		<ul class="list">
-			<?php foreach ($libraryData as $library) { ?>
-				
-				<li>
-					<a href="?page=your-library&id=<?=$library['id']?>">
-					<h2><?=$library["title"]?></h2>
-					</a>
-				</li>
+$json = file_get_contents('music.json');
+$musicData = json_decode($json, true);
 
-			<?php } ?>				
-		</ul>
 
-	</div>
+
+
+?>
+
+<section>
+	<music-added>
+		<?php foreach ($musicData as $music) { 
+			$music['song'] = $music['song'] ?? "Song title goes here";
+			$music['album'] = $music['album'] ?? "Album title goes here";
+			$music['artist'] = $music['artist'] ?? "Artist name goes here";
+			$music['genre'] = $music['genre'] ?? "Genre goes here";
+			$music['year'] = $music['year'] ?? "Year goes here"; ?>
+			<article>
+				<p class="bold-voice">song: <?=$music['song']?></p>
+				<p class="regular-voice">artist: <?=$music['artist']?></p>
+				<p class="regular-voice">album: <?=$music['album']?></p>
+				<p class="regular-voice">genre: <?=$music['genre']?></p>
+				<p class="regular-voice">year: <?=$music['year']?></p>		
+			</article>
+			
+		<?php } ?>
+	</music-added>
 </section>
+

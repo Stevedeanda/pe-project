@@ -104,7 +104,7 @@ $decadesData = [
 $libraryData = [
 	[
 		"id" => 1,
-		"title" => "Summer Vibes",
+		"title" => "Chill Vibes",
 		"songs" => [3,4,8,9],
 		"picture" => "", 
 	],

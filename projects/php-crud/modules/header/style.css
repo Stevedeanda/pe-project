@@ -8,7 +8,17 @@
 	color: var(--white);
 }
 
+.site-header nav a {
+	padding: 10px;
+}
+
+/* Use active here to highlight the page it is currently on. */
+.site-header nav a.active {
+	border-bottom: 5px solid white;
+}
+
 .site-menu {
 	display: flex;
 	gap: 30px;
 }
+

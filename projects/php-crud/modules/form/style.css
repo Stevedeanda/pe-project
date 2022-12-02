@@ -1,6 +1,6 @@
 
 .form {
-
+	padding: 0 20px;
 }
 
 .form h1 {
@@ -26,3 +26,8 @@ field :is(label, input) {
 field + field, field + button {
 	margin-top: 20px;
 }
+
+.error {
+	color: yellow;
+}
+

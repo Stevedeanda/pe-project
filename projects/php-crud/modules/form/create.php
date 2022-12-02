@@ -1,11 +1,16 @@
 <?php
 
-	$song = null;
-	$album = null;
-	$artist = null;
+	$json = file_get_contents('music.json');
+	$musicData = json_decode($json, true);
+
+
+	//var_dump($json);
+
+	$song = "";
+	$album = "";
+	$artist = "";
 	$genre = "";
-	$year = 0;
-	$picture = null;
+	$year = "";
 
 	$addSong = false;
 	$addAlbum = false;
@@ -16,22 +21,23 @@
 	$albumError = false;
 	$artistError = false;
 
+	$newMusic = "";
+
+	$musicAdded = null;
+	$songAdded = null;
+	$artistAdded = null;
+	$albumAdded = null;
+	$genreAdded = null;
+	$yearAdded = null;
+
+	
+
 	if ( isset($_POST["add"]) ) {
 		
 		if ( isset($_POST["song"]) ) {
 			$song = $_POST["song"];
 			if (strlen($song) > 0 ) {
-				$addSong = true;
-
-				// $newMusic = [
-				// 	"song" => $song;
-				// ];
-
-				//Create Song
-
-				//Save Song
-
-
+				$addSong = true; 
 			} else {
 				$songError = "Please add song title.";
 			}
@@ -68,25 +74,44 @@
 			}
 		}
 
-		if ( isset($_POST["picture"]) ) {
-			$picture = $_POST["picture"];
-			
-		}
-
 		if ($addSong && $addAlbum && $addArtist && $addYear) {
-			$music = [
-				$song => $_POST["song"],
-				$album => $_POST["album"],
-				$artist => $_POST["artist"],
-				$genre => $_POST["genre"],
-				$year => $_POST["year"],
-				$picture => $_POST["picture"],
-			];
 
-			var_dump($music);
-		} else {
-			echo "MISSING SOMETHING";
-		}
+			//Get old data first
+			$json = file_get_contents('music.json');
+			$musicData = json_decode($json, true);
+
+			// Create new music data list
+			$newMusic = [
+			
+				'song' => $song,
+				'album' => $album,
+				'artist' => $artist,
+				'genre' => $genre,
+				'year' => $year,
+			
+			];
+			
+			var_dump($newMusic);
+			//print($newMusic['song']);
+
+			// add new music to old music
+			array_push($musicData, $newMusic);
+
+			//transform it to JSON file
+			$musicJson = json_encode($musicData);
+
+			//Save json
+			file_put_contents('music.json', $musicJson);
+
+			// Display the song that was added
+			$musicAdded = "Added song - check the library for a complete list of added songs.";
+			$songAdded = "song: " . $song;
+			$artistAdded = "artist: " . $artist;
+			$albumAdded = "album: " . $album;
+			$genreAdded = "genre: " . $genre;
+			$yearAdded = "year: " . $year;
+
+		} 
 	}
 
 ?> 
@@ -154,13 +179,21 @@
 				<input type="number" min="1970" max="2022" name="year" value='<?=$year?>'>
 			</field>
 
-			<field>
-				<label>Album Cover</label>
-				<input type="file" accept="image/*" name="picture" required="required">
-			</field>
-
 			<button type="submit" name="add">Add Song</button>
+
 		</form>
+
+		<p><?=$musicAdded?></p>
+		<p><?=$songAdded?></p>
+		<p><?=$artistAdded?></p>
+		<p><?=$albumAdded?></p>
+		<p><?=$genreAdded?></p>
+		<p><?=$yearAdded?></p>
 
 	</div>
 </section>
+
+
+
+
+
