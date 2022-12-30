@@ -1,0 +1,54 @@
+site-map {
+	display: block;
+	padding: 20px;
+}
+
+site-map .site-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+site-map .site-menu a {
+	padding: 10px 10px;
+}
+
+site-map .site-menu .home:hover {
+	color: var(--white);
+	background-color: var(--black);
+}
+
+site-map .site-menu .about:hover {
+	color: var(--olive);
+	background-color: var(--black);
+}
+
+site-map .site-menu .projects:hover {
+	color: var(--sand);
+	background-color: var(--black);
+}
+
+site-map .site-menu .resume:hover {
+	color: var(--cream);
+	background-color: var(--black);
+}
+
+site-map .site-menu .guide:hover {
+	color: var(--lightgray);
+	background-color: var(--black);
+}
+
+site-map .site-menu .goal:hover {
+	color: var(--fog);
+	background-color: var(--black);
+}
+
+site-map .site-menu .linkedin:hover {
+	color: var(--blue);
+	background-color: var(--black);
+}
+
+site-map .site-menu .github:hover {
+	color: var(--github);
+	background-color: var(--black);
+}

@@ -1,0 +1,13 @@
+{
+
+	"sections": [
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"heading": "Steve DeAnda",
+			"voice-one": "yell-voice",
+			"content": "Web Developer",
+			"voice-two": "attention-voice"
+		}
+	]
+}

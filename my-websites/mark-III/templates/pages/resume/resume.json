@@ -1,0 +1,122 @@
+{
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "Resume",
+			"voice-one": "yell-voice",
+			"content": "Take a look.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "summary-text",
+			"class": "summary-text",
+			"voice-one": "exciting-voice",
+			"voice-two": "attention-voice",
+			"voice-three": "calm-voice",
+			"title": "Steve DeAnda",
+			"job": "Web Developer",
+			"summary": "As an analytical and highly motivated professional with 8+ years of leadership development, customer service, quality assurance, and operational training, I am well positioned to align my skill set to meet the demands needed to exceed this role. With the ability to quickly grasp new information and my drive to achieve, I enjoy taking ownership of new challenges to constantly pursue personal growth while cultivating a motivating environment. As a loyal and engaged team player, I value partnership and support structure to provide consistency throughout the company so we can provide optimal success. For these reasons, I will add incredible value to your company."
+		},
+		{
+			"module": "work-experience",
+			"class": "work-experience",
+			"title": "WORK EXPERIENCE",
+			"works": [
+				{
+					"job-title" : "Field Service Technician",
+					"company-name" : "Amarok",
+					"dates-worked" : "02/2019-05/2021",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Managed site intallations, repair, maintenance and test equipment for over 150 clients.", 
+						"Discussed and recommended service options with clients.", 
+						"Installed new equipment and explained operation and routine maintenance protocols to clients.", 
+						"Tested systems, noting issues and completing preventative maintenance."
+					]
+				},
+				{
+					"job-title" : "Field Installer",
+					"company-name" : "SentryForce",
+					"dates-worked" : "04/2014-05/2019",
+					"location" : "Houston, TX",
+					"tasks" : [
+						"Programmed and installed new systems to meet demands of consumer needs.", 
+						"Itemized documentation and necessary functions to compile records of custumer accounts.", 
+						"Discussed and recommended service options with customers and explained costs involved."
+					]
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"class-one": "bold-voice",
+			"class-two": "calm-voice",
+			"list": "languages",
+			"list-name": "TECHNICAL SKILLS",
+			"items": [
+				{
+					"item": "HTML"
+				},
+				{
+					"item": "CSS"
+				},
+				{
+					"item": "PHP"
+				}
+			]
+		},
+		{
+			"module": "contact-info",
+			"class": "contact-info",
+			"heading": "CONTACT",
+			"class-two": "bold-voice",
+			"contact": [
+				{
+					"icon": "mail",
+					"info": "stevedeanda5@gmail.com",
+					"href": "#"
+				},
+				{
+					"icon": "phone",
+					"info": "832.382.3729",
+					"href": "#"
+				},
+				{
+					"icon": "location",
+					"info": "Houston, TX",
+					"href": "#"
+				},
+				{
+					"icon": "world",
+					"info": "stevedeanda.dev",
+					"href": "https://stevedeanda.dev/"
+				}
+			]
+
+		},
+		{
+			"module": "list-items",
+			"class-one": "regular-voice",
+			"class-two": "calm-voice",
+			"list": "interest",
+			"list-name": "INTERESTS",
+			"items": [
+				{
+					"item": "Puzzles"
+				},
+				{
+					"item": "Legos"
+				},
+				{
+					"item": "Hiking"
+				},
+				{
+					"item": "Mountain Biking"
+				}
+			]
+		}
+	]
+}			
+

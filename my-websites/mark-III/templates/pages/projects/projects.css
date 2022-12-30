@@ -1,0 +1,51 @@
+
+.projects-main {
+	background-color: var(--sand);
+}
+
+.projects-main inner-column {
+	border: solid 1px var(--borders);
+	border-top: none;
+}
+
+.projects-main generic-text {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 20px 40px 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+	color: var(--white);
+	/*border:solid 1px var(--orange);*/
+}
+
+projects-grid {
+	display: block;
+	display: grid;
+	gap: 40px;
+	padding: 40px 20px;
+	/*border: solid 20px var(--ink);*/
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+projects-grid article {
+	display: block;
+	display: grid;
+	gap: 10px;
+	padding: 10px 20px;
+	border: solid 1px var(--ink);
+}
+
+projects-grid article p {
+	max-width: 50ch;
+}
+
+projects-grid article a {
+	display: inline-block;
+	text-decoration: underline;
+	padding: 10px 0;	
+}
+
+projects-grid article a:hover {
+	color: var(--orange);
+}
