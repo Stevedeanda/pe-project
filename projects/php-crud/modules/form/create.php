@@ -6,6 +6,7 @@
 
 	//var_dump($json);
 
+	
 	$song = "";
 	$album = "";
 	$artist = "";
@@ -20,6 +21,7 @@
 	$songError = false;
 	$albumError = false;
 	$artistError = false;
+	$yearError = false;
 
 	$newMusic = "";
 
@@ -30,6 +32,8 @@
 	$genreAdded = null;
 	$yearAdded = null;
 
+	$id = uniqid("a");
+
 	
 
 	if ( isset($_POST["add"]) ) {
@@ -37,7 +41,7 @@
 		if ( isset($_POST["song"]) ) {
 			$song = $_POST["song"];
 			if (strlen($song) > 0 ) {
-				$addSong = true; 
+				$addSong = true;
 			} else {
 				$songError = "Please add song title.";
 			}
@@ -71,6 +75,8 @@
 			$year = $_POST["year"];
 			if ($year > 1969 && $year < 2023) {
 				$addYear = true;
+			} else {
+				$yearError = "Please add the year song was created.";
 			}
 		}
 
@@ -80,9 +86,11 @@
 			$json = file_get_contents('music.json');
 			$musicData = json_decode($json, true);
 
+
 			// Create new music data list
 			$newMusic = [
-			
+				
+				'id' => $id,
 				'song' => $song,
 				'album' => $album,
 				'artist' => $artist,
@@ -90,7 +98,7 @@
 				'year' => $year,
 			
 			];
-			
+
 			var_dump($newMusic);
 			//print($newMusic['song']);
 
@@ -149,7 +157,7 @@
 			<field>
 				<p>Please select the Genre for this song</p>
 				<div class="radio">
-					<input type="radio" id="Rock" name="genre" value="Rock">
+					<input type="radio" id="Rock" name="genre" value="Rock" >
 					<label for="rock">Rock</label>
 				</div>
 				<div class="radio">
@@ -177,6 +185,9 @@
 			<field>
 				<label>Year of Song/Album</label>
 				<input type="number" min="1970" max="2022" name="year" value='<?=$year?>'>
+				<?php if ($yearError) { ?>
+					<p class="error"><?=$yearError?></p>
+				<?php } ?>
 			</field>
 
 			<button type="submit" name="add">Add Song</button>

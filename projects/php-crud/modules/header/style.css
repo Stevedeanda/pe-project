@@ -1,5 +1,6 @@
 
 .site-header {
+	display: block;
 	padding: 0 20px;
 	/*border: blue solid 2px;*/
 }
@@ -9,7 +10,7 @@
 }
 
 .site-header nav a {
-	padding: 10px;
+	padding: 5px;
 }
 
 /* Use active here to highlight the page it is currently on. */
@@ -19,6 +20,7 @@
 
 .site-menu {
 	display: flex;
-	gap: 30px;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 
