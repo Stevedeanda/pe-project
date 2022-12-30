@@ -1,0 +1,78 @@
+{
+	"sections": [
+		{
+			"module": "generic-text",
+			"class": "goal",
+			"heading": "Goals",
+			"voice-one": "yell-voice",
+			"content": "A compass that guides you on what to do next.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "list-items",
+			"class-one": "bold-voice",
+			"class-two": "calm-voice",
+			"list": "five",
+			"list-name": "5 year vision",
+			"items": [
+				{
+					"item": "Be debt free from student loans."
+				},
+				{
+					"item": "Ability to purchase a home."
+				},
+				{
+					"item": "Be in a career making more than 6 figures."
+				},
+				{
+					"item": "Move out of state to the Pacific Northwest."
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"class-one": "bold-voice",
+			"class-two": "calm-voice",
+			"list": "end",
+			"list-name": "End of the year vision",
+			"items": [
+				{
+					"item": "Know that I enjoy doing regarding designing and programming, and deep dive into that. To better focus on what kind of career I want to go into."
+				},
+				{
+					"item": "Not working at the moment, would like to get a job at the end of the year."
+				},
+				{
+					"item": "Be able to understand all the concepts we were taught."
+				},
+				{
+					"item": "Learn how to think like a designer and programmer, ask the right questions."
+				}
+			]
+		},
+		{
+			"module": "list-items",
+			"class-one": "bold-voice",
+			"class-two": "calm-voice",
+			"list": "month",
+			"list-name": "Monthly vision",
+			"items": [
+				{
+					"item": "Have my website in a good place to be able to present it."
+				},
+				{
+					"item": "Finish a few projects I am working on to put in my portfolio."
+				},
+				{
+					"item": "Finish the mentorship program strong."
+				},
+				{
+					"item": "Do some pair programming"
+				},
+				{
+					"item": "Keep practicing what I know, getting faster and asking for help when I don't know something."
+				}
+			]
+		}
+	]
+}

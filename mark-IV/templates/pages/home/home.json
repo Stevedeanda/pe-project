@@ -1,0 +1,19 @@
+{
+
+	"sections": [
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"heading": "Steve DeAnda",
+			"voice-one": "yell-voice",
+			"content": "Web Developer",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "my-lfps",
+			"class": "laser-focus",
+			"content": "I am a front-end web developer and UI/UX Designer who helps companies and organizations with creating websites that are user-friendly and responsive, that highlight the services of the client. Unlike my competitor, I am well-rounded in back-end, good listener and easy on the wallet.",
+			"voice": "calm-voice"
+		}
+	]
+}

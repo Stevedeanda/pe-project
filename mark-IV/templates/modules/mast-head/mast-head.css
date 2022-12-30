@@ -1,0 +1,36 @@
+mast-head .site-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/*gap: 10px;
+	padding: 0 10px;*/
+	background-color: hsla(0, 0%, 0%, .6);
+	padding-left: 10px;
+}
+
+mast-head .site-menu a {
+	padding: 10px 10px;
+}
+
+mast-head .site-menu a:hover {
+	color: var(--white);
+	background-color: var(--darkgreen);
+}
+/*
+mast-head .site-menu .about:hover {
+	color: var(--olive);
+	background-color: var(--darkgreen);
+}
+
+mast-head .site-menu .projects:hover {
+	color: var(--sand);
+	background-color: var(--darkgreen);
+}
+
+mast-head .site-menu .resume:hover {
+	color: var(--cream);
+	background-color: var(--darkgreen);
+}*/
+
+
+

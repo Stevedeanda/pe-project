@@ -1,0 +1,78 @@
+site-map {
+	display: block;
+/*	padding: 20px;*/
+	background-color: hsla(0, 0%, 0%, .6);
+}
+
+site-map .site-menu {
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	padding: 10px 10px 30px 10px;
+/*	gap:10px;*/
+}
+
+site-map .site-menu left-menu {
+	display: block;
+	grid-column: 1/4;
+	grid-row: 1/4;
+}
+site-map .site-menu middle-menu {
+	display: block;
+	grid-column: 5/8;
+	grid-row: 1/4;
+	
+}
+site-map .site-menu right-menu {
+	display: block;
+	grid-column: 9/12;
+	grid-row: 1/4;
+}
+
+site-map .site-menu a {
+	padding: 2px 10px;
+	display:inline-block;
+}
+
+site-map .site-menu a:hover {
+	color: var(--white);
+	background-color: var(--darkgreen);
+}
+
+/*site-map .site-menu .about:hover {
+	color: var(--olive);
+	background-color: var(--black);
+}
+
+site-map .site-menu .projects:hover {
+	color: var(--sand);
+	background-color: var(--black);
+}
+
+site-map .site-menu .resume:hover {
+	color: var(--cream);
+	background-color: var(--black);
+}
+
+site-map .site-menu .guide:hover {
+	color: var(--lightgray);
+	background-color: var(--black);
+}
+
+site-map .site-menu .goal:hover {
+	color: var(--fog);
+	background-color: var(--black);
+}
+
+site-map .site-menu .linkedin:hover {
+	color: var(--blue);
+	background-color: var(--black);
+}
+
+site-map .site-menu .github:hover {
+	color: var(--github);
+	background-color: var(--black);
+}*/
+
