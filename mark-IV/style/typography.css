@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-	font-family: work sans, serif;
+	font-family: work sans, open sans,serif;
 }
 
+/*Fixed*/
 .yell-voice {
-	font-size: clamp(4rem, 8vw, 9rem);
+	font-size: clamp(4rem, 4vw, 4rem);
 	font-weight: 400;
 }
 
@@ -19,8 +20,9 @@ html {
 	font-weight: 300;
 }
 
+/*Fixed*/
 .attention-voice {
-	font-size: clamp(1.5rem, 4vw, 2rem);
+	font-size: clamp(2rem, 4vw, 2rem);
 	font-weight: 200;
 }
 
@@ -35,14 +37,22 @@ html {
 }
 
 .regular-voice {
-	font-size: clamp(1rem, 4vw, 1.5rem);
-	font-weight: 300;
+	font-family: open sans, work sans, serif;
+	font-size: clamp(.9rem, 4vw, .9rem);
+	font-weight: 200;
 	line-height: 1.3;
 }
 
+@media (min-width: 295px) {
+	.regular-voice {
+		font-size: clamp(1rem, 4vw, 1rem);
+	}
+}
+
+
 .calm-voice {
 	font-size: 1rem;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.3;
 }
 
@@ -58,4 +68,11 @@ html {
 
 .micro-voice {
 	font-size: 5px;
+}
+
+
+/*NEW VOICES*/
+
+.one-voice {
+	font-size: ;
 }
