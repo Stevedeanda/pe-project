@@ -29,7 +29,7 @@ site-map .site-menu right-menu {
 }
 
 
-@media (min-width: 569px) {
+@media (min-width: 549px) {
 	site-map .site-menu left-menu {
 	grid-column: 1/3;
 	}
@@ -43,7 +43,7 @@ site-map .site-menu right-menu {
 	}
 }
 
-@media (min-width: 842px) {
+@media (min-width: 812px) {
 	site-map .site-menu left-menu {
 	grid-column: 1/2;
 	}

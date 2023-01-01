@@ -4,7 +4,7 @@ html {
 	font-family: work sans, open sans,serif;
 }
 
-/*Fixed*/
+/*FIXED*/
 .yell-voice {
 	font-size: clamp(4rem, 4vw, 4rem);
 	font-weight: 400;
@@ -20,7 +20,7 @@ html {
 	font-weight: 300;
 }
 
-/*Fixed*/
+/*FIXED*/
 .attention-voice {
 	font-size: clamp(2rem, 4vw, 2rem);
 	font-weight: 200;
@@ -36,6 +36,7 @@ html {
 	font-weight: 400;
 }
 
+/*FIXED*/
 .regular-voice {
 	font-family: open sans, work sans, serif;
 	font-size: clamp(.9rem, 4vw, .9rem);
@@ -49,7 +50,7 @@ html {
 	}
 }
 
-
+/*FIXED*/
 .calm-voice {
 	font-size: 1rem;
 	font-weight: 300;
