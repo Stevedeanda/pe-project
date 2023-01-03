@@ -18,7 +18,7 @@ inner-column {
 
 hr {
 	height: 2px;
-   background-color: #000000;
+   background-color: var(--white);
    border: none;
 }
 
