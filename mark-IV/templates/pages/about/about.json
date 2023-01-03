@@ -16,6 +16,16 @@
 			"url": "images/selfie-two.jpeg"
 		},
 		{
+			"module": "graphic-diptych",
+			"class": "two-picture",
+			"url": "images/selfie-five.jpeg"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "three-picture",
+			"url": "images/selfie-four.jpeg"
+		},
+		{
 			"module": "generic-text",
 			"class": "where",
 			"heading": "Where I've been",
