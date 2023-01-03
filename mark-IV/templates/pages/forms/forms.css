@@ -1,12 +1,8 @@
 /* Form-list */
 
-.project-main {
+.project-body {
 	background-color: var(--sand);
-}
-
-.project-main inner-column {
-	border: solid 1px var(--borders);
-	border-top: none;
+	color: var(--white);
 }
 
 .project-section .form-content {
@@ -27,6 +23,7 @@ form-list ul {
 	display: grid;
 	gap: 10px;
 	padding: 50px 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 /*form-list ul li {
@@ -36,7 +33,7 @@ form-list ul {
 }*/
 
 form-list ul li a {
-	border: solid black 1px;
+	border: solid var(--white) 1px;
 	padding: 8px 4px;
 }
 

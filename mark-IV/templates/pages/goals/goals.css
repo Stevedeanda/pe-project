@@ -1,13 +1,13 @@
 
-.goals-main {
+.goals-body {
 	background-color: var(--fog);
+	color: var(--white);
 }
 
 .goals-main inner-column {
-	border: solid 1px var(--borders);
-	border-top: none;
 	display: grid;
 	gap: 30px;
+	padding-bottom: 100px;
 }
 
 .goals-section generic-text {
@@ -21,6 +21,7 @@
 
 .goals-section list-items {
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .goals-section list-items hr {
