@@ -1,13 +1,15 @@
 [
 	{
 		"id": "1",
+		"class": "one",
 		"name": "Exercises for Programmers",
 		"description": "This project is all about being able to create forms that are in the book Exercises for Programmers. Great challenge and practice to create many different forms. ",
 		"module": "form-list"
 	},
 	{
 		"id": "2",
-		"name": "FiveNine Outdoor Apparel Theme Project",
+		"class": "two",
+		"name": "Theme Project",
 		"description": "We were tasked with creating a project that mimics that style of any industry. I choose to do it on the outdoor apparel companies.",
 		"module": "project-info",
 		"sections" : [
@@ -103,6 +105,7 @@
 	},
 	{
 		"id": "3",
+		"class": "three",
 		"name": "Audiophile Store",
 		"description": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
 		"module": "project-info",
