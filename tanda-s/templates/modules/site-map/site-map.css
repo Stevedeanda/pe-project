@@ -1,0 +1,13 @@
+site-map {
+	display: block;
+	padding: 20px;
+}
+
+site-map nav {
+	display: flex;
+	gap: 10px;
+}
+
+site-map nav a:hover {
+	color: var(--aqua);
+}
