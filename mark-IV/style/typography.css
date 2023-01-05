@@ -46,7 +46,7 @@ html {
 
 @media (min-width: 295px) {
 	.regular-voice {
-		font-size: clamp(1rem, 4vw, 1rem);
+		font-size: clamp(1.125rem, 4vw, 1.125rem);
 	}
 }
 
@@ -54,7 +54,7 @@ html {
 .calm-voice {
 	font-size: 1rem;
 	font-weight: 300;
-	line-height: 1.3;
+	line-height: 1.7;
 }
 
 .quiet-voice {
@@ -63,7 +63,7 @@ html {
 }
 
 .whisper-voice {
-	font-size: clamp(.75rem, 4vw, 1.25rem);
+	font-size: clamp(1.25rem, 4vw, 1.25rem);
 	font-weight: 300;
 }
 
