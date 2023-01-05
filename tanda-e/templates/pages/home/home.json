@@ -1,0 +1,42 @@
+{
+
+	"sections": [
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"heading": "Tanda",
+			"content": "Helping one another"
+		},
+		{
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "Welcome",
+			"voice-one": "loud-voice",
+			"content": "We just want to say thank you for joining us in our second tanda. Betsy y I (Steve) are grateful for ya'll and for participating. Last year we started our first tanda and it was a big succeess. We had 10 people participating and this time we have 13. Continue reading and you will see the information on what to expect in this upcoming tanda.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "list-items",
+			"class": "informacion",
+			"list": "languages",
+			"list-name": "Informacion de la Tanda",
+			"items": [
+				{
+					"item": "1. Tanda will start January 22,2023 and end January 14,2024."
+				},
+				{
+					"item": "2. The payments will be $100 each week. If you forgot to send money, don't worry I will send you a reminder through text."
+				},
+				{
+					"item": "3. All the money will be sent through Zelle. Here is my number so you can send me the money, 832-382-3729."
+				},
+				{
+					"item": "4. Since we are 13 people this time, the money will be given out every 4 weeks. The amount you should receive is $5,200 each participant."
+				},
+				{
+					"item": "5. Lastly, please give your host a tip if you feel like it."
+				}
+			]
+		}
+	]
+}
