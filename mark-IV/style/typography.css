@@ -10,14 +10,15 @@ html {
 	font-weight: 400;
 }
 
+/*FIXED*/
+.exciting-voice {
+	font-size: clamp(3rem, 4vw, 3rem);
+	font-weight: 300;
+}
+
 .loud-voice {
 	font-size: clamp(2.5rem, 4vw, 3rem);
 	font-weight: 500;
-}
-
-.exciting-voice {
-	font-size: clamp(2.5rem, 4vw, 3rem);
-	font-weight: 300;
 }
 
 /*FIXED*/
@@ -26,13 +27,15 @@ html {
 	font-weight: 200;
 }
 
+/*FIXED*/
 .bold-voice {
-	font-size: clamp(2rem, 4vw, 1.75rem);
+	font-size: clamp(1.75rem, 4vw, 1.75rem);
 	font-weight: 600;
 }
 
+/*FIXED*/
 .talking-voice {
-	font-size: clamp(1.25rem, 4vw, 1.75rem);
+	font-size: clamp(1.25rem, 4vw, 1.25rem);
 	font-weight: 400;
 }
 
@@ -44,9 +47,10 @@ html {
 	line-height: 1.3;
 }
 
-@media (min-width: 295px) {
+@media (min-width: 319px) {
 	.regular-voice {
 		font-size: clamp(1.125rem, 4vw, 1.125rem);
+		font-weight: 400;
 	}
 }
 
@@ -58,12 +62,12 @@ html {
 }
 
 .quiet-voice {
-	font-size: clamp(1rem, 4vw, 1.5rem);
-	font-weight: 400;
+	font-size: clamp(1rem, 4vw, 1rem);
+	font-weight: 300;
 }
 
 .whisper-voice {
-	font-size: clamp(1.25rem, 4vw, 1.25rem);
+	font-size: clamp(.8rem, 4vw, .8rem);
 	font-weight: 300;
 }
 

@@ -112,10 +112,15 @@
 
 .projects-main projects-grid article a {
 	display: inline-block;
-	text-decoration: underline;
-	padding: 10px 0;	
+	/*text-decoration: underline;
+	padding: 10px 0;*/
+	border: solid var(--white) 1px;
+	padding: 8px 4px;
+
 }
 
 .projects-main projects-grid article a:hover {
 	color: var(--orange);
+	border: var(--orange) solid 1px;
+	background-color: hsla(0, 0%, 0%, .3);
 }

@@ -1,6 +1,8 @@
 <?php
 
 	$message1 = null;
+	$message2 = null;
+	$answer = "hide";
 
 	if (isset($_POST["submitted"])) {
 
@@ -14,7 +16,9 @@
 			$text = $_POST["text"];
 		}
 
-		$message1 = "An email was sent from $email. We will get to your inquiry of '$text' as soons as possible. Thank you for reaching out to us $person and have a great day!";
+		$answer = "visible";
+		$message1 = "An email was sent to <span>$email</span> please verify email by clicking on link. We will get to your inquiry of <span>'$text'</span> as soon as possible. Thank you for reaching out to us <span>$person</span> and have a great day!";
+		$message2 = "This is to show what you submitted, the text highlighted in orange is what you input";
 	}
 ?>
 
@@ -26,25 +30,33 @@
 
 	<h1 class="exciting-voice">Multiple text inputs</h1>
 
-	<p class="regular-voice">Ask a question</p>
+	<p class="regular-voice">Fill out the three boxes below, the email has restrictions so make sure to follow the requirements.</p>
 
 	<div class="field">
 		<label class="talking-voice">Enter Full Name</label>
-		<input name="person" type="text" size="20" maxlength="30" required="required">
+		<input class="regular-voice" name="person" type="text" size="20" required="required">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Enter email address</label>
-		<input name="email" type="email" size="30" required="required">
+		<input class="regular-voice" name="email" type="email" size="25" maxlength="40" required="required">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Talking points</label>
-		<textarea name="text" cols="10" rows="5" maxlenght="45" placeholder="What is your question?" required="required"></textarea>
+		<textarea class="regular-voice" name="text" cols="10" rows="5" maxlength="40" placeholder="What is your question?" required="required"></textarea>
 	</div>
 
-	<button name="submitted" type="submit">Submit</button>
-
-	<p class="regular-voice"><?=$message1?></p>
+	<button class="regular-voice" name="submitted" type="submit">Submit</button>
 
 </form>
+
+<footer>
+	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+</footer>
+
+
+
+
+
