@@ -113,9 +113,9 @@
 			{
 				"module": "text-link",
 				"class": "link-two",
-				"voice-one": "bold-voice",
+				"voice-one": "loud-voice",
 				"heading": "Audiophile Store",
-				"voice-two": "regular-voice",
+				"voice-two": "attention-voice",
 				"content": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
 				"voice-three": "regular-voice",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/audiophile/",
