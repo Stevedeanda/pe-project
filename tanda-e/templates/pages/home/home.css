@@ -22,7 +22,7 @@ welcome-landing {
 	margin: 200px 0;
 }
 
-generic-text {
+.page-header-content {
 	display:block;
 	grid-column: 1/12;
 	grid-row: 4/6;
@@ -34,6 +34,14 @@ list-items{
 	display:block;
 	grid-column: 1/12;
 	grid-row: 6/9;
+	padding:20px;
+	background-color: hsla(0, 0%, 0%, .8);
+}
+
+.contacto-content {
+	display:block;
+	grid-column: 1/12;
+	grid-row: 9/11;
 	padding:20px;
 	background-color: hsla(0, 0%, 0%, .8);
 }

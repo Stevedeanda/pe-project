@@ -37,6 +37,14 @@
 					"item": "5. Lastly, please give your host a tip if you feel inclined to do so once you've received your total amount :) ."
 				}
 			]
+		},
+		{
+			"module": "generic-text",
+			"class": "contacto",
+			"heading": "Contact",
+			"voice-one": "loud-voice",
+			"content": "If you need to contact me, feel free to call or text me at 832-382-3729. You can also send me an email at stevedeanda5@gmail.com.",
+			"voice-two": "attention-voice"
 		}
 	]
 }
