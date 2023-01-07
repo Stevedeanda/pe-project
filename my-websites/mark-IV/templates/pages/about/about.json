@@ -1,0 +1,53 @@
+	
+{
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "About me",
+			"voice-one": "yell-voice",
+			"content": "I speak spanish as well.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "one-picture",
+			"url": "images/selfie-two.jpeg"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "two-picture",
+			"url": "images/selfie-five.jpeg"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "three-picture",
+			"url": "images/selfie-four.jpeg"
+		},
+		{
+			"module": "generic-text",
+			"class": "where",
+			"heading": "Where I've been",
+			"voice-one": "bold-voice",
+			"content": "I worked most of my life in the security industry. I worked for a camera security company and a company that specialized in electric fences for commercial companies. I always had an interest in web development and apps, so I decided to start my career change. An opportunity opened to attend Perpetual Education and I took it. Here I am with so much knowledge learned but more to learn.",
+			"voice-two": "calm-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "why",
+			"heading": "Why this profession?",
+			"voice-one": "bold-voice",
+			"content": "I’ve wanted to be a web developer for quite some time but spent a lot of years self-teaching myself with not a lot of success. I only knew about this field because I had friends that did it and they showed me what they do. It’s been a goal of mine to be able to have a career in the tech industry, especially as a web developer. The ability to do something meaningful and also grow my career into any path I choose, is what I am building towards right now.",
+			"voice-two": "calm-voice"
+		},
+		{
+			"module": "generic-text",
+			"class": "what",
+			"heading": "What I enjoy doing",
+			"voice-one": "bold-voice",
+			"content": "I love mountain biking and going on hikes. My wife and I got blessed with a baby girl late 2021. Before my baby was born, my friends and I would go camping two to three times a year. When I have some free time, I turn on the switch and play some mario kart.",
+			"voice-two": "calm-voice"
+		}
+	]
+}		

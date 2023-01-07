@@ -1,0 +1,158 @@
+
+.style-guide-body {
+	background-color: var(--lightgray);
+	color: var(--white);
+}
+
+.style-guide-main inner-column {
+	border: solid 1px var(--borders);
+	border-top: none;
+	padding-bottom: 100px;
+}
+
+.style-guide-section h2 + p {
+	padding-top: 20px;
+}
+
+.style-guide-section .example-content {
+	padding: 20px;
+	border-bottom: solid 1px var(--borders);
+	background-color: hsla(0, 0%, 0%, .7);
+	color: var(--white);
+}
+
+.style-guide-section list-items{
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .font-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .font-content h2 {
+	text-decoration: underline;
+}
+
+.style-guide-section .colors ul {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.style-guide-section .colors ul li{
+	border: solid black 1px;
+	padding: 10px 4px;
+}
+
+.style-guide-section .colors ul li:nth-child(1) {
+    background-color: var(--orange);
+}
+
+.style-guide-section .colors ul li:nth-child(2) {
+    background-color: var(--olive);
+}
+
+.style-guide-section .colors ul li:nth-child(3) {
+    background-color: var(--sand);
+}
+
+.style-guide-section .colors ul li:nth-child(4) {
+    background-color: var(--cream);
+}
+
+.style-guide-section .colors ul li:nth-child(5) {
+    background-color: var(--fog);
+}
+
+.style-guide-section .colors ul li:nth-child(6) {
+    background-color: var(--lightgray);
+}
+
+.style-guide-section .colors ul li:nth-child(7) {
+    background-color: var(--white);
+}
+
+.style-guide-section .colors ul li:nth-child(8) {
+    background-color: var(--black);
+    color: var(--lightgray);
+}
+
+@media (min-width: 575px) {
+	.style-guide-section .colors ul {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1000px) {
+	.style-guide-section .colors ul {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+.style-guide-section .modules-pic{
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .modules-content{
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .modules {
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .style-type {
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section .style-type ul li {
+	list-style: outside;
+	list-style-type: square;
+	margin-left: 1.3rem;	
+}
+
+.style-guide-section text-link{
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section text-link a {
+	border: solid var(--white) 1px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.style-guide-section text-link a:hover {
+	color: var(--orange);
+	border: solid var(--orange) 1px;
+	background-color: hsla(0, 0%, 0%, .3);
+}
+
+.style-guide-section .section-content {
+	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
+}
+
+.style-guide-section work-experience ul li .task {
+	list-style: outside;
+	list-style-type: square;
+	margin-left: 1.3rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
