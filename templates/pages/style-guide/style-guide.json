@@ -12,6 +12,14 @@
 			"content": "A way to look at my typography and design"
 		},
 		{
+			"module": "generic-text",
+			"class": "font",
+			"content": "The feeling that I want people to have of me as a developer and about my site is Friendly, Professional, and Unique. This could change but it’s what I have for now. Friendly, I want the user to feel that I am amicable and can work well with others. I think I can show this with some content in my about section and pictures. Professional, by doing things on purpose, making sure all my pages share the same structure, making the footer intentional, making sure the font size and weight works well. Making sure the details are in place. Using the feedback I get to make meaningful changes to the site. Unique, I want it to show who I am and what to expect from me as a developer. The visual design will help portray this part. The use of colors and spaces. How the content is displayed on each page",
+			"voice-one": "loud-voice",
+			"heading": "Keywords (friendly, professional, unique)",
+			"voice-two": "attention-voice"
+		},
+		{
 			"module": "list-items",
 			"list": "font",
 			"class-one": "loud-voice",
@@ -226,7 +234,7 @@
 			"heading": "Heading goes here",
 			"voice-two": "regular-voice",
 			"content": "Description paragraph goes here",
-			"voice-three": "whisper-voice",
+			"voice-three": "regular-voice",
 			"url": "#",
 			"link-content": "Link description goes here"
 		},

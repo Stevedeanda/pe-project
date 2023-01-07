@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-	font-family: work sans, serif;
+	font-family: work sans, open sans,serif;
 }
 
+/*FIXED*/
 .yell-voice {
-	font-size: clamp(4rem, 8vw, 9rem);
+	font-size: clamp(4rem, 4vw, 4rem);
 	font-weight: 400;
+}
+
+/*FIXED*/
+.exciting-voice {
+	font-size: clamp(3rem, 4vw, 3rem);
+	font-weight: 300;
 }
 
 .loud-voice {
@@ -14,48 +21,64 @@ html {
 	font-weight: 500;
 }
 
-.exciting-voice {
-	font-size: clamp(2.5rem, 4vw, 3rem);
-	font-weight: 300;
-}
-
+/*FIXED*/
 .attention-voice {
-	font-size: clamp(1.5rem, 4vw, 2rem);
+	font-size: clamp(2rem, 4vw, 2rem);
 	font-weight: 200;
 }
 
+/*FIXED*/
 .bold-voice {
-	font-size: clamp(2rem, 4vw, 1.75rem);
+	font-size: clamp(1.75rem, 4vw, 1.75rem);
 	font-weight: 600;
 }
 
+/*FIXED*/
 .talking-voice {
-	font-size: clamp(1.25rem, 4vw, 1.75rem);
+	font-size: clamp(1.25rem, 4vw, 1.25rem);
 	font-weight: 400;
 }
 
+/*FIXED*/
 .regular-voice {
-	font-size: clamp(1rem, 4vw, 1.5rem);
-	font-weight: 300;
+	font-family: open sans, work sans, serif;
+	font-size: clamp(1rem, 4vw, 1rem);
+	font-weight: 400;
 	line-height: 1.3;
 }
 
+@media (min-width: 327px) {
+	.regular-voice {
+		font-size: clamp(1.125rem, 4vw, 1.125rem);
+		font-weight: 400;
+		line-height: 1.7;
+	}
+}
+
+/*FIXED*/
 .calm-voice {
-	font-size: clamp(.8125rem, 4vw, 1.3125rem);
+	font-size: 1rem;
 	font-weight: 300;
-	line-height: 1.3;
+	line-height: 1.7;
 }
 
 .quiet-voice {
-	font-size: clamp(1rem, 4vw, 1.5rem);
-	font-weight: 400;
+	font-size: clamp(1rem, 4vw, 1rem);
+	font-weight: 300;
 }
 
 .whisper-voice {
-	font-size: clamp(.75rem, 4vw, 1.25rem);
+	font-size: clamp(.8rem, 4vw, .8rem);
 	font-weight: 300;
 }
 
 .micro-voice {
 	font-size: 5px;
+}
+
+
+/*NEW VOICES*/
+
+.one-voice {
+	font-size: ;
 }

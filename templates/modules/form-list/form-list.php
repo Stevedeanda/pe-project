@@ -8,7 +8,7 @@ $formsData = json_decode($json, true);
 ?>
 
 <?php
-$section['heading'] = "Forms";
+$section['heading'] = "Forms (PHP)";
 $section['content'] = "Using the book 'Exercises for Programmers', it gives problems to solve with constraints. Here are a few of the forms I have attempted.";
 $section['class'] = "form";
 $section['voice-one'] = "yell-voice";
@@ -19,6 +19,7 @@ include ('templates/modules/generic-text/generic-text.php');
 
 <form-list>
 	<ul>
+		<h2 class="attention-voice">Pick a form</h2>
 	
 		<?php
 	
@@ -27,7 +28,7 @@ include ('templates/modules/generic-text/generic-text.php');
 		$id = $form['id']; ?>
 		
 		<li>
-			<a class="talking-voice" href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
+			<a class="<?=$form['class']?>" href="?page=forms&id=<?=$id?>"><?=$form['name']?></a>
 		</li>
 	
 		<?php	} ?>

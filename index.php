@@ -4,8 +4,8 @@
 <!-- <p class="query">?<?=queryString();?></p> -->
 
 <?php 
-$_GET["page"] = $page;
-if ($_GET["page"] == "forms") {
+
+if ($page == "forms") {
 	if ($json = file_get_contents("templates/pages/forms/forms.json") ) {
 		$formsData = json_decode($json, true);
 		foreach ($formsData as $form) {
@@ -20,7 +20,7 @@ if ($_GET["page"] == "forms") {
 
 
 	<?php } 
-} else if ($_GET["page"] == "project") {
+} else if ($page == "project") {
 	//Get the detail data
 	if ($json = file_get_contents("data/projects.json") ) {
 		$detailData = json_decode($json, true);

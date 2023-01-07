@@ -1,19 +1,26 @@
 <?php
 
-	$string = "Hello";
+	$string = null;
 	$message = null;
+	$message1 = null;
+	$message2 = null;
+	$answer = "hide";
 
 	// How do I make it that if they don't enter characters a message shows up saying they need to enter characters?
 
 	if ( isset($_POST["submitted"])) {
 		if ( isset($_POST["string"])) {
 			$string = $_POST["string"];
-		} else {
-			echo "Must enter a string";
-		}
+		} 
+
+		$message = strlen($string);
+
+		$answer = "visible";
+		$message1 = "You entered <span>$string</span> and it has <span>$message</span> characters.";
+		$message2 = "This is to show what you submitted, the text highlighted in orange is what you input as well as the answer.";
 	}
 
-	$message = strlen($string);
+	
 ?>
 
 <header>
@@ -24,15 +31,22 @@
 
 	<h1 class="exciting-voice">Character Counting</h1>
 	
-	<p class="regular-voice">Let's count the characters in string</p>
+	<p class="regular-voice">Input a word and it will count the characters in the string.</p>
 
 	<div class="field">
 		<label class="talking-voice">Write your string here</label>
-		<input type="text" name="string" value="<?=$string?>">
+		<input class="regular-voice" type="text" name="string" value="<?=$string?>" required="required">
 	</div>
 
-	<button type="submit" name="submitted">Push me</button>
-
-	<p class="regular-voice">"<?=$string?>" has <span><?=$message?></span> characters.</p>
+	<button class="regular-voice" type="submit" name="submitted">Push me</button>
 
 </form>
+
+<footer>
+	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+</footer>
+
+
+
+

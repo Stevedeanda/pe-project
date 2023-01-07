@@ -11,10 +11,10 @@ $projectData = json_decode($json, true);
 			<?php foreach ($projectData as $project) { 
 				$project['name'] = $project['name'] ?? "The project title goes here";
 				$project['description'] = $project['description'] ?? "Description of the project"; ?>
-				<article>
+				<article class="<?=$project['class']?>-a">
 					<h2 class="bold-voice"><?=$project['name']?></h2>
-					<p class="regular-voice"><?=$project['description']?></p>
-					<a class="quiet-voice" href="?page=project&id=<?=$project['id']?>">Check out <?=$project['name']?></a>
+					<p class="calm-voice"><?=$project['description']?></p>
+					<a class="regular-voice" href="?page=project&id=<?=$project['id']?>">Check out <?=$project['name']?></a>
 			
 				</article>
 				

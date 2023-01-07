@@ -5,7 +5,6 @@ $section['content'] = $section['content'] ?? "This is where the content goes in 
 $section['class'] = $section['class'] ?? "";
 $section['voice-one'] = $section['voice-one'] ?? "";
 $section['voice-two'] = $section['voice-two'] ?? "";
-
 ?>
 
 

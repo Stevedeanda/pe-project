@@ -1,13 +1,15 @@
 [
 	{
 		"id": "1",
+		"class": "one",
 		"name": "Exercises for Programmers",
 		"description": "This project is all about being able to create forms that are in the book Exercises for Programmers. Great challenge and practice to create many different forms. ",
 		"module": "form-list"
 	},
 	{
 		"id": "2",
-		"name": "FiveNine Outdoor Apparel Theme Project",
+		"class": "two",
+		"name": "Theme Project",
 		"description": "We were tasked with creating a project that mimics that style of any industry. I choose to do it on the outdoor apparel companies.",
 		"module": "project-info",
 		"sections" : [
@@ -19,7 +21,7 @@
 				"voice-two": "attention-voice",
 				"content": "The goal here is to mimic big company websites. We just had to choose the industry and I chose outdoor apparel. I had few loose constraints and rules to follow. I used a finished HTML template, was not able to change the HTML code, and use CSS to style the HTML code.",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/theme-challenge/",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"link-content": "Check out live site"
 			},
 			{
@@ -95,7 +97,7 @@
 			{
 				"module": "text-link",
 				"class": "link",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/theme-challenge/",
 				"link-content": "Check out live site"
 			}
@@ -103,18 +105,19 @@
 	},
 	{
 		"id": "3",
+		"class": "three",
 		"name": "Audiophile Store",
 		"description": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
 		"module": "project-info",
 		"sections": [
 			{
 				"module": "text-link",
-				"class": "link",
+				"class": "link-two",
 				"voice-one": "bold-voice",
 				"heading": "Audiophile Store",
 				"voice-two": "regular-voice",
 				"content": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/audiophile/",
 				"link-content": "Check out live site"
 			},

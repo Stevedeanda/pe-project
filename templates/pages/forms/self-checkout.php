@@ -13,11 +13,11 @@ function getTaxes($subtotal) {
 }
 
 $softballP = 5.99;
-$softballQ = 0;
+$softballQ = null;
 $tabletP = 49.99;
-$tabletQ = 0;
+$tabletQ = null;
 $shirtP = 11.99;
-$shirtQ = 0;
+$shirtQ = null;
 $message1 = null;
 $message2 = null;
 $message3 = null;
@@ -27,6 +27,8 @@ $message6 = null;
 $message7 = null;
 $message8 = null;
 $message9 = null;
+$message10 = null;
+$answer = "hide";
 
 if ( isset($_POST['submitted'])) {
 	if (isset($_POST['softballQ'])) {
@@ -51,18 +53,18 @@ if ( isset($_POST['submitted'])) {
 	$total = $subtotal + $taxes;
 
 	//echo $total;
-
-	$message1 = "Softball price: $" . $softballP;
-	$message2 = "Softball quantity: $softballQ";
-	$message3 = "Tablet price : $" . $tabletP;
-	$message4 = "Tablet quantity: $tabletQ";
-	$message5 = "T-Shirt price: $" . $shirtP;
-	$message6 = "T-Shirt quantity: $shirtQ";
-	$message7 = "Subtotal: $" . $subtotal;
-	$message8 = "Tax: $" . $taxes;
-	$message9 = "Total: $" . $total;
+	$answer = "visible";
+	$message10 = "This is to show what you submitted, the text highlighted in orange is what you input as well as the answer.";
+	$message1 = "Softball total: <span>$$softballtotal</span>";
+	$message2 = "Softball quantity: <span>$softballQ</span>";
+	$message3 = "Tablet total: <span>$$tablettotal</span>";
+	$message4 = "Tablet quantity: <span>$tabletQ</span>";
+	$message5 = "T-Shirt total: <span>$$shirttotal</span>";
+	$message6 = "T-Shirt quantity: <span>$shirtQ</span>";
+	$message7 = "Subtotal: <span>$$subtotal";
+	$message8 = "Tax: <span>$$taxes</span>";
+	$message9 = "Total: <span>$$total</span>";
 }
-
 
 ?>
 
@@ -74,38 +76,48 @@ if ( isset($_POST['submitted'])) {
 
 	<h1 class="exciting-voice">Self-Checkout</h1>
 
-	<p class="regular-voice">Online shopping, what's the total?</p>
-	<!-- <ul class="items">
-		<li class="list">Softballs cost $5.99</li>
-		<li class="list">Tablets cost $49.99</li>
-		<li class="list">T-Shirt cost $11.99</li>
-	</ul> -->
+	<p class="regular-voice">Store only has three items. It shows the cost of each item. At the bottom, select how much quantity you want of each item. You will get your total including taxes. Try some online shopping and see what the total is.</p>
+	<ul class="regular-voice">
+		<li class="list">Softball cost $5.99 each.</li>
+		<li class="list">Bat cost $49.99 each.</li>
+		<li class="list">T-Shirt cost $11.99 each.</li>
+	</ul>
 
 	<div class="field">
 		<label class="talking-voice">Choose Softball quantity</label>
-		<input type="number" name="softballQ" min="0" value="<?=$softballQ?>">
+		<input class="regular-voice" type="number" name="softballQ" min="0" value="<?=$softballQ?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Choose Tablet quantity</label>
-		<input type="number" name="tabletQ" min="0" value="<?=$tabletQ?>">
+		<input class="regular-voice" type="number" name="tabletQ" min="0" value="<?=$tabletQ?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Choose T-Shirt quantity</label>
-		<input type="number" name="shirtQ" min="0" value="<?=$shirtQ?>">
+		<input class="regular-voice" type="number" name="shirtQ" min="0" value="<?=$shirtQ?>">
 	</div>
 
-	<button type="submit" name="submitted">Push me</button>
-
-	<p class="regular-voice"><?=$message1?></p>
-	<p class="regular-voice"><?=$message2?></p>
-	<p class="regular-voice"><?=$message3?></p>
-	<p class="regular-voice"><?=$message4?></p>
-	<p class="regular-voice"><?=$message5?></p>
-	<p class="regular-voice"><?=$message6?></p>
-	<p class="regular-voice"><?=$message7?></p>
-	<p class="regular-voice"><?=$message8?></p>
-	<p class="regular-voice"><?=$message9?></p>
+	<button class="regular-voice" type="submit" name="submitted">Push me</button>
 
 </form>
+
+<footer>
+	<p class="<?=$answer?> talking-voice"><?=$message10?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message4?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message5?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message6?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message7?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message8?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message9?></p>
+</footer>
+
+
+
+
+
+
+

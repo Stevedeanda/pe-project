@@ -12,13 +12,15 @@ function getInvest($money, $math) {
 	return round(($money * $math), 2);
 }
 
-$principal = 0;
-$percent = 0;
-$years = 0;
+$principal = null;
+$percent = null;
+$years = null;
 $message1 = null;
 $message2 = null;
 $message3 = null;
 $message4 = null;
+$message5 = null;
+$answer = "hide";
 
 	if ( isset($_POST["submitted"])) {
 
@@ -40,10 +42,12 @@ $message4 = null;
 
 		$total = getInvest($principal, $math);
 
-		$message1 = "Enter the principal: $" . $principal;
-		$message2 = "Enter the rate of interest: $percent";
-		$message3 = "Enter the number of years: $years";
-		$message4 = "After $years years at " . $percent . "%, the investment will be worth $" . $total . ".";
+		$answer = "visible";
+		$message1 = "You entered <span>$$principal</span> as the starting amount.";
+		$message2 = "You entered <span>$percent%</span> as the percent rate.";
+		$message3 = "You entered <span>$years</span> years for it to be invested.";
+		$message4 = "After <span>$years</span> years at <span>$percent%</span>, the investment will be worth <span>$$total</span>.";
+		$message5 = "This is to show what you submitted, the text highlighted in orange is what you input.";
 
 	}
 
@@ -57,28 +61,37 @@ $message4 = null;
 
 	<h1 class="exciting-voice">Computing Simple Interest</h1>
 
-	<p class="regular-voice">Let's calculate your investment.</p>
+	<p class="regular-voice">All you do is enter the amount of money you are starting with in the first field. The second field takes the rate of percentage. Third field you input the number of years it will be invested. Let's calculate your investment. </p>
 
 	<div class="field">
 		<label class="talking-voice">What will be your principal amount?</label>
-		<input type="number" name="principal" min="0" step="0.01" value="<?=$principal?>">
+		<input class="regular-voice" type="number" name="principal" min="0" step="0.01" value="<?=$principal?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Rate of Percentage?</label>
-		<input type="number" name="percent" min="0" step="0.1" value="<?=$percent?>">
+		<input class="regular-voice" type="number" name="percent" min="0" step="0.1" value="<?=$percent?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">The amount of years it will be invested.</label>
-		<input type="number" name="years" min="0" value="<?=$years?>">
+		<input class="regular-voice" type="number" name="years" min="0" value="<?=$years?>">
 	</div>
 
-	<button type="submit" name="submitted">Push me</button>
-
-	<p class="regular-voice"><?=$message1?></p>
-	<p class="regular-voice"><?=$message2?></p>
-	<p class="regular-voice"><?=$message3?></p>
-	<p class="regular-voice"><?=$message4?></p>
+	<button class="regular-voice" type="submit" name="submitted">Push me</button>
 
 </form>
+
+<footer>
+	<p class="<?=$answer?> talking-voice"><?=$message5?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
+	<p class="<?=$answer?> regular-voice"><?=$message4?></p>
+</footer>
+
+
+
+
+
+

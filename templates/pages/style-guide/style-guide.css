@@ -1,6 +1,7 @@
 
-.style-guide-main {
+.style-guide-body {
 	background-color: var(--lightgray);
+	color: var(--white);
 }
 
 .style-guide-main inner-column {
@@ -22,12 +23,14 @@
 
 .style-guide-section list-items{
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .font-content {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .font-content h2 {
@@ -91,18 +94,22 @@
 
 .style-guide-section .modules-pic{
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .modules-content{
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .modules {
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .style-type {
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section .style-type ul li {
@@ -113,10 +120,11 @@
 
 .style-guide-section text-link{
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section text-link a {
-	border: solid black 1px;
+	border: solid var(--white) 1px;
 	padding: 20px;
 	display: inline-block;
 }
@@ -124,10 +132,12 @@
 .style-guide-section text-link a:hover {
 	color: var(--orange);
 	border: solid var(--orange) 1px;
+	background-color: hsla(0, 0%, 0%, .3);
 }
 
 .style-guide-section .section-content {
 	padding: 20px;
+	background-color: hsla(0, 0%, 0%, .7);
 }
 
 .style-guide-section work-experience ul li .task {
