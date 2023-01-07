@@ -10,7 +10,7 @@
 
 .project-main .project-inner {
 	display: grid;
-	grid-template-columns: repeat(12, 1fr);
+/*	grid-template-columns: repeat(12, 1fr);*/
 	gap: 20px;
 	padding-bottom: 100px;
 	-webkit-font-smoothing: antialiased;

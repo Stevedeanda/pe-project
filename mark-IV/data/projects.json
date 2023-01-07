@@ -21,7 +21,7 @@
 				"voice-two": "attention-voice",
 				"content": "The goal here is to mimic big company websites. We just had to choose the industry and I chose outdoor apparel. I had few loose constraints and rules to follow. I used a finished HTML template, was not able to change the HTML code, and use CSS to style the HTML code.",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/theme-challenge/",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"link-content": "Check out live site"
 			},
 			{
@@ -97,7 +97,7 @@
 			{
 				"module": "text-link",
 				"class": "link",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/theme-challenge/",
 				"link-content": "Check out live site"
 			}
@@ -112,12 +112,12 @@
 		"sections": [
 			{
 				"module": "text-link",
-				"class": "link",
+				"class": "link-two",
 				"voice-one": "bold-voice",
 				"heading": "Audiophile Store",
 				"voice-two": "regular-voice",
 				"content": "Here I use data to create a store called Techtoprolis. I used the sliding feature to show all products.",
-				"voice-three": "whisper-voice",
+				"voice-three": "regular-voice",
 				"url": "https://peprojects.dev/alpha-4/steve/projects/audiophile/",
 				"link-content": "Check out live site"
 			},

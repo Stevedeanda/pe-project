@@ -1,8 +1,41 @@
 
 .about-body {
 /*	background-image: url(../../../images/wood-pattern.png);*/
-	background-color: var(--olive);
+	/*background-color: var(--olive);
+	color: var(--white);*/
+}
+
+.about-body {
+	background-image: url("../../../images/home-page6.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: var(--white);
+}
+
+
+@media (min-width: 477px) {
+	.about-body {
+		background-image: url("../../../images/home-page4.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 800px) {
+	.about-body {
+		background-image: url("../../../images/home-page3.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 1000px) {
+	.about-body {
+		background-image: url("../../../images/home-page.JPG");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
 
 .about-main :is(.where-content, .why-content, .what-content) h2 + p {

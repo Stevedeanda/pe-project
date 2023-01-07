@@ -234,7 +234,7 @@
 			"heading": "Heading goes here",
 			"voice-two": "regular-voice",
 			"content": "Description paragraph goes here",
-			"voice-three": "whisper-voice",
+			"voice-three": "regular-voice",
 			"url": "#",
 			"link-content": "Link description goes here"
 		},

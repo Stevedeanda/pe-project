@@ -124,7 +124,7 @@
 }
 
 .style-guide-section text-link a {
-	border: solid black 1px;
+	border: solid var(--white) 1px;
 	padding: 20px;
 	display: inline-block;
 }
@@ -132,6 +132,7 @@
 .style-guide-section text-link a:hover {
 	color: var(--orange);
 	border: solid var(--orange) 1px;
+	background-color: hsla(0, 0%, 0%, .3);
 }
 
 .style-guide-section .section-content {
