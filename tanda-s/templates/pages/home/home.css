@@ -9,6 +9,7 @@
 	grid-template-columns: repeat(12, 1fr);
 /*	grid-auto-rows: minmax(100px,auto);*/
 	gap:20px;
+	padding-bottom: 100px;
 }
 
 welcome-landing {
@@ -21,7 +22,7 @@ welcome-landing {
 	margin: 200px 0;
 }
 
-generic-text {
+.page-header-content {
 	display:block;
 	grid-column: 1/12;
 	grid-row: 4/6;
@@ -29,13 +30,23 @@ generic-text {
 	background-color: hsla(0, 0%, 0%, .8);
 }
 
-list-items{
+list-items {
 	display:block;
 	grid-column: 1/12;
 	grid-row: 6/9;
 	padding:20px;
 	background-color: hsla(0, 0%, 0%, .8);
 }
+
+.contacto-content {
+	display:block;
+	grid-column: 1/12;
+	grid-row: 9/11;
+	padding:20px;
+	background-color: hsla(0, 0%, 0%, .8);
+}
+
+
 
 list-items ul {
 	display: grid;

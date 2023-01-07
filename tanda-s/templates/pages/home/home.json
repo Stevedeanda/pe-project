@@ -12,7 +12,7 @@
 			"class": "page-header",
 			"heading": "Bienvenidos",
 			"voice-one": "loud-voice",
-			"content": "Gracias por participar en nuestra segunda tanda. Betsy y yo (Steve) estamos agradecidos de tenerlos en la tanda. El año pasado hicimos nuestra primer tanda y nos fue muy bien. Participaron 10 personas y  este año tenemos a 13. En esta pagina voy a darles toda la informacion de la tanda para que tengan un lugar donde revisar informacion.",
+			"content": "Gracias por participar en nuestra segunda tanda. Betsy y yo (Steve) estamos agradecidos de tenerlos en la tanda. El año pasado hicimos nuestra primer tanda y nos fue muy bien. Participaron 10 personas y  este año tenemos a 13. En esta pagina voy a darles toda la informacion de la tanda para que tengan un lugar donde revisar informacion. Una vez mas, gracias por participar.",
 			"voice-two": "attention-voice"
 		},
 		{
@@ -22,10 +22,10 @@
 			"list-name": "Informacion de la Tanda",
 			"items": [
 				{
-					"item": "1. Tanda comenzará Enero 22, 2023 y terminara Enero 14, 2024"
+					"item": "1. Tanda comenzará Enero 22, 2023 y terminara Enero 14, 2024."
 				},
 				{
-					"item": "2. El pago sera de $100 cada domingos. Si se les olvida mandarlo, no se preocupen. Yo les mando un recordatorio por texto."
+					"item": "2. El pago sera de $100 cada domingo. Si se les olvida mandarlo, no se preocupen. Yo les mando un recordatorio por texto."
 				},
 				{
 					"item": "3. Todo el dinero se manda por zelle, y se manda a mi numero, 832-382-3729."
@@ -34,9 +34,17 @@
 					"item": "4. Como somos 13 participantes, el dinero se va dar cada 4 semanas y la cantidad sera de $5,200 a cada participante."
 				},
 				{
-					"item": "5. Por ultimo, no se les olvide dar una propina chiquita a sus organizadores."
+					"item": "5. Por ultimo, apreciaremos su generosidad de su propina cuando obtengan el total de su dinero :) ."
 				}
 			]
+		},
+		{
+			"module": "generic-text",
+			"class": "contacto",
+			"heading": "Contacto",
+			"voice-one": "loud-voice",
+			"content": "Si necesitan contactar me, me pueden llamar o mandar un texto a mi numero 832-382-3729. Tambien me pueden mandar un mesaje electronico a stevedeanda5@gmail.com.",
+			"voice-two": "attention-voice"
 		}
 	]
 }

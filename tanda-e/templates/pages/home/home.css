@@ -9,6 +9,7 @@
 	grid-template-columns: repeat(12, 1fr);
 /*	grid-auto-rows: minmax(100px,auto);*/
 	gap:20px;
+	padding-bottom: 100px;
 }
 
 welcome-landing {
