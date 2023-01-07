@@ -11,7 +11,7 @@
 
 		<title>Steve DeAnda</title>
 		<meta name='description' content='Steve DeAnda Website'>
-		<meta property='og:image' content='https://peprojects.dev/alpha-4/steve/projects/theme-challenge/images/fivenine-meta.jpg'>
+		<meta property='og:image' content='https://peprojects.dev/alpha-4/steve/projects/images/meta-one.JPG'>
 
 		<link rel='stylesheet' href='style/site.css'>
 	</head>
