@@ -82,13 +82,13 @@ $answer = "hide";
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message5?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message4?></p>
-</footer>
+</output>
 
 
 

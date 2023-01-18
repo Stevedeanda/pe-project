@@ -227,7 +227,7 @@
 	
 }
 
-.forms-section footer .tryagain.regular-voice{
+.forms-section output .tryagain.regular-voice{
 	color: var(--aqua);
 	padding: 20px;
 	background-color: hsla(0, 0%, 0%, .7);
@@ -239,21 +239,21 @@
 	padding-top: 20px;
 }
 
-.forms-section footer {
+.forms-section output {
 	grid-column: 1/13;
 	grid-row: 7/9;
 }
 
-.forms-section footer .hide {
+.forms-section output .hide {
 	display: none;
 }
 
-.forms-section footer .visible {
+.forms-section output .visible {
 	padding: 20px;
 	background-color: hsla(0, 0%, 0%, .7);
 }
 
-.forms-section footer .visible span{
+.forms-section output .visible span{
 	color: var(--orange);
 }
 
@@ -264,7 +264,7 @@
 		grid-row: 4/6;
 		/*	max-width: 400px;*/
 		}
-		.forms-section footer {
+		.forms-section output {
 		grid-column: 7/12;
 		grid-row: 4/6;
 	}

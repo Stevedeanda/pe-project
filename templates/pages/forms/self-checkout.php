@@ -102,7 +102,7 @@ if ( isset($_POST['submitted'])) {
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message10?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
@@ -113,7 +113,7 @@ if ( isset($_POST['submitted'])) {
 	<p class="<?=$answer?> regular-voice"><?=$message7?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message8?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message9?></p>
-</footer>
+</output>
 
 
 

@@ -135,7 +135,7 @@
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message5?></p>
 	<p class="<?=$answer2?> talking-voice"><?=$message8?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message?></p>
@@ -144,7 +144,7 @@
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
 	<p class="<?=$answer2?> regular-voice"><?=$message6?></p>
 	<p class="<?=$answer2?> regular-voice"><?=$message7?></p>
-</footer>
+</output>
 
 
 

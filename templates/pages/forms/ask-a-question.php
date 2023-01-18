@@ -26,7 +26,7 @@
 	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
-<form method="POST">
+<form id="ask-a-question" method="POST">
 
 	<h1 class="exciting-voice">Multiple text inputs</h1>
 
@@ -44,17 +44,44 @@
 
 	<div class="field">
 		<label class="talking-voice">Talking points</label>
-		<textarea class="regular-voice" name="text" cols="10" rows="5" maxlength="40" placeholder="What is your question?" required="required"></textarea>
+		<textarea class="regular-voice" name="text" cols="10" rows="5" maxlength="200" placeholder="What is your question?" required="required"></textarea>
 	</div>
 
 	<button class="regular-voice" name="submitted" type="submit">Submit</button>
 
 </form>
 
-<footer>
-	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
-</footer>
+<output>
+	<p id="output-one" class="<?=$answer?> talking-voice"><?=$message2?></p>
+	<p id="output-two" class="<?=$answer?> regular-voice"><?=$message1?></p>
+</output>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

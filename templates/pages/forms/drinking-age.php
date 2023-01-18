@@ -50,10 +50,10 @@
 
 <!-- Output -->
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message?></p>
-</footer>
+</output>
 
 
 

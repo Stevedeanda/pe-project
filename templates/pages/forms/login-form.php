@@ -80,10 +80,10 @@ if (isset($_POST["submitted"])) {
 	
 </form>
 
-<footer>
+<output>
 	<p class="<?=$class2?> regular-voice"><?=$message?></p>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<h1 class="exciting-voice <?=$class1?>">You are in!!!</h1>
-</footer>
+</output>
 

@@ -35,7 +35,7 @@
 	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
-<form method="POST">
+<form id="calculate-paycheck" method="POST">
 
 	<h1 class="exciting-voice">Paycheck Calculator</h1>
 
@@ -54,8 +54,8 @@
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
-</footer>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message1?></p>
+</output>
 

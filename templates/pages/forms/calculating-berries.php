@@ -32,7 +32,7 @@
 </header>
 
 
-<form method="POST">
+<form id="berries" method="POST">
 
 	<h1 class="exciting-voice">Calculating Berries</h1>
 
@@ -52,10 +52,10 @@
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
-</footer>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message1?></p>
+</output>
 
 
 

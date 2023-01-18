@@ -101,13 +101,13 @@ $answer = "hide";
 
 </form>
 
-<footer>
+<output>
 	<p class="<?=$answer?> talking-voice"><?=$message6?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message4?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message5?></p>
-</footer>
+</output>
 
 
