@@ -33,7 +33,7 @@
 	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
 
-<form method="POST">
+<form id="drinking" method="POST">
 
 	<h1 class="exciting-voice">Drinking calculator</h1>
 	
@@ -52,7 +52,7 @@
 
 <output>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message?></p>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message?></p>
 </output>
 
 

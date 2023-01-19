@@ -2,7 +2,7 @@
 // ASK A QUESTION FORM
 
 // Get the form
-var $formOne = document.querySelector("#ask-a-question");
+var $form = document.querySelector("form");
 
 // Get the inputs
 var $person = document.querySelector("[name='person']");
@@ -13,7 +13,7 @@ var $text = document.querySelector("[name='text']");
 var $paragraph = document.querySelector("#output-two");	
 
 // Make sure PHP form doesn't send it to the server when it submits.
-$formOne.addEventListener('submit', function(myEvent) {
+$form.addEventListener('submit', function(myEvent) {
 	myEvent.preventDefault();
 
 	//console.log("submit was clicked");
@@ -44,7 +44,7 @@ $formOne.addEventListener('submit', function(myEvent) {
 // CALCULATE PAYCHECK FORM
 
 // Get the form
-var $formTwo = document.querySelector("#calculate-paycheck");
+var $form = document.querySelector("form");
 
 // Get the inputs
 var $work = document.querySelector("[name='work']");
@@ -54,8 +54,8 @@ var $rate = document.querySelector("[name='rate']");
 // Get the outcome
 var $outcome = document.querySelector("#outcome");
 
-$formTwo.addEventListener('submit', function(myEventTwo) {
-	myEventTwo.preventDefault();
+$form.addEventListener('submit', function(myEvent) {
+	myEvent.preventDefault();
 
 	//console.log("looks like it clicked");
 
@@ -86,7 +86,7 @@ $formTwo.addEventListener('submit', function(myEventTwo) {
 // CALCULATE BERRIES
 
 // Get the form
-var $formTwo = document.querySelector("#berries");
+var $form = document.querySelector("form");
 
 // Get the inputs
 var $guests = document.querySelector("[name='guests']");
@@ -95,9 +95,9 @@ var $berries = document.querySelector("[name='berries']");
 // Get the outcome
 var $outcome = document.querySelector("#outcome");
 
-$formTwo.addEventListener('submit', function(myEventThree) {
+$form.addEventListener('submit', function(myEvent) {
 
-	myEventThree.preventDefault();
+	myEvent.preventDefault();
 
 	console.log("alright alright alright");
 
@@ -125,46 +125,52 @@ $formTwo.addEventListener('submit', function(myEventThree) {
 
 
 
+// DRINKING AGE FORM
 
+// Get the form 
+var $form = document.querySelector("form");
 
+//Get the inputs
+var $born = document.querySelector("[name='born']");
 
+// Get the outcome
+var $outcome = document.querySelector("#outcome");
 
+// Prevent the form from submitting
+$form.addEventListener('submit', function(myEvent) {
+	myEvent.preventDefault();
 
+	console.log("js is working");
 
+	// Put the value to the inputs
+	let born = $born.value;
+	console.log(born);
+	let currentYear = 2022;
+	let age = currentYear - born;
+	console.log(age);
 
+	// Write the outcome message
+	if (age >= 21) {
+		var messageOne = `This is to show what you submitted, the text highlighted in orange is what you input.<hr>You were born in <span>${born}</span>. You are <span>${age}</span> years old, you can drink buddy!`;
 
+		// Remove and add class to be able to see the outcome
+		$outcome.classList.remove('hide');
+		$outcome.classList.add('visible');
+		
+		// Add the message to page
+		$outcome.innerHTML = messageOne;
 
+	} else {
+		var messageTwo = `This is to show what you submitted, the text highlighted in orange is what you input.<hr>You were born in <span>${born}</span>. You are <span>${age}</span> years old, drinking age is 21, no alcohol for you.`;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		// Remove and add class to be able to see the outcome
+		$outcome.classList.remove('hide');
+		$outcome.classList.add('visible');
+		
+		// Add the message to page
+		$outcome.innerHTML = messageTwo;
+	}
+});
 
 
 
