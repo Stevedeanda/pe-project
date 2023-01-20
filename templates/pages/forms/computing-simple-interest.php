@@ -65,17 +65,17 @@ $answer = "hide";
 
 	<div class="field">
 		<label class="talking-voice">What will be your principal amount?</label>
-		<input class="regular-voice" type="number" name="principal" min="0" step="0.01" value="<?=$principal?>">
+		<input id="principal" class="regular-voice" type="number" name="principal" min="0" step="0.01" value="<?=$principal?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">Rate of Percentage?</label>
-		<input class="regular-voice" type="number" name="percent" min="0" step="0.1" value="<?=$percent?>">
+		<input id="percent" class="regular-voice" type="number" name="percent" min="0" step="0.1" value="<?=$percent?>">
 	</div>
 
 	<div class="field">
 		<label class="talking-voice">The amount of years it will be invested.</label>
-		<input class="regular-voice" type="number" name="years" min="0" value="<?=$years?>">
+		<input id="years" class="regular-voice" type="number" name="years" min="0" value="<?=$years?>">
 	</div>
 
 	<button class="regular-voice" type="submit" name="submitted">Push me</button>
@@ -84,7 +84,7 @@ $answer = "hide";
 
 <output>
 	<p class="<?=$answer?> talking-voice"><?=$message5?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message4?></p>

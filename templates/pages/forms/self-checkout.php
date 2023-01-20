@@ -61,7 +61,7 @@ if ( isset($_POST['submitted'])) {
 	$message4 = "Tablet quantity: <span>$tabletQ</span>";
 	$message5 = "T-Shirt total: <span>$$shirttotal</span>";
 	$message6 = "T-Shirt quantity: <span>$shirtQ</span>";
-	$message7 = "Subtotal: <span>$$subtotal";
+	$message7 = "Subtotal: <span>$$subtotal</span>";
 	$message8 = "Tax: <span>$$taxes</span>";
 	$message9 = "Total: <span>$$total</span>";
 }
@@ -104,7 +104,7 @@ if ( isset($_POST['submitted'])) {
 
 <output>
 	<p class="<?=$answer?> talking-voice"><?=$message10?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message4?></p>

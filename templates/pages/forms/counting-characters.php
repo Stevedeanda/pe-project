@@ -44,7 +44,7 @@
 
 <output>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
+	<p id="outcome" class="<?=$answer?> regular-voice"><?=$message1?></p>
 </output>
 
 

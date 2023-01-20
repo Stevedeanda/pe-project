@@ -59,22 +59,22 @@ if (isset($_POST["submitted"])) {
 
 <form method="POST" class="<?=$class?>">
 
-	<h1 class="<?=$class?> exciting-voice">Log in</h1>
+	<h1 class="exciting-voice">Log in</h1>
 
-	<p class="<?=$class?> regular-voice">Try login in. Your username is your first name only, all lowercase. Your password is your first name only. Make sure to capitalize the first letter in your name for your password. </p>
+	<p class="regular-voice">Try login in. Your username is your first name only, all lowercase. Your password is your first name only. Make sure to capitalize the first letter in your name for your password. </p>
 	<p class="<?=$class?> whisper-voice">Example: username-"steve" and password-"Steve".</p>
 
-	<div class="<?=$class?>">
+	<div>
 		<label class="talking-voice">Username (first name)</label>
 		<input class="regular-voice" type="text" name="id" required="required" minlength="3">
 	</div>
 
-	<div class="<?=$class?>">
+	<div>
 		<label class="talking-voice">Password</label>
 		<input class="regular-voice" type="password" name="pw" required="required" minlength="3">
 	</div>
 
-	<button class="<?=$class?> regular-voice" type="submit" name="submitted">
+	<button class="regular-voice" type="submit" name="submitted">
 	Log in
 	</button>
 	
