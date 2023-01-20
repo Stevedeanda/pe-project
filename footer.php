@@ -5,8 +5,7 @@
 
 		<?php include ('templates/modules/site-footer/site-footer.php'); ?>
 
-		<script src="js-forms/hijacked-forms.js"></script>
-		<!-- <script src="js-forms/calculate-paycheck.js"></script> -->
+		<script src="templates/pages/forms/hijacked-forms.js"></script>
 
 	</body>
 
