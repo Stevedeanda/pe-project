@@ -76,8 +76,8 @@
 		<label class="talking-voice" for="states">Choose your State:</label>
 
 		<select class="regular-voice" name="state" id="states" required="required">
-		    <option value="">--Scroll to choose your State--</option>
-		    <option value="AL">Alabama</option>
+		   <option value="">--Scroll to choose your State--</option>
+		   <option value="AL">Alabama</option>
 			<option value="AK">Alaska</option>
 			<option value="AZ">Arizona</option>
 			<option value="AR">Arkansas</option>
@@ -138,7 +138,7 @@
 <output>
 	<p class="<?=$answer?> talking-voice"><?=$message5?></p>
 	<p class="<?=$answer2?> talking-voice"><?=$message8?></p>
-	<p class="<?=$answer?> regular-voice"><?=$message?></p>
+	<p id="output" class="<?=$answer?> regular-voice"><?=$message?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message3?></p>
