@@ -446,30 +446,50 @@ $form.addEventListener('submit', function(myEvent) {
 
 
 
-// // LOGIN FORM
+// LOGIN FORM
 
-// // Get the form
-// var $form = document.querySelector('form');
+// Get the form
+var $form = document.querySelector('form');
 
-// // Get the inputs
-// var $id = document.querySelector("[name='id']");
-// var $pw = document.querySelector("[name='pw']");
+// Get the inputs
+
+var $id = document.querySelector("[name='id']");
+var $pw = document.querySelector("[name='pw']");
+
+var $output = document.querySelector("#message");
+
+// const rain = json_encode($userData);
+
+let text = '{"users":[' +
+'{"id":"betsy","pw":"Betsy" },' +
+'{"id":"steve","pw":"Steve" },' +
+'{"id":"john","pw":"John" }]}';
+
+const obj = JSON.parse(text);
+console.log(obj.users[0].id);
+
+// Get the output 
+
+// Prevent the default submit
+$form.addEventListener('submit', function(myEvent) {
+	myEvent.preventDefault();
+
+	// Get the value
+	let id = $id.value;
+	let pw = $pw.value;
+
+	if (id == obj.users[0].id) {
+		var message = "You did it!!!";
+		$output.innerHTML = message;
+		console.log("yay");
+	} else {
+		var errorMessage = "Uh oh";
+		$output.innerHTML = errorMessage;
+		console.log(obj.users[0].id);
+	}
 
 
-
-// // Get the output 
-
-// // Prevent the default submit
-// $form.addEventListener('submit', function(myEvent) {
-// 	myEvent.preventDefault();
-
-// 	// Get the value
-// 	let id = $id.value;
-// 	let pw = $pw.value;
-
-
-
-// })
+})
 
 
 

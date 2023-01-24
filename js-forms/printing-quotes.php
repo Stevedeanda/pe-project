@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Saying Hello Form</title>
+		<title>Printing Quotes</title>
 		<link rel='stylesheet' href='js-forms.css'>
 	</head>
 
@@ -13,14 +13,19 @@
 			
 		</header>
 		<form>
+			<h2>Write your favorite quote</h2>
 			<field>
-				<label>Enter your name</label>
-				<input></input>
+				<label>What is the quote?</label>
+				<input name="quote"></input>
+			</field>
+			<field>
+				<label>Who is the author of the quote?</label>
+				<input name="author"></input>
 			</field>
 			<button>Submit</button>
 		</form>
 		<output></output>
 
-		<script src="saying-hello.js"></script>
+		<script src="printing-quotes.js"></script>
 	</body>
 </html>

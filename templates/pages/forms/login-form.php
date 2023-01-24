@@ -19,6 +19,16 @@ $userData = [
 	"lilian" => "Lilian",
 	];
 
+
+$userArray = [];
+array_push($userArray, [
+		
+	"id" => "betsy",
+	"pw" => "Betsy",
+]);
+
+
+
 $class = "visible";
 $class1 = "hide";
 $class2 = "hide";
@@ -53,6 +63,7 @@ if (isset($_POST["submitted"])) {
 
 ?>
 
+
 <header>
 	<a class="calm-voice" href="?page=project&id=1">Back to form list</a>
 </header>
@@ -81,9 +92,10 @@ if (isset($_POST["submitted"])) {
 </form>
 
 <output>
-	<p class="<?=$class2?> regular-voice"><?=$message?></p>
+	<p id="message" class="<?=$class2?> regular-voice"><?=$message?></p>
 	<p class="<?=$answer?> talking-voice"><?=$message2?></p>
 	<p class="<?=$answer?> regular-voice"><?=$message1?></p>
 	<h1 class="exciting-voice <?=$class1?>">You are in!!!</h1>
 </output>
+
 

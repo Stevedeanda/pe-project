@@ -1,0 +1,23 @@
+body {
+	background-color: gold;
+	font-family: opens sans;
+	font-size: 30px;
+}
+
+field {
+	display: grid;
+	gap: 10px;
+	max-width:200px;
+}
+
+input, button {
+	font-size: 30px;
+}
+
+h2 {
+	max-width: 20ch;
+}
+
+body output .error {
+	color: white;
+}
