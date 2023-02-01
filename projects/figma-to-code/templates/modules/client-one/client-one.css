@@ -1,0 +1,61 @@
+
+
+.client-one client-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 120px;
+	gap: 50px;
+}
+
+.client-one text-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+
+.client-one review-area {
+	display: flex;	
+	padding: 20px;
+	gap: 50px;
+}
+
+.client-one arrow-icon {
+	display: flex;
+	align-items: center;
+}
+.client-one arrow-icon img {
+	width: 50px;
+	height: 50px;
+}
+
+.client-one full-review {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 27px;
+}
+
+.client-one full-review star-icons img {
+	width: 152px;
+	height: 24px;
+}
+
+.client-one full-review text-quotes {
+	text-align: center;
+}
+
+.client-one full-review person-pic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.client-one full-review person-pic img{
+	width: 40px;
+	height: 40px;
+}
+

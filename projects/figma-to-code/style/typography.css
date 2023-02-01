@@ -12,12 +12,19 @@ html {
 	letter: 1.2px;
 }
 
-/* P */
+/* Paragraphs */
 .voice-two {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24.2px;
 	letter: 0.2px;
+}
+
+/* List paragraphs */
+.voice-eleven {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 /* button */
@@ -55,6 +62,43 @@ html {
 	font-size: 16px;
 	line-height: 19px;
 	letter: 0.46px;
+}
+
+/* H2 */
+.voice-seven {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 68px;
+}
+
+/* H3 */
+.voice-eight {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+}
+
+/* H4 */
+
+/* H5 */
+.voice-ten {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+/* quotes */
+.voice-twelve {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+/* author */
+.voice-thirteen {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
 }
 
 

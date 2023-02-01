@@ -1,0 +1,55 @@
+
+
+.feature-one feature-one {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 80px 120px;
+	gap: 66px;
+}
+
+.feature-one left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 40px;
+}
+
+.feature-one left-side text-area {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+}
+
+.feature-one right-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+}
+
+.feature-one right-side list-item {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	gap: 22px;
+}
+
+.feature-one right-side context-area {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+}
+
+.feature-one list-item number-icon img {
+	width: 60px;
+	height: 60px;
+}

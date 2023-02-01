@@ -1,13 +1,16 @@
-.hero-one {
-	background-image: url("../images/background-one.svg");
-}
+
 
 .hero-one inner-column {
+	background-image: url("https://peprojects.dev/alpha-4/steve/projects/figma-to-code/images/background-one.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 195px 233px;
 }
 
 .hero-one hero-module {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
 
 .hero-one text-area {
@@ -19,4 +22,25 @@
 
 .hero-one text-area :is(h1,p) {
 	text-align: center;
+}
+
+.hero-one two-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.hero-one two-buttons a {
+	padding: 15px 50px 15px 50px;
+}
+
+.hero-one two-buttons .started {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.hero-one two-buttons .trial {
+	background-color: var(--white);
+	color: var(--blue);
+	border: 1px solid #3563E9;
 }

@@ -1,0 +1,44 @@
+
+
+.action-one inner-column {
+	padding: 80px 120px;
+}
+
+.action-one call-to-action{
+	background-color: var(--bluegray);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 91px;
+	gap: 48px;
+	border-radius: 15px;
+}
+
+.action-one text-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 60px;
+	text-align: center;
+	gap: 24px;
+}
+
+.action-one one-button {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	padding: 10px 22px;
+	gap: 10px;
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.action-one one-button img {
+	width: 24px;
+}
+
+.action-one one-button img svg{
+	stroke: var(--white);
+}

@@ -1,5 +1,5 @@
 <?php 
-$section['button'] = $section['button'] ?? "";
+$section['buttons'] = $section['buttons'] ?? "";
 $section['picture'] = $section['picture'] ?? "";
 ?>
 
@@ -14,10 +14,10 @@ $section['picture'] = $section['picture'] ?? "";
 			<two-buttons>
 			<?php 
 			
-			if ($section['button']) {
-				foreach ($section['button'] as $button) { ?>
+			if ($section['buttons']) {
+				foreach ($section['buttons'] as $button) { ?>
 					
-					<a href="<?=$button['link']?>"><?=$button['link-name']?></a>	
+					<a class="<?=$button['class']?>"href="<?=$button['button']?>"><?=$button['button-name']?></a>	
 				<?php }
 			} ?>
 
