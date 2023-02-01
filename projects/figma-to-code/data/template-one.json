@@ -1,0 +1,66 @@
+[
+	{
+		"id": "1",
+		"name": "template-one",
+		"sections" : [
+			{
+				"module": "nav-one",
+				"class-one": "site-menu",
+				"main-logo": "images/main-logo.svg",
+				"class-two": "nav-links",
+				"links" : [
+					{
+						"link-name": "Home",
+						"link": "#",
+						"class": "home voice-four"
+					},
+					{
+						"link-name": "Updates",
+						"link": "#",
+						"class": "updates voice-four"
+					},
+					{
+						"link-name": "Services",
+						"link": "#",
+						"class": "services voice-four"
+					},
+					{
+						"link-name": "Features",
+						"link": "#",
+						"class": "features voice-four"
+					},
+					{
+						"link-name": "About Us",
+						"link": "#",
+						"class": "about voice-four"
+					}
+				],
+				"globe-icon": "images/Name=globe.svg",
+				"language": "EN",
+				"class-three": "voice-six",
+				"login": "LogIn",
+				"class-four": "voice-six"
+			},
+			{
+				"module": "hero-one",
+				"class-one": "hero-one",
+				"heading": "Arcu Suscipit Massa Aliquam Proin Amet",
+				"class-two": "voice-one",
+				"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
+				"class-three": "voice-two",
+				"button" : [
+					{
+						"link-name": "Get Started",
+						"link": "#"
+					},
+					{
+						"link-name": "Start Free Trial",
+						"link": "#"
+					}
+				],
+				"picture": "images/line-25.svg"
+			}
+			
+		]
+	}
+]

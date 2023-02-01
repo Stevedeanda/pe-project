@@ -41,6 +41,4 @@ function addDashes($string) {
 // 	$projectsData = json_decode($json, true);
 // }
 
-
-// may use this again
 ?>

@@ -1,0 +1,67 @@
+[
+	{
+		"id": "1",
+		"name": "Ask a Question",
+		"module": "ask-a-question"
+	},
+	{
+		"id": "2",
+		"name": "Calculate Paycheck",
+		"module": "calculate-paycheck"
+	},
+	{
+		"id": "3",
+		"name": "Calculating Berries",
+		"module": "calculating-berries"
+	},
+	{
+		"id": "4",
+		"name": "Drinking Age",
+		"module": "drinking-age"
+	},
+	{
+		"id": "5",
+		"name": "Counting Characters",
+		"module": "counting-characters"
+	},
+	{
+		"id": "6",
+		"name": "Login Form",
+		"module": "login-form"
+	},
+	{
+		"id": "7",
+		"name": "Pizza Party",
+		"module": "pizza-party"
+	},
+	{
+		"id": "8",
+		"name": "Paint Calculator",
+		"module": "paint-calculator"
+	},
+	{
+		"id": "9",
+		"name": "Self-Checkout",
+		"module": "self-checkout"
+	},
+	{
+		"id": "12",
+		"name": "Pizza Party",
+		"module": "pizza-party"
+	},
+	{
+		"id": "13",
+		"name": "Tax Calculator",
+		"module": "tax-calculator"
+	},
+	{
+		"id": "10",
+		"name": "Computing Simple Interest",
+		"module": "computing-simple-interest"
+	},
+	{
+		"id": "11",
+		"name": "Determining Compound Interest",
+		"module": "determining-compound-interest"
+	}
+]

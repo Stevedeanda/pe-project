@@ -24,8 +24,6 @@
 
 		<main>
 
-			<p class="query">?<?=queryString();?></p>
-
 			<?php
 			$json = file_get_contents("data/$page.json");
 			$pageData = json_decode($json, true);

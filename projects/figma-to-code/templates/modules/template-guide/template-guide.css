@@ -1,0 +1,17 @@
+three-templates {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 10px;
+	padding: 20px;
+}
+
+.query {
+	display: flex;
+	justify-content: center;
+}
+
+.switch {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}

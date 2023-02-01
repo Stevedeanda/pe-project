@@ -1,0 +1,12 @@
+
+html {
+	--black: #000000;
+	--white: #FFFFFF;
+	--blue: #3563E9;
+	
+
+
+	--ink: var(--black);
+	--paper: var(--white);
+
+}

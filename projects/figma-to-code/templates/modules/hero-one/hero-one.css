@@ -1,0 +1,22 @@
+.hero-one {
+	background-image: url("../images/background-one.svg");
+}
+
+.hero-one inner-column {
+	padding: 195px 233px;
+}
+
+.hero-one hero-module {
+	display: block;
+}
+
+.hero-one text-area {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	gap: 16px;
+}
+
+.hero-one text-area :is(h1,p) {
+	text-align: center;
+}

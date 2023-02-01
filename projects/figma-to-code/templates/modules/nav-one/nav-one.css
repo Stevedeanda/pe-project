@@ -1,0 +1,69 @@
+
+
+.site-menu main-logo img{
+	width: 134px;
+	height: 34px;
+}
+
+.site-menu globe-icon img{
+	width: 20px;
+	height: 20px;
+}
+
+.site-menu language-login {
+	display: block;
+}
+
+.site-menu language-en {
+	display: block;
+}
+
+.site-menu globe-icon {
+	display: block;
+}
+
+.site-menu abbreviation-text {
+	display: block;
+}
+
+.site-menu inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 120px;
+/*   gap: 300px;*/
+	
+}
+
+.site-menu .nav-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 30px;
+}
+
+.site-menu language-login {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+}
+
+.site-menu language-en {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 7px;
+}
+
+.site-menu language-login log-in {
+	padding: 8px 22px;
+	background-color: var(--blue);
+	border-radius: 5px;
+	color: var(--white);
+}
+
