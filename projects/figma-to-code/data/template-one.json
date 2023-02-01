@@ -157,6 +157,51 @@
 				"button": "Get free quotes",
 				"class-four": "voice-six",
 				"arrow": "images/right-arrow-icon-white.svg"
+			},
+			{
+				"module": "faqs-one",
+				"class-one": "faqs-one",
+				"heading": "Frequent Ask Questions",
+				"class-two": "voice-eight",
+				"paragraph": "Pellentesque Cras Adipiscing Tempus Livero Vel Nullam Mauris Tellus. Aliquam Ultrices Tellus Consequat Amet, Lectus Aliquam Est In Neque.",
+				"class-three": "voice-two",				
+				"summaries" : [
+					{
+						"question": "How Soon Will My Order Ship?",
+						"class-one": "voice-twelve",
+						"open": "",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.",
+						"class-two": "voice-eleven"
+					},
+					{
+						"question": "Is There Any Warranty Exclusion?",
+						"class-one": "voice-twelve",
+						"open": "open",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.",
+						"class-two": "voice-eleven"
+					},
+					{
+						"question": "Are There Any Refund Exclusions?",
+						"class-one": "voice-twelve",
+						"open": "",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.",
+						"class-two": "voice-eleven"
+					},
+					{
+						"question": "Will I Be Charged For A Replacement Item?",
+						"class-one": "voice-twelve",
+						"open": "",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.",
+						"class-two": "voice-eleven"
+					},
+					{
+						"question": "How Can I Track My Orders & Payments?",
+						"class-one": "voice-twelve",
+						"open": "",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.",
+						"class-two": "voice-eleven"
+					}
+				]
 			}
 			
 		]
