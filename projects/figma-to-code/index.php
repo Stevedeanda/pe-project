@@ -40,8 +40,6 @@
 
 		</main>
 
-		<?php include ('templates/modules/template-guide/template-guide.php'); ?>
-
 	</body>
 
 </html>

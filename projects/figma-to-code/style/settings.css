@@ -4,8 +4,10 @@ html {
 	--white: #FFFFFF;
 	--blue: #3563E9;
 	--bluegray: #F7F9FE;
+	--lightgray: #E0E0E0;
 	--systemgray: #757575;
 	--darkergray: #424242;
+	--darkblue: #2851E3;
 
 
 	--ink: var(--black);

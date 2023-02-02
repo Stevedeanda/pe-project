@@ -1,32 +1,38 @@
 
 
-.site-menu-one main-logo img{
+.site-menu-two {
+	background: var(--blue);
+	color: var(--lightgray);
+}
+
+.site-menu-two main-logo img{
 	width: 134px;
 	height: 34px;
 }
 
-.site-menu-one globe-icon img{
+.site-menu-two globe-icon img{
 	width: 20px;
 	height: 20px;
 }
 
-.site-menu-one language-login {
+.site-menu-two language-login {
 	display: block;
 }
 
-.site-menu-one language-en {
+.site-menu-two language-en {
 	display: block;
 }
 
-.site-menu-one globe-icon {
+.site-menu-two globe-icon {
 	display: block;
 }
 
-.site-menu-one abbreviation-text {
+.site-menu-two abbreviation-text {
 	display: block;
+	color: var(--white);
 }
 
-.site-menu-one inner-column {
+.site-menu-two inner-column {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -36,7 +42,7 @@
 	
 }
 
-.site-menu-one .nav-links {
+.site-menu-two .nav-links {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -44,7 +50,7 @@
 	gap: 30px;
 }
 
-.site-menu-one language-login {
+.site-menu-two language-login {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -52,7 +58,7 @@
 	gap: 20px;
 }
 
-.site-menu-one language-en {
+.site-menu-two language-en {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -60,14 +66,14 @@
 	gap: 7px;
 }
 
-.site-menu-one language-login log-in {
+.site-menu-two language-login log-in {
 	padding: 8px 22px;
-	background-color: var(--blue);
+	background-color: var(--white);
 	border-radius: 5px;
-	color: var(--white);
+	color: var(--blue);
 }
 
-.site-menu-one .voice-four:hover {
-	color: var(--blue);
+.site-menu-two .voice-four:hover {
+	color: var(--white);
 }
 

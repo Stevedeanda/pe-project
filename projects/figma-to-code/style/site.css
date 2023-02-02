@@ -16,6 +16,10 @@ body {
 	color: var(--ink);
 }
 
+main {
+	margin-top: 50px;
+}
+
 
 
 /*DEVELOPER TOOLS*/

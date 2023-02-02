@@ -43,10 +43,6 @@ html {
 	line-height: 16.94px;
 	letter: 0.2px;
 }
-.voice-four:hover {
-	font-weight: 700;
-	color: var(--blue);
-}
 
 /* language */
 .voice-five {
@@ -79,9 +75,14 @@ html {
 	line-height: 58px;
 }
 
-/* H4 */
-
 /* H5 */
+.voice-nine {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/* H4 */
 .voice-ten {
 	font-weight: 600;
 	font-size: 22px;
@@ -104,11 +105,39 @@ html {
 	color: var(--systemgray);
 }
 
+/* placeholder */
+.voice-fourteen {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--systemgray);
+}
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.46px;
+/* tiny text */
+.voice-fifteen {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* links no hover */
+.voice-sixteen {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.94px;
+	letter: 0.2px;
+}
+
+.voice-seventeen {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+
+
+
+
+
+
+

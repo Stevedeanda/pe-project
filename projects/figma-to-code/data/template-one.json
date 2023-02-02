@@ -5,7 +5,7 @@
 		"sections" : [
 			{
 				"module": "nav-one",
-				"class-one": "site-menu",
+				"class-one": "site-menu-one",
 				"main-logo": "images/main-logo.svg",
 				"class-two": "nav-links",
 				"links" : [
@@ -202,8 +202,142 @@
 						"class-two": "voice-eleven"
 					}
 				]
+			},
+			{
+				"module": "footer-one",
+				"class-one": "footer-one",
+				"heading": "Subscribe",
+				"class-two": "voice-nine",
+				"placeholder": "Email Address",
+				"class-three": "voice-fourteen",
+				"arrow-icon": "images/email-arrow-icon-white.svg",
+				"text": "Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi.",
+				"class-four": "voice-fifteen",
+				"main-logo": "images/main-logo-white.svg",
+				"link-list" : [
+					{
+						"heading": "Product",
+						"class": "voice-nine",
+						"sub-list": [
+							{
+								"link-name": "Diam orci",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Mi feugiat",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Netus fementum",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Suspendisse viverra",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Id dolor",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Erat mattis",
+								"class": "voice-seventeen",
+								"href": "#"
+							}
+						]
+					},
+					{
+						"heading": "Information",
+						"class": "voice-nine",
+						"sub-list": [
+							{
+								"link-name": "Nibh",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Egestas",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Dictum",
+								"class": "voice-seventeen",
+								"href": "#"
+							}
+						]
+					},
+					{
+						"heading": "Company",
+						"class": "voice-nine",
+						"sub-list": [
+							{
+								"link-name": "Id maecenas",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Id orci",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Magna ultrices",
+								"class": "voice-seventeen",
+								"href": "#"
+							},
+							{
+								"link-name": "Quis risus",
+								"class": "voice-seventeen",
+								"href": "#"
+							}
+						]
+					}
+				],
+				"legal-term": [
+					{
+						"link-name": "Terms",
+						"class": "voice-sixteen",
+						"href": "#"
+					},
+					{
+						"link-name": "Privacy",
+						"class": "voice-sixteen",
+						"href": "#"
+					},
+					{
+						"link-name": "Cookies",
+						"class": "voice-sixteen",
+						"href": "#"
+					}
+				],
+				"social-icons": [
+					{
+						"icon": "images/linkedin-icon-white.svg"
+					},
+					{
+						"icon": "images/facebook-icon-white.svg"
+					},
+					{
+						"icon": "images/unknown-icon-white.svg"
+					}
+				]
 			}
 			
 		]
 	}
 ]
+
+
+
+
+
+
+
+
+
