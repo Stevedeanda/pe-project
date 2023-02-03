@@ -1,0 +1,67 @@
+nav-three.css
+
+.site-menu-three main-logo img{
+	width: 134px;
+	height: 34px;
+}
+
+.site-menu-three globe-icon img{
+	width: 20px;
+	height: 20px;
+}
+
+.site-menu-three language-login {
+	display: block;
+}
+
+.site-menu-three sign-up {
+	display: block;
+}
+
+
+
+.site-menu-three inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 120px;
+/*   gap: 300px;*/
+	
+}
+
+.site-menu-three .nav-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 30px;
+}
+
+.site-menu-three language-login {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+}
+
+.site-menu-three language-login sign-up {
+	padding: 8px 22px;
+	color: var(--blue);
+	border: 1px solid var(--blue);
+	border-radius: 5px;
+	
+}
+
+.site-menu-three language-login log-in {
+	padding: 8px 22px;
+	background-color: var(--blue);
+	border-radius: 5px;
+	color: var(--white);
+}
+
+.site-menu-three .voice-four:hover {
+	color: var(--blue);
+}
+

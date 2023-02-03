@@ -1,0 +1,66 @@
+
+
+.hero-three inner-column {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 195px 233px;
+}
+
+.hero-three hero-module {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.hero-three text-area {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	gap: 16px;
+}
+
+.hero-three text-area h1{
+	text-transform: uppercase;
+}
+
+.hero-three text-area :is(h1,p) {
+	text-align: center;
+}
+
+.hero-three two-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.hero-three two-buttons email-input {
+	display: flex;
+	align-items: center;
+	gap:10px;
+	padding: 10px 200px 10px 20px;
+	border-radius: 5px;
+	margin-left: 100px;
+	background-color: var(--darkblue);
+}
+
+.hero-three two-buttons email-input img {
+	width:24px;
+	height:24px;
+}
+
+.hero-three two-buttons sign-up a {
+	padding: 15px 20px 15px 20px;
+	border-radius: 5px;
+}
+
+.hero-three two-buttons .started {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.hero-three two-buttons .trial {
+	background-color: var(--white);
+	color: var(--blue);
+	border: 1px solid #3563E9;
+}

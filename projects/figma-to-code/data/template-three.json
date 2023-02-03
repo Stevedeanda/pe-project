@@ -1,11 +1,11 @@
 [
 	{
 		"id": "1",
-		"name": "template-one",
+		"name": "template-three",
 		"sections" : [
 			{
-				"module": "nav-one",
-				"class-one": "site-menu",
+				"module": "nav-three",
+				"class-one": "site-menu-three",
 				"main-logo": "images/main-logo.svg",
 				"class-two": "nav-links",
 				"links" : [
@@ -35,35 +35,26 @@
 						"class": "about voice-four"
 					}
 				],
-				"globe-icon": "images/Name=globe.svg",
-				"language": "EN",
-				"class-three": "voice-six",
+				"signup": "SignUp",
 				"login": "LogIn",
 				"class-four": "voice-six"
 			},
 			{
-				"module": "hero-one",
-				"class-one": "hero-one",
+				"module": "hero-three",
+				"class-one": "hero-three",
 				"heading": "Arcu Suscipit Massa Aliquam Proin Amet",
 				"class-two": "voice-one",
-				"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor<br>suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis<br>tristique tortor.",
+				"paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
 				"class-three": "voice-two",
-				"buttons" : [
-					{
-						"button-name": "Get Started",
-						"button": "#",
-						"class": "started voice-three"
-					},
-					{
-						"button-name": "Start Free Trial",
-						"button": "#",
-						"class": "trial voice-three"
-					}
-				]
+				"button-name": "SignUp",
+				"button": "#",
+				"class-four": "trial voice-three",
+				"picture": "images/email-icon-white.svg",
+				"text": "Email Address"
 			},
 			{
-				"module": "center-one",
-				"class-one": "center-one",
+				"module": "center-three",
+				"class-one": "center-three",
 				"text-one": "Rhoncus, Accumsan Dictum",
 				"class-two": "voice-two",
 				"heading": "Etiam Nulla Lfulputate.",
@@ -72,8 +63,8 @@
 				"video-image": "images/play-video.svg"
 			},
 			{
-				"module": "feature-one",
-				"class-one": "feature-one",
+				"module": "feature-three",
+				"class-one": "feature-three",
 				"heading": "Etiam Nulla Lectus Molestie At Vulputate.",
 				"class-two": "voice-eight",
 				"paragraph": "Neque, Pulvinar Vestibulum Non Aliquam.",
@@ -118,8 +109,8 @@
 				]
 			},
 			{
-				"module": "client-one",
-				"class-one": "client-one",
+				"module": "client-three",
+				"class-one": "client-three",
 				"heading": "What Our Clients Says",
 				"class-two": "voice-eight",
 				"paragraph": "Neque, Pulvinar Vestibulum Non Aliquam.",
@@ -148,8 +139,8 @@
 				]
 			},
 			{
-				"module": "action-one",
-				"class-one": "action-one",
+				"module": "action-three",
+				"class-one": "action-three",
 				"heading": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
 				"class-two": "voice-eight",
 				"paragraph": "Rhoncus, Accumsan Dictum",
@@ -159,8 +150,8 @@
 				"arrow": "images/right-arrow-icon-white.svg"
 			},
 			{
-				"module": "faqs-one",
-				"class-one": "faqs-one",
+				"module": "faqs-three",
+				"class-one": "faqs-three",
 				"heading": "Frequent Ask Questions",
 				"class-two": "voice-eight",
 				"paragraph": "Pellentesque Cras Adipiscing Tempus Livero Vel Nullam Mauris Tellus. Aliquam Ultrices Tellus Consequat Amet, Lectus Aliquam Est In Neque.",
