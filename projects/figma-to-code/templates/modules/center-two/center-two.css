@@ -1,0 +1,51 @@
+
+
+.center-two inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.center-two inner-column center-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 120px;
+	gap: 60px;
+	text-align: center;
+}
+
+.center-two inner-column center-content picture img {
+	width: 90px;
+	height: 90px;
+}
+
+.center-two text-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.center-two top-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.center-two learn-button {
+	display: flex;
+	align-items: center;
+	padding: 8px 22px;
+	gap: 10px;
+	color: var(--blue);
+}
+
+.center-two inner-column center-content learn-button img {
+	width: 24px;
+	height: 24px;
+}

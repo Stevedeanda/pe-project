@@ -1,51 +1,58 @@
 
 
-.footer-one {
-	background-color: var(--blue);
-	color: var(--white);
+.footer-two {
+
 }
 
-.footer-one inner-column {
+.footer-two inner-column {
 	padding: 100px 120px;
 }
 
-.footer-one footer {
+.footer-two footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 47px;
 }
 
-.footer-one site-map {
+.footer-two site-map {
 	display: flex;
 	justify-content: center;
 	gap: 61px;
 }
 
-.footer-one link-list {
+.footer-two link-list {
 	display: flex;
 	gap: 137px;
 }
 
-.footer-one list-content {
+.footer-two list-content {
 	display: flex;
 	flex-direction: column;
 	gap: 13px;
 	padding-top: 30px;
 }
 
-.footer-one email-subscribe {
-	padding: 30px 42px;
-	background-color: var(--darkblue);
+.footer-two list-content a {
+	color: var(--systemgray);
 }
 
-.footer-one email-content {
+.footer-two email-subscribe {
+	padding: 30px 42px;
+	background-color: var(--lightblue);
+}
+
+.footer-two email-content {
 	display: flex;
 	flex-direction: column;
 	gap: 18px;
 }
 
-.footer-one subscribe-link {
+.footer-two email-content p {
+	color: var(--systemgray);
+}
+
+.footer-two subscribe-link {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -55,56 +62,50 @@
 	border-radius: 6px;
 }
 
-.footer text-placeholder {
-/*	background-color: var(--white);*/
-/*	border: 1px solid var(--systemgray);
-	border-radius: 6px;*/
-}
-
-.footer-one submit-icon{
+.footer-two submit-icon{
 	padding: 13px;
 	background: #3563E9;
 	border-radius: 0px 6px 6px 0px;
 }
 
-.footer-one site-map subscribe-link img {
+.footer-two site-map subscribe-link img {
 	width: 20px;
 	height: 20px;
 }
 
-.footer-one email-content p {
+.footer-two email-content p {
 	width: 34ch;
 }
 
-.footer-one hr {
+.footer-two hr {
 	width: 100%;
-	background: var(--white);
+	background: var(--black);
 	opacity: 0.06;
-	border: 1px solid var(--white);
+	border: 1px solid var(--black);
 }
 
-.footer-one social-terms {
+.footer-two social-terms {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.footer-one social-terms main-logo img {
+.footer-two social-terms main-logo img {
 	width: 211px;
 	height: 53px;
 }
 
-.footer-one social-terms legal-terms {
+.footer-two social-terms legal-terms {
 	display: flex;
 	gap: 36px;
 }
 
-.footer-one social-terms social-icons {
+.footer-two social-terms social-icons {
 	display: flex;
 	gap: 15px;
 }
 
-.footer-one social-terms social-icons img {
+.footer-two social-terms social-icons img {
 	width: 35px;
 	height: 35px;
 }

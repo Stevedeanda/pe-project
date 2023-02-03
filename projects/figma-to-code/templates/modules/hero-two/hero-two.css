@@ -1,1 +1,47 @@
-hero-two.css
+
+
+.hero-two inner-column {
+	background-image: url("https://peprojects.dev/alpha-4/steve/projects/figma-to-code/images/background-wavy.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 195px 233px;
+}
+
+.hero-two hero-module {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.hero-two text-area {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	gap: 16px;
+	text-align: center;
+}
+
+.hero-two text-area :is(h1,p) {
+	text-align: center;
+}
+
+.hero-two two-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.hero-two two-buttons a {
+	padding: 15px 50px 15px 50px;
+}
+
+.hero-two two-buttons .started {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.hero-two two-buttons .trial {
+	background-color: var(--white);
+	color: var(--blue);
+	border: 1px solid #3563E9;
+}
