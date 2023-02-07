@@ -1,4 +1,13 @@
-nav-three.css
+
+.site-menu-three {
+	display: none;
+}
+
+@media (min-width: 1000px) {
+	.site-menu-three {
+		display: block;
+	}
+}
 
 .site-menu-three main-logo img{
 	width: 134px;

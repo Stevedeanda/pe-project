@@ -40,6 +40,12 @@
 				"class-four": "voice-six"
 			},
 			{
+				"module": "nav-four",
+				"class": "site-menu-four",
+				"main-logo": "images/main-logo.svg",
+				"hamburger": "images/hamburger.svg"
+			},
+			{
 				"module": "hero-three",
 				"class-one": "hero-three",
 				"heading": "Arcu Suscipit Massa Aliquam Proin Amet",
