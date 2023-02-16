@@ -54,8 +54,8 @@ console.log( JSON.parse(storedCount1).score); // access the score inside the obj
 
 // Practice
 
-data.clear(); // cleared local storage
-console.clear(); // cleared console
+//data.clear(); // cleared local storage
+//console.clear(); // cleared console
 
 data.setItem("firstName", "Steve");
 
@@ -71,13 +71,13 @@ function storedData(key,value) {
 storedData("lastName", "DeAnda");
 storedData("age", 32);
 storedData("alive", "true");
-data.clear();
+//data.clear();
 storedData("food", "pizza");
 storedData("color", "green");
 storedData("typing", "yes");
-data.clear();
+//data.clear();
 
-data.clear();
+//data.clear();
 var steve = "Steve";
 var deanda = "DeAnda";
 data.setItem("person", JSON.stringify({firstName: steve}));
@@ -85,7 +85,7 @@ const human = data.getItem("person");
 console.log(JSON.parse(human));
 console.log(JSON.parse(human).firstName);
 
-data.clear();
+//data.clear();
 data.setItem("person", JSON.stringify({firstName: steve, secondName: deanda}));
 const humanTwo = data.getItem("person");
 console.log(JSON.parse(humanTwo));
@@ -112,12 +112,20 @@ function objectData(key, object) {
 }
 
 objectData("pack", pack);
+objectData("stuff", pack);
+
+const stuff = [
+{ id: 1, item: "milk",},
+{ id: 2, item: "toys",}
+]
+
+objectData("stuff", stuff);
 
 
+localStorage.setItem("myName","Steve");
 
-
-
-
+localStorage.getItem("myName");
+console.log(localStorage.getItem("myName")); // Steve
 
 
 

@@ -1,0 +1,23 @@
+
+[
+	{
+		"name": "Colorado Bend",
+		"id": 01
+	},
+	{
+		"name": "Utah Bend",
+		"id": 02
+	},
+	{
+		"name": "California Bend",
+		"id": 03
+	},
+	{
+		"name": "Texas Bend",
+		"id": 04
+	},
+	{
+		"name": "Maine Bend",
+		"id": 05
+	}
+]
