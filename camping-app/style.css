@@ -1,0 +1,18 @@
+
+
+html {
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+}
+
+field {
+	display: grid;
+	justify-content: center;
+	gap:20px;
+	max-width: 400px;
+	padding: 0.5em 1em;
+}
+

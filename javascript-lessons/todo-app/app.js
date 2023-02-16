@@ -35,9 +35,10 @@ function complete(id) {
 	print(`completed ${todos[id].content}`)
 }
 
-function update(id, newContent) {
-	todos[id].content = newContent;
-	print(`updated ${newContent}`);
+function update(id, content) {
+	todos.splice(id, 1);
+	add(content);
+	print(`updated ${content}`);
 }
 
 add("Go to store");
