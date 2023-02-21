@@ -1,0 +1,220 @@
+
+
+html {
+	background-color: lightgray;
+}
+
+main {
+
+}
+
+h1 {
+	text-align: center;
+	border: solid black 1px;
+	padding: 50px 20px;
+	margin: 10px;
+}
+
+main .start inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+field {
+	display: grid;
+	justify-content: center;
+	gap:20px;
+	max-width: 400px;
+	padding: 0.5em 1em;
+}
+
+main .nav header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+main .nav header logo-icon{
+	display: flex;
+	align-items: center;
+}
+
+main .nav header user-profile{
+	display: flex;
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.list .card park-card {
+	display: flex;
+	flex-direction: column;
+	border: black solid 1px;
+	padding-top: 10px;
+	margin: 0 10px;
+}
+
+.list .card park-card h2:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.dates inner-column {
+	margin: 0 10px;
+}
+
+.calendar {
+	display:grid;
+	grid-template-areas:
+    "a1 b1 c1 d1 e1 f1 g1"
+    "a2 b2 c2 d2 e2 f2 g2"
+    "a3 b3 c3 d3 e3 f3 g3"
+    "a4 b4 c4 d4 e4 f4 g4"
+    "a5 b5 c5 d5 e5 f5 g5";
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 30px;
+	gap:1px;
+/*	padding: 10px;*/
+	max-width:300px;
+	
+}
+
+.dates li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: tan;
+	cursor: pointer;
+}
+
+.a1 {
+	grid-area: a1;
+}
+.b1 {
+	grid-area: b1;
+}
+.c1 {
+	grid-area: c1;
+}
+.d1 {
+	grid-area: d1;
+}
+.e1 {
+	grid-area: e1;
+}
+.f1 {
+	grid-area: f1;
+}
+.g1 {
+	grid-area: g1;
+}
+.a2 {
+	grid-area: a2;
+}
+.b2 {
+	grid-area: b2;
+}
+.c2 {
+	grid-area: c2;
+}
+.d2 {
+	grid-area: d2;
+}
+.e2 {
+	grid-area: e2;
+}
+.f2 {
+	grid-area: f2;
+}
+.g2 {
+	grid-area: g2;
+}
+.a3 {
+	grid-area: a3;
+}
+.b3 {
+	grid-area: b3;
+}
+.c3 {
+	grid-area: c3;
+}
+.d3 {
+	grid-area: d3;
+}
+.e3 {
+	grid-area: e3;
+}
+.f3 {
+	grid-area: f3;
+}
+.g3 {
+	grid-area: g3;
+}
+.a4 {
+	grid-area: a4;
+}
+.b4 {
+	grid-area: b4;
+}
+.c4 {
+	grid-area: c4;
+}
+.d4 {
+	grid-area: d4;
+}
+.e4 {
+	grid-area: e4;
+}
+.f4 {
+	grid-area: f4;
+}
+.g4 {
+	grid-area: g4;
+}
+.a5 {
+	grid-area: a5;
+}
+.b5 {
+	grid-area: b5;
+}
+.c5 {
+	grid-area: c5;
+}
+.d5 {
+	grid-area: d5;
+}
+.e5 {
+	grid-area: e5;
+}
+.f5 {
+	grid-area: f5;
+}
+.g5 {
+	grid-area: g5;
+}
+
+
+main .one {
+	background-color: wheat;
+}
+
+main .two {
+	background-color: brown;
+}
+
+main .three {
+	background-color: orange;
+}
+
+main .four {
+	background-color: tan;
+}
+
+main .five {
+	background-color: orangered;
+}

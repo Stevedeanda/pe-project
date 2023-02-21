@@ -14,23 +14,28 @@ var parkID = 0;
 var parks = [
 	{
 		"name": "Colorado Bend",
-		"id": "one"
+		"id": "one",
+		"pic": "images/home-page.JPG"
 	},
 	{
 		"name": "Utah Bend",
-		"id": "two"
+		"id": "two",
+		"pic": "images/home-page.JPG"
 	},
 	{
 		"name": "California Bend",
-		"id": "three"
+		"id": "three",
+		"pic": "images/home-page.JPG"
 	},
 	{
 		"name": "Texas Bend",
-		"id": "four"
+		"id": "four",
+		"pic": "images/home-page.JPG"
 	},
 	{
 		"name": "Maine Bend",
-		"id": "five"
+		"id": "five",
+		"pic": "images/home-page.JPG"
 	}	
 ]
 
@@ -44,6 +49,11 @@ function screenChange(name) {
 	console.log("set screen: ", name);
 
 	$outlet.innerHTML = pages[name]; // page change
+}
+
+function showDate(date) {
+	console.log("working");
+
 }
 
 // screenChange("welcome"); // default page
@@ -68,16 +78,19 @@ function objectData(key, object) {
 
 function renderPark(park) {
 	return `
-		<li data-park='${park.id}'>
+		<li class='card' data-park='${park.id}'>
 			<park-card>
 				<h2 data-screen='${park.id}'>${park.name}</h2>
+				<picture>
+					<img src="${park.pic}" alt="">
+				</picture>
 			</park-card>
 		</li>
 	`;
 }
 
 function renderParks(parks) {
-	var template = "<ul>";
+	var template = "<ul class='list'>";
 	parks.forEach( function(park) {
 		template += renderPark(park);
 	});
@@ -91,7 +104,7 @@ function renderParks(parks) {
 
 pages.welcome = 
 `
- 	<section></section>
+ 	<section class="start">
 		<inner-column>
 			<h1>Camping App</h1>
 
@@ -159,14 +172,14 @@ pages.create =
 pages.main = 
 
 `
-	<section>
+	<section class="nav">
 		<inner-column>
 			<header>
 				<logo-icon>
 					LOGO
 				</logo-icon>
 				<user-profile>
-					Welcome, <a href="#">Steve</a>
+					Welcome, <a href="#"> Steve</a>
 				</user-profile>
 			</header>
 		</inner-column>
@@ -178,7 +191,7 @@ pages.main =
 		</inner-column>
 	</section>
 
-	<section>
+	<section class="park-list">
 		<inner-column>
 			${renderParks(parks)}
 		</inner-column>
@@ -199,7 +212,68 @@ pages.main =
 pages.one = 
 
 `
-	<h1>Colorado Bend Park</h1>
+	<section class="nav">
+		<inner-column>
+			<header>
+				<logo-icon>
+					LOGO
+				</logo-icon>
+				<user-profile>
+					Welcome, <a href="#"> Steve</a>
+				</user-profile>
+			</header>
+		</inner-column>
+	</section>
+
+	<section>
+		<inner-column>
+			<h1 class="${parks[0].id}">${parks[0].name}</h1>
+		</inner-column>
+	</section>
+
+	<section class="dates">
+		<inner-column>
+			<h2>February</h2>
+			<ul class="calendar">
+				<li class="a1"></li>
+				<li class="b1"></li>
+				<li class="c1"></li>
+				<li class="d1">1</li>
+				<li class="e1">2</li>
+				<li class="f1">3</li>
+				<li class="g1">4</li>
+				<li class="a2">5</li>
+				<li class="b2">6</li>
+				<li class="c2">7</li>
+				<li class="d2">8</li>
+				<li class="e2">9</li>
+				<li class="f2">10</li>
+				<li class="g2">11</li>
+				<li class="a3">12</li>
+				<li class="b3">13</li>
+				<li class="c3">14</li>
+				<li class="d3">15</li>
+				<li class="e3">16</li>
+				<li class="f3">17</li>
+				<li class="g3">18</li>
+				<li class="a4">19</li>
+				<li class="b4">20</li>
+				<li class="c4">21</li>
+				<li class="d4">22</li>
+				<li class="e4">23</li>
+				<li class="f4">24</li>
+				<li class="g4">25</li>
+				<li class="a5">26</li>
+				<li class="b5">27</li>
+				<li class="c5">28</li>
+				<li class="d5"></li>
+				<li class="e5"></li>
+				<li class="f5"></li>
+				<li class="g5"></li>
+			</ul>
+		</inner-column>
+	</section>
+
 	<section>
 		<inner-column>
 			<footer>
@@ -214,7 +288,68 @@ pages.one =
 pages.two = 
 
 `
-	<h1>Utah Bend Park</h1>
+	<section class="nav">
+		<inner-column>
+			<header>
+				<logo-icon>
+					LOGO
+				</logo-icon>
+				<user-profile>
+					Welcome, <a href="#"> Steve</a>
+				</user-profile>
+			</header>
+		</inner-column>
+	</section>
+
+	<section>
+		<inner-column>
+			<h1 class="${parks[0].id}">${parks[0].name}</h1>
+		</inner-column>
+	</section>
+
+	<section class="dates">
+		<inner-column>
+			<h2>February</h2>
+			<ul class="calendar">
+				<li class="a1"></li>
+				<li class="b1"></li>
+				<li class="c1"></li>
+				<li class="d1">1</li>
+				<li class="e1">2</li>
+				<li class="f1">3</li>
+				<li class="g1">4</li>
+				<li class="a2">5</li>
+				<li class="b2">6</li>
+				<li class="c2">7</li>
+				<li class="d2">8</li>
+				<li class="e2">9</li>
+				<li class="f2">10</li>
+				<li class="g2">11</li>
+				<li class="a3">12</li>
+				<li class="b3">13</li>
+				<li class="c3">14</li>
+				<li class="d3">15</li>
+				<li class="e3">16</li>
+				<li class="f3">17</li>
+				<li class="g3">18</li>
+				<li class="a4">19</li>
+				<li class="b4">20</li>
+				<li class="c4">21</li>
+				<li class="d4">22</li>
+				<li class="e4">23</li>
+				<li class="f4">24</li>
+				<li class="g4">25</li>
+				<li class="a5">26</li>
+				<li class="b5">27</li>
+				<li class="c5">28</li>
+				<li class="d5"></li>
+				<li class="e5"></li>
+				<li class="f5"></li>
+				<li class="g5"></li>
+			</ul>
+		</inner-column>
+	</section>
+
 	<section>
 		<inner-column>
 			<footer>
@@ -229,7 +364,68 @@ pages.two =
 pages.three = 
 
 `
-	<h1>California Bend Park</h1>
+	<section class="nav">
+		<inner-column>
+			<header>
+				<logo-icon>
+					LOGO
+				</logo-icon>
+				<user-profile>
+					Welcome, <a href="#"> Steve</a>
+				</user-profile>
+			</header>
+		</inner-column>
+	</section>
+
+	<section>
+		<inner-column>
+			<h1 class="${parks[2].id}">${parks[2].name}</h1>
+		</inner-column>
+	</section>
+
+	<section class="dates">
+		<inner-column>
+			<h2>February</h2>
+			<ul class="calendar">
+				<li class="a1"></li>
+				<li class="b1"></li>
+				<li class="c1"></li>
+				<li class="d1">1</li>
+				<li class="e1">2</li>
+				<li class="f1">3</li>
+				<li class="g1">4</li>
+				<li class="a2">5</li>
+				<li class="b2">6</li>
+				<li class="c2">7</li>
+				<li class="d2">8</li>
+				<li class="e2">9</li>
+				<li class="f2">10</li>
+				<li class="g2">11</li>
+				<li class="a3">12</li>
+				<li class="b3">13</li>
+				<li class="c3">14</li>
+				<li class="d3">15</li>
+				<li class="e3">16</li>
+				<li class="f3">17</li>
+				<li class="g3">18</li>
+				<li class="a4">19</li>
+				<li class="b4">20</li>
+				<li class="c4">21</li>
+				<li class="d4">22</li>
+				<li class="e4">23</li>
+				<li class="f4">24</li>
+				<li class="g4">25</li>
+				<li class="a5">26</li>
+				<li class="b5">27</li>
+				<li class="c5">28</li>
+				<li class="d5"></li>
+				<li class="e5"></li>
+				<li class="f5"></li>
+				<li class="g5"></li>
+			</ul>
+		</inner-column>
+	</section>
+
 	<section>
 		<inner-column>
 			<footer>
@@ -244,7 +440,68 @@ pages.three =
 pages.four = 
 
 `
-	<h1>Texas Bend Park</h1>
+	<section class="nav">
+		<inner-column>
+			<header>
+				<logo-icon>
+					LOGO
+				</logo-icon>
+				<user-profile>
+					Welcome, <a href="#"> Steve</a>
+				</user-profile>
+			</header>
+		</inner-column>
+	</section>
+
+	<section>
+		<inner-column>
+			<h1 class="${parks[3].id}">${parks[3].name}</h1>
+		</inner-column>
+	</section>
+
+	<section class="dates">
+		<inner-column>
+			<h2>February</h2>
+			<ul class="calendar">
+				<li class="a1"></li>
+				<li class="b1"></li>
+				<li class="c1"></li>
+				<li class="d1">1</li>
+				<li class="e1">2</li>
+				<li class="f1">3</li>
+				<li class="g1">4</li>
+				<li class="a2">5</li>
+				<li class="b2">6</li>
+				<li class="c2">7</li>
+				<li class="d2">8</li>
+				<li class="e2">9</li>
+				<li class="f2">10</li>
+				<li class="g2">11</li>
+				<li class="a3">12</li>
+				<li class="b3">13</li>
+				<li class="c3">14</li>
+				<li class="d3">15</li>
+				<li class="e3">16</li>
+				<li class="f3">17</li>
+				<li class="g3">18</li>
+				<li class="a4">19</li>
+				<li class="b4">20</li>
+				<li class="c4">21</li>
+				<li class="d4">22</li>
+				<li class="e4">23</li>
+				<li class="f4">24</li>
+				<li class="g4">25</li>
+				<li class="a5">26</li>
+				<li class="b5">27</li>
+				<li class="c5">28</li>
+				<li class="d5"></li>
+				<li class="e5"></li>
+				<li class="f5"></li>
+				<li class="g5"></li>
+			</ul>
+		</inner-column>
+	</section>
+
 	<section>
 		<inner-column>
 			<footer>
@@ -259,7 +516,68 @@ pages.four =
 pages.five = 
 
 `
-	<h1>Maine Bend Park</h1>
+	<section class="nav">
+		<inner-column>
+			<header>
+				<logo-icon>
+					LOGO
+				</logo-icon>
+				<user-profile>
+					Welcome, <a href="#"> Steve</a>
+				</user-profile>
+			</header>
+		</inner-column>
+	</section>
+
+	<section>
+		<inner-column>
+			<h1 class="${parks[4].id}">${parks[4].name}</h1>
+		</inner-column>
+	</section>
+
+	<section class="dates">
+		<inner-column>
+			<h2>February</h2>
+			<ul class="calendar">
+				<li class="a1" data-date="a1"></li>
+				<li class="b1"></li>
+				<li class="c1"></li>
+				<li class="d1">1</li>
+				<li class="e1">2</li>
+				<li class="f1">3</li>
+				<li class="g1">4</li>
+				<li class="a2">5</li>
+				<li class="b2">6</li>
+				<li class="c2">7</li>
+				<li class="d2">8</li>
+				<li class="e2">9</li>
+				<li class="f2">10</li>
+				<li class="g2">11</li>
+				<li class="a3">12</li>
+				<li class="b3">13</li>
+				<li class="c3">14</li>
+				<li class="d3">15</li>
+				<li class="e3">16</li>
+				<li class="f3">17</li>
+				<li class="g3">18</li>
+				<li class="a4">19</li>
+				<li class="b4">20</li>
+				<li class="c4">21</li>
+				<li class="d4">22</li>
+				<li class="e4">23</li>
+				<li class="f4">24</li>
+				<li class="g4">25</li>
+				<li class="a5">26</li>
+				<li class="b5">27</li>
+				<li class="c5">28</li>
+				<li class="d5"></li>
+				<li class="e5"></li>
+				<li class="f5"></li>
+				<li class="g5"></li>
+			</ul>
+		</inner-column>
+	</section>
+
 	<section>
 		<inner-column>
 			<footer>
@@ -301,6 +619,13 @@ window.addEventListener('click', function(event) {
 	// }
 
 });
+
+window.addEventListener('click', function(event) {
+
+	if(event.target.matches("[data-date]")) {
+		showDate(event.target.dataset.date);
+	}
+})
 
 // window.addEventListener('click', function (event) {
 // 	event.preventDefault();
