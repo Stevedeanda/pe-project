@@ -104,6 +104,23 @@
 			"place": "Riu Palace Costa Mujeres",
 			"time": "7:00 PM to 11:00 PM",
 			"venue": "The Beach"
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "schedule-section",
+			"voice": "loud-voice",
+			"heading": "Dresscode"
+		},
+		{
+			"module": "generic-text",
+			"class": "dresscode",
+			"voice": "calm-voice",
+			"content": "Formal Attire. For our summer wedding, our ceremony will be held outdoors on a terrace. We suggest that men wear a lightweight suit in any color you see below and women wear a cocktail dress or a nice pantsuit from the colors below."
 		}
 	]
 }
