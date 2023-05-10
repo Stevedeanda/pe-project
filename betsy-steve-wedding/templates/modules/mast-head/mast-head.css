@@ -1,0 +1,34 @@
+mast-head .site-menu {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+/*	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+	grid-gap: 10px;*/
+	padding: 0 10px;
+}
+
+mast-head .site-menu a {
+	padding: 10px 10px;
+}
+
+mast-head .site-menu .home:hover {
+	color: var(--olive-green);
+	text-decoration-line: underline overline;
+/*	text-decoration-color: var(--olive-green);*/
+}
+
+mast-head .site-menu .resort:hover {
+	color: var(--olive-green);
+	text-decoration-line: underline overline;
+}
+
+mast-head .site-menu .rsvp:hover {
+	color: var(--olive-green);
+	text-decoration-line: underline overline;
+}
+
+
+
+
+

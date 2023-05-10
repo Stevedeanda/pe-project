@@ -1,0 +1,21 @@
+	
+{
+
+	"sections": [
+		{
+			"module": "generic-text",
+			"class": "page-header",
+			"heading": "My Projects",
+			"voice-one": "loud-voice",
+			"content": "All the projects I have created so far.",
+			"voice-two": "attention-voice"
+		},
+		{
+			"module": "projects-grid",
+			"class": "projects"
+		}
+		
+	]
+}	
+
+

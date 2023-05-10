@@ -1,0 +1,9 @@
+.site-header inner-column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.site-header inner-column picture {
+	padding: 20px 0;
+}

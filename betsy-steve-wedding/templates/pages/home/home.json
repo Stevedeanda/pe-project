@@ -1,0 +1,109 @@
+{
+
+	"sections": [
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"voice": "welcome-voice",
+			"heading": "Join us in Cancun, Mexico <br>on April 12, 2024"
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "story-title",
+			"voice": "loud-voice",
+			"heading": "Our Story"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-one",
+			"voice": "calm-voice",
+			"content": "Our story began from a beautiful friendship that quickly flourished into becoming each other’s soulmates. In 2018 we connected and started our friendship."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-angels.jpeg",
+			"urltwo": "images/betsy-steve-snowdeck.jpeg"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-two",
+			"voice": "calm-voice",
+			"content": "Early in our friendship we bonded through our love for God, strengthening our individual spiritual journeys; the great outdoors, going camping, hiking some breathtaking routes in the northwest, signing along to Taylor Swift on several of our road trips and laying next to each other while star gazing; and through countless adventures, enjoying the company of our friends and family."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-coldplay.jpeg",
+			"urltwo": "images/betsy-steve-mudding.jpeg"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-three",
+			"voice": "calm-voice",
+			"content": "Through it all we realized that we shared an insane amount of things in common which made it so easy to always enjoy being around each other….It was meant to be."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-rooftop.jpeg",
+			"urltwo": "images/betsy-steve-opera.jpeg"
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "schedule-section",
+			"voice": "loud-voice",
+			"heading": "Wedding Schedule"
+		},
+		{
+			"module": "summary-text",
+			"class": "wedding-day",
+			"class-one": "liltitle-voice",
+			"class-two": "calm-voice",
+			"voice": "loud-voice",
+			"title": "Wedding Day",
+			"date": "Friday, April 12, 2024",
+			"place": "Riu Palace Costa Mujeres"
+		},
+		{
+			"module": "summary-text",
+			"class": "ceremony-time",
+			"class-one": "liltitle-voice",
+			"class-two": "calm-voice",
+			"voice": "loud-voice",
+			"title": "The Ceremony",
+			"date": "Friday, April 12, 2024",
+			"place": "Riu Palace Costa Mujeres",
+			"time": "4:00 PM",
+			"venue": "The Terrance"
+		},
+		{
+			"module": "summary-text",
+			"class": "reception-time",
+			"class-one": "liltitle-voice",
+			"class-two": "calm-voice",
+			"voice": "loud-voice",
+			"title": "The Reception",
+			"date": "Friday, April 12, 2024",
+			"place": "Riu Palace Costa Mujeres",
+			"time": "7:00 PM to 11:00 PM",
+			"venue": "The Beach"
+		}
+	]
+}

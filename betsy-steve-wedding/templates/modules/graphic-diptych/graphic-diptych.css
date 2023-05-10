@@ -1,0 +1,12 @@
+graphic-diptych {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+
+.heart-icon-pic picture img {
+	width: 200px;
+	height: auto;
+}
