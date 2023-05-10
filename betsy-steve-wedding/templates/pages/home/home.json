@@ -123,7 +123,7 @@
 		},
 		{
 			"module": "welcome-landing",
-			"class": "schedule-section",
+			"class": "dresscode-section",
 			"voice": "loud-voice",
 			"heading": "Dresscode"
 		},
@@ -132,6 +132,28 @@
 			"class": "dresscode",
 			"voice": "calm-voice",
 			"content": "Formal Attire. For our summer wedding, our ceremony will be held outdoors on a terrace. We suggest that men wear a lightweight suit in any color you see below and women wear a cocktail dress or a nice pantsuit from the colors below."
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "song-request-section",
+			"voice": "loud-voice",
+			"heading": "Song Request"
+		},
+		{
+			"module": "generic-text",
+			"class": "song-guidelines",
+			"voice": "calm-voice",
+			"content": "I have attached the spotify playlist where I will collect all the song request. Feel free to add as many as you like. You will need a spotify account to be able to access the playlist and add to it. Let's make it a party!!!"
+		},
+		{
+			"module": "song-media",
+			"class": "spotify",
+			"src": "https://open.spotify.com/embed/playlist/3NuncmAPrglT0e7pYeSy8R?utm_source=generator"
 		}
 	]
 }
