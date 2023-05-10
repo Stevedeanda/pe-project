@@ -10,11 +10,9 @@
 		<meta charset='utf-8'>
 		<link rel="icon" href="images/palmicontwo.png" />
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-
 		<title>Steve & Betsy Wedding</title>
 		<meta name='description' content='Here you will find all the details to our wedding!!'>
 		<meta property='og:image' content='images/betsy-steve-checkershirts.jpeg'>
-
 		<link rel='stylesheet' href='style/site.css'>
 	</head>
 
