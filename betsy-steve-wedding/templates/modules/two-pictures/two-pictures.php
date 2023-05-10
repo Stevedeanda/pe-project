@@ -6,7 +6,7 @@ $section['class'] = $section['class'] ?? "";
 ?>
 
 
-<two-pictures class="<?=$section['class']?>-pic">
+<two-pictures class="<?=$section['class']?>">
 	<picture class="<?=$section['class-two']?>">
 		<img src="<?=$section['urlone']?>" alt="">
 	</picture>

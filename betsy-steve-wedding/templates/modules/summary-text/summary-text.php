@@ -1,11 +1,11 @@
 <?php 
 
-$section['title'] = $section['title'] ?? "Name of the person this resume belongs to";
-$section['date'] = $section['date'] ?? "Their date title goes here";
+$section['title'] = $section['title'] ?? "";
+$section['date'] = $section['date'] ?? "";
 $section['time'] = $section['time'] ?? "";
 $section['place'] = $section['place'] ?? "";
 $section['venue'] = $section['venue'] ?? "";
-$section['summary'] = $section['summary'] ?? "This is a small summary of what they want the hiring person to see about them, highlighting things to stand out.";
+$section['class-one'] = $section['class-one'] ?? "";
 
 ?>
 <summary-text class="<?=$section['class']?>">
