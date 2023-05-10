@@ -8,4 +8,5 @@ summary-text {
 	border-radius: 8px;
 	margin: 20px;
 	background-color: var(--sage);
+	text-align: center;
 }

@@ -8,3 +8,7 @@ two-pictures {
 picture {
 	border-radius: 8px;
 }
+
+.two-pictures-four {
+	padding-bottom: 20px;
+}
