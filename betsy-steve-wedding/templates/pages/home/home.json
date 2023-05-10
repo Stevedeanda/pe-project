@@ -151,16 +151,16 @@
 			"content": "I have attached the spotify playlist where I will collect all the song request. Feel free to listen to the playlist. Below the Spotify playlist is a button that takes you to the playlist, so that you can add songs to it. You will need a spotify account to be able to access the playlist and add to it. Spotify is free and anyone can add to it. Let's make it a party!!!"
 		},
 		{
-			"module": "song-media",
-			"class": "spotify",
-			"src": "https://open.spotify.com/embed/playlist/3NuncmAPrglT0e7pYeSy8R?utm_source=generator"
-		},
-		{
 			"module": "link-button",
 			"class": "button",
 			"target": "spotify",
 			"content": "CLICK HERE TO ADD SONGS",
 			"href": "https://open.spotify.com/playlist/3NuncmAPrglT0e7pYeSy8R?si=b45c9e57a10441bc&pt=7c1c9528ec3c51731d98b19d0e9311a3"
+		},
+		{
+			"module": "song-media",
+			"class": "spotify",
+			"src": "https://open.spotify.com/embed/playlist/3NuncmAPrglT0e7pYeSy8R?utm_source=generator"
 		}
 	]
 }
