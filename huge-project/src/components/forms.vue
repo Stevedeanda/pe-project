@@ -180,7 +180,23 @@
 
 
 	// Saying Hello
-	const name = ref('Steve');
+	const name = ref("");
+	
+	const messageThree = computed( function() {
+		return `Hello, ${name.value}, nice to meet you.`;
+	});
+	
+	const outputThree = ref("");
+	
+	function createMessage() {
+		outputThree.value = messageThree;
+	}
+	
+	watch(name, function(newName, oldName) {
+		if (newName !== oldName) {
+			outputThree.value = "";
+		}
+	});
 	
 	
 
@@ -188,16 +204,16 @@
 
 <template>
 
-	<form>
+	<form @submit.prevent="createMessage()" autocomplete='off'>
 		<h2>Saying Hello</h2>
-		<field>
+		<field class='form-field'>
 			<label for='a'>What is your name?</label>
-			<input id='a' type="text" v-model='name'/>
+			<input id='a' type='text' v-model="name"/>
 		</field>
+
+		<button type='submit'>Submit</button>
 		
-		<output>
-			Hello, <span>{{name}}</span>, nice to meet you!
-		</output>
+		<output v-if="outputThree">{{messageThree}}</output>
 	</form>
 
 
@@ -408,12 +424,26 @@
 </template>
 
 <style>
+	* {
+		box-sizing: border-box;
+	}
+
 	body {
 		min-height: 100vh;
 		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+  		grid-template-rows: auto;
+  		grid-auto-flow: column dense;
+ 	 	column-gap: 10px;
+  		row-gap: 15px;
 		font-size: 1.4rem;
 		padding: 20px;
-		max-width: 400px;
+	}
+
+	div {
+		display: grid;
+		grid-column-start: 2;
+	   grid-column-end: 3;
 	}
 	form {
 		display: grid;
@@ -422,13 +452,13 @@
 		border-left: 1px solid black;
 		border-bottom: 3px solid black;
 	}
-	field {
+	field, .form-field  {
 		display: grid;
 	}
 	label {
 		font-size: 1.1rem;
 	}
 	span {
-		color: white;
+		color: peru;
 	}
 </style>
