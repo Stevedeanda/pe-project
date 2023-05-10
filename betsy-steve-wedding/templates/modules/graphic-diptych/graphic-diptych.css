@@ -6,7 +6,11 @@ graphic-diptych {
 	height: auto;
 }
 
-.heart-icon-pic picture img {
+.heart-icon picture img {
 	width: 200px;
 	height: auto;
+}
+
+.color-icon {
+	padding-bottom: 20px;
 }

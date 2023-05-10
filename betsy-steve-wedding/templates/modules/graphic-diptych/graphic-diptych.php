@@ -5,7 +5,7 @@ $section['class'] = $section['class'] ?? "";
 ?>
 
 
-<graphic-diptych class="<?=$section['class']?>-pic">
+<graphic-diptych class="<?=$section['class']?>">
 	<picture>
 		<img src="<?=$section['url']?>" alt="">
 	</picture>

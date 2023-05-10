@@ -22,7 +22,7 @@
 			"module": "generic-text",
 			"class": "part-one",
 			"voice": "calm-voice",
-			"content": "Our story began from a beautiful friendship that quickly flourished into becoming each other’s soulmates. In 2018 we connected and started our friendship."
+			"content": "Our story began from a beautiful friendship that quickly flourished into becoming each other’s soulmates. In 2019 we connected and started our friendship."
 		}, 
 		{
 			"module": "two-pictures",
@@ -133,6 +133,11 @@
 			"voice": "calm-voice",
 			"content": "Formal Attire. For our summer wedding, our ceremony will be held outdoors on a terrace. We suggest that men wear a lightweight suit in any color you see below and women wear a cocktail dress or a nice pantsuit from the colors below."
 		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "color-icon",
+			"url": "templates/components/icons/color-icon.svg"
+		},
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
