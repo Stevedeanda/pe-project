@@ -9,15 +9,13 @@
 @import '../templates/modules/site-menu/site-menu.css';
 @import '../templates/modules/text-link/text-link.css';
 @import '../templates/modules/two-pictures/two-pictures.css';
+@import '../templates/modules/resort-video/resort-video.css';
 
 @import '../templates/pages/home/home.css';
-@import '../templates/pages/about/about.css';
-@import '../templates/pages/projects/projects.css';
+@import '../templates/pages/resort/resort.css';
+@import '../templates/pages/rsvp/rsvp.css';
 @import '../templates/pages/resume/resume.css';
-@import '../templates/pages/forms/forms.css';
-@import '../templates/pages/project-detail/project-detail.css';
-@import '../templates/pages/goals/goals.css';
-@import '../templates/pages/style-guide/style-guide.css';
+
 
 
 
