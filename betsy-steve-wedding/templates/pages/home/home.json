@@ -59,7 +59,21 @@
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-rooftop.jpeg",
 			"urltwo": "images/betsy-steve-opera.jpeg"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-four",
+			"voice": "calm-voice",
+			"content": "But, our journey TRULY began when our beautiful daughter, Isabella Mia, was born. Since the moment we knew that we were going to be parents, we knew that we were meant to do life together. Becoming parents to the most perfect baby girl has been the biggest blessing. Everyday we are trusting in God,  learning and growing together. The most beautiful part of it is building our future and that we know without a doubt, that it couldn’t be with anyone else."
 		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures-four",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-engagement-one.jpeg",
+			"urltwo": "images/betsy-steve-engagement-two.jpeg"
+		},
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
@@ -76,7 +90,6 @@
 			"class": "wedding-day",
 			"class-one": "liltitle-voice",
 			"class-two": "calm-voice",
-			"voice": "loud-voice",
 			"title": "Wedding Day",
 			"date": "Friday, April 12, 2024",
 			"place": "Riu Palace Costa Mujeres"
@@ -86,7 +99,6 @@
 			"class": "ceremony-time",
 			"class-one": "liltitle-voice",
 			"class-two": "calm-voice",
-			"voice": "loud-voice",
 			"title": "The Ceremony",
 			"date": "Friday, April 12, 2024",
 			"place": "Riu Palace Costa Mujeres",
@@ -98,7 +110,6 @@
 			"class": "reception-time",
 			"class-one": "liltitle-voice",
 			"class-two": "calm-voice",
-			"voice": "loud-voice",
 			"title": "The Reception",
 			"date": "Friday, April 12, 2024",
 			"place": "Riu Palace Costa Mujeres",

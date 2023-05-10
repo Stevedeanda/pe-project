@@ -3,41 +3,90 @@
 
 	"sections": [
 		{
-			"module": "generic-text",
-			"class": "page-header",
-			"heading": "About me",
-			"voice-one": "loud-voice",
-			"content": "Where I've been, why this profession and an overview of me.",
-			"voice-two": "attention-voice"
+			"module": "welcome-landing",
+			"class": "resort-title",
+			"voice": "loud-voice",
+			"heading": "Resort"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-name",
+			"voice": "welcome-voice",
+			"heading": "RIU PALACE COSTA MUJERES"
+		},
+		{
+			"module": "resort-video",
+			"class": "video",
+			"src": "https://www.youtube.com/embed/RyF_ubPqr0Y"
 		},
 		{
 			"module": "graphic-diptych",
-			"class": "my-picture",
-			"url": "images/selfie-two.jpeg"
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-overview",
+			"voice": "loud-voice",
+			"heading": "Resort Overview"
 		},
 		{
 			"module": "generic-text",
-			"class": "where",
-			"heading": "Where I've been",
-			"voice-one": "bold-voice",
-			"content": "I worked most of my life in the security industry. I worked for a camera security company and a company that specialized in electric fences to keep thieves away. I always had an interest in web development and apps, so I decided to start my career change. An opportunity opened to attend Perpetual Education and I took it. Here I am with so much knowledge learned but more to learn.",
-			"voice-two": "regular-voice"
+			"class": "overview-content",
+			"voice": "calm-voice",
+			"content": "Our wedding will take place in the beautiful Riu Palace Costa Mujeres Resort located on the Bahía de Mujeres beach in Cancun, Mexico. This all-inclusive hotel in Costa Mujeres has 600 rooms with the finest amenities, including a minibar, beverage dispensers and balcony or terrace. The facilities of the Hotel Riu Costa Mujeres also include five swimming pools, two of them with swim-up bars, so that you can enjoy a refreshing dip after relaxing in the lounge chairs in the solarium area."
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-overview",
+			"voice": "loud-voice",
+			"heading": "Booking Guidelines"
+		},
+		{
+			"module": "summary-text",
+			"class": "booking-guidelines",
+			"class-two": "calm-voice",
+			"time": "Guest are required to book a minimum of 3 nights."
+		},
+		{
+			"module": "summary-text",
+			"class": "booking-guidelines",
+			"class-two": "calm-voice",
+			"time": "To reserve the current room rate, guests are required to pay $150 dollar deposit per person. The remaining balance will be due on February 1, 2024."
+		},
+		{
+			"module": "summary-text",
+			"class": "booking-guidelines",
+			"class-two": "calm-voice",
+			"time": "You can manage your booking and payments throught the Destify website. You will be asked to create an account when booking your reservation."
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "help-info",
+			"voice": "loud-voice",
+			"heading": "Need Assistance?"
 		},
 		{
 			"module": "generic-text",
-			"class": "why",
-			"heading": "Why this profession?",
-			"voice-one": "bold-voice",
-			"content": "I’ve wanted to be a web developer for quite some time but spent a lot of years self-teaching myself with not a lot of success. I only knew about this field because I had friends that did it and they showed me what they do. It’s been a goal of mine to be able to have a career in the tech industry, especially as a web developer. The ability to do something meaningful and also grow my career into any path I choose, is what I am building towards right now.",
-			"voice-two": "regular-voice"
+			"class": "help-content",
+			"voice": "calm-voice",
+			"content": "If you have a question or need help with booking, please don’t hesistate to contact us. We will be more than happy to help. You can reach Steve at 832-382-3729 or Betsy at 832-782-2022."
 		},
 		{
-			"module": "generic-text",
-			"class": "what",
-			"heading": "What I enjoy doing",
-			"voice-one": "bold-voice",
-			"content": "I love mountain biking and going on hikes. Before my baby was born, my friends and I would go camping two to three times a year. My wife and I got blessed with a baby girl late 2022. When I got time I turn on the switch and play some mario kart.",
-			"voice-two": "regular-voice"
+			"module": "link-button",
+			"class": "button",
+			"content": "CLICK HERE TO BOOK",
+			"href": "https://reservations.destify.com/guest/reservation/select-date?groupid=a8106ea0-cf32-1c53-e0ba-64275bb13ef8"
 		}
 	]
 }		

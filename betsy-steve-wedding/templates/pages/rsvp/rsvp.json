@@ -3,16 +3,22 @@
 
 	"sections": [
 		{
-			"module": "generic-text",
-			"class": "page-header",
-			"heading": "My Projects",
-			"voice-one": "loud-voice",
-			"content": "All the projects I have created so far.",
-			"voice-two": "attention-voice"
+			"module": "welcome-landing",
+			"class": "rsvp-title",
+			"voice": "loud-voice",
+			"heading": "RSVP"
 		},
 		{
-			"module": "projects-grid",
-			"class": "projects"
+			"module": "welcome-landing",
+			"class": "message",
+			"voice": "welcome-voice",
+			"heading": "Let us know if you will be attending"
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"content": "CLICK HERE TO RSVP",
+			"href": ""
 		}
 		
 	]
