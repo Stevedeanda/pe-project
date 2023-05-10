@@ -3,8 +3,9 @@
 $section['content'] = $section['content'] ?? "";
 $section['href'] = $section['href'] ?? "";
 $section['class'] = $section['class'] ?? "";
+$section['target'] = $section['target'] ?? "";
 
 ?>
 <link-button class="<?=$section['class']?>">
-	<a href="<?=$section['href']?>" target="booking"><?=$section['content']?></a>
+	<a href="<?=$section['href']?>" target="<?=$section['target']?>"><?=$section['content']?></a>
 </link-button>

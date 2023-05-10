@@ -85,6 +85,7 @@
 		{
 			"module": "link-button",
 			"class": "button",
+			"target": "booking",
 			"content": "CLICK HERE TO BOOK",
 			"href": "https://reservations.destify.com/guest/reservation/select-date?groupid=a8106ea0-cf32-1c53-e0ba-64275bb13ef8"
 		}
