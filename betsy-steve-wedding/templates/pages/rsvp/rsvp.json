@@ -17,7 +17,7 @@
 		{
 			"module": "link-button",
 			"class": "button",
-			"targer": "rsvp",
+			"target": "rsvp",
 			"content": "CLICK HERE TO RSVP",
 			"href": ""
 		}

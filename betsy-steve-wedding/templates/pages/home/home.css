@@ -12,3 +12,24 @@ welcome-landing h2 {
 	text-align: center;
 }
 
+song-media iframe{
+	padding-bottom: 20px;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.home-main .button a {	
+	border: solid 1px var(--sage);
+	border-radius: 8px;
+	padding: 8px 15px;
+}
+
+.home-main .button a:hover {
+	background-color: var(--sage);
+	color: white;
+}
+
