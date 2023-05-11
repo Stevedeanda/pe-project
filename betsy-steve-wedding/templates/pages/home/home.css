@@ -24,12 +24,14 @@ song-media iframe{
 
 .home-main .button a {	
 	border: solid 1px var(--sage);
+	background-color: var(--sage);
 	border-radius: 8px;
 	padding: 8px 15px;
 }
 
 .home-main .button a:hover {
-	background-color: var(--sage);
-	color: white;
+	background-color: var(--paper);
 }
+
+
 
