@@ -6,6 +6,13 @@
 			"class": "welcome-header",
 			"voice": "welcome-voice",
 			"heading": "Join us in Cancun, Mexico <br>on April 12, 2024"
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"target": "rsvp",
+			"content": "CLICK HERE TO RSVP",
+			"href": ""
 		}, 
 		{
 			"module": "graphic-diptych",
@@ -84,15 +91,6 @@
 			"class": "schedule-section",
 			"voice": "loud-voice",
 			"heading": "Wedding Schedule"
-		},
-		{
-			"module": "summary-text",
-			"class": "wedding-day",
-			"class-one": "liltitle-voice",
-			"class-two": "calm-voice",
-			"title": "Wedding Day",
-			"date": "Friday, April 12, 2024",
-			"place": "Riu Palace Costa Mujeres"
 		},
 		{
 			"module": "summary-text",
