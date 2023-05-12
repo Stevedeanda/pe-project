@@ -10,3 +10,7 @@ summary-text {
 	background-color: var(--sage);
 	text-align: center;
 }
+
+summary-text span {
+	font-weight: 700;
+}
