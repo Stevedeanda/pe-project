@@ -1,0 +1,22 @@
+{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "dresscode-section",
+			"voice": "loud-voice",
+			"heading": "Dresscode"
+		},
+		{
+			"module": "generic-text",
+			"class": "dresscode",
+			"voice": "calm-voice",
+			"content": "Guests are asked to follow a formal attire dress code. Please note:The ceremony and reception will be held outdoors on a flat surface terraceFeel free to bring comfortable dancing shoes to change into We would love it if you can help make our pictures special by wearing clothes that fit the color palette shown below"
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "color-icon",
+			"url": "templates/components/icons/color-icon.svg"
+		},
