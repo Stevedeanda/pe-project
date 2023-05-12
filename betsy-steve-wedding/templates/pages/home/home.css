@@ -12,8 +12,9 @@ welcome-landing h2 {
 	text-align: center;
 }
 
-song-media iframe{
-	padding-top: 20px;
+song-media {
+	display: block;
+	padding: 20px 20px 0 20px;
 }
 
 .button {
