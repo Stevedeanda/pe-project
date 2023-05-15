@@ -6,19 +6,74 @@
 	padding: 0 20px 20px 20px;
 }
 
-.button {
+
+
+resort-video {
 	display: flex;
 	flex-direction: column;
-	align-items: center;	
+	align-items: center;
+	padding: 20px 0;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.resort-main .button a {	
-	border: solid 1px var(--sage);
-	background-color: var(--sage);
+resort-video iframe {
+	width: 320px;
+   height: 150px;
+   border: solid 1px black;
 	border-radius: 8px;
-	padding: 8px 15px;
 }
 
-.resort-main .button a:hover {
-	background-color: var(--paper);
+@media (min-width: 480px) {
+		resort-video iframe {
+		width: 440px;
+	   height: 250px;
+	}
+}
+
+@media (min-width: 600px) {
+		resort-video iframe {
+		width: 560px;
+	   height: 315px;
+	}
+}
+
+@media (min-width: 760px) {
+		resort-video iframe {
+		width: 720px;
+	   height: 405px;
+	}
+}
+
+
+
+
+
+list-items {
+	display: flex;
+   justify-content: center;
+}
+
+list-items ul {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	max-width: 70ch;
+}
+
+list-items ul li {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-content: center;
+	align-items: center;
+	border: solid 1px var(--sage);
+	border-radius: 8px;
+/*	margin: 20px;*/
+	background-color: var(--sage);
+	text-align: center;
+}
+
+list-items ul span {
+	font-weight: 700;
 }
