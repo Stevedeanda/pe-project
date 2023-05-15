@@ -8,11 +8,11 @@
 
 	<head>
 		<meta charset='utf-8'>
-		<link rel="icon" href="images/palmicontwo.png" />
+		<link rel="icon" href="images/palmicontwo.png">
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<title>Steve & Betsy Wedding</title>
 		<meta name='description' content='Here you will find all the details to our wedding!!'>
-		<meta property='og:image' content='images/betsy-steve-checkershirts.jpeg'>
+		<meta property='og:image' content='images/betsy-steve-checkershirts.jpeg'  alt="Couple at the top of mountain wearing black and red flannel  shirts.">
 		<link rel='stylesheet' href='style/site.css'>
 	</head>
 
