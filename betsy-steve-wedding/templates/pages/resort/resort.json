@@ -22,7 +22,8 @@
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
@@ -39,7 +40,8 @@
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
@@ -65,7 +67,8 @@
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
