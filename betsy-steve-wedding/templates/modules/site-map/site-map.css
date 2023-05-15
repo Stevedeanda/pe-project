@@ -1,13 +1,20 @@
-site-map {
-	display: block;
-	padding: 20px;
+footer site-map {
+	padding: 1vh 1rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+	background-color: var(--olive-green);
+	color: var(--sage);
 }
 
-site-map nav {
+footer site-map nav {
 	display: flex;
 	gap: 10px;
 }
 
-site-map nav a:hover {
-	color: var(--aqua);
+footer site-map p a{
+	color: var(--sage);
+	text-decoration-color: var(--sage);
 }
+

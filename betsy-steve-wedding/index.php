@@ -68,6 +68,8 @@ if ($_GET["page"] == "project") {
 	
 		</main>
 
+			<?php include ('templates/modules/site-footer/site-footer.php'); ?>
+
 	</body>
 
 </html>

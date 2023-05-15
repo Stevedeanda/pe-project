@@ -62,6 +62,12 @@ li {
 	line-height: 1.25;
 }
 
+.small-voice {
+	font-family: 'Raleway', serif;
+	font-size: clamp(.75rem, 5vw, 1rem);
+	font-weight: 400;
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 /* or smaller group of article-like styles such as a <text-content> custom element */

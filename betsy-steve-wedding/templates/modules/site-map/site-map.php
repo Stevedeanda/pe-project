@@ -1,9 +1,8 @@
 	<site-map>
 		<nav class="site-menu">					
-			<a href="?page=home">Home</a>
-			<a href="?page=about">About</a>
-			<a href="?page=projects">Projects</a>
-			<a href="?page=resume">Resume</a>
-			<!-- <a href="?page=style-guide">Style&nbspGuide</a> -->
+			<a class="home small-voice" href="?page=home">Home</a>
+			<a class="resort small-voice" href="?page=resort">Resort</a>
+			<a class="rsvp small-voice" href="?page=rsvp">RSVP</a>
 		</nav>
+		<p class="small-voice">Website Created by <a href="https://stevedeanda.dev/" target="_steve">Steve</a></p>
 	</site-map>
