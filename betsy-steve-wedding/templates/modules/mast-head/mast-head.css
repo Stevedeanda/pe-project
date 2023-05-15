@@ -1,7 +1,7 @@
 mast-head .site-menu {
 	display: flex;
 	justify-content: center;
-	gap: 10px;
+	gap: 30px;
 	padding: 10px 10px;
 }
 
@@ -9,11 +9,14 @@ mast-head .site-menu a {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: var(--paper);
+
 }
 
 mast-head .site-menu a:hover {
 	color: var(--olive-green);
 	text-decoration-line: overline;
+	text-decoration-color: var(--olive-green);
+	text-decoration-thickness: 1px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: var(--olive-green);
