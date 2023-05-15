@@ -18,7 +18,8 @@
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
@@ -38,7 +39,9 @@
 			"class-two": "pic-one",
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-angels.jpeg",
-			"urltwo": "images/betsy-steve-snowdeck.jpeg"
+			"urltwo": "images/betsy-steve-snowdeck.jpeg",
+			"altone": "Couple overlooking angels landing",
+			"alttwo": "Couple on a deck covered by snow"
 		},
 		{
 			"module": "generic-text",
@@ -52,7 +55,9 @@
 			"class-two": "pic-one",
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-coldplay.jpeg",
-			"urltwo": "images/betsy-steve-mudding.jpeg"
+			"urltwo": "images/betsy-steve-mudding.jpeg",
+			"altone": "Couple floor seats to concert show",
+			"alttwo": "Couple on a mudding vehicle"
 		},
 		{
 			"module": "generic-text",
@@ -66,7 +71,9 @@
 			"class-two": "pic-one",
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-rooftop.jpeg",
-			"urltwo": "images/betsy-steve-opera.jpeg"
+			"urltwo": "images/betsy-steve-opera.jpeg",
+			"altone": "Couple dressed nicely on a rooftop building",
+			"alttwo": "Couple at the opera"
 		},
 		{
 			"module": "generic-text",
@@ -80,12 +87,15 @@
 			"class-two": "pic-one",
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-engagement-one.jpeg",
-			"urltwo": "images/betsy-steve-engagement-two.jpeg"
+			"urltwo": "images/betsy-steve-engagement-two.jpeg",
+			"altone": "Couple engaged in the mountains",
+			"alttwo": "Couple engaged in the mountains"
 		},
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
@@ -118,7 +128,8 @@
 		{
 			"module": "graphic-diptych",
 			"class": "heart-icon",
-			"url": "templates/components/icons/heart-icon.svg"
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
 		},
 		{
 			"module": "welcome-landing",
