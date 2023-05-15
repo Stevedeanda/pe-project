@@ -83,7 +83,7 @@
 		}, 
 		{
 			"module": "two-pictures",
-			"class": "two-pictures-four",
+			"class": "two-pictures",
 			"class-two": "pic-one",
 			"class-three": "pic-two",
 			"urlone": "images/betsy-steve-engagement-one.jpeg",
