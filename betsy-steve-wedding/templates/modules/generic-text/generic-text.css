@@ -3,4 +3,9 @@ generic-text {
 	padding: 20px;
 	justify-content: center;
 	text-align: center;
+	
+}
+
+generic-text p{
+	max-width: 55ch;
 }
