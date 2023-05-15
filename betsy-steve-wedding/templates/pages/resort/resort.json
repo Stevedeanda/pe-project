@@ -48,22 +48,19 @@
 			"heading": "Booking Guidelines"
 		},
 		{
-			"module": "summary-text",
-			"class": "booking-guidelines",
-			"class-two": "calm-voice",
-			"time": "Guest are required to book a minimum of 3 nights."
-		},
-		{
-			"module": "summary-text",
-			"class": "booking-guidelines",
-			"class-two": "calm-voice",
-			"time": "To reserve the current room rate, guests are required to pay $150 dollar deposit per person. The remaining balance will be due on <span>February 1, 2024<span>."
-		},
-		{
-			"module": "summary-text",
-			"class": "booking-guidelines",
-			"class-two": "calm-voice",
-			"time": "You can manage your booking and payments throught the Destify website. You will be asked to create an account when booking your reservation."
+			"module": "list-items",
+			"list": "guidelines",
+			"items": [
+				{
+					"item": "Guest are required to book a minimum of 3 nights."
+				},
+				{
+					"item": "To reserve the current room rate, guests are required to pay $150 dollar deposit per person. The remaining balance will be due on <span>February 1, 2024</span>"
+				},
+				{
+					"item": "You can manage your booking and payments throught the Destify website. You will be asked to create an account when booking your reservation."
+				}
+			]
 		},
 		{
 			"module": "graphic-diptych",
