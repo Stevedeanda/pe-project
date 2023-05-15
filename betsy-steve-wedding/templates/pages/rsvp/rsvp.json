@@ -17,6 +17,7 @@
 		{
 			"module": "link-button",
 			"class": "button",
+			"voice": "nav-voice",
 			"target": "rsvp",
 			"content": "CLICK HERE TO RSVP",
 			"href": ""

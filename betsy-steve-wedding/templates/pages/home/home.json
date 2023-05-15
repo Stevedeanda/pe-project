@@ -10,6 +10,7 @@
 		{
 			"module": "link-button",
 			"class": "button",
+			"voice": "nav-voice",
 			"target": "rsvp",
 			"content": "CLICK HERE TO RSVP",
 			"href": ""
@@ -134,6 +135,7 @@
 		{
 			"module": "link-button",
 			"class": "button",
+			"voice": "nav-voice",
 			"target": "spotify",
 			"content": "CLICK HERE TO ADD SONGS",
 			"href": "https://open.spotify.com/playlist/3NuncmAPrglT0e7pYeSy8R?si=b45c9e57a10441bc&pt=7c1c9528ec3c51731d98b19d0e9311a3"
