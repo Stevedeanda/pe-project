@@ -2,7 +2,7 @@ two-pictures {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding: 0 20px;
-	gap: 2px;
+	gap: 5px;
 }
 
 picture {
