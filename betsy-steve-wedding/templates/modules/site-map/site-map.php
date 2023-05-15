@@ -4,5 +4,5 @@
 			<a class="small-voice" href="?page=resort">Resort</a>
 			<a class="small-voice" href="?page=rsvp">RSVP</a>
 		</nav>
-		<p class="small-voice">Website Created by <a href="https://stevedeanda.dev/" target="_steve">Steve</a></p>
+		<p class="small-voice">Website Created by <a href="https://stevedeanda.dev/" target="steve">Steve</a></p>
 	</site-map>
