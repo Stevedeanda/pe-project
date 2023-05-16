@@ -31,7 +31,7 @@
 			"module": "generic-text",
 			"class": "part-one",
 			"voice": "calm-voice",
-			"content": "Our story began from a beautiful friendship that quickly flourished into becoming each other’s soulmates. In 2019 we connected and started our friendship."
+			"content": "Our story began as a beautiful friendship that later flourished into a special and romantic love story. We connected in 2019 when we were both attending Hope City church. Early in our friendship we bonded through our love for God and strengthening our individual spiritual journeys."
 		}, 
 		{
 			"module": "two-pictures",
@@ -47,7 +47,7 @@
 			"module": "generic-text",
 			"class": "part-two",
 			"voice": "calm-voice",
-			"content": "Early in our friendship we bonded through our love for God, strengthening our individual spiritual journeys; the great outdoors, going camping, hiking some breathtaking routes in the northwest, singing along to Taylor Swift on several of our road trips and laying next to each other while star gazing; and through countless adventures, enjoying the company of our friends and family."
+			"content": "We also connected through our love of the outdoors. We had a blast sharing many fun outdoor experiences with mutual friends where we spent time bonding while camping, hiking and road-tripping. Some of our most memorable times included hours of singalongs to worship music, Coldplay or Taylor Swift as we drove through beautiful landscapes."
 		}, 
 		{
 			"module": "two-pictures",
@@ -63,7 +63,7 @@
 			"module": "generic-text",
 			"class": "part-three",
 			"voice": "calm-voice",
-			"content": "Through it all we realized that we shared an insane amount of things in common which made it so easy to always enjoy being around each other….It was meant to be."
+			"content": "And those moments were just as meaningful as also laying next to each other while stargazing under the Texas night sky. Through countless adventures we realized that we shared an insane amount of things in common which made it so easy to always enjoy being around each other….we knew our crossing paths were meant to be."
 		}, 
 		{
 			"module": "two-pictures",
@@ -79,7 +79,23 @@
 			"module": "generic-text",
 			"class": "part-four",
 			"voice": "calm-voice",
-			"content": "But, our journey TRULY began when our beautiful daughter, Isabella Mia, was born. Since the moment we knew that we were going to be parents, we knew that we were meant to do life together. Becoming parents to the most perfect baby girl has been the biggest blessing. Everyday we are trusting in God,  learning and growing together. The most beautiful part of it is building our future and that we know without a doubt, that it couldn’t be with anyone else."
+			"content": "Although we loved the early years of our friendship and dating as a couple, we feel our  journey TRULY began when our very own family was formed and our beautiful daughter, Isabella Mia, was born. Since the moment we knew that we were going to be parents, we knew that we were meant to do life together. Becoming parents to the most perfect baby girl has been the biggest blessing."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-family-flowers.jpeg",
+			"urltwo": "images/betsy-steve-family-nov.jpeg",
+			"altone": "Couple dressed nicely on a rooftop building",
+			"alttwo": "Couple at the opera"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-five",
+			"voice": "calm-voice",
+			"content": "Everyday we are trusting in God as we continue to learn and grow together. We are excited for the future and are blessed to enter into this next stage of our life, the sacred covenant of marriage."
 		}, 
 		{
 			"module": "two-pictures",
