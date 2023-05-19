@@ -4,7 +4,13 @@
 		{
 			"module": "welcome-landing",
 			"class": "welcome-header",
-			"voice": "welcome-voice",
+			"voice": "attention-voice",
+			"heading": "We joyfully invite you to the celebration of our marriage"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"voice": "attention-voice",
 			"heading": "Join us in Cancun, Mexico <br>on April 12, 2024"
 		},
 		{
