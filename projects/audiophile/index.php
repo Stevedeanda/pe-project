@@ -25,9 +25,11 @@
 
 		<section>
 
-			<div class="inner-column">
+			<inner-column>
 
 				<h1 class="title">Techtropolis</h1>
+
+				<p class="intro">Here you will find all the best audio equipment you will need to listen to your music.</p>
 
 				<ul class="product-list">
 			
@@ -57,28 +59,32 @@
 
 					  <li class="product">
 							<product-card>
-								<div class="top">
-									<h2 class="name"><?=$name?></h2>
-									<p class="brand"><?=$brand?></p>
-								</div>
-
-								<picture class="visual">
-									<img src="<?=$image?>" width="200">
-								</picture>
-
-								<p class="price">$<?=$price?></p>
-
-								<details>
-									<summary><h3>Features</h3></summary>
-										<ul class="features">
-											
-											<?php 
-											foreach($features as $feature) { ?>
-											<li class="feature"><?=$feature?></li>
-											<?php } ?>
-										</ul>
-								</details>
-								<p class="description"><?=$description?></p>
+								<a href="#">
+									<div class="top">
+										<h2 class="name"><?=$name?></h2>
+										<p class="brand"><?=$brand?></p>
+									</div>
+								
+									<picture class="visual">
+										<img src="<?=$image?>">
+									</picture>
+							
+									<!-- <p class="price">$<?=$price?></p>
+							
+									<details>
+										<summary>
+											Features
+										</summary>
+											<ul class="features">
+												
+												<?php 
+												foreach($features as $feature) { ?>
+												<li class="feature"><?=$feature?></li>
+												<?php } ?>
+											</ul>
+									</details>
+									<p class="description"><?=$description?></p> -->
+								</a>
 							</product-card>
 						</li>
 
@@ -86,7 +92,7 @@
 
 				</ul>
 
-			</div>
+			</inner-column>
 
 		</section>
 
