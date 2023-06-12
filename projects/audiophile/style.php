@@ -37,6 +37,7 @@ inner-column {
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   	grid-column-gap: 10px;
   	grid-row-gap:10px;
+  	justify-items: center;
   
 
 	/*display: flex;
@@ -71,7 +72,7 @@ product-card {
 	border-radius: 10px;
 	padding: 10px;
 	
-	height: 375px;
+	height: 450px;
 	/*max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;*/
@@ -104,8 +105,6 @@ product-card a {
 }
 
 .visual img{
-	width: 260px;
-	height: 210px;
 	object-fit: contain;
 /*	border: red solid;*/
 }

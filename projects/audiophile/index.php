@@ -1,6 +1,27 @@
 
 <!DOCTYPE html>
 
+<?php
+
+// show errors
+
+function showErrors() {
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
+}
+
+showErrors();
+
+$page = null;
+
+if (isset($_GET["page"])) {
+	$page = $_GET["page"];
+} else {
+	$page = "home";
+}
+
+?>
+
 <html lang="en">
 
 	<head>
@@ -23,78 +44,55 @@
 
 		<?php // include("header.php"); ?>
 
-		<section>
+		<main>
 
-			<inner-column>
+			<section>
 
-				<h1 class="title">Techtropolis</h1>
-
-				<p class="intro">Here you will find all the best audio equipment you will need to listen to your music.</p>
-
-				<ul class="product-list">
-			
-					<?php
-
-					$json = file_get_contents("data.json");
-
-					$audiophileData = json_decode($json, true);
-
-					$productData = $audiophileData["products"];
-
-					foreach($productData as $audio) {
-
-						$image = $audio["image"];
-						$brand = $audio["brand"];
-						$name = $audio["name"];
-						$color = $audio["color"];
-						$category = $audio["category"];
-						$tagline = $audio["tagline"];
-						$description = $audio["description"];
-						$price = $audio["price"];
-						$features = $audio["features"];
-						$onSale = $audio["on-sale"];
-						$stock = $audio["stock"]; ?>
+				<inner-column>
 
 
+					<?php 
+						$_GET["page"] = $page;
+						if ($_GET["page"] == "product") {
+							//Get the detail data
+							if ($json = file_get_contents("data/data.json") ) {
+								$audiophileData = json_decode($json, true);
+								$productData = $audiophileData["products"];
+								foreach($productData as $audio) {
+									if ($audio['id'] == $_GET['id']) {
+										$id = $audio['id'];
+										$image = $audio["image"];
+										$brand = $audio["brand"];
+										$name = $audio["name"];
+										$color = $audio["color"];
+										$category = $audio["category"];
+										$tagline = $audio["tagline"];
+										$description = $audio["description"];
+										$price = $audio["price"];
+										$features = $audio["features"];
+										$onSale = $audio["on-sale"];
+										$stock = $audio["stock"];
+									}
+								}
+								//Render the detail data
+								//echo $detail['name']; ?>
 
-					  <li class="product">
-							<product-card>
-								<a href="#">
-									<div class="top">
-										<h2 class="name"><?=$name?></h2>
-										<p class="brand"><?=$brand?></p>
-									</div>
-								
-									<picture class="visual">
-										<img src="<?=$image?>">
-									</picture>
-							
-									<!-- <p class="price">$<?=$price?></p>
-							
-									<details>
-										<summary>
-											Features
-										</summary>
-											<ul class="features">
-												
-												<?php 
-												foreach($features as $feature) { ?>
-												<li class="feature"><?=$feature?></li>
-												<?php } ?>
-											</ul>
-									</details>
-									<p class="description"><?=$description?></p> -->
-								</a>
-							</product-card>
-						</li>
+									<?php include ( "pages/products/product.php"); ?>
 
-						<?php } ?>
+							<?php } 
+						} else {
+							// get the page data
+							if ($page == "home") {
+							include("pages/home.php");
+							}
+						}	
+					?>
 
-				</ul>
+				</inner-column>
 
-			</inner-column>
+			</section>
 
-		</section>
+		</main>
 
 		<?php // include("footer.php"); ?>
 
