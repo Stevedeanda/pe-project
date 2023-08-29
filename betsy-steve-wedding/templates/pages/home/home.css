@@ -111,6 +111,22 @@ graphic-diptych {
 	padding: 20px;
 }
 
+landing-image {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+landing-image picture {
+	border-radius: 0;
+}
+
+landing-image picture img {
+	object-fit: cover;
+  	object-position: 15% 100%;
+}
+
 /*.heart-icon picture img {
 	width: 200px;
 	height: auto;

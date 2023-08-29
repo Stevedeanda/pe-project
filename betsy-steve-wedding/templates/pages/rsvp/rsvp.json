@@ -3,6 +3,12 @@
 
 	"sections": [
 		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-angels.jpeg",
+			"alt": "Couple at the top of mountain wearing black and red flannel shirts."
+		},
+		{
 			"module": "welcome-landing",
 			"class": "rsvp-title",
 			"voice": "loud-voice",

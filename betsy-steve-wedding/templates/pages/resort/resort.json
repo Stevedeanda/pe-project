@@ -3,6 +3,12 @@
 
 	"sections": [
 		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-puertovallarta.jpeg",
+			"alt": "Couple at beach with sunset in the background."
+		},
+		{
 			"module": "welcome-landing",
 			"class": "resort-title",
 			"voice": "loud-voice",

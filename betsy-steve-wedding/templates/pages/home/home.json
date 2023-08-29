@@ -2,6 +2,12 @@
 
 	"sections": [
 		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-checkershirts.jpeg",
+			"alt": "Couple at the top of mountain wearing black and red flannel shirts."
+		},
+		{
 			"module": "welcome-landing",
 			"class": "welcome-header",
 			"voice": "attention-voice",
