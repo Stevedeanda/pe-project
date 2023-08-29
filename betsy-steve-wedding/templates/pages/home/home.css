@@ -120,12 +120,10 @@ landing-image {
 
 landing-image picture {
 	border-radius: 0;
+	height: 500px;
+	
 }
 
-landing-image picture img {
-	object-fit: cover;
-  	object-position: 15% 100%;
-}
 
 /*.heart-icon picture img {
 	width: 200px;
