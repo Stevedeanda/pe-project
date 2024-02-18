@@ -1,0 +1,41 @@
+	
+{
+
+	"sections": [
+		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-angels.jpeg",
+			"alt": "Couple at the top of mountain wearing black and red flannel shirts."
+		},
+		{
+			"module": "welcome-landing",
+			"class": "rsvp-title",
+			"voice": "loud-voice",
+			"heading": "RSVP"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "message",
+			"voice": "welcome-voice",
+			"heading": "Let us know if you will be attending"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "message",
+			"voice": "welcome-voice",
+			"heading": "Hello all, friendly reminder to please <br>RSVP by September 15, 2023. If you have any questions please reach out to us. Thank you!"
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"voice": "nav-voice",
+			"target": "rsvp",
+			"content": "CLICK HERE TO RSVP",
+			"href": "https://steveandbetsywedding.rsvpify.com"
+		}
+		
+	]
+}	
+
+

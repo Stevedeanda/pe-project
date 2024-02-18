@@ -1,0 +1,188 @@
+{
+
+	"sections": [
+		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-checkershirts.jpeg",
+			"alt": "Couple at the top of mountain wearing black and red flannel shirts."
+		},
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"voice": "attention-voice",
+			"heading": "We joyfully invite you to the celebration of our marriage"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "welcome-header",
+			"voice": "attention-voice",
+			"heading": "Join us in Cancun, Mexico <br>on April 12, 2024"
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"voice": "nav-voice",
+			"target": "rsvp",
+			"content": "CLICK HERE TO RSVP",
+			"href": ""
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "story-title",
+			"voice": "loud-voice",
+			"heading": "Our Story"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-one",
+			"voice": "calm-voice",
+			"content": "Our story began as a beautiful friendship that later flourished into a special and romantic love story. We connected in 2019 when we were both attending Hope City church. Early in our friendship we bonded through our love for God and strengthening our individual spiritual journeys."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-angels.jpeg",
+			"urltwo": "images/betsy-steve-snowdeck.jpeg",
+			"altone": "Couple overlooking angels landing",
+			"alttwo": "Couple on a deck covered by snow"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-two",
+			"voice": "calm-voice",
+			"content": "We also connected through our love of the outdoors. We had a blast sharing many fun outdoor experiences with mutual friends where we spent time bonding while camping, hiking and road-tripping. Some of our most memorable times included hours of singalongs to worship music, Coldplay or Taylor Swift as we drove through beautiful landscapes."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-coldplay.jpeg",
+			"urltwo": "images/betsy-steve-mudding.jpeg",
+			"altone": "Couple floor seats to concert show",
+			"alttwo": "Couple on a mudding vehicle"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-three",
+			"voice": "calm-voice",
+			"content": "And those moments were just as meaningful as also laying next to each other while stargazing under the Texas night sky. Through countless adventures we realized that we shared an insane amount of things in common which made it so easy to always enjoy being around each other….we knew our crossing paths were meant to be."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-rooftop.jpeg",
+			"urltwo": "images/betsy-steve-opera.jpeg",
+			"altone": "Couple dressed nicely on a rooftop building",
+			"alttwo": "Couple at the opera"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-four",
+			"voice": "calm-voice",
+			"content": "Although we loved the early years of our friendship and dating as a couple, we feel our  journey TRULY began when our very own family was formed and our beautiful daughter, Isabella Mia, was born. Since the moment we knew that we were going to be parents, we knew that we were meant to do life together. Becoming parents to the most perfect baby girl has been the biggest blessing."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-family-flowers.jpeg",
+			"urltwo": "images/betsy-steve-family-nov.jpeg",
+			"altone": "Couple dressed nicely on a rooftop building",
+			"alttwo": "Couple at the opera"
+		},
+		{
+			"module": "generic-text",
+			"class": "part-five",
+			"voice": "calm-voice",
+			"content": "Everyday we are trusting in God as we continue to learn and grow together. We are excited for the future and are blessed to enter into this next stage of our life, the sacred covenant of marriage."
+		}, 
+		{
+			"module": "two-pictures",
+			"class": "two-pictures",
+			"class-two": "pic-one",
+			"class-three": "pic-two",
+			"urlone": "images/betsy-steve-engagement-one.jpeg",
+			"urltwo": "images/betsy-steve-engagement-two.jpeg",
+			"altone": "Couple engaged in the mountains",
+			"alttwo": "Couple engaged in the mountains"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "schedule-section",
+			"voice": "loud-voice",
+			"heading": "Wedding Schedule"
+		},
+		{
+			"module": "summary-text",
+			"class": "ceremony-time",
+			"class-one": "liltitle-voice",
+			"class-two": "calm-voice",
+			"title": "The Ceremony",
+			"date": "Friday, April 12, 2024",
+			"place": "Riu Palace Costa Mujeres",
+			"time": "4:00 PM",
+			"venue": "The Terrance"
+		},
+		{
+			"module": "summary-text",
+			"class": "reception-time",
+			"class-one": "liltitle-voice",
+			"class-two": "calm-voice",
+			"title": "The Reception",
+			"date": "Friday, April 12, 2024",
+			"place": "Riu Palace Costa Mujeres",
+			"time": "7:00 PM to 11:00 PM",
+			"venue": "The Beach"
+		}, 
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "song-request-section",
+			"voice": "loud-voice",
+			"heading": "Song Request"
+		},
+		{
+			"module": "generic-text",
+			"class": "song-guidelines",
+			"voice": "calm-voice",
+			"content": "Help us make the night fun and special by making your personal requests for songs that are sure to make you hit the dance floor. Select the button below to add your songs to the playlist. Please note that you will need a spotify account to be able to access the playlist and add to it. Spotify is free and anyone can add to it. Let's make it a party!!!"
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"voice": "nav-voice",
+			"target": "spotify",
+			"content": "CLICK HERE TO ADD SONGS",
+			"href": "https://open.spotify.com/playlist/3NuncmAPrglT0e7pYeSy8R?si=414def46858f4818&pt=57e35788a216313623274306795dfada"
+		},
+		{
+			"module": "song-media",
+			"class": "spotify",
+			"src": "https://open.spotify.com/embed/playlist/3NuncmAPrglT0e7pYeSy8R?utm_source=generator"
+		}
+	]
+}

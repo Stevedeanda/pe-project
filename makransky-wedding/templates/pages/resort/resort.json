@@ -1,0 +1,100 @@
+	
+{
+
+	"sections": [
+		{
+			"module": "landing-image",
+			"class": "landing-image",
+			"url": "images/betsy-steve-puertovallarta.jpeg",
+			"alt": "Couple at beach with sunset in the background."
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-title",
+			"voice": "loud-voice",
+			"heading": "Resort"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-name",
+			"voice": "welcome-voice",
+			"heading": "RIU PALACE COSTA MUJERES"
+		},
+		{
+			"module": "resort-video",
+			"class": "video",
+			"src": "https://www.youtube.com/embed/RyF_ubPqr0Y"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-overview",
+			"voice": "loud-voice",
+			"heading": "Resort Overview"
+		},
+		{
+			"module": "generic-text",
+			"class": "overview-content",
+			"voice": "calm-voice",
+			"content": "Our wedding will take place in the beautiful Riu Palace Costa Mujeres Resort located on the Bahía de Mujeres beach in Cancun, Mexico. This all-inclusive hotel in Costa Mujeres has 600 rooms with the finest amenities, including a minibar, beverage dispensers and balcony or terrace. The facilities of the Hotel Riu Costa Mujeres also include five swimming pools, two of them with swim-up bars, so that you can enjoy a refreshing dip after relaxing in the lounge chairs in the solarium area."
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "resort-overview",
+			"voice": "loud-voice",
+			"heading": "Booking Guidelines"
+		},
+		{
+			"module": "list-items",
+			"list": "guidelines",
+			"items": [
+				{
+					"item": "Guest are required to book a minimum of 4 nights."
+				},
+				{
+					"item": "To reserve the current room rate, guests are required to pay $150 dollar deposit per person. The remaining balance will be due on <span>February 1, 2024</span>"
+				},
+				{
+					"item": "You can manage your booking and payments throught the Destify website. You will be asked to create an account when booking your reservation."
+				}
+			]
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "heart-icon",
+			"url": "templates/components/icons/heart-icon.svg",
+			"alt": "This are 5 heart icons"
+		},
+		{
+			"module": "welcome-landing",
+			"class": "help-info",
+			"voice": "loud-voice",
+			"heading": "Need Assistance?"
+		},
+		{
+			"module": "generic-text",
+			"class": "help-content",
+			"voice": "calm-voice",
+			"content": "If you have a question or need help with booking, please don’t hesistate to contact us. We will be more than happy to help. You can reach Steve at 832-382-3729 or Betsy at 832-782-2022."
+		},
+		{
+			"module": "link-button",
+			"class": "button",
+			"voice": "nav-voice",
+			"target": "booking",
+			"content": "CLICK HERE TO BOOK",
+			"href": "https://reservations.destify.com/guest/reservation/select-date?groupid=a8106ea0-cf32-1c53-e0ba-64275bb13ef8"
+		}
+	]
+}		
